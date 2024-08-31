@@ -1,0 +1,29 @@
+{# Herencia de template base pata navbar y footer #}
+{% extends 'layouts/base.html' %}
+
+{# Carga de static para este template #}
+{% load static %}
+{# Hoja de estilos para este template #}
+{% block style %}
+  <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+{% endblock %}
+
+<!-- Contenido -->
+{% block content %}
+  
+{% if user.is_authenticated %}
+  <p class="user"><i class="fa-regular fa-user"></i>  {{ user.username }}</p>
+  <p class="">
+    <a href="{% url 'logout' %}"><i class="fa-solid fa-power-off salir"></i> Cerrar Sesión</a>
+  </p>
+{% else %}
+  <p>Debes iniciar sesión para ver esta página.</p>
+{% endif %}
+
+{% endblock %}
+
+<!-- SCRIPTS -->
+{% block scripts %}
+  <script src="{% static 'js/panel.js' %}"></script>
+  <script src="https://kit.fontawesome.com/97e73bf1af.js" crossorigin="anonymous"></script>
+{% endblock %}
