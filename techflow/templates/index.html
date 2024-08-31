@@ -1,90 +1,80 @@
-{# Herencia de template base pata navbar y gooter #}
-{% extends './layouts/base.html' %}
+{# Herencia de template base pata navbar y footer #}
+{% extends 'layouts/base.html' %}
 
 {# Carga de static para este template #}
 {% load static %}
 {# Hoja de estilos para este template #}
 {% block style %}
   <link rel="stylesheet" href="{% static 'css/style.css' %}" />
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 {% endblock %}
 
 <!-- Contenido -->
 {% block content %}
-  <!-- Video de fondo a evaluar 
-  
-  <div id="video-container">
-    <video id="video-background" autoplay muted loop>
-      <source src="{% static 'video/fondo_azul.mp4' %}" type="video/mp4" />Tu navegador no soporta la etiqueta de video.
-    </video>
-    
-    -->
-    
-    <div id="blur-overlay">
-      <div class="container">
-        <h1>Bienvenidos al sistema</h1>
-        <div class="container">
-          <h1 class="texto-escritura" id="textoAnimado">Smart OdorWatch</h1>
-        </div>
-      </div>
+
+<div id="blur-overlay">
+  <div class="container">
+    <h1>Bienvenidos al sistema</h1>
+    <div class="container">
+      <h1 class="texto-escritura" id="textoAnimado">Smart OdorWatch</h1>
     </div>
   </div>
-
+  </div>
+  </div>
+  
   <!--Lenguajes utilizados-->
   <div id="lenguajes-div">
-    <i class="fab fa-python"></i>
-    <i class="fa-brands fa-square-js"></i>
-    <i class="fa-solid fa-database"></i>
+  <i class="fab fa-python"></i>
+  <i class="fa-brands fa-square-js"></i>
+  <i class="fa-solid fa-database"></i>
   </div>
-
+  
   <!--Skills-->
   <div class="container-fluid cardstexto">
-    <div class="card mb-3" style="max-width: 18rem;">
-      <div class="card-header">Texto</div>
-      <div class="card-body text-primary">
-        <h5 class="card-title"><i class="fa-solid fa-eye"></i></h5>
-        <p class="card-text">Texto</p>
-      </div>
-    </div>
-    <div class="card mb-3" style="max-width: 18rem;">
-      <div class="card-header">Texto</div>
-      <div class="card-body text-primary">
-        <h5 class="card-title"><i class="fa-solid fa-cubes"></i></h5>
-        <p class="card-text">Texto 2</p>
-      </div>
-    </div>
-    <div class="card mb-3" style="max-width: 18rem;">
-      <div class="card-header">Texto</div>
-      <div class="card-body text-primary">
-        <h5 class="card-title"><i class="fa-solid fa-gears"></i></h5>
-        <p class="card-text">Texto 3</p>
-      </div>
-    </div>
-    <!-- fin container-fluid de cards -->
+  <div class="card mb-3" style="max-width: 18rem;">
+  <div class="card-header">Texto</div>
+  <div class="card-body text-primary">
+    <h5 class="card-title"><i class="fa-solid fa-eye"></i></h5>
+    <p class="card-text">Texto</p>
   </div>
-
+  </div>
+  <div class="card mb-3" style="max-width: 18rem;">
+  <div class="card-header">Texto</div>
+  <div class="card-body text-primary">
+    <h5 class="card-title"><i class="fa-solid fa-cubes"></i></h5>
+    <p class="card-text">Texto 2</p>
+  </div>
+  </div>
+  <div class="card mb-3" style="max-width: 18rem;">
+  <div class="card-header">Texto</div>
+  <div class="card-body text-primary">
+    <h5 class="card-title"><i class="fa-solid fa-gears"></i></h5>
+    <p class="card-text">Texto 3</p>
+  </div>
+  </div>
+  <!-- fin container-fluid de cards -->
+  </div>
+  
   <div class="container-fluid datos">
-    <div class="row">
-      <div class="col-4">
-        <div class="loader" data-aos="zoom-in">
-          <span>Texto</span>
-          <span>Texto</span>
-        </div>
-      </div>
-      <div class="col-6">
-        <div class="container-fluid">
-          <p class="textodatos" data-aos="zoom-in">Texto descriptivo</p>
-
-        </div>
-      </div>
+  <div class="row">
+  <div class="col-4">
+    <div class="loader" data-aos="zoom-in">
+      <span>Texto</span>
+      <span>Texto</span>
     </div>
   </div>
+  <div class="col-6">
+    <div class="container-fluid">
+      <p class="textodatos" data-aos="zoom-in">Texto descriptivo</p>
+  
+    </div>
+  </div>
+  </div>
+  </div>
+
 {% endblock %}
 
+<!-- SCRIPTS -->
 {% block scripts %}
-  <script src="{% static 'js/index.js' %}"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init()
-  </script>
+  <script src="{% static 'js/panel.js' %}"></script>
+  <script src="https://kit.fontawesome.com/97e73bf1af.js" crossorigin="anonymous"></script>
 {% endblock %}

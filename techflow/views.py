@@ -27,7 +27,7 @@ def loginPage(request):
 
         if user is not None:
             login(request, user)
-            return render(request, 'panel.html')
+            return render(request, 'index.html')
         else:
             return render(request, 'login.html', {'error_message': 'Credenciales incorrectas!'})
 
@@ -36,7 +36,7 @@ def loginPage(request):
 @login_required(login_url='/login/')
 def panel(request):
     try:
-        return render(request, 'panel.html')
+        return render(request, 'index.html')
     except Exception as e:
         return render(request, 'error.html', {'error_message': str(e)})
 
