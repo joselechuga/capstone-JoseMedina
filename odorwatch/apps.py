@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class TechflowConfig(AppConfig):
+class OdorwatchConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'techflow'
+    name = 'odorwatch'
