@@ -76,3 +76,4 @@ Wand==0.6.11
 webdriver-manager==3.8.6
 wsproto==1.2.0
 yagmail==0.15.293
+oracledb==1.0.0 
