@@ -1,41 +1,68 @@
-# capstone-JoseMedina
+# Proyecto OdorWatch - Capstone-JoseMedina
+Lenguajes y tecnologias utilizadas en el proyecto
 
-Utilizar entorno virtual de forma local (VENV)
-´´´
-.\venv\Scripts\activate
-´´´
+<p>
+    <code><img width="15%" src="https://www.vectorlogo.zone/logos/djangoproject/djangoproject-ar21.svg"></code>
+    <code><img width="15%" src="https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-ar21.svg"></code>
+    <code><img width="15%" src="https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg"></code>
+    <code><img width="15%" src="https://www.vectorlogo.zone/logos/jquery/jquery-ar21.svg"></code>
+    <br />
+    <code><img width="15%" src="https://www.vectorlogo.zone/logos/sqlite/sqlite-ar21.svg"></code>
+    <code><img width="15%" src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg"></code>
+    <code><img width="15%" src="https://www.vectorlogo.zone/logos/w3_css/w3_css-ar21.svg"></code>
+    <code><img width="15%" src="https://www.vectorlogo.zone/logos/python/python-ar21.svg"></code>
+</p>
 
-´´´
-pip install --upgrade setuptools
-pip install grpcio --only-binary :all:
-´´´
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
 
-´´´
-pip install PyMuPDF
-´´´
+<div >
+  
+  ### :fire: My Stats :
+  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=joselechuga&layout=compact)](https://github.com/joselechuga/github-readme-stats)
 
-´´´
-pip install lxml
-´´´
+</div>
 
-´´´
-pip install grpcio
-´´´
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
 
-# Proyecto OdorWatch
+# Dependencias del proyecto utilizando un entorno virtual de forma (VENV)
 
-## Sección con dropdown
+<details>
+  <summary>Clic aquí para ver más detalles</summary>
+  
+  **Activar entorno virtual**
+
+  ```
+  .\venv\Scripts\activate
+  ```
+
+  **Intalacion de librerias y dependencias**
+  ```
+  pip install --upgrade setuptools
+  ```
+
+  ```
+  pip install grpcio --only-binary :all:
+  ```
+
+  ```
+  pip install PyMuPDF
+  ```
+
+  ```
+  pip install lxml
+  ```
+
+  ```
+  pip install grpcio
+  ```
+
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
+
+## Sección Uso de la aplicacion
 
 <details>
   <summary>Haz clic aquí para ver más detalles</summary>
 
-  Aquí puedes añadir información adicional que estará oculta hasta que el usuario haga clic en el resumen.
+  Añadir documentacion visual y textual en esta seccion
 
-  - Item 1
-  - Item 2
-  - Item 3
 
-  También puedes incluir código, imágenes, o cualquier otro contenido que soporte Markdown o HTML.
-
-  ```python
-  print("Este es un ejemplo de código en Python")
