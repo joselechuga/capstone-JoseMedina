@@ -58,6 +58,7 @@ Lenguajes y tecnologias utilizadas en el proyecto
   ```
   pip install grpcio
   ```
+</details>
 
 <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
 
@@ -67,5 +68,4 @@ Lenguajes y tecnologias utilizadas en el proyecto
   <summary>Haz clic aquí para ver más detalles</summary>
 
   Añadir documentacion visual y textual en esta seccion
-
-
+</details>
