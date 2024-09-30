@@ -72,7 +72,7 @@ DATABASES = {
     }
 }
 
-
+# Base de datos AWS para primeros intentos de uso BD Cloud
 #DATABASES = {
 #   'default': {
 #        'ENGINE': 'django.db.backends.oracle',
