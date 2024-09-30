@@ -65,24 +65,24 @@ WSGI_APPLICATION = 'core.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
-#DATABASES = {
-#    'default': {
-#        'ENGINE': 'django.db.backends.sqlite3',
-#        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-#    }
-#}
-
-
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.oracle',
-        'NAME': os.path.join(BASE_DIR, 'ORCL'),  # El Service Name o SID de tu base de datos Oracle
-        'USER': 'JoseMedinaOW',
-        'PASSWORD': 'JoseMedinaOW',
-        'HOST': 'odorwatch.cxm6o24m6ums.us-east-2.rds.amazonaws.com',  # Host de la base de datos Oracle
-        'PORT': '1521',  # El puerto predeterminado de Oracle
-    },
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    }
 }
+
+
+#DATABASES = {
+#   'default': {
+#        'ENGINE': 'django.db.backends.oracle',
+#        'NAME': os.path.join(BASE_DIR, 'ORCL'),  # El Service Name o SID de tu base de datos Oracle
+#        'USER': 'JoseMedinaOW',
+#        'PASSWORD': 'JoseMedinaOW',
+#        'HOST': 'odorwatch.cxm6o24m6ums.us-east-2.rds.amazonaws.com',  # Host de la base de datos Oracle
+#        'PORT': '1521',  # El puerto predeterminado de Oracle
+#    },
+#}
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
