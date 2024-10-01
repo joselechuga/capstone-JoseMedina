@@ -27,7 +27,7 @@ Lenguajes y tecnologias utilizadas en el proyecto
 
 <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
 
-# Dependencias del proyecto utilizando un entorno virtual de forma (VENV)
+# Dependencias del proyecto utilizando un entorno virtual (VENV)
 
 <details>
   <summary>Clic aquí para ver más detalles</summary>
