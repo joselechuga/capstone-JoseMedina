@@ -63,6 +63,16 @@ Lenguajes y tecnologias utilizadas en el proyecto
 
 <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
 
+## Configuración Hosting RENDER
+
+<details>
+  <summary>Haz clic aquí para ver más detalles</summary>
+
+  Añadir documentacion visual y textual en esta seccion
+</details>
+
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
+
 <div >
   
   ### :fire: My Stats :
