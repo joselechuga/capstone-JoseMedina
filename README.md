@@ -18,15 +18,6 @@ Lenguajes y tecnologias utilizadas en el proyecto
 
 <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
 
-<div >
-  
-  ### :fire: My Stats :
-  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=joselechuga&layout=compact)](https://github.com/joselechuga/github-readme-stats)
-
-</div>
-
-<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
-
 # Dependencias del proyecto utilizando un entorno virtual (VENV)
 
 <details>
@@ -69,3 +60,12 @@ Lenguajes y tecnologias utilizadas en el proyecto
 
   Añadir documentacion visual y textual en esta seccion
 </details>
+
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
+
+<div >
+  
+  ### :fire: My Stats :
+  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=joselechuga&layout=compact)](https://github.com/joselechuga/github-readme-stats)
+
+</div>
