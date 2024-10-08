@@ -6,7 +6,7 @@ from django.http import HttpResponse
 from django.views.decorators.http import require_http_methods
 from django.urls import reverse
 
-
+from django.views.decorators.csrf import csrf_exempt
 
 def custom_404(request, exception):
     return render(request, '404.html',{})
@@ -19,6 +19,7 @@ def index(request):
         return render(request, 'error.html', {'error_message': str(e)})
 
 # Login para verificar el acceso a panel
+@csrf_exempt
 def loginPage(request):
     if request.method == 'POST':
         username = request.POST.get('username')
