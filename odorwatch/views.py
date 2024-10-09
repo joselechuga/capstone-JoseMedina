@@ -11,7 +11,7 @@ from django.views.decorators.csrf import csrf_exempt
 def custom_404(request, exception):
     return render(request, '404.html',{})
 
-@csrf_exempt
+
 def index(request):
     try:
         return render(request, 'index.html')
@@ -20,6 +20,7 @@ def index(request):
         return render(request, 'error.html', {'error_message': str(e)})
 
 # Login para verificar el acceso a panel
+@csrf_exempt
 def loginPage(request):
     if request.method == 'POST':
         username = request.POST.get('username')

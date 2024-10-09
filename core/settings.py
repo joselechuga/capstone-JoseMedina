@@ -15,7 +15,13 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
-CSRF_TRUSTED_ORIGINS = ['https://capstone-josemedina.onrender.com']
+CSRF_TRUSTED_ORIGINS = [
+    'https://capstone-josemedina.onrender.com',
+    'https://us-central1-plataforma-tsg-desarrollo.cloudfunctions.net',
+    'https://login.microsoftonline.com',  # URL de Microsoft para el login
+    'https://launcher.myapps.microsoft.com',  # Dependiendo del proceso de login que usas
+]
+
 
 # Application definition
 
