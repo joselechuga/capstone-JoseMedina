@@ -18,8 +18,13 @@ ALLOWED_HOSTS = ['*']
 CSRF_TRUSTED_ORIGINS = [
     'https://capstone-josemedina.onrender.com',
     'https://us-central1-plataforma-tsg-desarrollo.cloudfunctions.net',
-    'https://login.microsoftonline.com',  # URL de Microsoft para el login
-    'https://launcher.myapps.microsoft.com',  # Dependiendo del proceso de login que usas
+    'http://127.0.0.1:8000',  # Para desarrollo local
+]
+
+CORS_ALLOWED_ORIGINS = [
+    'https://login.microsoftonline.com',
+    'https://capstone-josemedina.onrender.com',
+    'https://us-central1-plataforma-tsg-desarrollo.cloudfunctions.net'
 ]
 
 
@@ -37,6 +42,13 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'django.middleware.security.SecurityMiddleware',
+    'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.common.CommonMiddleware',
+    'django.middleware.csrf.CsrfViewMiddleware',
+    'django.contrib.auth.middleware.AuthenticationMiddleware',
+    'django.contrib.messages.middleware.MessageMiddleware',
+    'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware', 
     'django.contrib.sessions.middleware.SessionMiddleware',

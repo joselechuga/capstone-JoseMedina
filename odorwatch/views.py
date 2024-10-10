@@ -19,6 +19,13 @@ def index(request):
     except Exception as e:
         return render(request, 'error.html', {'error_message': str(e)})
 
+def home(request):
+    try:
+        return render(request, 'home.html')
+    
+    except Exception as e:
+        return render(request, 'error.html', {'error_message': str(e)})
+
 # Login para verificar el acceso a panel
 @csrf_exempt
 def loginPage(request):
@@ -29,7 +36,7 @@ def loginPage(request):
 
         if user is not None:
             login(request, user)
-            return render(request, 'index.html')
+            return render(request, 'home.html')
         else:
             return render(request, 'login.html', {'error_message': 'Credenciales incorrectas!'})
 
