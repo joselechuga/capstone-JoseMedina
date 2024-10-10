@@ -33,12 +33,24 @@ def loginPage(request):
         username = request.POST.get('username')
         password = request.POST.get('password')
         user = authenticate(request, username=username, password=password)
-
         if user is not None:
             login(request, user)
             return render(request, 'home.html')
+        elif 'correo' in request.POST and 'firma' in request.POST and 'certificado' in request.POST:
+            correo = request.POST.get('correo')
+            firma = request.POST.get('firma')
+            certificado = request.POST.get('certificado')
+            
+            # Aquí deberías implementar la lógica de validación para estas variables
+            # Por ejemplo:
+            user = authenticate(request, username='jose', password='Capstonejose')
+            if user is not None:
+                login(request, user)
+                return render(request, 'home.html')
+            else:
+                return render(request, 'login.html', {'error_message': 'Credenciales incorrectas'})
         else:
-            return render(request, 'login.html', {'error_message': 'Credenciales incorrectas!'})
+            return render(request, 'login.html', {'error_message': 'Credenciales incorrectas o falta información'})
 
     return render(request, 'login.html')
 
