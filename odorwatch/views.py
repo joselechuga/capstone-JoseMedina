@@ -50,12 +50,15 @@ def loginPage(request):
             validar = buscar_usuario_por_correo(correo)
             
             if validar is not None:
-                login(request, user)
-                return render(request, 'home.html')
+                # Asegúrate de autenticar al usuario antes de llamar a login
+                user = authenticate(request, email=correo)
+                if user is not None:
+                    login(request, user)
+                    return render(request, 'home.html')
+                else:
+                    return render(request, 'login.html', {'error_message': 'No se pudo autenticar al usuario'})
             else:
-                return render(request, 'login.html', {'error_message': 'Credenciales incorrectas'})
-        else:
-            return render(request, 'login.html', {'error_message': 'Credenciales incorrectas o falta información'})
+                return render(request, 'login.html', {'error_message': 'Credenciales incorrectas o falta información'})
 
     return render(request, 'login.html')
 
