@@ -50,7 +50,7 @@ def loginPage(request):
             firma = request.POST.get('firma')
             certificado = request.POST.get('certificado')
             validar = buscar_usuario_por_correo(correo)
-            user = authenticate(request, validar)
+            user = authenticate(request, username=validar[0], password=validar[1])
             if user:
                 login(request, user)
                 return render(request, 'home.html')
