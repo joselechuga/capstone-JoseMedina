@@ -7,7 +7,6 @@ from django.views.decorators.http import require_http_methods
 from django.urls import reverse
 from django.contrib.auth.models import User
 from django.views.decorators.csrf import csrf_exempt
-from django.contrib import messages
 
 def custom_404(request, exception):
     return render(request, '404.html',{})
@@ -16,9 +15,9 @@ def custom_404(request, exception):
 def buscar_usuario_por_correo(correo):
     try:
         usuario = User.objects.get(email=correo)
-        return usuario.username, usuario.password
+        return usuario
     except User.DoesNotExist:
-        return None, None
+        return None
 
 def index(request):
     try:
@@ -49,11 +48,13 @@ def loginPage(request):
             firma = request.POST.get('firma')
             certificado = request.POST.get('certificado')
             validar = buscar_usuario_por_correo(correo)
-            if validar[0] is not None:
-                user = authenticate(request, username=validar[0], password=validar[1])
-                if user:
-                    login(request, user)
-                    return render(request, 'home.html')
+            
+            if validar is not None:
+                login(request, user)
+                return render(request, 'home.html')
+            else:
+                return render(request, 'login.html', {'error_message': 'Credenciales incorrectas'})
+        else:
             return render(request, 'login.html', {'error_message': 'Credenciales incorrectas o falta información'})
 
     return render(request, 'login.html')
@@ -69,4 +70,3 @@ def panel(request):
 def logoutUser(request):
     logout(request)
     return redirect('login')
-
