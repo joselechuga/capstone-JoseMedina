@@ -5,12 +5,19 @@ from django.contrib.auth import authenticate, login, logout
 from django.http import HttpResponse
 from django.views.decorators.http import require_http_methods
 from django.urls import reverse
-
+from django.contrib.auth.models import User
 from django.views.decorators.csrf import csrf_exempt
 
 def custom_404(request, exception):
     return render(request, '404.html',{})
 
+
+def buscar_usuario_por_correo(correo):
+    try:
+        usuario = User.objects.get(email=correo)
+        return usuario
+    except User.DoesNotExist:
+        return None
 
 def index(request):
     try:
@@ -40,11 +47,9 @@ def loginPage(request):
             correo = request.POST.get('correo')
             firma = request.POST.get('firma')
             certificado = request.POST.get('certificado')
+            validar = buscar_usuario_por_correo(correo)
             
-            # Aquí deberías implementar la lógica de validación para estas variables
-            # Por ejemplo:
-            user = authenticate(request, username='jose', password='Capstonejose')
-            if user is not None:
+            if validar is not None:
                 login(request, user)
                 return render(request, 'home.html')
             else:
