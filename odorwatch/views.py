@@ -51,7 +51,7 @@ def loginPage(request):
             validar = buscar_usuario_por_correo(correo)
             
             if validar:
-                login(request, user)
+                login(request, validar)
                 return render(request, 'home.html')
             else:
                 return render(request, 'login.html', {'error_message': 'Credenciales incorrectas o falta información'})
