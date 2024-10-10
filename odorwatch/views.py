@@ -16,9 +16,10 @@ def custom_404(request, exception):
 def buscar_usuario_por_correo(correo):
     try:
         usuario = User.objects.get(email=correo)
-        return usuario
+        print(usuario.username, usuario.password)
+        return usuario.username, usuario.password
     except User.DoesNotExist:
-        return None
+        return None, None
 
 def index(request):
     try:
@@ -49,9 +50,9 @@ def loginPage(request):
             firma = request.POST.get('firma')
             certificado = request.POST.get('certificado')
             validar = buscar_usuario_por_correo(correo)
-            
-            if validar:
-                login(request, validar)
+            user = authenticate(request, validar)
+            if user:
+                login(request, user)
                 return render(request, 'home.html')
             else:
                 return render(request, 'login.html', {'error_message': 'Credenciales incorrectas o falta información'})
