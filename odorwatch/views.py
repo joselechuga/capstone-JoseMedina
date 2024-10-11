@@ -21,33 +21,35 @@ def index(request):
 
 
 def home(request):
-    # Obtener el correo de la sesión
-    user_email = request.session.get('user_email', 'Correo no disponible')
-    
-    # Aquí puedes usar 'user_email' como lo desees, por ejemplo, mostrarlo en el template
-    return render(request, 'home.html', {'user_email': user_email})
+    # Obtener los valores almacenados en la sesión
+    correo = request.session.get('correo', 'Correo no disponible')
+    firma = request.session.get('firma', 'Firma no disponible')
+    certificado = request.session.get('certificado', 'Certificado no disponible')
+
+    # Pasar estos valores al template para mostrarlos
+    return render(request, 'home.html', {
+        'correo': correo,
+        'firma': firma,
+        'certificado': certificado
+    })
 
 # Login para verificar el acceso a panel
 @csrf_exempt
 def loginPage(request):
     if request.method == 'POST':
-        username = request.POST.get('username')
-        password = request.POST.get('password')
-        user = authenticate(request, username=username, password=password)
-        if user is not None:
-            # Almacenar el correo en la sesión (para usuarios autenticados)
-            request.session['user_email'] = user.email
-            login(request, user)
-            return render(request, 'home.html')
-        elif 'correo' in request.POST and 'firma' in request.POST and 'certificado' in request.POST:
-            correo = request.POST.get('correo')
-            firma = request.POST.get('firma')
-            certificado = request.POST.get('certificado')
-            
-            # Almacenar el correo en la sesión (para otros usuarios)
-            request.session['user_email'] = correo
-            
-            # Aquí deberías implementar la lógica de validación para estas variables
+        # Extraer los valores del 'Payload'
+        correo = request.POST.get('correo')
+        firma = request.POST.get('firma')
+        certificado = request.POST.get('certificado')
+
+        # Validar si el correo, firma y certificado existen
+        if correo and firma and certificado:
+            # Guardar los valores en la sesión
+            request.session['correo'] = correo
+            request.session['firma'] = firma
+            request.session['certificado'] = certificado
+
+            # Autenticar al usuario
             user = authenticate(request, username='jose', password='Capstonejose')
             if user is not None:
                 login(request, user)
@@ -55,9 +57,10 @@ def loginPage(request):
             else:
                 return render(request, 'login.html', {'error_message': 'Credenciales incorrectas'})
         else:
-            return render(request, 'login.html', {'error_message': 'Credenciales incorrectas o falta información'})
-    
+            return render(request, 'login.html', {'error_message': 'Faltan datos en el formulario'})
+
     return render(request, 'login.html')
+
 
 
 @login_required(login_url='/login/')
