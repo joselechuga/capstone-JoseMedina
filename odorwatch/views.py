@@ -20,11 +20,10 @@ def index(request):
         return render(request, 'error.html', {'error_message': str(e)})
 
 def home(request):
-    try:
-        return render(request, 'home.html')
-    
-    except Exception as e:
-        return render(request, 'error.html', {'error_message': str(e)})
+    email = None
+    if request.user.is_authenticated:
+        email = request.user.email
+    return render(request, 'home.html', {'email': email})
 
 # Login para verificar el acceso a panel
 @csrf_exempt
