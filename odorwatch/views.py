@@ -19,12 +19,18 @@ def index(request):
     except Exception as e:
         return render(request, 'error.html', {'error_message': str(e)})
 
+
 def home(request):
     email = None
+    m365_email = None
+    
     if request.user.is_authenticated:
         email = request.user.email
-    return render(request, 'home.html', {'email': email})
-
+        # Suponiendo que tienes una forma de obtener el correo de M365
+        if '@tsgenviro.com' in email:
+            m365_email = email
+    
+    return render(request, 'home.html', {'email': email, 'm365_email': m365_email})
 # Login para verificar el acceso a panel
 @csrf_exempt
 def loginPage(request):
