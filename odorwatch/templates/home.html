@@ -12,10 +12,8 @@
 {% block content %}
 
 <h1>HOME 1</h1>
-{% if email %}
-    <p>Tu correo electrónico es: {{ email }}</p>
-{% else %}
-    <p>No estás autenticado.</p>
+<p>Correo del usuario: {{ user_email }}</p>
+s autenticado.</p>
 {% endif %}
 {% endblock %}
 
