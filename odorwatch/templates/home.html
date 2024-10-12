@@ -11,15 +11,19 @@
 <!-- Contenido -->
 {% block content %}
 
-<p>Correo: {{ correo }}</p>
-<p>Firma: {{ firma }}</p>
+<h1>Bienvenido a la página de inicio</h1>
+<p>Correo electrónico: {{ correo }}</p>
 <p>Certificado: {{ certificado }}</p>
-
+<p>Firma: {{ firma }}</p>
 
 {% endblock %}
 
 <!-- SCRIPTS -->
 {% block scripts %}
+
+  <script>
+    console.log("Correo del usuario: {{ correo }}");
+  </script>
   <script src="{% static 'js/panel.js' %}"></script>
   <script src="https://kit.fontawesome.com/97e73bf1af.js" crossorigin="anonymous"></script>
 {% endblock %}

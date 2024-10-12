@@ -19,19 +19,21 @@ def index(request):
     except Exception as e:
         return render(request, 'error.html', {'error_message': str(e)})
 
-
 def home(request):
-    # Obtener los valores almacenados en la sesión
-    correo = request.session.get('correo', 'Correo no disponible')
-    firma = request.session.get('firma', 'Firma no disponible')
-    certificado = request.session.get('certificado', 'Certificado no disponible')
+    if request.method == 'POST':
+        # Obtener los datos enviados por el formulario
+        correo = request.POST.get('correo')
+        certificado = request.POST.get('certificado')
+        firma = request.POST.get('firma')
 
-    # Pasar estos valores al template para mostrarlos
-    return render(request, 'home.html', {
-        'correo': correo,
-        'firma': firma,
-        'certificado': certificado
-    })
+        # Pasar los datos al template
+        return render(request, 'home.html', {
+            'correo': correo,
+            'certificado': certificado,
+            'firma': firma,
+        })
+    else:
+        return render(request, 'home.html')
 
 # Login para verificar el acceso a panel
 @csrf_exempt
