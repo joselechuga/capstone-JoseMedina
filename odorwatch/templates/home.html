@@ -10,8 +10,14 @@
 
 <!-- Contenido -->
 {% block content %}
-{% with user_email|split:"@" as email_parts %}
-  <p>usuario: {{ email_parts.0 }}</p>
+{% with user_email as email %}
+  {% if "@" in email %}
+    {% with email|cut:"@" as email_parts %}
+      <p>usuario: {{ email_parts }}</p>
+    {% endwith %}
+  {% else %}
+    <p>usuario: {{ email }}</p>
+  {% endif %}
 {% endwith %}
 <h1>Bienvenido a la página de inicio</h1>
 <p>Correo electrónico: {{ user_email }}</p>
