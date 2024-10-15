@@ -1,0 +1,6 @@
+/*NAVBAR*/
+.container-barra{
+    display: flex;
+    justify-content: space-evenly;
+    width: 20vw;
+}

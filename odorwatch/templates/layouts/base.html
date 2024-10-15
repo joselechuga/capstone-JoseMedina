@@ -28,16 +28,25 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <div class="ms-auto">
-                
-                {% if user.is_authenticated %}
+                <div class="container-barra">
+                  
+
+                  {% if user.is_authenticated %}
                   <p class="user">
+                    
+                    {% if 'tsgenviro' in user_email %}
+                    <p>Correo electrónico: {{ user_email }}</p>
+                    {% else %}
                     <i class="fa-regular fa-user"></i> {{ user.username }}
+                    {% endif %}
                   </p>
                   <p class="">
                     <a href="{% url 'logout' %}"><i class="fa-solid fa-power-off salir"></i> Cerrar Sesión</a>
                   </p>
                 {% else %}
                 {% endif %}
+                </div>
+
               </div>
             </div>
           </div>
