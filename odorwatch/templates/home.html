@@ -10,7 +10,7 @@
 
 <!-- Contenido -->
 {% block content %}
-
+<p>usuario: {{ user_email.split('@')[0] }}</p>
 <h1>Bienvenido a la página de inicio</h1>
 <p>Correo electrónico: {{ user_email }}</p>
 {% if 'tsgenviro' in user_email %}
@@ -18,8 +18,6 @@
 {% else %}
   <p>Etiqueta: No</p>
 {% endif %}
-<p>Certificado: {{ certificado }}</p>
-<p>Firma: {{ firma }}</p>
 
 
 {% endblock %}
