@@ -5,7 +5,7 @@
 {% load static %}
 {# Hoja de estilos para este template #}
 {% block style %}
-  <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+  <link rel="stylesheet" href="{% static 'css/home.css' %}" />
 {% endblock %}
 
 <!-- Contenido -->
@@ -15,6 +15,29 @@
 <p>Correo electrónico: {{ correo }}</p>
 <p>Certificado: {{ certificado }}</p>
 <p>Firma: {{ firma }}</p>
+
+<div class="login-container">
+  <div class="login-box">
+      <div class="logo">
+          <span>Logo</span>
+      </div>
+      <h2>Welcome back!</h2>
+      <p>User Login</p>
+      <form action="#" method="POST">
+          <div class="input-group">
+              <input type="email" placeholder="Email" required>
+          </div>
+          <div class="input-group">
+              <input type="password" placeholder="Password" required>
+          </div>
+          <button type="submit" class="login-btn">Login</button>
+          <div class="links">
+              <a href="#">Forgot Password?</a>
+              <a href="#">Register</a>
+          </div>
+      </form>
+  </div>
+</div>
 
 {% endblock %}
 
