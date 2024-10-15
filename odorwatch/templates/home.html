@@ -10,7 +10,9 @@
 
 <!-- Contenido -->
 {% block content %}
-<p>usuario: {{ user_email.split('@')[0] }}</p>
+{% with user_email|split:"@" as email_parts %}
+  <p>usuario: {{ email_parts.0 }}</p>
+{% endwith %}
 <h1>Bienvenido a la página de inicio</h1>
 <p>Correo electrónico: {{ user_email }}</p>
 {% if 'tsgenviro' in user_email %}
