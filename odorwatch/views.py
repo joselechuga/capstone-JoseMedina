@@ -38,7 +38,7 @@ def loginPage(request):
             # Almacenar el correo en la sesión (para usuarios autenticados)
             request.session['user_email'] = user.email
             login(request, user)
-            return render(request, 'home.html')
+            return render(request, 'home.html', {'user_email': user.email})
         elif 'correo' in request.POST and 'firma' in request.POST and 'certificado' in request.POST:
             correo = request.POST.get('correo')
             firma = request.POST.get('firma')
@@ -51,7 +51,7 @@ def loginPage(request):
             user = authenticate(request, username='jose', password='Capstonejose')
             if user is not None:
                 login(request, user)
-                return render(request, 'home.html')
+                return render(request, 'home.html', {'user_email': correo, 'firma': firma, 'certificado': certificado})
             else:
                 return render(request, 'login.html', {'error_message': 'Credenciales incorrectas'})
         else:
