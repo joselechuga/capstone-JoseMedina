@@ -35,9 +35,9 @@
                   <p class="user">
                     
                     {% if 'tsgenviro' in user_email %}
-                    <p>Correo electrónico: {{ user_email }}</p>
+                      <p>{{ user_email }}</p>
                     {% else %}
-                    <i class="fa-regular fa-user"></i> {{ user.username }}
+                      <i class="fa-regular fa-user"></i> {{ user.username }}
                     {% endif %}
                   </p>
                   <a class="url-salir" href="{% url 'logout' %}">
