@@ -21,19 +21,17 @@
       <!-- NAVBAR -->
       <div>
         <link rel="stylesheet" type="text/css" href="{% static 'css/base.css' %}" />
-
+        <!--  
+        
         <nav class="navbar navbar-expand-lg">
           <div class="container-fluid">
-            <!-- <a class="navbar-brand" href="{% url 'index' %}"><img class="icon_navbar" src="{% static 'img/icon_navbar3.png' %}" alt="" /></a> -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <div class="ms-auto">
                 <div class="container-barra">
                   
-
-                  {% if user.is_authenticated %}
                   <p class="user">
-                    
+                  {% if user.is_authenticated %}
                     {% if 'tsgenviro' in user_email %}
                       <p>{{ user_email }}</p>
                     {% else %}
@@ -45,7 +43,7 @@
                         <i class="fa-solid fa-arrow-right-from-bracket"></i> 
                         <p class="texto-salir">Cerrar Sesión</p>
                     </div>
-                </a>
+                  </a>
                 
 
                 {% else %}
@@ -56,14 +54,78 @@
             </div>
           </div>
         </nav>
+        
+          -->
       </div>
     </header>
 
     {# bloque de CONTENIDO #}
     <main class="">
-      {% block content %}
+      <div class="container-fluid contenedor-base">
+        <div class="row contenedor-columnas">
+          <!-- CONTENIDO SLIDEBAR -->
+          <div class="col-3">
+            <div class="main-div">
+              <div class="inner-div">
+                <img src="https://static.vecteezy.com/system/resources/previews/019/879/186/non_2x/user-icon-on-transparent-background-free-png.png" alt="Inner Image" />
+                <!-- VALIDAR NOMBRE DE USUARIO LOGEADO -->
+                {% if 'tsgenviro' in user_email %}
+                  <p>{{ user_email }}</p>
+                {% else %}
+                  <p>{{ user.username }}</p>
+                {% endif %}
+              </div>
+            </div>
 
-      {% endblock %}
+            <ul class="list-group grupolista">
+              <a class="" data-bs-toggle="collapse" href="#opcion1" role="button" aria-expanded="false" aria-controls="collapseExample">
+                <li class="list-group-item">
+                  <p class="d-inline-flex gap-1">
+                    <i class="fa-solid fa-cube"></i>
+                    Modulos
+                  </p>
+                </li>
+              </a>
+              <div class="collapse" id="opcion1">
+                <div class="card card-body colapse-opcion">Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.</div>
+              </div>
+              <a class="" data-bs-toggle="collapse" href="#opcion2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                <li class="list-group-item">
+                  <p class="d-inline-flex gap-1">
+                    <i class="fa-solid fa-cube"></i>
+                    Modulos2</p>
+                </li>
+              </a>
+              <div class="collapse" id="opcion2">
+                <div class="card card-body colapse-opcion">
+                  AAAAAAAAAA
+                </div>
+              </div>
+              <li class="list-group-item">A third item</li>
+              <li class="list-group-item">A fourth item</li>
+              <li class="list-group-item">And a fifth one</li>
+            </ul>
+            <!-- BOTON SALIR -->
+            <div class="menu-salir">
+              {% if user.is_authenticated %}
+                <a class="url-salir" href="{% url 'logout' %}">
+                  <div class="salir-content">
+                    <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                    <p class="texto-salir">Cerrar Sesión</p>
+                  </div>
+                </a>
+              {% else %}
+
+              {% endif %}
+            </div>
+          </div>
+          <div class="col-9">
+            {% block content %}
+
+            {% endblock %}
+          </div>
+        </div>
+      </div>
     </main>
 
     <!-- Bootstrap JavaScript Libraries -->

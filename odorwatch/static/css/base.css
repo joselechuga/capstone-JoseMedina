@@ -1,8 +1,93 @@
 /*NAVBAR*/
+
+.contenedor-base{
+    height: 100vh;
+}
+
+.contenedor-columnas{
+    height: 99vh;
+}
+
+.col-3, .ul{
+    background-color: #212D3E;
+}
+
+/* Estilo para el fondo de la lista */
+.grupolista {
+    background-color: #212D3E;
+}
+
+.fa-solid{
+    color: #e4e4e4;
+}
+
+/* Estilo para el div colapsable */
+.colapse-opcion {
+    background-color: #212D3E; /* Fondo igual que el de la lista */
+    color: white; /* Texto blanco */
+    border: none; /* Sin bordes */
+}
+/* Estilo para los elementos de la lista */
+.list-group-item {
+    background-color: #212D3E; /* Fondo de cada item */
+    color: white; /* Color del texto */
+    border: none; /* Sin bordes */
+}
+
+/* Opcional: al hacer hover en los elementos de la lista */
+.list-group-item:hover {
+    background-color: #1A2534; /* Un color más oscuro al hacer hover */
+}
+
+/* Estilo para los links dentro de los items de la lista */
+.list-group-item a {
+color: white;
+text-decoration: none;
+}
+
+/* Estilo para los links al hacer hover */
+.list-group-item a:hover {
+    color: lightgray;
+}
+
 .container-barra{
     display: flex;
     justify-content: space-evenly;
     width: 20vw;
+}
+
+/* Estilos para el div principal con imagen de fondo */
+.main-div {
+    background-image: url('https://media.istockphoto.com/id/1406263653/es/vector/abstracto-azul-oscuro-con-luz-colorida-para-el-fondo.jpg?s=612x612&w=0&k=20&c=DU7_Sfa6Kk7N4a_8dWthl2usfuUNUyx1-1Ec4dSFwJE=');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 30vh; /* Altura completa de la pantalla */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Estilos para el div interno */
+  .inner-div {
+    text-align: center;
+  }
+  
+  /* Imagen dentro del div interno */
+  .inner-div img {
+    width: 150px; /* Ajusta el tamaño de la imagen según sea necesario */
+    height: auto;
+  }
+  
+  /* Texto debajo de la imagen */
+  .inner-div p {
+    font-size: 16px; /* Ajusta el tamaño del texto según sea necesario */
+    margin-top: 10px;
+    color: #e4e4e4; /* Color de texto blanco */
+  }
+
+.grupolista{
+    height: 60vh;
 }
 
 /*Estilos de boton SALIR*/
@@ -33,3 +118,4 @@
 .fa-solid{
     color: rgb(233, 234, 235);
 }
+
