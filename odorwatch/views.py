@@ -1,31 +1,17 @@
 import requests
+import subprocess
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth import authenticate, login, logout
 from django.http import HttpResponse
 from django.views.decorators.http import require_http_methods
 from django.urls import reverse
+from django.http import JsonResponse
 
 from django.views.decorators.csrf import csrf_exempt
 
 def custom_404(request, exception):
     return render(request, '404.html',{})
-
-
-def index(request):
-    try:
-        return render(request, 'index.html')
-    
-    except Exception as e:
-        return render(request, 'error.html', {'error_message': str(e)})
-
-
-def home(request):
-    # Obtener el correo de la sesión
-    user_email = request.session.get('user_email', 'Correo no disponible')
-    
-    # Aquí puedes usar 'user_email' como lo desees, por ejemplo, mostrarlo en el template
-    return render(request, 'home.html', {'user_email': user_email})
 
 # Login para verificar el acceso a panel
 @csrf_exempt
@@ -61,16 +47,41 @@ def loginPage(request):
             return render(request, 'login.html', {'error_message': 'Credenciales incorrectas o falta información'})
     
     return render(request, 'login.html')
-
-
-@login_required(login_url='/login/')
-def panel(request):
-    try:
-        return render(request, 'index.html')
-    except Exception as e:
-        return render(request, 'error.html', {'error_message': str(e)})
-
 # Cerrar sesion
 def logoutUser(request):
     logout(request)
     return redirect('login')
+
+
+
+def index(request):
+    try:
+        return render(request, 'index.html')
+    
+    except Exception as e:
+        return render(request, 'error.html', {'error_message': str(e)})
+
+
+def home(request):
+    # Obtener el correo de la sesión
+    user_email = request.session.get('user_email', 'Correo no disponible')
+    
+    # Aquí puedes usar 'user_email' como lo desees, por ejemplo, mostrarlo en el template
+    return render(request, 'home.html', {'user_email': user_email})
+
+def run_script(request):
+    """Ejecuta el script main.py y devuelve la salida."""
+    try:
+        # Ejecuta el script main.py
+        result = subprocess.run(['python', 'modulos/main.py'], capture_output=True, text=True)
+        # Retorna el resultado en formato JSON
+        return JsonResponse({'output': result.stdout})
+    except Exception as e:
+        return JsonResponse({'error': f'Error al ejecutar el script: {str(e)}'})
+    
+@login_required(login_url='/login/')
+def panel(request):
+    try:
+        return render(request, 'panel.html')
+    except Exception as e:
+        return render(request, 'error.html', {'error_message': str(e)})

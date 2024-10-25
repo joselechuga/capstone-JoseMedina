@@ -56,9 +56,13 @@ text-decoration: none;
     width: 20vw;
 }
 
+.logoTSG{
+    height: 50px;
+}
+
 /* Estilos para el div principal con imagen de fondo */
 .main-div {
-    background-image: url('https://media.istockphoto.com/id/1406263653/es/vector/abstracto-azul-oscuro-con-luz-colorida-para-el-fondo.jpg?s=612x612&w=0&k=20&c=DU7_Sfa6Kk7N4a_8dWthl2usfuUNUyx1-1Ec4dSFwJE=');
+    background-image: url('../img/fondo-slidebar.png');
     background-size: cover;
     background-position: center;
     width: 100%;

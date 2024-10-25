@@ -67,7 +67,7 @@
           <div class="col-3">
             <div class="main-div">
               <div class="inner-div">
-                <img src="https://static.vecteezy.com/system/resources/previews/019/879/186/non_2x/user-icon-on-transparent-background-free-png.png" alt="Inner Image" />
+                <img class="logoTSG" src="{% static 'img/logo-slidebar-TSG.png' %}" alt="logo_TSG" />
                 <!-- VALIDAR NOMBRE DE USUARIO LOGEADO -->
                 {% if 'tsgenviro' in user_email %}
                   <p>{{ user_email }}</p>
@@ -78,32 +78,41 @@
             </div>
 
             <ul class="list-group grupolista">
-              <a class="" data-bs-toggle="collapse" href="#opcion1" role="button" aria-expanded="false" aria-controls="collapseExample">
+              <a class="" href="#opcion1">
                 <li class="list-group-item">
                   <p class="d-inline-flex gap-1">
-                    <i class="fa-solid fa-cube"></i>
-                    Modulos
+                    <i class="fa-solid fa-house"></i>
+                    inicio
                   </p>
                 </li>
               </a>
-              <div class="collapse" id="opcion1">
-                <div class="card card-body colapse-opcion">Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.</div>
-              </div>
               <a class="" data-bs-toggle="collapse" href="#opcion2" role="button" aria-expanded="false" aria-controls="collapseExample">
                 <li class="list-group-item">
                   <p class="d-inline-flex gap-1">
                     <i class="fa-solid fa-cube"></i>
-                    Modulos2</p>
+                    Modulos</p>
                 </li>
               </a>
               <div class="collapse" id="opcion2">
                 <div class="card card-body colapse-opcion">
-                  AAAAAAAAAA
+                  SNIFA
                 </div>
               </div>
-              <li class="list-group-item">A third item</li>
-              <li class="list-group-item">A fourth item</li>
-              <li class="list-group-item">And a fifth one</li>
+              <a class="" data-bs-toggle="collapse" href="#opcion3" role="button" aria-expanded="false" aria-controls="collapseExample">
+                <li class="list-group-item">
+                  <p class="d-inline-flex gap-1">
+                    <i class="fa-solid fa-gears"></i>
+                    Administración</p>
+                </li>
+              </a>
+              <div class="collapse" id="opcion3">
+                <ul class="list-group">
+                  <a href="{% url 'panel' %}">
+                    <li class="list-group-item">Scraping</li>
+                  </a>
+                  <li class="list-group-item">Usuarios y Roles</li>
+                </ul>
+              </div>
             </ul>
             <!-- BOTON SALIR -->
             <div class="menu-salir">

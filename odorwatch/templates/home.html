@@ -1,4 +1,4 @@
-{# Herencia de template base pata navbar y footer #}
+{# Herencia de template base para navbar y footer #}
 {% extends 'layouts/base.html' %}
 
 {# Carga de static para este template #}
@@ -10,30 +10,34 @@
 
 <!-- Contenido -->
 {% block content %}
-<h1>Bienvenido a la página de inicio</h1>
+<h1>Panel de administración Scraping</h1>
 
 
-<!-- Verificar si se logea con usuario o M365
+<!-- Botón para ejecutar el script -->
+<button id="runScriptBtn">Ejecutar 'main.py'</button>
 
-<p>Correo electrónico: {{ user_email }}</p>
-{% if 'tsgenviro' in user_email %}
-  <p>Etiqueta: Sí</p>
-{% else %}
-  <p>Etiqueta: No</p>
-{% endif %}
--->
-
-
-
-
+<!-- Mostrar salida del script -->
+<pre id="scriptOutput"></pre>
 
 {% endblock %}
 
 <!-- SCRIPTS -->
 {% block scripts %}
-
   <script>
-    console.log("Correo del usuario: {{ correo }}");
+    document.getElementById('runScriptBtn').addEventListener('click', function() {
+      // Hacer la solicitud AJAX
+      fetch("{% url 'run_script' %}")
+        .then(response => response.json())
+        .then(data => {
+          // Mostrar la salida del script en el elemento <pre>
+          if (data.output) {
+            console.log('Ejecutado correctamente, logs en logs_scraping.txt')
+          } else if (data.error) {
+            console.log('ERROR: ', data.error)
+          }
+        })
+        .catch(error => console.error('Error al ejecutar el script:', error));
+    });
   </script>
   <script src="{% static 'js/panel.js' %}"></script>
   <script src="https://kit.fontawesome.com/97e73bf1af.js" crossorigin="anonymous"></script>

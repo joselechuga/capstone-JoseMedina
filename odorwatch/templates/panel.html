@@ -1,29 +1,44 @@
-{# Herencia de template base pata navbar y footer #}
+{# Herencia de template base para navbar y footer #}
 {% extends 'layouts/base.html' %}
 
 {# Carga de static para este template #}
 {% load static %}
 {# Hoja de estilos para este template #}
 {% block style %}
-  <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+  <link rel="stylesheet" href="{% static 'css/home.css' %}" />
 {% endblock %}
 
 <!-- Contenido -->
 {% block content %}
-  
-{% if user.is_authenticated %}
-  <p class="user"><i class="fa-regular fa-user"></i>  {{ user.username }}</p>
-  <p class="">
-    <a href="{% url 'logout' %}"><i class="fa-solid fa-power-off salir"></i> Cerrar Sesión</a>
-  </p>
-{% else %}
-  <p>Debes iniciar sesión para ver esta página.</p>
-{% endif %}
+<h1>Panel de administración Scraping</h1>
+
+
+<!-- Botón para ejecutar el script -->
+<button id="runScriptBtn">Ejecutar 'main.py'</button>
+
+<!-- Mostrar salida del script -->
+<pre id="scriptOutput"></pre>
 
 {% endblock %}
 
 <!-- SCRIPTS -->
 {% block scripts %}
+  <script>
+    document.getElementById('runScriptBtn').addEventListener('click', function() {
+      // Hacer la solicitud AJAX
+      fetch("{% url 'run_script' %}")
+        .then(response => response.json())
+        .then(data => {
+          // Mostrar la salida del script en el elemento <pre>
+          if (data.output) {
+            console.log('Ejecutado correctamente, logs en logs_scraping.txt')
+          } else if (data.error) {
+            console.log('ERROR: ', data.error)
+          }
+        })
+        .catch(error => console.error('Error al ejecutar el script:', error));
+    });
+  </script>
   <script src="{% static 'js/panel.js' %}"></script>
   <script src="https://kit.fontawesome.com/97e73bf1af.js" crossorigin="anonymous"></script>
 {% endblock %}
