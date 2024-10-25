@@ -1,5 +1,8 @@
 /*NAVBAR*/
 
+/* importar fuentes de texto*/
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Lexend:wght@700&family=Oxygen&display=swap');
+
 .contenedor-base{
     height: 100vh;
 }
@@ -21,11 +24,24 @@
     color: #e4e4e4;
 }
 
+li {
+    padding-top: 3px;      /* Ajusta el valor para reducir el espacio superior */
+    padding-bottom: 3px;   /* Ajusta el valor para reducir el espacio inferior */
+    line-height: 1;      /* Controla el espacio interno entre líneas */
+    height: auto;          /* Ajusta automáticamente la altura del elemento */
+}
+
 /* Estilo para el div colapsable */
-.colapse-opcion {
+.sub-opciones {
     background-color: #212D3E; /* Fondo igual que el de la lista */
     color: white; /* Texto blanco */
     border: none; /* Sin bordes */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%; /* Opcional, dependiendo del diseño */
+    text-align: center;
+    margin-left: -150px;
 }
 /* Estilo para los elementos de la lista */
 .list-group-item {
@@ -70,25 +86,29 @@ text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
+}
+
   /* Estilos para el div interno */
-  .inner-div {
+.inner-div {
     text-align: center;
-  }
-  
+}
+
   /* Imagen dentro del div interno */
-  .inner-div img {
+.inner-div img {
     width: 150px; /* Ajusta el tamaño de la imagen según sea necesario */
     height: auto;
-  }
-  
+}
+
   /* Texto debajo de la imagen */
-  .inner-div p {
-    font-size: 16px; /* Ajusta el tamaño del texto según sea necesario */
-    margin-top: 10px;
-    color: #e4e4e4; /* Color de texto blanco */
-  }
+.inner-div p {
+    font-size: 16px; 
+    margin-top: 20px;
+    color: #e4e4e4; 
+    font-family: "Lexend", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
 
 .grupolista{
     height: 60vh;

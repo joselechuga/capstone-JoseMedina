@@ -10,8 +10,7 @@ urlpatterns = [
     path('', views.loginPage, name='login'),
     path('logout/', views.logoutUser, name='logout'),
     path('panel/', login_required(views.panel), name='panel'),
-    path('index', views.index, name='index'),
-    path('home/', views.index, name='home'),
+    path('home/', views.home, name='home'),
     path('run-script/', views.run_script, name='run_script'), 
     # path('get-logs/', views.get_logs, name='get_logs'),
 

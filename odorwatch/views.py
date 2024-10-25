@@ -53,15 +53,6 @@ def logoutUser(request):
     return redirect('login')
 
 
-
-def index(request):
-    try:
-        return render(request, 'index.html')
-    
-    except Exception as e:
-        return render(request, 'error.html', {'error_message': str(e)})
-
-
 def home(request):
     # Obtener el correo de la sesión
     user_email = request.session.get('user_email', 'Correo no disponible')
