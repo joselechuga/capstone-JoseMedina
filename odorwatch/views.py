@@ -1,6 +1,7 @@
 import os
 import requests
 import subprocess
+import logging
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth import authenticate, login, logout
@@ -61,12 +62,17 @@ def home(request):
     # Aquí puedes usar 'user_email' como lo desees, por ejemplo, mostrarlo en el template
     return render(request, 'home.html', {'user_email': user_email})
 
+# ejecutar 'main.py' desde la funcion run_script
+logger = logging.getLogger(__name__)
+
 def run_script(request):
     script_path = os.path.join(os.path.dirname(__file__), 'modulos', 'main.py')
     try:
         result = subprocess.run(['python', script_path], capture_output=True, text=True)
+        logger.info("Script output: %s", result.stdout)
         return JsonResponse({'output': result.stdout})
     except Exception as e:
+        logger.error("Error ejecutando script: %s", e)
         return JsonResponse({'error': f'Error al ejecutar el script: {str(e)}'})
     
 @login_required(login_url='/login/')
