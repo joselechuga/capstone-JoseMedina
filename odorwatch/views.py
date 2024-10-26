@@ -1,3 +1,4 @@
+import os
 import requests
 import subprocess
 from django.shortcuts import render, redirect, get_object_or_404
@@ -61,11 +62,9 @@ def home(request):
     return render(request, 'home.html', {'user_email': user_email})
 
 def run_script(request):
-    """Ejecuta el script main.py y devuelve la salida."""
+    script_path = os.path.join(os.path.dirname(__file__), 'modulos', 'main.py')
     try:
-        # Ejecuta el script main.py
-        result = subprocess.run(['python', 'modulos/main.py'], capture_output=True, text=True)
-        # Retorna el resultado en formato JSON
+        result = subprocess.run(['python', script_path], capture_output=True, text=True)
         return JsonResponse({'output': result.stdout})
     except Exception as e:
         return JsonResponse({'error': f'Error al ejecutar el script: {str(e)}'})
