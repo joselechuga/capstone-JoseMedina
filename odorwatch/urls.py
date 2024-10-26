@@ -12,6 +12,6 @@ urlpatterns = [
     path('panel/', login_required(views.panel), name='panel'),
     path('home/', views.home, name='home'),
     path('run-script/', views.run_script, name='run_script'), 
-    # path('get-logs/', views.get_logs, name='get_logs'),
+    path('get-logs/', views.get_logs, name='get_logs'),
 
 ]

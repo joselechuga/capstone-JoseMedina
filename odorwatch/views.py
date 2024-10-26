@@ -76,3 +76,14 @@ def panel(request):
         return render(request, 'panel.html')
     except Exception as e:
         return render(request, 'error.html', {'error_message': str(e)})
+
+# Leer archivo de logs de ejecuciones en scraping
+def get_logs(request):
+    """Lee el archivo logs_scraping.txt y devuelve su contenido como JSON."""
+    try:
+        log_file_path = "logs_scraping.txt"
+        with open(log_file_path, "r") as log_file:
+            logs = log_file.readlines()
+        return JsonResponse({'logs': logs})
+    except Exception as e:
+        return JsonResponse({'error': f'Error al leer el archivo: {str(e)}'})

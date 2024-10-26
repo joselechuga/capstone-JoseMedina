@@ -76,47 +76,42 @@
               </div>
             </div>
 
-            <ul class="list-group grupolista">
-              <a class="" href="{% url 'home' %}">
-                <li class="list-group-item">
-                  <p class="d-inline-flex gap-1">
-                    <i class="fa-solid fa-house"></i>
-                    inicio
-                  </p>
-                </li>
-              </a>
-              <a class="" data-bs-toggle="collapse" href="#opcion2" role="button" aria-expanded="false" aria-controls="collapseExample">
-                <li class="list-group-item">
-                  <p class="d-inline-flex gap-1">
-                    <i class="fa-solid fa-cube"></i>
-                    Modulos</p>
-                </li>
-              </a>
-              <div class="collapse" id="opcion2">
-                <ul class="list-group ">
-                  <a href="#">
-                    <li class="list-group-item sub-opciones">
-                      <p class="d-inline-flex gap-1">SNIFA</p>
-                    </li>
-                  </a>
+            <!--Lista de navegacion del menu de opciones lateral-->
+            <ul class="lista">
+              <li class="lista-item">
+                <a class="link-nav" href="{% url 'home' %}">
+                  <i class="fa-solid fa-house"></i>
+                  Inicio
+                </a>
+              </li>
+              
+              <li class="lista-item" onclick="toggleSublista('sublista2')">
+                <i class="fa-solid fa-cube"></i>
+                  Modulos
+                <!-- Subopciones para Opción 2 -->
+                <ul class="sublista" id="sublista2">
+                  <li class="sublista-item">
+                    <a class="link-nav" href="https://example.com/2-1">
+                    <i class="fa-solid fa-leaf"></i>
+                    SNIFA
+                    </a>
+                  </li>
                 </ul>
-              </div>
-              <a class="" data-bs-toggle="collapse" href="#opcion3" role="button" aria-expanded="false" aria-controls="collapseExample">
-                <li class="list-group-item">
-                  <p class="d-inline-flex gap-1">
-                    <i class="fa-solid fa-gears"></i>
-                    Administración</p>
-                </li>
-              </a>
-              <div class="collapse" id="opcion3">
-                <ul class="list-group ">
-                  <a href="{% url 'panel' %}">
-                    <li class="list-group-item sub-opciones">Scraping</li>
-                  </a>
-                  <li class="list-group-item sub-opciones">Usuarios</li>
+              </li>
+              
+              <li class="lista-item" onclick="toggleSublista('sublista3')">
+                <i class="fa-solid fa-gear"></i>
+                Configuración
+                <ul class="sublista" id="sublista3">
+                  <li class="sublista-item"><a class="link-nav" href="{% url 'panel' %}">
+                    <i class="fa-solid fa-box-open"></i>Scraping</a></li>
+                  <li class="sublista-item"><a class="link-nav" href="https://example.com/3-2">
+                    <i class="fa-solid fa-user"></i>Usuarios</a></li>
+                  <li class="sublista-item"><a class="link-nav" href="https://example.com/3-3"></a></li>
                 </ul>
-              </div>
+              </li>
             </ul>
+
             <!-- BOTON SALIR -->
             <div class="menu-salir">
               {% if user.is_authenticated %}

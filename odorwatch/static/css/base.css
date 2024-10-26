@@ -3,76 +3,97 @@
 /* importar fuentes de texto*/
 @import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Lexend:wght@700&family=Oxygen&display=swap');
 
-.contenedor-base{
+.contenedor-base {
     height: 100vh;
 }
 
-.contenedor-columnas{
-    height: 99vh;
+.contenedor-columnas {
+    height: 100vh;
 }
 
-.col-3, .ul{
+.col-3,
+.ul {
     background-color: #212D3E;
 }
 
-/* Estilo para el fondo de la lista */
-.grupolista {
+/* Estilo base para la lista */
+.lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lista-item {
+    padding: 10px;
+    cursor: pointer;
     background-color: #212D3E;
+    color: #ffffff;
+    border: 1px solid #333;
 }
 
-.fa-solid{
-    color: #e4e4e4;
+/* Remover el efecto de hover */
+.lista-item:hover,
+.sublista-item a:hover {
+    background-color: #212D3E;
+    /* Mismo color que el fondo */
+    color: #ffffff;
+    /* Mismo color que el texto */
 }
 
-li {
-    padding-top: 3px;      /* Ajusta el valor para reducir el espacio superior */
-    padding-bottom: 3px;   /* Ajusta el valor para reducir el espacio inferior */
-    line-height: 1;      /* Controla el espacio interno entre líneas */
-    height: auto;          /* Ajusta automáticamente la altura del elemento */
+/* Oculta las subopciones por defecto */
+.sublista {
+    list-style: none;
+    padding-left: 20px;
+    margin: 0;
+    display: none;
 }
 
-/* Estilo para el div colapsable */
-.sub-opciones {
-    background-color: #212D3E; /* Fondo igual que el de la lista */
-    color: white; /* Texto blanco */
-    border: none; /* Sin bordes */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 10%; /* Opcional, dependiendo del diseño */
-    text-align: center;
-    margin-left: -150px;
-}
-/* Estilo para los elementos de la lista */
-.list-group-item {
-    background-color: #212D3E; /* Fondo de cada item */
-    color: white; /* Color del texto */
-    border: none; /* Sin bordes */
+.sublista-item a {
+    display: block;
+    padding: 8px;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #212D3E;
+    border: 1px solid #333;
 }
 
-/* Opcional: al hacer hover en los elementos de la lista */
-.list-group-item:hover {
-    background-color: #1A2534; /* Un color más oscuro al hacer hover */
+.lista-item, .sublista-item a {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #212D3E;
+    color: #ffffff;
+    text-decoration: none;
+    border: none;           /* Quita el borde */
+    outline: none;          /* Quita el borde de enfoque */
+    box-shadow: none;       /* Quita cualquier sombra de borde */
 }
 
-/* Estilo para los links dentro de los items de la lista */
-.list-group-item a {
-color: white;
-text-decoration: none;
+/* Selecciona los elementos <li> de la lista o los contenedores de las subopciones */
+li, .subopcion-item, .card-body, .card {
+    border: none !important;        /* Quita cualquier borde */
+    outline: none !important;       /* Quita cualquier contorno */
+    box-shadow: none !important;    /* Elimina sombras que puedan parecer bordes */
 }
 
-/* Estilo para los links al hacer hover */
-.list-group-item a:hover {
-    color: lightgray;
+/* Si están dentro de una estructura de colapsado, aplica a los colapsables también */
+.collapse-opcion {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
 }
 
-.container-barra{
+.link-nav {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.container-barra {
     display: flex;
     justify-content: space-evenly;
     width: 20vw;
 }
 
-.logoTSG{
+.logoTSG {
     height: 50px;
 }
 
@@ -82,35 +103,37 @@ text-decoration: none;
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 30vh; /* Altura completa de la pantalla */
+    height: 30vh;
+    /* Altura completa de la pantalla */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-  /* Estilos para el div interno */
+/* Estilos para el div interno */
 .inner-div {
     text-align: center;
 }
 
-  /* Imagen dentro del div interno */
+/* Imagen dentro del div interno */
 .inner-div img {
-    width: 150px; /* Ajusta el tamaño de la imagen según sea necesario */
+    width: 150px;
+    /* Ajusta el tamaño de la imagen según sea necesario */
     height: auto;
 }
 
-  /* Texto debajo de la imagen */
+/* Texto debajo de la imagen */
 .inner-div p {
-    font-size: 16px; 
+    font-size: 16px;
     margin-top: 20px;
-    color: #e4e4e4; 
+    color: #e4e4e4;
     font-family: "Lexend", serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
 }
 
-.grupolista{
+.grupolista {
     height: 60vh;
 }
 
@@ -120,26 +143,27 @@ text-decoration: none;
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-decoration: none; /* Quitar el subrayado del enlace */
+    text-decoration: none;
+    /* Quitar el subrayado del enlace */
 }
 
 .salir-content {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centrar icono y texto verticalmente */
+    align-items: center;
+    /* Centrar icono y texto verticalmente */
 }
 
 .url-salir i {
     font-size: 24px;
-    margin-bottom: 5px; 
+    margin-bottom: 5px;
 }
 
 .texto-salir {
-    font-size: 12px; 
+    font-size: 12px;
     color: rgb(233, 234, 235);
 }
 
-.fa-solid{
+.fa-solid {
     color: rgb(233, 234, 235);
 }
-

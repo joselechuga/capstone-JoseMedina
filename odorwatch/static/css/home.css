@@ -1,0 +1,33 @@
+    /* Estilo base para la lista */
+.lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lista-item {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #212D3E;
+    color: #ffffff;
+    border: 1px solid #333;
+}
+
+.lista-item:hover {
+    background-color: #1a2435;
+}
+
+/* Oculta las subopciones por defecto */
+.sublista {
+    list-style: none;
+    padding-left: 20px;
+    margin: 0;
+    display: none;
+}
+
+.sublista-item {
+    padding: 8px;
+    background-color: #212D3E;
+    color: #ffffff;
+    border: 1px solid #333;
+}

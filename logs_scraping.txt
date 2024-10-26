@@ -3391,3 +3391,248 @@ Stacktrace:
 
 2024-10-24 21:29:30 - Volviendo a la página de resultados.
 2024-10-24 21:29:33 - Terminando scraping.
+2024-10-25 16:00:18 - Categoría 'Agroindustrias' seleccionada.
+2024-10-25 16:01:14 - Clic en el botón 'Buscar'.
+2024-10-25 16:01:14 - El modal de carga ha desaparecido.
+2024-10-25 16:01:14 - Procesando fila 1...
+2024-10-25 16:01:14 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-25 16:01:18 - Clic en el enlace 'Ver detalle'.
+2024-10-25 16:01:18 - El modal de carga ha desaparecido.
+2024-10-25 16:01:28 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-25 16:01:29 - Sección 'Documentos' expandida.
+2024-10-25 16:01:29 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-25 16:01:29 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-25 16:01:31 - Descargando documento desde: https://snifa.sma.gob.cl/General/Descargar/1104004526
+2024-10-25 16:01:36 - Documento ignorado: 
+2024-10-25 16:01:36 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7E5903AB5+28005]
+	(No symbol) [0x00007FF7E58683B0]
+	(No symbol) [0x00007FF7E570580A]
+	(No symbol) [0x00007FF7E5755A3E]
+	(No symbol) [0x00007FF7E5755D2C]
+	(No symbol) [0x00007FF7E574937C]
+	(No symbol) [0x00007FF7E577BA7F]
+	(No symbol) [0x00007FF7E5749246]
+	(No symbol) [0x00007FF7E577BC50]
+	(No symbol) [0x00007FF7E579B8B3]
+	(No symbol) [0x00007FF7E577B7E3]
+	(No symbol) [0x00007FF7E57475C8]
+	(No symbol) [0x00007FF7E5748731]
+	GetHandleVerifier [0x00007FF7E5BF643D+3118829]
+	GetHandleVerifier [0x00007FF7E5C46C90+3448640]
+	GetHandleVerifier [0x00007FF7E5C3CF0D+3408317]
+	GetHandleVerifier [0x00007FF7E59CA40B+841403]
+	(No symbol) [0x00007FF7E587340F]
+	(No symbol) [0x00007FF7E586F484]
+	(No symbol) [0x00007FF7E586F61D]
+	(No symbol) [0x00007FF7E585EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-25 16:02:16 - Volviendo a la página de resultados.
+2024-10-25 16:02:18 - Procesando fila 2...
+2024-10-25 16:02:18 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-25 16:02:22 - Clic en el enlace 'Ver detalle'.
+2024-10-25 16:02:24 - El modal de carga ha desaparecido.
+2024-10-25 16:02:35 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-25 16:02:35 - Sección 'Documentos' expandida.
+2024-10-25 16:02:35 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-25 16:02:35 - Documento ignorado: 
+2024-10-25 16:02:35 - Documento ignorado: 
+2024-10-25 16:02:35 - Documento ignorado: 
+2024-10-25 16:02:35 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7E5903AB5+28005]
+	(No symbol) [0x00007FF7E58683B0]
+	(No symbol) [0x00007FF7E570580A]
+	(No symbol) [0x00007FF7E5755A3E]
+	(No symbol) [0x00007FF7E5755D2C]
+	(No symbol) [0x00007FF7E574937C]
+	(No symbol) [0x00007FF7E577BA7F]
+	(No symbol) [0x00007FF7E5749246]
+	(No symbol) [0x00007FF7E577BC50]
+	(No symbol) [0x00007FF7E579B8B3]
+	(No symbol) [0x00007FF7E577B7E3]
+	(No symbol) [0x00007FF7E57475C8]
+	(No symbol) [0x00007FF7E5748731]
+	GetHandleVerifier [0x00007FF7E5BF643D+3118829]
+	GetHandleVerifier [0x00007FF7E5C46C90+3448640]
+	GetHandleVerifier [0x00007FF7E5C3CF0D+3408317]
+	GetHandleVerifier [0x00007FF7E59CA40B+841403]
+	(No symbol) [0x00007FF7E587340F]
+	(No symbol) [0x00007FF7E586F484]
+	(No symbol) [0x00007FF7E586F61D]
+	(No symbol) [0x00007FF7E585EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-25 16:02:54 - Volviendo a la página de resultados.
+2024-10-25 16:02:54 - Procesando fila 3...
+2024-10-25 16:02:54 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-25 16:02:55 - Clic en el enlace 'Ver detalle'.
+2024-10-25 16:02:55 - El modal de carga ha desaparecido.
+2024-10-25 16:03:05 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-25 16:03:05 - Sección 'Documentos' expandida.
+2024-10-25 16:03:05 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-25 16:03:05 - Documento ignorado: 
+2024-10-25 16:03:05 - Documento ignorado: 
+2024-10-25 16:03:05 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7E5903AB5+28005]
+	(No symbol) [0x00007FF7E58683B0]
+	(No symbol) [0x00007FF7E570580A]
+	(No symbol) [0x00007FF7E5755A3E]
+	(No symbol) [0x00007FF7E5755D2C]
+	(No symbol) [0x00007FF7E574937C]
+	(No symbol) [0x00007FF7E577BA7F]
+	(No symbol) [0x00007FF7E5749246]
+	(No symbol) [0x00007FF7E577BC50]
+	(No symbol) [0x00007FF7E579B8B3]
+	(No symbol) [0x00007FF7E577B7E3]
+	(No symbol) [0x00007FF7E57475C8]
+	(No symbol) [0x00007FF7E5748731]
+	GetHandleVerifier [0x00007FF7E5BF643D+3118829]
+	GetHandleVerifier [0x00007FF7E5C46C90+3448640]
+	GetHandleVerifier [0x00007FF7E5C3CF0D+3408317]
+	GetHandleVerifier [0x00007FF7E59CA40B+841403]
+	(No symbol) [0x00007FF7E587340F]
+	(No symbol) [0x00007FF7E586F484]
+	(No symbol) [0x00007FF7E586F61D]
+	(No symbol) [0x00007FF7E585EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-25 16:03:27 - Volviendo a la página de resultados.
+2024-10-25 16:03:28 - Procesando fila 4...
+2024-10-25 16:03:28 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-25 16:03:29 - Clic en el enlace 'Ver detalle'.
+2024-10-25 16:03:30 - El modal de carga ha desaparecido.
+2024-10-25 16:03:40 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-25 16:03:40 - Sección 'Documentos' expandida.
+2024-10-25 16:03:40 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-25 16:03:41 - Descargando documento desde: https://snifa.sma.gob.cl/General/Descargar/1104005427
+2024-10-25 16:03:46 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-25 16:03:46 - Documento ignorado: 
+2024-10-25 16:03:46 - Documento ignorado: 
+2024-10-25 16:03:46 - Documento ignorado: 
+2024-10-25 16:03:46 - Documento ignorado: 
+2024-10-25 16:03:46 - Documento ignorado: 
+2024-10-25 16:03:46 - Documento ignorado: 
+2024-10-25 16:03:46 - Documento ignorado: 
+2024-10-25 16:03:46 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7E5903AB5+28005]
+	(No symbol) [0x00007FF7E58683B0]
+	(No symbol) [0x00007FF7E570580A]
+	(No symbol) [0x00007FF7E5755A3E]
+	(No symbol) [0x00007FF7E5755D2C]
+	(No symbol) [0x00007FF7E574937C]
+	(No symbol) [0x00007FF7E577BA7F]
+	(No symbol) [0x00007FF7E5749246]
+	(No symbol) [0x00007FF7E577BC50]
+	(No symbol) [0x00007FF7E579B8B3]
+	(No symbol) [0x00007FF7E577B7E3]
+	(No symbol) [0x00007FF7E57475C8]
+	(No symbol) [0x00007FF7E5748731]
+	GetHandleVerifier [0x00007FF7E5BF643D+3118829]
+	GetHandleVerifier [0x00007FF7E5C46C90+3448640]
+	GetHandleVerifier [0x00007FF7E5C3CF0D+3408317]
+	GetHandleVerifier [0x00007FF7E59CA40B+841403]
+	(No symbol) [0x00007FF7E587340F]
+	(No symbol) [0x00007FF7E586F484]
+	(No symbol) [0x00007FF7E586F61D]
+	(No symbol) [0x00007FF7E585EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-25 16:03:52 - Volviendo a la página de resultados.
+2024-10-25 16:04:00 - Terminando scraping.
+2024-10-25 16:07:10 - Categoría 'Agroindustrias' seleccionada.
+2024-10-25 16:08:05 - Clic en el botón 'Buscar'.
+2024-10-25 16:08:05 - El modal de carga ha desaparecido.
+2024-10-25 16:08:05 - Procesando fila 1...
+2024-10-25 16:08:05 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-25 16:08:07 - Clic en el enlace 'Ver detalle'.
+2024-10-25 16:08:07 - El modal de carga ha desaparecido.
+2024-10-25 16:08:17 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-25 16:08:17 - Sección 'Documentos' expandida.
+2024-10-25 16:08:17 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-25 16:08:18 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-25 16:08:18 - Descargando documento desde: https://snifa.sma.gob.cl/General/Descargar/1104004526
+2024-10-25 16:08:23 - Documento ignorado: 
+2024-10-25 16:08:23 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7E5903AB5+28005]
+	(No symbol) [0x00007FF7E58683B0]
+	(No symbol) [0x00007FF7E570580A]
+	(No symbol) [0x00007FF7E5755A3E]
+	(No symbol) [0x00007FF7E5755D2C]
+	(No symbol) [0x00007FF7E574937C]
+	(No symbol) [0x00007FF7E577BA7F]
+	(No symbol) [0x00007FF7E5749246]
+	(No symbol) [0x00007FF7E577BC50]
+	(No symbol) [0x00007FF7E579B8B3]
+	(No symbol) [0x00007FF7E577B7E3]
+	(No symbol) [0x00007FF7E57475C8]
+	(No symbol) [0x00007FF7E5748731]
+	GetHandleVerifier [0x00007FF7E5BF643D+3118829]
+	GetHandleVerifier [0x00007FF7E5C46C90+3448640]
+	GetHandleVerifier [0x00007FF7E5C3CF0D+3408317]
+	GetHandleVerifier [0x00007FF7E59CA40B+841403]
+	(No symbol) [0x00007FF7E587340F]
+	(No symbol) [0x00007FF7E586F484]
+	(No symbol) [0x00007FF7E586F61D]
+	(No symbol) [0x00007FF7E585EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-25 16:08:53 - Volviendo a la página de resultados.
+2024-10-25 16:08:56 - Terminando scraping.
+2024-10-25 16:10:03 - Categoría 'Agroindustrias' seleccionada.
+2024-10-25 16:11:17 - Clic en el botón 'Buscar'.
+2024-10-25 16:11:17 - El modal de carga ha desaparecido.
+2024-10-25 16:11:17 - Procesando fila 1...
+2024-10-25 16:11:18 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-25 16:11:19 - Clic en el enlace 'Ver detalle'.
+2024-10-25 16:11:19 - El modal de carga ha desaparecido.
+2024-10-25 16:11:29 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-25 16:11:29 - Sección 'Documentos' expandida.
+2024-10-25 16:11:29 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-25 16:11:29 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-25 16:11:30 - Descargando documento desde: https://snifa.sma.gob.cl/General/Descargar/1104004526
+2024-10-25 16:11:35 - Documento ignorado: 
+2024-10-25 16:11:35 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7E5903AB5+28005]
+	(No symbol) [0x00007FF7E58683B0]
+	(No symbol) [0x00007FF7E570580A]
+	(No symbol) [0x00007FF7E5755A3E]
+	(No symbol) [0x00007FF7E5755D2C]
+	(No symbol) [0x00007FF7E574937C]
+	(No symbol) [0x00007FF7E577BA7F]
+	(No symbol) [0x00007FF7E5749246]
+	(No symbol) [0x00007FF7E577BC50]
+	(No symbol) [0x00007FF7E579B8B3]
+	(No symbol) [0x00007FF7E577B7E3]
+	(No symbol) [0x00007FF7E57475C8]
+	(No symbol) [0x00007FF7E5748731]
+	GetHandleVerifier [0x00007FF7E5BF643D+3118829]
+	GetHandleVerifier [0x00007FF7E5C46C90+3448640]
+	GetHandleVerifier [0x00007FF7E5C3CF0D+3408317]
+	GetHandleVerifier [0x00007FF7E59CA40B+841403]
+	(No symbol) [0x00007FF7E587340F]
+	(No symbol) [0x00007FF7E586F484]
+	(No symbol) [0x00007FF7E586F61D]
+	(No symbol) [0x00007FF7E585EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-25 16:11:45 - Volviendo a la página de resultados.
+2024-10-25 16:11:48 - Terminando scraping.

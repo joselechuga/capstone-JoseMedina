@@ -16,13 +16,20 @@
 <!-- Botón para ejecutar el script -->
 <button id="runScriptBtn">Ejecutar 'main.py'</button>
 
-<!-- Mostrar salida del script -->
-<pre id="scriptOutput"></pre>
+
+<h1>Contenido de logs_scraping.txt</h1>
+    
+<!-- Div donde se mostrará el contenido de logs_scraping.txt -->
+<div id="log-output" style="white-space: pre-wrap; border: 1px solid black; padding: 10px; height: 300px; overflow-y: scroll;">
+    Cargando logs...
+</div>
+
 
 {% endblock %}
 
 <!-- SCRIPTS -->
 {% block scripts %}
+<!--Ejecutar archivo main.py desde boton-->
   <script>
     document.getElementById('runScriptBtn').addEventListener('click', function() {
       // Hacer la solicitud AJAX
@@ -31,14 +38,45 @@
         .then(data => {
           // Mostrar la salida del script en el elemento <pre>
           if (data.output) {
+            //document.getElementById('scriptOutput').textContent = data.output;
             console.log('Ejecutado correctamente, logs en logs_scraping.txt')
           } else if (data.error) {
+            //document.getElementById('scriptOutput').textContent = data.error;
             console.log('ERROR: ', data.error)
           }
         })
         .catch(error => console.error('Error al ejecutar el script:', error));
     });
   </script>
+<!--Lectura y prints de logs en pantalla del html-->
+  <script>
+    function fetchLogs() {
+        // Realiza una solicitud al backend para obtener los logs
+        fetch('/get-logs/')
+            .then(response => response.json())
+            .then(data => {
+                const logOutput = document.getElementById('log-output');
+                if (data.logs) {
+                    // Limpia el contenido del div antes de añadir los logs
+                    logOutput.textContent = '';
+                    // Añade cada línea del log al div
+                    data.logs.forEach(log => {
+                        logOutput.textContent += log + '\n';
+                    });
+                } else if (data.error) {
+                    logOutput.textContent = 'Error: ' + data.error;
+                }
+            })
+            .catch(error => {
+                document.getElementById('log-output').textContent = 'Error al obtener los logs: ' + error;
+            });
+    }
+    // Llama a la función fetchLogs para obtener los logs al cargar la página
+    fetchLogs();
+    // Si deseas actualizar los logs periódicamente cada 5 segundos:
+    setInterval(fetchLogs, 5000);  // Actualiza cada 5 segundos
+  </script>
+
   <script src="{% static 'js/panel.js' %}"></script>
   <script src="https://kit.fontawesome.com/97e73bf1af.js" crossorigin="anonymous"></script>
 {% endblock %}
