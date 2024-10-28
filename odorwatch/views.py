@@ -62,17 +62,15 @@ def home(request):
     # Aquí puedes usar 'user_email' como lo desees, por ejemplo, mostrarlo en el template
     return render(request, 'home.html', {'user_email': user_email})
 
-# ejecutar 'main.py' desde la funcion run_script
-logger = logging.getLogger(__name__)
 
 def run_script(request):
-    script_path = os.path.join(os.path.dirname(__file__), 'modulos', 'main.py')
+    """Ejecuta el script main.py y devuelve la salida."""
     try:
-        result = subprocess.run(['python', script_path], capture_output=True, text=True)
-        logger.info("Script output: %s", result.stdout)
+        # Ejecuta el script main.py
+        result = subprocess.run(['python', 'modulos/main.py'], capture_output=True, text=True)
+        # Retorna el resultado en formato JSON
         return JsonResponse({'output': result.stdout})
     except Exception as e:
-        logger.error("Error ejecutando script: %s", e)
         return JsonResponse({'error': f'Error al ejecutar el script: {str(e)}'})
     
 @login_required(login_url='/login/')
@@ -92,3 +90,34 @@ def get_logs(request):
         return JsonResponse({'logs': logs})
     except Exception as e:
         return JsonResponse({'error': f'Error al leer el archivo: {str(e)}'})
+    
+# datos de 'logs_scraping.txt' enviados a API mockapi
+
+def enviar_logs_a_api():
+    url = "https://671d555c09103098807cd937.mockapi.io/api/odorwatch/logs_scraping"
+    
+    # Leer el contenido completo del archivo de logs
+    with open('logs_scraping.txt', 'r') as file:
+        logs = file.read()
+    
+    # Crear el payload con el contenido de logs
+    data = {
+        "logs": logs
+    }
+    
+    try:
+        # Enviar el contenido a la API mediante una solicitud POST
+        response = requests.post(url, json=data)
+        
+        # Verificar si la solicitud fue exitosa
+        if response.status_code == 201:
+            print("Logs enviados con éxito a la API.")
+        else:
+            print(f"Error al enviar los logs. Código de respuesta: {response.status_code}")
+            print("Respuesta:", response.text)
+            
+    except Exception as e:
+        print(f"Ocurrió un error al intentar enviar los logs: {e}")
+
+# Llamada a la función para enviar los logs
+enviar_logs_a_api()

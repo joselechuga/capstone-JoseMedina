@@ -3636,3 +3636,3553 @@ Stacktrace:
 
 2024-10-25 16:11:45 - Volviendo a la página de resultados.
 2024-10-25 16:11:48 - Terminando scraping.
+2024-10-26 18:02:16 - Categoría 'Agroindustrias' seleccionada.
+2024-10-26 18:03:11 - Clic en el botón 'Buscar'.
+2024-10-26 18:03:12 - El modal de carga ha desaparecido.
+2024-10-26 18:03:12 - Procesando fila 1...
+2024-10-26 18:03:12 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-26 18:03:13 - Clic en el enlace 'Ver detalle'.
+2024-10-26 18:03:13 - El modal de carga ha desaparecido.
+2024-10-26 18:03:24 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-26 18:03:24 - Sección 'Documentos' expandida.
+2024-10-26 18:03:24 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-26 18:03:24 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-26 18:03:24 - Descargando documento desde: https://snifa.sma.gob.cl/General/Descargar/1104004526
+2024-10-26 18:03:29 - Documento ignorado: 
+2024-10-26 18:03:29 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF680EF3AB5+28005]
+	(No symbol) [0x00007FF680E583B0]
+	(No symbol) [0x00007FF680CF580A]
+	(No symbol) [0x00007FF680D45A3E]
+	(No symbol) [0x00007FF680D45D2C]
+	(No symbol) [0x00007FF680D3937C]
+	(No symbol) [0x00007FF680D6BA7F]
+	(No symbol) [0x00007FF680D39246]
+	(No symbol) [0x00007FF680D6BC50]
+	(No symbol) [0x00007FF680D8B8B3]
+	(No symbol) [0x00007FF680D6B7E3]
+	(No symbol) [0x00007FF680D375C8]
+	(No symbol) [0x00007FF680D38731]
+	GetHandleVerifier [0x00007FF6811E643D+3118829]
+	GetHandleVerifier [0x00007FF681236C90+3448640]
+	GetHandleVerifier [0x00007FF68122CF0D+3408317]
+	GetHandleVerifier [0x00007FF680FBA40B+841403]
+	(No symbol) [0x00007FF680E6340F]
+	(No symbol) [0x00007FF680E5F484]
+	(No symbol) [0x00007FF680E5F61D]
+	(No symbol) [0x00007FF680E4EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-26 18:03:53 - Volviendo a la página de resultados.
+2024-10-26 18:03:54 - Procesando fila 2...
+2024-10-26 18:03:54 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-26 18:03:55 - Clic en el enlace 'Ver detalle'.
+2024-10-26 18:03:55 - El modal de carga ha desaparecido.
+2024-10-26 18:04:05 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-26 18:04:05 - Sección 'Documentos' expandida.
+2024-10-26 18:04:05 - Documento ignorado: 
+2024-10-26 18:04:05 - Documento ignorado: 
+2024-10-26 18:04:06 - Documento ignorado: 
+2024-10-26 18:04:06 - Documento ignorado: 
+2024-10-26 18:04:06 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF680EF3AB5+28005]
+	(No symbol) [0x00007FF680E583B0]
+	(No symbol) [0x00007FF680CF580A]
+	(No symbol) [0x00007FF680D45A3E]
+	(No symbol) [0x00007FF680D45D2C]
+	(No symbol) [0x00007FF680D3937C]
+	(No symbol) [0x00007FF680D6BA7F]
+	(No symbol) [0x00007FF680D39246]
+	(No symbol) [0x00007FF680D6BC50]
+	(No symbol) [0x00007FF680D8B8B3]
+	(No symbol) [0x00007FF680D6B7E3]
+	(No symbol) [0x00007FF680D375C8]
+	(No symbol) [0x00007FF680D38731]
+	GetHandleVerifier [0x00007FF6811E643D+3118829]
+	GetHandleVerifier [0x00007FF681236C90+3448640]
+	GetHandleVerifier [0x00007FF68122CF0D+3408317]
+	GetHandleVerifier [0x00007FF680FBA40B+841403]
+	(No symbol) [0x00007FF680E6340F]
+	(No symbol) [0x00007FF680E5F484]
+	(No symbol) [0x00007FF680E5F61D]
+	(No symbol) [0x00007FF680E4EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-26 18:04:32 - Volviendo a la página de resultados.
+2024-10-26 18:04:32 - Procesando fila 3...
+2024-10-26 18:04:32 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-26 18:04:33 - Clic en el enlace 'Ver detalle'.
+2024-10-26 18:04:33 - El modal de carga ha desaparecido.
+2024-10-26 18:04:44 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-26 18:04:44 - Sección 'Documentos' expandida.
+2024-10-26 18:04:44 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-26 18:04:44 - Documento ignorado: 
+2024-10-26 18:04:44 - Documento ignorado: 
+2024-10-26 18:04:44 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF680EF3AB5+28005]
+	(No symbol) [0x00007FF680E583B0]
+	(No symbol) [0x00007FF680CF580A]
+	(No symbol) [0x00007FF680D45A3E]
+	(No symbol) [0x00007FF680D45D2C]
+	(No symbol) [0x00007FF680D3937C]
+	(No symbol) [0x00007FF680D6BA7F]
+	(No symbol) [0x00007FF680D39246]
+	(No symbol) [0x00007FF680D6BC50]
+	(No symbol) [0x00007FF680D8B8B3]
+	(No symbol) [0x00007FF680D6B7E3]
+	(No symbol) [0x00007FF680D375C8]
+	(No symbol) [0x00007FF680D38731]
+	GetHandleVerifier [0x00007FF6811E643D+3118829]
+	GetHandleVerifier [0x00007FF681236C90+3448640]
+	GetHandleVerifier [0x00007FF68122CF0D+3408317]
+	GetHandleVerifier [0x00007FF680FBA40B+841403]
+	(No symbol) [0x00007FF680E6340F]
+	(No symbol) [0x00007FF680E5F484]
+	(No symbol) [0x00007FF680E5F61D]
+	(No symbol) [0x00007FF680E4EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-26 18:04:46 - Volviendo a la página de resultados.
+2024-10-26 18:04:53 - Terminando scraping.
+2024-10-26 18:11:22 - Categoría 'Agroindustrias' seleccionada.
+2024-10-26 18:12:15 - Clic en el botón 'Buscar'.
+2024-10-26 18:12:15 - El modal de carga ha desaparecido.
+2024-10-26 18:12:15 - Procesando fila 1...
+2024-10-26 18:12:17 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-26 18:12:18 - Clic en el enlace 'Ver detalle'.
+2024-10-26 18:12:18 - El modal de carga ha desaparecido.
+2024-10-26 18:12:28 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-26 18:12:28 - Sección 'Documentos' expandida.
+2024-10-26 18:12:29 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-26 18:12:29 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-26 18:12:29 - Descargando documento desde: https://snifa.sma.gob.cl/General/Descargar/1104004526
+2024-10-26 18:12:34 - Documento ignorado: 
+2024-10-26 18:12:34 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF680EF3AB5+28005]
+	(No symbol) [0x00007FF680E583B0]
+	(No symbol) [0x00007FF680CF580A]
+	(No symbol) [0x00007FF680D45A3E]
+	(No symbol) [0x00007FF680D45D2C]
+	(No symbol) [0x00007FF680D3937C]
+	(No symbol) [0x00007FF680D6BA7F]
+	(No symbol) [0x00007FF680D39246]
+	(No symbol) [0x00007FF680D6BC50]
+	(No symbol) [0x00007FF680D8B8B3]
+	(No symbol) [0x00007FF680D6B7E3]
+	(No symbol) [0x00007FF680D375C8]
+	(No symbol) [0x00007FF680D38731]
+	GetHandleVerifier [0x00007FF6811E643D+3118829]
+	GetHandleVerifier [0x00007FF681236C90+3448640]
+	GetHandleVerifier [0x00007FF68122CF0D+3408317]
+	GetHandleVerifier [0x00007FF680FBA40B+841403]
+	(No symbol) [0x00007FF680E6340F]
+	(No symbol) [0x00007FF680E5F484]
+	(No symbol) [0x00007FF680E5F61D]
+	(No symbol) [0x00007FF680E4EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-26 18:13:02 - Volviendo a la página de resultados.
+2024-10-26 18:13:02 - Procesando fila 2...
+2024-10-26 18:13:02 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-26 18:13:02 - Clic en el enlace 'Ver detalle'.
+2024-10-26 18:13:02 - El modal de carga ha desaparecido.
+2024-10-26 18:13:13 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-26 18:13:13 - Sección 'Documentos' expandida.
+2024-10-26 18:13:13 - Documento ignorado: 
+2024-10-26 18:13:13 - Documento ignorado: 
+2024-10-26 18:13:13 - Documento ignorado: 
+2024-10-26 18:13:13 - Documento ignorado: 
+2024-10-26 18:13:13 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF680EF3AB5+28005]
+	(No symbol) [0x00007FF680E583B0]
+	(No symbol) [0x00007FF680CF580A]
+	(No symbol) [0x00007FF680D45A3E]
+	(No symbol) [0x00007FF680D45D2C]
+	(No symbol) [0x00007FF680D3937C]
+	(No symbol) [0x00007FF680D6BA7F]
+	(No symbol) [0x00007FF680D39246]
+	(No symbol) [0x00007FF680D6BC50]
+	(No symbol) [0x00007FF680D8B8B3]
+	(No symbol) [0x00007FF680D6B7E3]
+	(No symbol) [0x00007FF680D375C8]
+	(No symbol) [0x00007FF680D38731]
+	GetHandleVerifier [0x00007FF6811E643D+3118829]
+	GetHandleVerifier [0x00007FF681236C90+3448640]
+	GetHandleVerifier [0x00007FF68122CF0D+3408317]
+	GetHandleVerifier [0x00007FF680FBA40B+841403]
+	(No symbol) [0x00007FF680E6340F]
+	(No symbol) [0x00007FF680E5F484]
+	(No symbol) [0x00007FF680E5F61D]
+	(No symbol) [0x00007FF680E4EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-26 18:13:38 - Volviendo a la página de resultados.
+2024-10-26 18:13:38 - Procesando fila 3...
+2024-10-26 18:13:38 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-26 18:13:40 - Clic en el enlace 'Ver detalle'.
+2024-10-26 18:13:40 - El modal de carga ha desaparecido.
+2024-10-26 18:13:51 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-26 18:13:51 - Sección 'Documentos' expandida.
+2024-10-26 18:13:51 - Documento ignorado: 
+2024-10-26 18:13:51 - Documento ignorado: 
+2024-10-26 18:13:51 - Documento ignorado: 
+2024-10-26 18:13:51 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF680EF3AB5+28005]
+	(No symbol) [0x00007FF680E583B0]
+	(No symbol) [0x00007FF680CF580A]
+	(No symbol) [0x00007FF680D45A3E]
+	(No symbol) [0x00007FF680D45D2C]
+	(No symbol) [0x00007FF680D3937C]
+	(No symbol) [0x00007FF680D6BA7F]
+	(No symbol) [0x00007FF680D39246]
+	(No symbol) [0x00007FF680D6BC50]
+	(No symbol) [0x00007FF680D8B8B3]
+	(No symbol) [0x00007FF680D6B7E3]
+	(No symbol) [0x00007FF680D375C8]
+	(No symbol) [0x00007FF680D38731]
+	GetHandleVerifier [0x00007FF6811E643D+3118829]
+	GetHandleVerifier [0x00007FF681236C90+3448640]
+	GetHandleVerifier [0x00007FF68122CF0D+3408317]
+	GetHandleVerifier [0x00007FF680FBA40B+841403]
+	(No symbol) [0x00007FF680E6340F]
+	(No symbol) [0x00007FF680E5F484]
+	(No symbol) [0x00007FF680E5F61D]
+	(No symbol) [0x00007FF680E4EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-26 18:14:17 - Volviendo a la página de resultados.
+2024-10-26 18:14:17 - Procesando fila 4...
+2024-10-26 18:14:18 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-26 18:14:19 - Clic en el enlace 'Ver detalle'.
+2024-10-26 18:14:20 - El modal de carga ha desaparecido.
+2024-10-26 18:14:30 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-26 18:14:30 - Sección 'Documentos' expandida.
+2024-10-26 18:14:30 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-26 18:14:31 - Descargando documento desde: https://snifa.sma.gob.cl/General/Descargar/1104005427
+2024-10-26 18:14:36 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-26 18:14:36 - Documento ignorado: 
+2024-10-26 18:14:37 - Documento ignorado: 
+2024-10-26 18:14:37 - Documento ignorado: 
+2024-10-26 18:14:37 - Documento ignorado: 
+2024-10-26 18:14:37 - Documento ignorado: 
+2024-10-26 18:14:37 - Documento ignorado: 
+2024-10-26 18:14:37 - Documento ignorado: 
+2024-10-26 18:14:37 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF680EF3AB5+28005]
+	(No symbol) [0x00007FF680E583B0]
+	(No symbol) [0x00007FF680CF580A]
+	(No symbol) [0x00007FF680D45A3E]
+	(No symbol) [0x00007FF680D45D2C]
+	(No symbol) [0x00007FF680D3937C]
+	(No symbol) [0x00007FF680D6BA7F]
+	(No symbol) [0x00007FF680D39246]
+	(No symbol) [0x00007FF680D6BC50]
+	(No symbol) [0x00007FF680D8B8B3]
+	(No symbol) [0x00007FF680D6B7E3]
+	(No symbol) [0x00007FF680D375C8]
+	(No symbol) [0x00007FF680D38731]
+	GetHandleVerifier [0x00007FF6811E643D+3118829]
+	GetHandleVerifier [0x00007FF681236C90+3448640]
+	GetHandleVerifier [0x00007FF68122CF0D+3408317]
+	GetHandleVerifier [0x00007FF680FBA40B+841403]
+	(No symbol) [0x00007FF680E6340F]
+	(No symbol) [0x00007FF680E5F484]
+	(No symbol) [0x00007FF680E5F61D]
+	(No symbol) [0x00007FF680E4EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-26 18:15:00 - Volviendo a la página de resultados.
+2024-10-26 18:15:00 - Procesando fila 5...
+2024-10-26 18:15:00 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-26 18:15:02 - Clic en el enlace 'Ver detalle'.
+2024-10-26 18:15:03 - El modal de carga ha desaparecido.
+2024-10-26 18:15:13 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-26 18:15:13 - Sección 'Documentos' expandida.
+2024-10-26 18:15:13 - Documento ignorado: 
+2024-10-26 18:15:13 - Documento ignorado: 
+2024-10-26 18:15:13 - Documento ignorado: 
+2024-10-26 18:15:13 - Documento ignorado: 
+2024-10-26 18:15:13 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF680EF3AB5+28005]
+	(No symbol) [0x00007FF680E583B0]
+	(No symbol) [0x00007FF680CF580A]
+	(No symbol) [0x00007FF680D45A3E]
+	(No symbol) [0x00007FF680D45D2C]
+	(No symbol) [0x00007FF680D3937C]
+	(No symbol) [0x00007FF680D6BA7F]
+	(No symbol) [0x00007FF680D39246]
+	(No symbol) [0x00007FF680D6BC50]
+	(No symbol) [0x00007FF680D8B8B3]
+	(No symbol) [0x00007FF680D6B7E3]
+	(No symbol) [0x00007FF680D375C8]
+	(No symbol) [0x00007FF680D38731]
+	GetHandleVerifier [0x00007FF6811E643D+3118829]
+	GetHandleVerifier [0x00007FF681236C90+3448640]
+	GetHandleVerifier [0x00007FF68122CF0D+3408317]
+	GetHandleVerifier [0x00007FF680FBA40B+841403]
+	(No symbol) [0x00007FF680E6340F]
+	(No symbol) [0x00007FF680E5F484]
+	(No symbol) [0x00007FF680E5F61D]
+	(No symbol) [0x00007FF680E4EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-26 18:15:38 - Volviendo a la página de resultados.
+2024-10-26 18:15:38 - Procesando fila 6...
+2024-10-26 18:15:38 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-26 18:15:40 - Clic en el enlace 'Ver detalle'.
+2024-10-26 18:15:42 - El modal de carga ha desaparecido.
+2024-10-26 18:15:52 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-26 18:15:52 - Sección 'Documentos' expandida.
+2024-10-26 18:15:52 - Documento ignorado: 
+2024-10-26 18:15:52 - Documento ignorado: 
+2024-10-26 18:15:52 - Documento ignorado: 
+2024-10-26 18:15:52 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF680EF3AB5+28005]
+	(No symbol) [0x00007FF680E583B0]
+	(No symbol) [0x00007FF680CF580A]
+	(No symbol) [0x00007FF680D45A3E]
+	(No symbol) [0x00007FF680D45D2C]
+	(No symbol) [0x00007FF680D3937C]
+	(No symbol) [0x00007FF680D6BA7F]
+	(No symbol) [0x00007FF680D39246]
+	(No symbol) [0x00007FF680D6BC50]
+	(No symbol) [0x00007FF680D8B8B3]
+	(No symbol) [0x00007FF680D6B7E3]
+	(No symbol) [0x00007FF680D375C8]
+	(No symbol) [0x00007FF680D38731]
+	GetHandleVerifier [0x00007FF6811E643D+3118829]
+	GetHandleVerifier [0x00007FF681236C90+3448640]
+	GetHandleVerifier [0x00007FF68122CF0D+3408317]
+	GetHandleVerifier [0x00007FF680FBA40B+841403]
+	(No symbol) [0x00007FF680E6340F]
+	(No symbol) [0x00007FF680E5F484]
+	(No symbol) [0x00007FF680E5F61D]
+	(No symbol) [0x00007FF680E4EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-26 18:16:17 - Volviendo a la página de resultados.
+2024-10-26 18:16:17 - Procesando fila 7...
+2024-10-26 18:16:17 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-26 18:16:18 - Clic en el enlace 'Ver detalle'.
+2024-10-26 18:16:19 - El modal de carga ha desaparecido.
+2024-10-26 18:16:29 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-26 18:16:29 - Sección 'Documentos' expandida.
+2024-10-26 18:16:29 - Documento ignorado: 
+2024-10-26 18:16:29 - Documento ignorado: 
+2024-10-26 18:16:29 - Documento ignorado: 
+2024-10-26 18:16:29 - Documento ignorado: 
+2024-10-26 18:16:29 - Documento ignorado: 
+2024-10-26 18:16:29 - Documento ignorado: 
+2024-10-26 18:16:29 - Documento ignorado: 
+2024-10-26 18:16:30 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF680EF3AB5+28005]
+	(No symbol) [0x00007FF680E583B0]
+	(No symbol) [0x00007FF680CF580A]
+	(No symbol) [0x00007FF680D45A3E]
+	(No symbol) [0x00007FF680D45D2C]
+	(No symbol) [0x00007FF680D3937C]
+	(No symbol) [0x00007FF680D6BA7F]
+	(No symbol) [0x00007FF680D39246]
+	(No symbol) [0x00007FF680D6BC50]
+	(No symbol) [0x00007FF680D8B8B3]
+	(No symbol) [0x00007FF680D6B7E3]
+	(No symbol) [0x00007FF680D375C8]
+	(No symbol) [0x00007FF680D38731]
+	GetHandleVerifier [0x00007FF6811E643D+3118829]
+	GetHandleVerifier [0x00007FF681236C90+3448640]
+	GetHandleVerifier [0x00007FF68122CF0D+3408317]
+	GetHandleVerifier [0x00007FF680FBA40B+841403]
+	(No symbol) [0x00007FF680E6340F]
+	(No symbol) [0x00007FF680E5F484]
+	(No symbol) [0x00007FF680E5F61D]
+	(No symbol) [0x00007FF680E4EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-26 18:16:58 - Volviendo a la página de resultados.
+2024-10-26 18:16:58 - Procesando fila 8...
+2024-10-26 18:16:59 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-26 18:16:59 - Clic en el enlace 'Ver detalle'.
+2024-10-26 18:17:00 - El modal de carga ha desaparecido.
+2024-10-26 18:17:11 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-26 18:17:11 - Sección 'Documentos' expandida.
+2024-10-26 18:17:11 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-26 18:17:11 - Documento ignorado: 
+2024-10-26 18:17:11 - Documento ignorado: 
+2024-10-26 18:17:11 - Documento ignorado: 
+2024-10-26 18:17:11 - Documento ignorado: 
+2024-10-26 18:17:11 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF680EF3AB5+28005]
+	(No symbol) [0x00007FF680E583B0]
+	(No symbol) [0x00007FF680CF580A]
+	(No symbol) [0x00007FF680D45A3E]
+	(No symbol) [0x00007FF680D45D2C]
+	(No symbol) [0x00007FF680D3937C]
+	(No symbol) [0x00007FF680D6BA7F]
+	(No symbol) [0x00007FF680D39246]
+	(No symbol) [0x00007FF680D6BC50]
+	(No symbol) [0x00007FF680D8B8B3]
+	(No symbol) [0x00007FF680D6B7E3]
+	(No symbol) [0x00007FF680D375C8]
+	(No symbol) [0x00007FF680D38731]
+	GetHandleVerifier [0x00007FF6811E643D+3118829]
+	GetHandleVerifier [0x00007FF681236C90+3448640]
+	GetHandleVerifier [0x00007FF68122CF0D+3408317]
+	GetHandleVerifier [0x00007FF680FBA40B+841403]
+	(No symbol) [0x00007FF680E6340F]
+	(No symbol) [0x00007FF680E5F484]
+	(No symbol) [0x00007FF680E5F61D]
+	(No symbol) [0x00007FF680E4EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-26 18:17:36 - Volviendo a la página de resultados.
+2024-10-26 18:17:37 - Procesando fila 9...
+2024-10-26 18:17:37 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-26 18:17:37 - Clic en el enlace 'Ver detalle'.
+2024-10-26 18:17:38 - El modal de carga ha desaparecido.
+2024-10-26 18:17:48 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-26 18:17:49 - Sección 'Documentos' expandida.
+2024-10-26 18:17:49 - Documento ignorado: 
+2024-10-26 18:17:49 - Documento ignorado: 
+2024-10-26 18:17:49 - Documento ignorado: 
+2024-10-26 18:17:49 - Documento ignorado: 
+2024-10-26 18:17:49 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF680EF3AB5+28005]
+	(No symbol) [0x00007FF680E583B0]
+	(No symbol) [0x00007FF680CF580A]
+	(No symbol) [0x00007FF680D45A3E]
+	(No symbol) [0x00007FF680D45D2C]
+	(No symbol) [0x00007FF680D3937C]
+	(No symbol) [0x00007FF680D6BA7F]
+	(No symbol) [0x00007FF680D39246]
+	(No symbol) [0x00007FF680D6BC50]
+	(No symbol) [0x00007FF680D8B8B3]
+	(No symbol) [0x00007FF680D6B7E3]
+	(No symbol) [0x00007FF680D375C8]
+	(No symbol) [0x00007FF680D38731]
+	GetHandleVerifier [0x00007FF6811E643D+3118829]
+	GetHandleVerifier [0x00007FF681236C90+3448640]
+	GetHandleVerifier [0x00007FF68122CF0D+3408317]
+	GetHandleVerifier [0x00007FF680FBA40B+841403]
+	(No symbol) [0x00007FF680E6340F]
+	(No symbol) [0x00007FF680E5F484]
+	(No symbol) [0x00007FF680E5F61D]
+	(No symbol) [0x00007FF680E4EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-26 18:18:13 - Volviendo a la página de resultados.
+2024-10-26 18:18:13 - Procesando fila 10...
+2024-10-26 18:18:14 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-26 18:18:15 - Clic en el enlace 'Ver detalle'.
+2024-10-26 18:18:15 - El modal de carga ha desaparecido.
+2024-10-26 18:18:26 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-26 18:18:26 - Sección 'Documentos' expandida.
+2024-10-26 18:18:26 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-26 18:18:27 - Descargando documento desde: https://snifa.sma.gob.cl/General/Descargar/1104004686
+2024-10-26 18:18:32 - Documento ignorado: 
+2024-10-26 18:18:32 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF680EF3AB5+28005]
+	(No symbol) [0x00007FF680E583B0]
+	(No symbol) [0x00007FF680CF580A]
+	(No symbol) [0x00007FF680D45A3E]
+	(No symbol) [0x00007FF680D45D2C]
+	(No symbol) [0x00007FF680D3937C]
+	(No symbol) [0x00007FF680D6BA7F]
+	(No symbol) [0x00007FF680D39246]
+	(No symbol) [0x00007FF680D6BC50]
+	(No symbol) [0x00007FF680D8B8B3]
+	(No symbol) [0x00007FF680D6B7E3]
+	(No symbol) [0x00007FF680D375C8]
+	(No symbol) [0x00007FF680D38731]
+	GetHandleVerifier [0x00007FF6811E643D+3118829]
+	GetHandleVerifier [0x00007FF681236C90+3448640]
+	GetHandleVerifier [0x00007FF68122CF0D+3408317]
+	GetHandleVerifier [0x00007FF680FBA40B+841403]
+	(No symbol) [0x00007FF680E6340F]
+	(No symbol) [0x00007FF680E5F484]
+	(No symbol) [0x00007FF680E5F61D]
+	(No symbol) [0x00007FF680E4EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-26 18:18:57 - Volviendo a la página de resultados.
+2024-10-26 18:18:57 - Procesando fila 11...
+2024-10-26 18:18:57 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-26 18:18:58 - Clic en el enlace 'Ver detalle'.
+2024-10-26 18:18:59 - El modal de carga ha desaparecido.
+2024-10-26 18:19:09 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-26 18:19:09 - Sección 'Documentos' expandida.
+2024-10-26 18:19:09 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-26 18:19:09 - Documento ignorado: 
+2024-10-26 18:19:09 - Documento ignorado: 
+2024-10-26 18:19:09 - Documento ignorado: 
+2024-10-26 18:19:09 - Documento ignorado: 
+2024-10-26 18:19:09 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF680EF3AB5+28005]
+	(No symbol) [0x00007FF680E583B0]
+	(No symbol) [0x00007FF680CF580A]
+	(No symbol) [0x00007FF680D45A3E]
+	(No symbol) [0x00007FF680D45D2C]
+	(No symbol) [0x00007FF680D3937C]
+	(No symbol) [0x00007FF680D6BA7F]
+	(No symbol) [0x00007FF680D39246]
+	(No symbol) [0x00007FF680D6BC50]
+	(No symbol) [0x00007FF680D8B8B3]
+	(No symbol) [0x00007FF680D6B7E3]
+	(No symbol) [0x00007FF680D375C8]
+	(No symbol) [0x00007FF680D38731]
+	GetHandleVerifier [0x00007FF6811E643D+3118829]
+	GetHandleVerifier [0x00007FF681236C90+3448640]
+	GetHandleVerifier [0x00007FF68122CF0D+3408317]
+	GetHandleVerifier [0x00007FF680FBA40B+841403]
+	(No symbol) [0x00007FF680E6340F]
+	(No symbol) [0x00007FF680E5F484]
+	(No symbol) [0x00007FF680E5F61D]
+	(No symbol) [0x00007FF680E4EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-26 18:19:34 - Volviendo a la página de resultados.
+2024-10-26 18:19:34 - Procesando fila 12...
+2024-10-26 18:19:34 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-26 18:19:35 - Clic en el enlace 'Ver detalle'.
+2024-10-26 18:19:37 - El modal de carga ha desaparecido.
+2024-10-26 18:19:47 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-26 18:19:47 - Sección 'Documentos' expandida.
+2024-10-26 18:19:47 - Documento ignorado: 
+2024-10-26 18:19:47 - Documento ignorado: 
+2024-10-26 18:19:47 - Documento ignorado: 
+2024-10-26 18:19:47 - Documento ignorado: 
+2024-10-26 18:19:47 - Documento ignorado: 
+2024-10-26 18:19:47 - Documento ignorado: 
+2024-10-26 18:19:47 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF680EF3AB5+28005]
+	(No symbol) [0x00007FF680E583B0]
+	(No symbol) [0x00007FF680CF580A]
+	(No symbol) [0x00007FF680D45A3E]
+	(No symbol) [0x00007FF680D45D2C]
+	(No symbol) [0x00007FF680D3937C]
+	(No symbol) [0x00007FF680D6BA7F]
+	(No symbol) [0x00007FF680D39246]
+	(No symbol) [0x00007FF680D6BC50]
+	(No symbol) [0x00007FF680D8B8B3]
+	(No symbol) [0x00007FF680D6B7E3]
+	(No symbol) [0x00007FF680D375C8]
+	(No symbol) [0x00007FF680D38731]
+	GetHandleVerifier [0x00007FF6811E643D+3118829]
+	GetHandleVerifier [0x00007FF681236C90+3448640]
+	GetHandleVerifier [0x00007FF68122CF0D+3408317]
+	GetHandleVerifier [0x00007FF680FBA40B+841403]
+	(No symbol) [0x00007FF680E6340F]
+	(No symbol) [0x00007FF680E5F484]
+	(No symbol) [0x00007FF680E5F61D]
+	(No symbol) [0x00007FF680E4EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-26 18:20:11 - Volviendo a la página de resultados.
+2024-10-26 18:20:11 - Procesando fila 13...
+2024-10-26 18:20:12 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-26 18:20:13 - Clic en el enlace 'Ver detalle'.
+2024-10-26 18:20:13 - El modal de carga ha desaparecido.
+2024-10-26 18:20:23 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-26 18:20:23 - Sección 'Documentos' expandida.
+2024-10-26 18:20:23 - Documento ignorado: 
+2024-10-26 18:20:23 - Documento ignorado: 
+2024-10-26 18:20:23 - Documento ignorado: 
+2024-10-26 18:20:23 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF680EF3AB5+28005]
+	(No symbol) [0x00007FF680E583B0]
+	(No symbol) [0x00007FF680CF580A]
+	(No symbol) [0x00007FF680D45A3E]
+	(No symbol) [0x00007FF680D45D2C]
+	(No symbol) [0x00007FF680D3937C]
+	(No symbol) [0x00007FF680D6BA7F]
+	(No symbol) [0x00007FF680D39246]
+	(No symbol) [0x00007FF680D6BC50]
+	(No symbol) [0x00007FF680D8B8B3]
+	(No symbol) [0x00007FF680D6B7E3]
+	(No symbol) [0x00007FF680D375C8]
+	(No symbol) [0x00007FF680D38731]
+	GetHandleVerifier [0x00007FF6811E643D+3118829]
+	GetHandleVerifier [0x00007FF681236C90+3448640]
+	GetHandleVerifier [0x00007FF68122CF0D+3408317]
+	GetHandleVerifier [0x00007FF680FBA40B+841403]
+	(No symbol) [0x00007FF680E6340F]
+	(No symbol) [0x00007FF680E5F484]
+	(No symbol) [0x00007FF680E5F61D]
+	(No symbol) [0x00007FF680E4EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-26 18:20:40 - Volviendo a la página de resultados.
+2024-10-26 18:20:40 - Procesando fila 14...
+2024-10-26 18:20:40 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-26 18:20:42 - Clic en el enlace 'Ver detalle'.
+2024-10-26 18:20:42 - El modal de carga ha desaparecido.
+2024-10-26 18:20:53 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-26 18:20:53 - Sección 'Documentos' expandida.
+2024-10-26 18:20:53 - Documento ignorado: 
+2024-10-26 18:20:53 - Documento ignorado: 
+2024-10-26 18:20:53 - Documento ignorado: 
+2024-10-26 18:20:53 - Documento ignorado: 
+2024-10-26 18:20:53 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF680EF3AB5+28005]
+	(No symbol) [0x00007FF680E583B0]
+	(No symbol) [0x00007FF680CF580A]
+	(No symbol) [0x00007FF680D45A3E]
+	(No symbol) [0x00007FF680D45D2C]
+	(No symbol) [0x00007FF680D3937C]
+	(No symbol) [0x00007FF680D6BA7F]
+	(No symbol) [0x00007FF680D39246]
+	(No symbol) [0x00007FF680D6BC50]
+	(No symbol) [0x00007FF680D8B8B3]
+	(No symbol) [0x00007FF680D6B7E3]
+	(No symbol) [0x00007FF680D375C8]
+	(No symbol) [0x00007FF680D38731]
+	GetHandleVerifier [0x00007FF6811E643D+3118829]
+	GetHandleVerifier [0x00007FF681236C90+3448640]
+	GetHandleVerifier [0x00007FF68122CF0D+3408317]
+	GetHandleVerifier [0x00007FF680FBA40B+841403]
+	(No symbol) [0x00007FF680E6340F]
+	(No symbol) [0x00007FF680E5F484]
+	(No symbol) [0x00007FF680E5F61D]
+	(No symbol) [0x00007FF680E4EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-26 18:21:09 - Volviendo a la página de resultados.
+2024-10-26 18:21:09 - Procesando fila 15...
+2024-10-26 18:21:09 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-26 18:21:10 - Clic en el enlace 'Ver detalle'.
+2024-10-26 18:21:10 - El modal de carga ha desaparecido.
+2024-10-26 18:21:21 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-26 18:21:21 - Sección 'Documentos' expandida.
+2024-10-26 18:21:21 - Documento ignorado: 
+2024-10-26 18:21:21 - Documento ignorado: 
+2024-10-26 18:21:21 - Documento ignorado: 
+2024-10-26 18:21:21 - Documento ignorado: 
+2024-10-26 18:21:21 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF680EF3AB5+28005]
+	(No symbol) [0x00007FF680E583B0]
+	(No symbol) [0x00007FF680CF580A]
+	(No symbol) [0x00007FF680D45A3E]
+	(No symbol) [0x00007FF680D45D2C]
+	(No symbol) [0x00007FF680D3937C]
+	(No symbol) [0x00007FF680D6BA7F]
+	(No symbol) [0x00007FF680D39246]
+	(No symbol) [0x00007FF680D6BC50]
+	(No symbol) [0x00007FF680D8B8B3]
+	(No symbol) [0x00007FF680D6B7E3]
+	(No symbol) [0x00007FF680D375C8]
+	(No symbol) [0x00007FF680D38731]
+	GetHandleVerifier [0x00007FF6811E643D+3118829]
+	GetHandleVerifier [0x00007FF681236C90+3448640]
+	GetHandleVerifier [0x00007FF68122CF0D+3408317]
+	GetHandleVerifier [0x00007FF680FBA40B+841403]
+	(No symbol) [0x00007FF680E6340F]
+	(No symbol) [0x00007FF680E5F484]
+	(No symbol) [0x00007FF680E5F61D]
+	(No symbol) [0x00007FF680E4EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-26 18:21:35 - Volviendo a la página de resultados.
+2024-10-26 18:21:39 - Terminando scraping.
+2024-10-27 17:07:29 - Categoría 'Agroindustrias' seleccionada.
+2024-10-27 17:08:19 - Clic en el botón 'Buscar'.
+2024-10-27 17:08:19 - El modal de carga ha desaparecido.
+2024-10-27 17:08:19 - Procesando fila 1...
+2024-10-27 17:08:19 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 17:08:22 - Clic en el enlace 'Ver detalle'.
+2024-10-27 17:08:22 - El modal de carga ha desaparecido.
+2024-10-27 17:08:33 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 17:08:35 - Terminando scraping.
+2024-10-27 17:13:24 - Categoría 'Agroindustrias' seleccionada.
+2024-10-27 17:14:06 - Clic en el botón 'Buscar'.
+2024-10-27 17:14:07 - El modal de carga ha desaparecido.
+2024-10-27 17:14:07 - Procesando fila 1...
+2024-10-27 17:14:07 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 17:14:09 - Clic en el enlace 'Ver detalle'.
+2024-10-27 17:14:09 - El modal de carga ha desaparecido.
+2024-10-27 17:14:19 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 17:14:21 - Terminando scraping.
+2024-10-27 17:20:06 - Categoría 'Agroindustrias' seleccionada.
+2024-10-27 17:20:55 - Clic en el botón 'Buscar'.
+2024-10-27 17:20:55 - El modal de carga ha desaparecido.
+2024-10-27 17:20:55 - Procesando fila 1...
+2024-10-27 17:20:55 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 17:21:00 - Clic en el enlace 'Ver detalle'.
+2024-10-27 17:21:00 - El modal de carga ha desaparecido.
+2024-10-27 17:21:10 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 17:21:18 - Terminando scraping.
+2024-10-27 17:24:42 - Categoría 'Agroindustrias' seleccionada.
+2024-10-27 17:25:37 - Clic en el botón 'Buscar'.
+2024-10-27 17:25:37 - El modal de carga ha desaparecido.
+2024-10-27 17:25:38 - Procesando fila 1...
+2024-10-27 17:25:38 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 17:25:39 - Clic en el enlace 'Ver detalle'.
+2024-10-27 17:25:39 - El modal de carga ha desaparecido.
+2024-10-27 17:25:50 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 17:25:50 - Sección 'Documentos' expandida.
+2024-10-27 17:25:50 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 17:25:50 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 17:25:51 - Descargando documento desde: https://snifa.sma.gob.cl/General/Descargar/1104004526
+2024-10-27 17:25:56 - Documento ignorado: 
+2024-10-27 17:25:56 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF704473AB5+28005]
+	(No symbol) [0x00007FF7043D83B0]
+	(No symbol) [0x00007FF70427580A]
+	(No symbol) [0x00007FF7042C5A3E]
+	(No symbol) [0x00007FF7042C5D2C]
+	(No symbol) [0x00007FF7042B937C]
+	(No symbol) [0x00007FF7042EBA7F]
+	(No symbol) [0x00007FF7042B9246]
+	(No symbol) [0x00007FF7042EBC50]
+	(No symbol) [0x00007FF70430B8B3]
+	(No symbol) [0x00007FF7042EB7E3]
+	(No symbol) [0x00007FF7042B75C8]
+	(No symbol) [0x00007FF7042B8731]
+	GetHandleVerifier [0x00007FF70476643D+3118829]
+	GetHandleVerifier [0x00007FF7047B6C90+3448640]
+	GetHandleVerifier [0x00007FF7047ACF0D+3408317]
+	GetHandleVerifier [0x00007FF70453A40B+841403]
+	(No symbol) [0x00007FF7043E340F]
+	(No symbol) [0x00007FF7043DF484]
+	(No symbol) [0x00007FF7043DF61D]
+	(No symbol) [0x00007FF7043CEB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 17:26:08 - Volviendo a la página de resultados.
+2024-10-27 17:26:20 - Terminando scraping.
+2024-10-27 17:44:06 - Categoría 'Agroindustrias' seleccionada.
+2024-10-27 17:45:01 - Clic en el botón 'Buscar'.
+2024-10-27 17:45:02 - El modal de carga ha desaparecido.
+2024-10-27 17:45:02 - Procesando fila 1...
+2024-10-27 17:45:02 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 17:45:03 - Clic en el enlace 'Ver detalle'.
+2024-10-27 17:45:03 - El modal de carga ha desaparecido.
+2024-10-27 17:45:03 - ID de unidad fiscalizable extraído: DFZ-2014-78-XV-RCA-IA
+2024-10-27 17:45:14 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 17:45:15 - Sección 'Documentos' expandida.
+2024-10-27 17:45:15 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 17:45:15 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 17:45:15 - Descargando documento desde: https://snifa.sma.gob.cl/General/Descargar/1104004526
+2024-10-27 17:45:20 - Documento ignorado: 
+2024-10-27 17:45:20 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6BF643AB5+28005]
+	(No symbol) [0x00007FF6BF5A83B0]
+	(No symbol) [0x00007FF6BF44580A]
+	(No symbol) [0x00007FF6BF495A3E]
+	(No symbol) [0x00007FF6BF495D2C]
+	(No symbol) [0x00007FF6BF48937C]
+	(No symbol) [0x00007FF6BF4BBA7F]
+	(No symbol) [0x00007FF6BF489246]
+	(No symbol) [0x00007FF6BF4BBC50]
+	(No symbol) [0x00007FF6BF4DB8B3]
+	(No symbol) [0x00007FF6BF4BB7E3]
+	(No symbol) [0x00007FF6BF4875C8]
+	(No symbol) [0x00007FF6BF488731]
+	GetHandleVerifier [0x00007FF6BF93643D+3118829]
+	GetHandleVerifier [0x00007FF6BF986C90+3448640]
+	GetHandleVerifier [0x00007FF6BF97CF0D+3408317]
+	GetHandleVerifier [0x00007FF6BF70A40B+841403]
+	(No symbol) [0x00007FF6BF5B340F]
+	(No symbol) [0x00007FF6BF5AF484]
+	(No symbol) [0x00007FF6BF5AF61D]
+	(No symbol) [0x00007FF6BF59EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 17:45:53 - Volviendo a la página de resultados.
+2024-10-27 17:45:55 - Procesando fila 2...
+2024-10-27 17:45:55 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 17:45:58 - Clic en el enlace 'Ver detalle'.
+2024-10-27 17:45:58 - El modal de carga ha desaparecido.
+2024-10-27 17:45:59 - ID de unidad fiscalizable extraído: DFZ-2014-2297-V-RCA-IA
+2024-10-27 17:46:09 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 17:46:10 - Sección 'Documentos' expandida.
+2024-10-27 17:46:10 - Documento ignorado: 
+2024-10-27 17:46:10 - Documento ignorado: 
+2024-10-27 17:46:10 - Documento ignorado: 
+2024-10-27 17:46:10 - Documento ignorado: 
+2024-10-27 17:46:10 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6BF643AB5+28005]
+	(No symbol) [0x00007FF6BF5A83B0]
+	(No symbol) [0x00007FF6BF44580A]
+	(No symbol) [0x00007FF6BF495A3E]
+	(No symbol) [0x00007FF6BF495D2C]
+	(No symbol) [0x00007FF6BF48937C]
+	(No symbol) [0x00007FF6BF4BBA7F]
+	(No symbol) [0x00007FF6BF489246]
+	(No symbol) [0x00007FF6BF4BBC50]
+	(No symbol) [0x00007FF6BF4DB8B3]
+	(No symbol) [0x00007FF6BF4BB7E3]
+	(No symbol) [0x00007FF6BF4875C8]
+	(No symbol) [0x00007FF6BF488731]
+	GetHandleVerifier [0x00007FF6BF93643D+3118829]
+	GetHandleVerifier [0x00007FF6BF986C90+3448640]
+	GetHandleVerifier [0x00007FF6BF97CF0D+3408317]
+	GetHandleVerifier [0x00007FF6BF70A40B+841403]
+	(No symbol) [0x00007FF6BF5B340F]
+	(No symbol) [0x00007FF6BF5AF484]
+	(No symbol) [0x00007FF6BF5AF61D]
+	(No symbol) [0x00007FF6BF59EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 17:46:33 - Volviendo a la página de resultados.
+2024-10-27 17:46:33 - Procesando fila 3...
+2024-10-27 17:46:33 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 17:46:35 - Clic en el enlace 'Ver detalle'.
+2024-10-27 17:46:35 - El modal de carga ha desaparecido.
+2024-10-27 17:46:36 - ID de unidad fiscalizable extraído: DFZ-2014-347-XIII-RCA-IA
+2024-10-27 17:46:46 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 17:46:46 - Sección 'Documentos' expandida.
+2024-10-27 17:46:46 - Documento ignorado: 
+2024-10-27 17:46:46 - Documento ignorado: 
+2024-10-27 17:46:46 - Documento ignorado: 
+2024-10-27 17:46:46 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6BF643AB5+28005]
+	(No symbol) [0x00007FF6BF5A83B0]
+	(No symbol) [0x00007FF6BF44580A]
+	(No symbol) [0x00007FF6BF495A3E]
+	(No symbol) [0x00007FF6BF495D2C]
+	(No symbol) [0x00007FF6BF48937C]
+	(No symbol) [0x00007FF6BF4BBA7F]
+	(No symbol) [0x00007FF6BF489246]
+	(No symbol) [0x00007FF6BF4BBC50]
+	(No symbol) [0x00007FF6BF4DB8B3]
+	(No symbol) [0x00007FF6BF4BB7E3]
+	(No symbol) [0x00007FF6BF4875C8]
+	(No symbol) [0x00007FF6BF488731]
+	GetHandleVerifier [0x00007FF6BF93643D+3118829]
+	GetHandleVerifier [0x00007FF6BF986C90+3448640]
+	GetHandleVerifier [0x00007FF6BF97CF0D+3408317]
+	GetHandleVerifier [0x00007FF6BF70A40B+841403]
+	(No symbol) [0x00007FF6BF5B340F]
+	(No symbol) [0x00007FF6BF5AF484]
+	(No symbol) [0x00007FF6BF5AF61D]
+	(No symbol) [0x00007FF6BF59EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 17:47:17 - Volviendo a la página de resultados.
+2024-10-27 17:47:17 - Procesando fila 4...
+2024-10-27 17:47:17 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 17:47:20 - Clic en el enlace 'Ver detalle'.
+2024-10-27 17:47:21 - El modal de carga ha desaparecido.
+2024-10-27 17:47:21 - ID de unidad fiscalizable extraído: DFZ-2014-179-XIII-RCA-IA
+2024-10-27 17:47:32 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 17:47:32 - Sección 'Documentos' expandida.
+2024-10-27 17:47:32 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 17:47:32 - Descargando documento desde: https://snifa.sma.gob.cl/General/Descargar/1104005427
+2024-10-27 17:47:37 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 17:47:37 - Documento ignorado: 
+2024-10-27 17:47:37 - Documento ignorado: 
+2024-10-27 17:47:37 - Documento ignorado: 
+2024-10-27 17:47:37 - Documento ignorado: 
+2024-10-27 17:47:37 - Documento ignorado: 
+2024-10-27 17:47:37 - Documento ignorado: 
+2024-10-27 17:47:38 - Documento ignorado: 
+2024-10-27 17:47:38 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6BF643AB5+28005]
+	(No symbol) [0x00007FF6BF5A83B0]
+	(No symbol) [0x00007FF6BF44580A]
+	(No symbol) [0x00007FF6BF495A3E]
+	(No symbol) [0x00007FF6BF495D2C]
+	(No symbol) [0x00007FF6BF48937C]
+	(No symbol) [0x00007FF6BF4BBA7F]
+	(No symbol) [0x00007FF6BF489246]
+	(No symbol) [0x00007FF6BF4BBC50]
+	(No symbol) [0x00007FF6BF4DB8B3]
+	(No symbol) [0x00007FF6BF4BB7E3]
+	(No symbol) [0x00007FF6BF4875C8]
+	(No symbol) [0x00007FF6BF488731]
+	GetHandleVerifier [0x00007FF6BF93643D+3118829]
+	GetHandleVerifier [0x00007FF6BF986C90+3448640]
+	GetHandleVerifier [0x00007FF6BF97CF0D+3408317]
+	GetHandleVerifier [0x00007FF6BF70A40B+841403]
+	(No symbol) [0x00007FF6BF5B340F]
+	(No symbol) [0x00007FF6BF5AF484]
+	(No symbol) [0x00007FF6BF5AF61D]
+	(No symbol) [0x00007FF6BF59EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 17:48:14 - Volviendo a la página de resultados.
+2024-10-27 17:48:15 - Procesando fila 5...
+2024-10-27 17:48:15 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 17:48:18 - Clic en el enlace 'Ver detalle'.
+2024-10-27 17:48:19 - El modal de carga ha desaparecido.
+2024-10-27 17:48:19 - ID de unidad fiscalizable extraído: DFZ-2014-245-VI-RCA-IA
+2024-10-27 17:48:29 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 17:48:29 - Sección 'Documentos' expandida.
+2024-10-27 17:48:30 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 17:48:31 - Descargando documento desde: https://snifa.sma.gob.cl/General/Descargar/1104006561
+2024-10-27 17:48:36 - Documento ignorado: 
+2024-10-27 17:48:36 - Documento ignorado: 
+2024-10-27 17:48:37 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6BF643AB5+28005]
+	(No symbol) [0x00007FF6BF5A83B0]
+	(No symbol) [0x00007FF6BF44580A]
+	(No symbol) [0x00007FF6BF495A3E]
+	(No symbol) [0x00007FF6BF495D2C]
+	(No symbol) [0x00007FF6BF48937C]
+	(No symbol) [0x00007FF6BF4BBA7F]
+	(No symbol) [0x00007FF6BF489246]
+	(No symbol) [0x00007FF6BF4BBC50]
+	(No symbol) [0x00007FF6BF4DB8B3]
+	(No symbol) [0x00007FF6BF4BB7E3]
+	(No symbol) [0x00007FF6BF4875C8]
+	(No symbol) [0x00007FF6BF488731]
+	GetHandleVerifier [0x00007FF6BF93643D+3118829]
+	GetHandleVerifier [0x00007FF6BF986C90+3448640]
+	GetHandleVerifier [0x00007FF6BF97CF0D+3408317]
+	GetHandleVerifier [0x00007FF6BF70A40B+841403]
+	(No symbol) [0x00007FF6BF5B340F]
+	(No symbol) [0x00007FF6BF5AF484]
+	(No symbol) [0x00007FF6BF5AF61D]
+	(No symbol) [0x00007FF6BF59EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 17:49:11 - Volviendo a la página de resultados.
+2024-10-27 17:49:12 - Procesando fila 6...
+2024-10-27 17:49:12 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 17:49:13 - Clic en el enlace 'Ver detalle'.
+2024-10-27 17:49:13 - El modal de carga ha desaparecido.
+2024-10-27 17:49:14 - ID de unidad fiscalizable extraído: DFZ-2014-2273-VI-RCA-IA
+2024-10-27 17:49:25 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 17:49:26 - Sección 'Documentos' expandida.
+2024-10-27 17:49:26 - Documento ignorado: 
+2024-10-27 17:49:26 - Documento ignorado: 
+2024-10-27 17:49:26 - Documento ignorado: 
+2024-10-27 17:49:26 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6BF643AB5+28005]
+	(No symbol) [0x00007FF6BF5A83B0]
+	(No symbol) [0x00007FF6BF44580A]
+	(No symbol) [0x00007FF6BF495A3E]
+	(No symbol) [0x00007FF6BF495D2C]
+	(No symbol) [0x00007FF6BF48937C]
+	(No symbol) [0x00007FF6BF4BBA7F]
+	(No symbol) [0x00007FF6BF489246]
+	(No symbol) [0x00007FF6BF4BBC50]
+	(No symbol) [0x00007FF6BF4DB8B3]
+	(No symbol) [0x00007FF6BF4BB7E3]
+	(No symbol) [0x00007FF6BF4875C8]
+	(No symbol) [0x00007FF6BF488731]
+	GetHandleVerifier [0x00007FF6BF93643D+3118829]
+	GetHandleVerifier [0x00007FF6BF986C90+3448640]
+	GetHandleVerifier [0x00007FF6BF97CF0D+3408317]
+	GetHandleVerifier [0x00007FF6BF70A40B+841403]
+	(No symbol) [0x00007FF6BF5B340F]
+	(No symbol) [0x00007FF6BF5AF484]
+	(No symbol) [0x00007FF6BF5AF61D]
+	(No symbol) [0x00007FF6BF59EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 17:49:53 - Volviendo a la página de resultados.
+2024-10-27 17:49:54 - Procesando fila 7...
+2024-10-27 17:49:54 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 17:49:56 - Clic en el enlace 'Ver detalle'.
+2024-10-27 17:49:56 - El modal de carga ha desaparecido.
+2024-10-27 17:49:58 - ID de unidad fiscalizable extraído: DFZ-2014-103-VI-RCA-IA
+2024-10-27 17:50:09 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 17:50:10 - Sección 'Documentos' expandida.
+2024-10-27 17:50:10 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 17:50:11 - Descargando documento desde: https://snifa.sma.gob.cl/General/Descargar/1104006385
+2024-10-27 17:50:16 - Documento ignorado: 
+2024-10-27 17:50:16 - Documento ignorado: 
+2024-10-27 17:50:16 - Documento ignorado: 
+2024-10-27 17:50:16 - Documento ignorado: 
+2024-10-27 17:50:16 - Documento ignorado: 
+2024-10-27 17:50:16 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6BF643AB5+28005]
+	(No symbol) [0x00007FF6BF5A83B0]
+	(No symbol) [0x00007FF6BF44580A]
+	(No symbol) [0x00007FF6BF495A3E]
+	(No symbol) [0x00007FF6BF495D2C]
+	(No symbol) [0x00007FF6BF48937C]
+	(No symbol) [0x00007FF6BF4BBA7F]
+	(No symbol) [0x00007FF6BF489246]
+	(No symbol) [0x00007FF6BF4BBC50]
+	(No symbol) [0x00007FF6BF4DB8B3]
+	(No symbol) [0x00007FF6BF4BB7E3]
+	(No symbol) [0x00007FF6BF4875C8]
+	(No symbol) [0x00007FF6BF488731]
+	GetHandleVerifier [0x00007FF6BF93643D+3118829]
+	GetHandleVerifier [0x00007FF6BF986C90+3448640]
+	GetHandleVerifier [0x00007FF6BF97CF0D+3408317]
+	GetHandleVerifier [0x00007FF6BF70A40B+841403]
+	(No symbol) [0x00007FF6BF5B340F]
+	(No symbol) [0x00007FF6BF5AF484]
+	(No symbol) [0x00007FF6BF5AF61D]
+	(No symbol) [0x00007FF6BF59EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 17:50:47 - Volviendo a la página de resultados.
+2024-10-27 17:50:47 - Procesando fila 8...
+2024-10-27 17:50:48 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 17:50:49 - Clic en el enlace 'Ver detalle'.
+2024-10-27 17:50:51 - El modal de carga ha desaparecido.
+2024-10-27 17:50:52 - ID de unidad fiscalizable extraído: DFZ-2014-314-VII-RCA-IA
+2024-10-27 17:51:03 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 17:51:03 - Sección 'Documentos' expandida.
+2024-10-27 17:51:03 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 17:51:03 - Descargando documento desde: https://snifa.sma.gob.cl/General/Descargar/1104004698
+2024-10-27 17:51:08 - Documento ignorado: 
+2024-10-27 17:51:08 - Documento ignorado: 
+2024-10-27 17:51:09 - Documento ignorado: 
+2024-10-27 17:51:09 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6BF643AB5+28005]
+	(No symbol) [0x00007FF6BF5A83B0]
+	(No symbol) [0x00007FF6BF44580A]
+	(No symbol) [0x00007FF6BF495A3E]
+	(No symbol) [0x00007FF6BF495D2C]
+	(No symbol) [0x00007FF6BF48937C]
+	(No symbol) [0x00007FF6BF4BBA7F]
+	(No symbol) [0x00007FF6BF489246]
+	(No symbol) [0x00007FF6BF4BBC50]
+	(No symbol) [0x00007FF6BF4DB8B3]
+	(No symbol) [0x00007FF6BF4BB7E3]
+	(No symbol) [0x00007FF6BF4875C8]
+	(No symbol) [0x00007FF6BF488731]
+	GetHandleVerifier [0x00007FF6BF93643D+3118829]
+	GetHandleVerifier [0x00007FF6BF986C90+3448640]
+	GetHandleVerifier [0x00007FF6BF97CF0D+3408317]
+	GetHandleVerifier [0x00007FF6BF70A40B+841403]
+	(No symbol) [0x00007FF6BF5B340F]
+	(No symbol) [0x00007FF6BF5AF484]
+	(No symbol) [0x00007FF6BF5AF61D]
+	(No symbol) [0x00007FF6BF59EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 17:51:39 - Volviendo a la página de resultados.
+2024-10-27 17:51:40 - Procesando fila 9...
+2024-10-27 17:51:41 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 17:51:43 - Clic en el enlace 'Ver detalle'.
+2024-10-27 17:51:43 - El modal de carga ha desaparecido.
+2024-10-27 17:51:44 - ID de unidad fiscalizable extraído: DFZ-2014-47-VII-RCA-IA
+2024-10-27 17:51:54 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 17:51:55 - Sección 'Documentos' expandida.
+2024-10-27 17:51:55 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 17:51:56 - Descargando documento desde: https://snifa.sma.gob.cl/General/Descargar/1104003534
+2024-10-27 17:52:01 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 17:52:01 - Documento ignorado: 
+2024-10-27 17:52:01 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6BF643AB5+28005]
+	(No symbol) [0x00007FF6BF5A83B0]
+	(No symbol) [0x00007FF6BF44580A]
+	(No symbol) [0x00007FF6BF495A3E]
+	(No symbol) [0x00007FF6BF495D2C]
+	(No symbol) [0x00007FF6BF48937C]
+	(No symbol) [0x00007FF6BF4BBA7F]
+	(No symbol) [0x00007FF6BF489246]
+	(No symbol) [0x00007FF6BF4BBC50]
+	(No symbol) [0x00007FF6BF4DB8B3]
+	(No symbol) [0x00007FF6BF4BB7E3]
+	(No symbol) [0x00007FF6BF4875C8]
+	(No symbol) [0x00007FF6BF488731]
+	GetHandleVerifier [0x00007FF6BF93643D+3118829]
+	GetHandleVerifier [0x00007FF6BF986C90+3448640]
+	GetHandleVerifier [0x00007FF6BF97CF0D+3408317]
+	GetHandleVerifier [0x00007FF6BF70A40B+841403]
+	(No symbol) [0x00007FF6BF5B340F]
+	(No symbol) [0x00007FF6BF5AF484]
+	(No symbol) [0x00007FF6BF5AF61D]
+	(No symbol) [0x00007FF6BF59EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 17:52:35 - Volviendo a la página de resultados.
+2024-10-27 17:52:37 - Procesando fila 10...
+2024-10-27 17:52:37 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 17:52:39 - Clic en el enlace 'Ver detalle'.
+2024-10-27 17:52:41 - El modal de carga ha desaparecido.
+2024-10-27 17:52:41 - ID de unidad fiscalizable extraído: DFZ-2014-487-VII-RCA-IA
+2024-10-27 17:52:52 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 17:52:52 - Sección 'Documentos' expandida.
+2024-10-27 17:52:52 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 17:52:52 - Documento ignorado: 
+2024-10-27 17:52:52 - Documento ignorado: 
+2024-10-27 17:52:52 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6BF643AB5+28005]
+	(No symbol) [0x00007FF6BF5A83B0]
+	(No symbol) [0x00007FF6BF44580A]
+	(No symbol) [0x00007FF6BF495A3E]
+	(No symbol) [0x00007FF6BF495D2C]
+	(No symbol) [0x00007FF6BF48937C]
+	(No symbol) [0x00007FF6BF4BBA7F]
+	(No symbol) [0x00007FF6BF489246]
+	(No symbol) [0x00007FF6BF4BBC50]
+	(No symbol) [0x00007FF6BF4DB8B3]
+	(No symbol) [0x00007FF6BF4BB7E3]
+	(No symbol) [0x00007FF6BF4875C8]
+	(No symbol) [0x00007FF6BF488731]
+	GetHandleVerifier [0x00007FF6BF93643D+3118829]
+	GetHandleVerifier [0x00007FF6BF986C90+3448640]
+	GetHandleVerifier [0x00007FF6BF97CF0D+3408317]
+	GetHandleVerifier [0x00007FF6BF70A40B+841403]
+	(No symbol) [0x00007FF6BF5B340F]
+	(No symbol) [0x00007FF6BF5AF484]
+	(No symbol) [0x00007FF6BF5AF61D]
+	(No symbol) [0x00007FF6BF59EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 17:53:31 - Volviendo a la página de resultados.
+2024-10-27 17:53:32 - Procesando fila 11...
+2024-10-27 17:53:32 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 17:53:34 - Clic en el enlace 'Ver detalle'.
+2024-10-27 17:53:34 - El modal de carga ha desaparecido.
+2024-10-27 17:53:37 - ID de unidad fiscalizable extraído: DFZ-2014-76-VII-RCA-IA
+2024-10-27 17:53:47 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 17:53:47 - Sección 'Documentos' expandida.
+2024-10-27 17:53:47 - Documento ignorado: 
+2024-10-27 17:53:47 - Documento ignorado: 
+2024-10-27 17:53:47 - Documento ignorado: 
+2024-10-27 17:53:47 - Documento ignorado: 
+2024-10-27 17:53:47 - Documento ignorado: 
+2024-10-27 17:53:47 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6BF643AB5+28005]
+	(No symbol) [0x00007FF6BF5A83B0]
+	(No symbol) [0x00007FF6BF44580A]
+	(No symbol) [0x00007FF6BF495A3E]
+	(No symbol) [0x00007FF6BF495D2C]
+	(No symbol) [0x00007FF6BF48937C]
+	(No symbol) [0x00007FF6BF4BBA7F]
+	(No symbol) [0x00007FF6BF489246]
+	(No symbol) [0x00007FF6BF4BBC50]
+	(No symbol) [0x00007FF6BF4DB8B3]
+	(No symbol) [0x00007FF6BF4BB7E3]
+	(No symbol) [0x00007FF6BF4875C8]
+	(No symbol) [0x00007FF6BF488731]
+	GetHandleVerifier [0x00007FF6BF93643D+3118829]
+	GetHandleVerifier [0x00007FF6BF986C90+3448640]
+	GetHandleVerifier [0x00007FF6BF97CF0D+3408317]
+	GetHandleVerifier [0x00007FF6BF70A40B+841403]
+	(No symbol) [0x00007FF6BF5B340F]
+	(No symbol) [0x00007FF6BF5AF484]
+	(No symbol) [0x00007FF6BF5AF61D]
+	(No symbol) [0x00007FF6BF59EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 17:54:17 - Volviendo a la página de resultados.
+2024-10-27 17:54:17 - Procesando fila 12...
+2024-10-27 17:54:17 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 17:54:18 - Clic en el enlace 'Ver detalle'.
+2024-10-27 17:54:19 - El modal de carga ha desaparecido.
+2024-10-27 17:54:19 - ID de unidad fiscalizable extraído: DFZ-2014-188-VII-RCA-IA
+2024-10-27 17:54:29 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 17:54:30 - Sección 'Documentos' expandida.
+2024-10-27 17:54:30 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 17:54:30 - Descargando documento desde: https://snifa.sma.gob.cl/General/Descargar/1104006277
+2024-10-27 17:54:35 - Documento ignorado: 
+2024-10-27 17:54:35 - Documento ignorado: 
+2024-10-27 17:54:35 - Documento ignorado: 
+2024-10-27 17:54:35 - Documento ignorado: 
+2024-10-27 17:54:36 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6BF643AB5+28005]
+	(No symbol) [0x00007FF6BF5A83B0]
+	(No symbol) [0x00007FF6BF44580A]
+	(No symbol) [0x00007FF6BF495A3E]
+	(No symbol) [0x00007FF6BF495D2C]
+	(No symbol) [0x00007FF6BF48937C]
+	(No symbol) [0x00007FF6BF4BBA7F]
+	(No symbol) [0x00007FF6BF489246]
+	(No symbol) [0x00007FF6BF4BBC50]
+	(No symbol) [0x00007FF6BF4DB8B3]
+	(No symbol) [0x00007FF6BF4BB7E3]
+	(No symbol) [0x00007FF6BF4875C8]
+	(No symbol) [0x00007FF6BF488731]
+	GetHandleVerifier [0x00007FF6BF93643D+3118829]
+	GetHandleVerifier [0x00007FF6BF986C90+3448640]
+	GetHandleVerifier [0x00007FF6BF97CF0D+3408317]
+	GetHandleVerifier [0x00007FF6BF70A40B+841403]
+	(No symbol) [0x00007FF6BF5B340F]
+	(No symbol) [0x00007FF6BF5AF484]
+	(No symbol) [0x00007FF6BF5AF61D]
+	(No symbol) [0x00007FF6BF59EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 17:55:15 - Volviendo a la página de resultados.
+2024-10-27 17:55:17 - Procesando fila 13...
+2024-10-27 17:55:17 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 17:55:19 - Clic en el enlace 'Ver detalle'.
+2024-10-27 17:55:19 - El modal de carga ha desaparecido.
+2024-10-27 17:55:20 - ID de unidad fiscalizable extraído: DFZ-2014-114-VIII-RCA-IA
+2024-10-27 17:55:31 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 17:55:31 - Sección 'Documentos' expandida.
+2024-10-27 17:55:31 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 17:55:31 - Documento ignorado: 
+2024-10-27 17:55:31 - Documento ignorado: 
+2024-10-27 17:55:31 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6BF643AB5+28005]
+	(No symbol) [0x00007FF6BF5A83B0]
+	(No symbol) [0x00007FF6BF44580A]
+	(No symbol) [0x00007FF6BF495A3E]
+	(No symbol) [0x00007FF6BF495D2C]
+	(No symbol) [0x00007FF6BF48937C]
+	(No symbol) [0x00007FF6BF4BBA7F]
+	(No symbol) [0x00007FF6BF489246]
+	(No symbol) [0x00007FF6BF4BBC50]
+	(No symbol) [0x00007FF6BF4DB8B3]
+	(No symbol) [0x00007FF6BF4BB7E3]
+	(No symbol) [0x00007FF6BF4875C8]
+	(No symbol) [0x00007FF6BF488731]
+	GetHandleVerifier [0x00007FF6BF93643D+3118829]
+	GetHandleVerifier [0x00007FF6BF986C90+3448640]
+	GetHandleVerifier [0x00007FF6BF97CF0D+3408317]
+	GetHandleVerifier [0x00007FF6BF70A40B+841403]
+	(No symbol) [0x00007FF6BF5B340F]
+	(No symbol) [0x00007FF6BF5AF484]
+	(No symbol) [0x00007FF6BF5AF61D]
+	(No symbol) [0x00007FF6BF59EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 17:56:03 - Volviendo a la página de resultados.
+2024-10-27 17:56:03 - Procesando fila 14...
+2024-10-27 17:56:04 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 17:56:05 - Clic en el enlace 'Ver detalle'.
+2024-10-27 17:56:08 - El modal de carga ha desaparecido.
+2024-10-27 17:56:08 - ID de unidad fiscalizable extraído: DFZ-2014-191-VI-NE-IA
+2024-10-27 17:56:19 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 17:56:19 - Sección 'Documentos' expandida.
+2024-10-27 17:56:19 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 17:56:20 - Descargando documento desde: https://snifa.sma.gob.cl/General/Descargar/1104004188
+2024-10-27 17:56:25 - Documento ignorado: 
+2024-10-27 17:56:25 - Documento ignorado: 
+2024-10-27 17:56:25 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6BF643AB5+28005]
+	(No symbol) [0x00007FF6BF5A83B0]
+	(No symbol) [0x00007FF6BF44580A]
+	(No symbol) [0x00007FF6BF495A3E]
+	(No symbol) [0x00007FF6BF495D2C]
+	(No symbol) [0x00007FF6BF48937C]
+	(No symbol) [0x00007FF6BF4BBA7F]
+	(No symbol) [0x00007FF6BF489246]
+	(No symbol) [0x00007FF6BF4BBC50]
+	(No symbol) [0x00007FF6BF4DB8B3]
+	(No symbol) [0x00007FF6BF4BB7E3]
+	(No symbol) [0x00007FF6BF4875C8]
+	(No symbol) [0x00007FF6BF488731]
+	GetHandleVerifier [0x00007FF6BF93643D+3118829]
+	GetHandleVerifier [0x00007FF6BF986C90+3448640]
+	GetHandleVerifier [0x00007FF6BF97CF0D+3408317]
+	GetHandleVerifier [0x00007FF6BF70A40B+841403]
+	(No symbol) [0x00007FF6BF5B340F]
+	(No symbol) [0x00007FF6BF5AF484]
+	(No symbol) [0x00007FF6BF5AF61D]
+	(No symbol) [0x00007FF6BF59EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 17:56:55 - Volviendo a la página de resultados.
+2024-10-27 17:56:56 - Procesando fila 15...
+2024-10-27 17:56:56 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 17:56:58 - Clic en el enlace 'Ver detalle'.
+2024-10-27 17:56:58 - El modal de carga ha desaparecido.
+2024-10-27 17:56:58 - ID de unidad fiscalizable extraído: DFZ-2014-123-III-NE-IA
+2024-10-27 17:57:09 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 17:57:09 - Sección 'Documentos' expandida.
+2024-10-27 17:57:09 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 17:57:10 - Descargando documento desde: https://snifa.sma.gob.cl/General/Descargar/1104004154
+2024-10-27 17:57:15 - Documento ignorado: 
+2024-10-27 17:57:15 - Documento ignorado: 
+2024-10-27 17:57:15 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6BF643AB5+28005]
+	(No symbol) [0x00007FF6BF5A83B0]
+	(No symbol) [0x00007FF6BF44580A]
+	(No symbol) [0x00007FF6BF495A3E]
+	(No symbol) [0x00007FF6BF495D2C]
+	(No symbol) [0x00007FF6BF48937C]
+	(No symbol) [0x00007FF6BF4BBA7F]
+	(No symbol) [0x00007FF6BF489246]
+	(No symbol) [0x00007FF6BF4BBC50]
+	(No symbol) [0x00007FF6BF4DB8B3]
+	(No symbol) [0x00007FF6BF4BB7E3]
+	(No symbol) [0x00007FF6BF4875C8]
+	(No symbol) [0x00007FF6BF488731]
+	GetHandleVerifier [0x00007FF6BF93643D+3118829]
+	GetHandleVerifier [0x00007FF6BF986C90+3448640]
+	GetHandleVerifier [0x00007FF6BF97CF0D+3408317]
+	GetHandleVerifier [0x00007FF6BF70A40B+841403]
+	(No symbol) [0x00007FF6BF5B340F]
+	(No symbol) [0x00007FF6BF5AF484]
+	(No symbol) [0x00007FF6BF5AF61D]
+	(No symbol) [0x00007FF6BF59EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 17:57:42 - Volviendo a la página de resultados.
+2024-10-27 17:57:42 - Procesando fila 16...
+2024-10-27 17:57:42 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 17:57:43 - Clic en el enlace 'Ver detalle'.
+2024-10-27 17:57:44 - El modal de carga ha desaparecido.
+2024-10-27 17:57:44 - ID de unidad fiscalizable extraído: DFZ-2014-211-XIII-SRCA-IA
+2024-10-27 17:57:54 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 17:57:54 - Sección 'Documentos' expandida.
+2024-10-27 17:57:54 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 17:57:54 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 17:57:55 - Descargando documento desde: https://snifa.sma.gob.cl/General/Descargar/1104003914
+2024-10-27 17:58:00 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6BF643AB5+28005]
+	(No symbol) [0x00007FF6BF5A83B0]
+	(No symbol) [0x00007FF6BF44580A]
+	(No symbol) [0x00007FF6BF495A3E]
+	(No symbol) [0x00007FF6BF495D2C]
+	(No symbol) [0x00007FF6BF48937C]
+	(No symbol) [0x00007FF6BF4BBA7F]
+	(No symbol) [0x00007FF6BF489246]
+	(No symbol) [0x00007FF6BF4BBC50]
+	(No symbol) [0x00007FF6BF4DB8B3]
+	(No symbol) [0x00007FF6BF4BB7E3]
+	(No symbol) [0x00007FF6BF4875C8]
+	(No symbol) [0x00007FF6BF488731]
+	GetHandleVerifier [0x00007FF6BF93643D+3118829]
+	GetHandleVerifier [0x00007FF6BF986C90+3448640]
+	GetHandleVerifier [0x00007FF6BF97CF0D+3408317]
+	GetHandleVerifier [0x00007FF6BF70A40B+841403]
+	(No symbol) [0x00007FF6BF5B340F]
+	(No symbol) [0x00007FF6BF5AF484]
+	(No symbol) [0x00007FF6BF5AF61D]
+	(No symbol) [0x00007FF6BF59EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 17:58:30 - Volviendo a la página de resultados.
+2024-10-27 17:58:30 - Procesando fila 17...
+2024-10-27 17:58:32 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 17:58:34 - Clic en el enlace 'Ver detalle'.
+2024-10-27 17:58:36 - El modal de carga ha desaparecido.
+2024-10-27 17:58:36 - ID de unidad fiscalizable extraído: DFZ-2014-221-IX-RCA-IA
+2024-10-27 17:58:46 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 17:58:46 - Sección 'Documentos' expandida.
+2024-10-27 17:58:46 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 17:58:47 - Descargando documento desde: https://snifa.sma.gob.cl/General/Descargar/1104004087
+2024-10-27 17:58:52 - Documento ignorado: 
+2024-10-27 17:58:52 - Documento ignorado: 
+2024-10-27 17:58:52 - Documento ignorado: 
+2024-10-27 17:58:52 - Documento ignorado: 
+2024-10-27 17:58:52 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6BF643AB5+28005]
+	(No symbol) [0x00007FF6BF5A83B0]
+	(No symbol) [0x00007FF6BF44580A]
+	(No symbol) [0x00007FF6BF495A3E]
+	(No symbol) [0x00007FF6BF495D2C]
+	(No symbol) [0x00007FF6BF48937C]
+	(No symbol) [0x00007FF6BF4BBA7F]
+	(No symbol) [0x00007FF6BF489246]
+	(No symbol) [0x00007FF6BF4BBC50]
+	(No symbol) [0x00007FF6BF4DB8B3]
+	(No symbol) [0x00007FF6BF4BB7E3]
+	(No symbol) [0x00007FF6BF4875C8]
+	(No symbol) [0x00007FF6BF488731]
+	GetHandleVerifier [0x00007FF6BF93643D+3118829]
+	GetHandleVerifier [0x00007FF6BF986C90+3448640]
+	GetHandleVerifier [0x00007FF6BF97CF0D+3408317]
+	GetHandleVerifier [0x00007FF6BF70A40B+841403]
+	(No symbol) [0x00007FF6BF5B340F]
+	(No symbol) [0x00007FF6BF5AF484]
+	(No symbol) [0x00007FF6BF5AF61D]
+	(No symbol) [0x00007FF6BF59EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 17:59:17 - Volviendo a la página de resultados.
+2024-10-27 17:59:18 - Procesando fila 18...
+2024-10-27 17:59:18 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 17:59:19 - Clic en el enlace 'Ver detalle'.
+2024-10-27 17:59:22 - El modal de carga ha desaparecido.
+2024-10-27 17:59:22 - ID de unidad fiscalizable extraído: DFZ-2014-257-VII-RCA-IA
+2024-10-27 17:59:32 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 17:59:33 - Sección 'Documentos' expandida.
+2024-10-27 17:59:33 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 17:59:33 - Descargando documento desde: https://snifa.sma.gob.cl/General/Descargar/1104004713
+2024-10-27 17:59:38 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 17:59:38 - Documento ignorado: 
+2024-10-27 17:59:38 - Documento ignorado: 
+2024-10-27 17:59:38 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6BF643AB5+28005]
+	(No symbol) [0x00007FF6BF5A83B0]
+	(No symbol) [0x00007FF6BF44580A]
+	(No symbol) [0x00007FF6BF495A3E]
+	(No symbol) [0x00007FF6BF495D2C]
+	(No symbol) [0x00007FF6BF48937C]
+	(No symbol) [0x00007FF6BF4BBA7F]
+	(No symbol) [0x00007FF6BF489246]
+	(No symbol) [0x00007FF6BF4BBC50]
+	(No symbol) [0x00007FF6BF4DB8B3]
+	(No symbol) [0x00007FF6BF4BB7E3]
+	(No symbol) [0x00007FF6BF4875C8]
+	(No symbol) [0x00007FF6BF488731]
+	GetHandleVerifier [0x00007FF6BF93643D+3118829]
+	GetHandleVerifier [0x00007FF6BF986C90+3448640]
+	GetHandleVerifier [0x00007FF6BF97CF0D+3408317]
+	GetHandleVerifier [0x00007FF6BF70A40B+841403]
+	(No symbol) [0x00007FF6BF5B340F]
+	(No symbol) [0x00007FF6BF5AF484]
+	(No symbol) [0x00007FF6BF5AF61D]
+	(No symbol) [0x00007FF6BF59EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 18:00:15 - Volviendo a la página de resultados.
+2024-10-27 18:00:16 - Procesando fila 19...
+2024-10-27 18:00:17 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 18:00:20 - Clic en el enlace 'Ver detalle'.
+2024-10-27 18:00:20 - El modal de carga ha desaparecido.
+2024-10-27 18:00:20 - ID de unidad fiscalizable extraído: DFZ-2014-355-XIII-SRCA-IA
+2024-10-27 18:00:31 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 18:00:31 - Sección 'Documentos' expandida.
+2024-10-27 18:00:31 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 18:00:31 - Documento ignorado: 
+2024-10-27 18:00:31 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6BF643AB5+28005]
+	(No symbol) [0x00007FF6BF5A83B0]
+	(No symbol) [0x00007FF6BF44580A]
+	(No symbol) [0x00007FF6BF495A3E]
+	(No symbol) [0x00007FF6BF495D2C]
+	(No symbol) [0x00007FF6BF48937C]
+	(No symbol) [0x00007FF6BF4BBA7F]
+	(No symbol) [0x00007FF6BF489246]
+	(No symbol) [0x00007FF6BF4BBC50]
+	(No symbol) [0x00007FF6BF4DB8B3]
+	(No symbol) [0x00007FF6BF4BB7E3]
+	(No symbol) [0x00007FF6BF4875C8]
+	(No symbol) [0x00007FF6BF488731]
+	GetHandleVerifier [0x00007FF6BF93643D+3118829]
+	GetHandleVerifier [0x00007FF6BF986C90+3448640]
+	GetHandleVerifier [0x00007FF6BF97CF0D+3408317]
+	GetHandleVerifier [0x00007FF6BF70A40B+841403]
+	(No symbol) [0x00007FF6BF5B340F]
+	(No symbol) [0x00007FF6BF5AF484]
+	(No symbol) [0x00007FF6BF5AF61D]
+	(No symbol) [0x00007FF6BF59EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 18:02:15 - Volviendo a la página de resultados.
+2024-10-27 18:02:16 - Procesando fila 20...
+2024-10-27 18:02:16 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 18:02:21 - Clic en el enlace 'Ver detalle'.
+2024-10-27 18:02:26 - El modal de carga ha desaparecido.
+2024-10-27 18:02:26 - ID de unidad fiscalizable extraído: DFZ-2014-337-VI-PC-IA
+2024-10-27 18:02:37 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 18:02:37 - Sección 'Documentos' expandida.
+2024-10-27 18:02:37 - Documento ignorado: 
+2024-10-27 18:02:37 - Documento ignorado: 
+2024-10-27 18:02:37 - Documento ignorado: 
+2024-10-27 18:02:37 - Documento ignorado: 
+2024-10-27 18:02:37 - Documento ignorado: 
+2024-10-27 18:02:37 - Documento ignorado: 
+2024-10-27 18:02:37 - Documento ignorado: 
+2024-10-27 18:02:37 - Documento ignorado: 
+2024-10-27 18:02:37 - Documento ignorado: 
+2024-10-27 18:02:37 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6BF643AB5+28005]
+	(No symbol) [0x00007FF6BF5A83B0]
+	(No symbol) [0x00007FF6BF44580A]
+	(No symbol) [0x00007FF6BF495A3E]
+	(No symbol) [0x00007FF6BF495D2C]
+	(No symbol) [0x00007FF6BF48937C]
+	(No symbol) [0x00007FF6BF4BBA7F]
+	(No symbol) [0x00007FF6BF489246]
+	(No symbol) [0x00007FF6BF4BBC50]
+	(No symbol) [0x00007FF6BF4DB8B3]
+	(No symbol) [0x00007FF6BF4BB7E3]
+	(No symbol) [0x00007FF6BF4875C8]
+	(No symbol) [0x00007FF6BF488731]
+	GetHandleVerifier [0x00007FF6BF93643D+3118829]
+	GetHandleVerifier [0x00007FF6BF986C90+3448640]
+	GetHandleVerifier [0x00007FF6BF97CF0D+3408317]
+	GetHandleVerifier [0x00007FF6BF70A40B+841403]
+	(No symbol) [0x00007FF6BF5B340F]
+	(No symbol) [0x00007FF6BF5AF484]
+	(No symbol) [0x00007FF6BF5AF61D]
+	(No symbol) [0x00007FF6BF59EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 18:03:26 - Volviendo a la página de resultados.
+2024-10-27 18:03:26 - Procesando fila 21...
+2024-10-27 18:03:26 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 18:03:28 - Clic en el enlace 'Ver detalle'.
+2024-10-27 18:03:29 - El modal de carga ha desaparecido.
+2024-10-27 18:03:32 - ID de unidad fiscalizable extraído: DFZ-2014-366-VI-PC-IA
+2024-10-27 18:03:43 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 18:03:43 - Sección 'Documentos' expandida.
+2024-10-27 18:03:43 - Documento ignorado: 
+2024-10-27 18:03:43 - Documento ignorado: 
+2024-10-27 18:03:43 - Documento ignorado: 
+2024-10-27 18:03:43 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6BF643AB5+28005]
+	(No symbol) [0x00007FF6BF5A83B0]
+	(No symbol) [0x00007FF6BF44580A]
+	(No symbol) [0x00007FF6BF495A3E]
+	(No symbol) [0x00007FF6BF495D2C]
+	(No symbol) [0x00007FF6BF48937C]
+	(No symbol) [0x00007FF6BF4BBA7F]
+	(No symbol) [0x00007FF6BF489246]
+	(No symbol) [0x00007FF6BF4BBC50]
+	(No symbol) [0x00007FF6BF4DB8B3]
+	(No symbol) [0x00007FF6BF4BB7E3]
+	(No symbol) [0x00007FF6BF4875C8]
+	(No symbol) [0x00007FF6BF488731]
+	GetHandleVerifier [0x00007FF6BF93643D+3118829]
+	GetHandleVerifier [0x00007FF6BF986C90+3448640]
+	GetHandleVerifier [0x00007FF6BF97CF0D+3408317]
+	GetHandleVerifier [0x00007FF6BF70A40B+841403]
+	(No symbol) [0x00007FF6BF5B340F]
+	(No symbol) [0x00007FF6BF5AF484]
+	(No symbol) [0x00007FF6BF5AF61D]
+	(No symbol) [0x00007FF6BF59EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 18:04:10 - Volviendo a la página de resultados.
+2024-10-27 18:04:10 - Procesando fila 22...
+2024-10-27 18:04:10 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 18:04:15 - Terminando scraping.
+2024-10-27 18:23:05 - Categoría 'Agroindustrias' seleccionada.
+2024-10-27 18:23:50 - Clic en el botón 'Buscar'.
+2024-10-27 18:23:50 - El modal de carga ha desaparecido.
+2024-10-27 18:23:50 - Procesando fila 1...
+2024-10-27 18:23:50 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 18:23:52 - Clic en el enlace 'Ver detalle'.
+2024-10-27 18:23:52 - El modal de carga ha desaparecido.
+2024-10-27 18:23:52 - ID de unidad fiscalizable extraído: DFZ-2014-78-XV-RCA-IA
+2024-10-27 18:24:03 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 18:24:03 - Sección 'Documentos' expandida.
+2024-10-27 18:24:03 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 18:24:03 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 18:24:06 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+2024-10-27 18:24:07 - Documento ignorado: 
+2024-10-27 18:24:07 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7830E3AB5+28005]
+	(No symbol) [0x00007FF7830483B0]
+	(No symbol) [0x00007FF782EE580A]
+	(No symbol) [0x00007FF782F35A3E]
+	(No symbol) [0x00007FF782F35D2C]
+	(No symbol) [0x00007FF782F2937C]
+	(No symbol) [0x00007FF782F5BA7F]
+	(No symbol) [0x00007FF782F29246]
+	(No symbol) [0x00007FF782F5BC50]
+	(No symbol) [0x00007FF782F7B8B3]
+	(No symbol) [0x00007FF782F5B7E3]
+	(No symbol) [0x00007FF782F275C8]
+	(No symbol) [0x00007FF782F28731]
+	GetHandleVerifier [0x00007FF7833D643D+3118829]
+	GetHandleVerifier [0x00007FF783426C90+3448640]
+	GetHandleVerifier [0x00007FF78341CF0D+3408317]
+	GetHandleVerifier [0x00007FF7831AA40B+841403]
+	(No symbol) [0x00007FF78305340F]
+	(No symbol) [0x00007FF78304F484]
+	(No symbol) [0x00007FF78304F61D]
+	(No symbol) [0x00007FF78303EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 18:24:29 - Volviendo a la página de resultados.
+2024-10-27 18:24:29 - Procesando fila 2...
+2024-10-27 18:24:29 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 18:24:30 - Clic en el enlace 'Ver detalle'.
+2024-10-27 18:24:30 - El modal de carga ha desaparecido.
+2024-10-27 18:24:30 - ID de unidad fiscalizable extraído: DFZ-2014-2297-V-RCA-IA
+2024-10-27 18:24:40 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 18:24:41 - Sección 'Documentos' expandida.
+2024-10-27 18:24:41 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 18:24:45 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf
+2024-10-27 18:24:45 - Documento ignorado: 
+2024-10-27 18:24:45 - Documento ignorado: 
+2024-10-27 18:24:45 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7830E3AB5+28005]
+	(No symbol) [0x00007FF7830483B0]
+	(No symbol) [0x00007FF782EE580A]
+	(No symbol) [0x00007FF782F35A3E]
+	(No symbol) [0x00007FF782F35D2C]
+	(No symbol) [0x00007FF782F2937C]
+	(No symbol) [0x00007FF782F5BA7F]
+	(No symbol) [0x00007FF782F29246]
+	(No symbol) [0x00007FF782F5BC50]
+	(No symbol) [0x00007FF782F7B8B3]
+	(No symbol) [0x00007FF782F5B7E3]
+	(No symbol) [0x00007FF782F275C8]
+	(No symbol) [0x00007FF782F28731]
+	GetHandleVerifier [0x00007FF7833D643D+3118829]
+	GetHandleVerifier [0x00007FF783426C90+3448640]
+	GetHandleVerifier [0x00007FF78341CF0D+3408317]
+	GetHandleVerifier [0x00007FF7831AA40B+841403]
+	(No symbol) [0x00007FF78305340F]
+	(No symbol) [0x00007FF78304F484]
+	(No symbol) [0x00007FF78304F61D]
+	(No symbol) [0x00007FF78303EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 18:25:03 - Volviendo a la página de resultados.
+2024-10-27 18:25:03 - Procesando fila 3...
+2024-10-27 18:25:04 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 18:25:05 - Clic en el enlace 'Ver detalle'.
+2024-10-27 18:25:05 - El modal de carga ha desaparecido.
+2024-10-27 18:25:05 - ID de unidad fiscalizable extraído: DFZ-2014-347-XIII-RCA-IA
+2024-10-27 18:25:15 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 18:25:15 - Sección 'Documentos' expandida.
+2024-10-27 18:25:15 - Documento ignorado: 
+2024-10-27 18:25:15 - Documento ignorado: 
+2024-10-27 18:25:15 - Documento ignorado: 
+2024-10-27 18:25:15 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7830E3AB5+28005]
+	(No symbol) [0x00007FF7830483B0]
+	(No symbol) [0x00007FF782EE580A]
+	(No symbol) [0x00007FF782F35A3E]
+	(No symbol) [0x00007FF782F35D2C]
+	(No symbol) [0x00007FF782F2937C]
+	(No symbol) [0x00007FF782F5BA7F]
+	(No symbol) [0x00007FF782F29246]
+	(No symbol) [0x00007FF782F5BC50]
+	(No symbol) [0x00007FF782F7B8B3]
+	(No symbol) [0x00007FF782F5B7E3]
+	(No symbol) [0x00007FF782F275C8]
+	(No symbol) [0x00007FF782F28731]
+	GetHandleVerifier [0x00007FF7833D643D+3118829]
+	GetHandleVerifier [0x00007FF783426C90+3448640]
+	GetHandleVerifier [0x00007FF78341CF0D+3408317]
+	GetHandleVerifier [0x00007FF7831AA40B+841403]
+	(No symbol) [0x00007FF78305340F]
+	(No symbol) [0x00007FF78304F484]
+	(No symbol) [0x00007FF78304F61D]
+	(No symbol) [0x00007FF78303EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 18:25:30 - Volviendo a la página de resultados.
+2024-10-27 18:25:30 - Procesando fila 4...
+2024-10-27 18:25:30 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 18:25:31 - Clic en el enlace 'Ver detalle'.
+2024-10-27 18:25:32 - El modal de carga ha desaparecido.
+2024-10-27 18:25:32 - ID de unidad fiscalizable extraído: DFZ-2014-179-XIII-RCA-IA
+2024-10-27 18:25:42 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 18:25:42 - Sección 'Documentos' expandida.
+2024-10-27 18:25:42 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 18:25:44 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-179-XIII-RCA-IA.pdf
+2024-10-27 18:25:44 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 18:25:44 - Documento ignorado: 
+2024-10-27 18:25:44 - Documento ignorado: 
+2024-10-27 18:25:44 - Documento ignorado: 
+2024-10-27 18:25:44 - Documento ignorado: 
+2024-10-27 18:25:44 - Documento ignorado: 
+2024-10-27 18:25:44 - Documento ignorado: 
+2024-10-27 18:25:44 - Documento ignorado: 
+2024-10-27 18:25:44 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7830E3AB5+28005]
+	(No symbol) [0x00007FF7830483B0]
+	(No symbol) [0x00007FF782EE580A]
+	(No symbol) [0x00007FF782F35A3E]
+	(No symbol) [0x00007FF782F35D2C]
+	(No symbol) [0x00007FF782F2937C]
+	(No symbol) [0x00007FF782F5BA7F]
+	(No symbol) [0x00007FF782F29246]
+	(No symbol) [0x00007FF782F5BC50]
+	(No symbol) [0x00007FF782F7B8B3]
+	(No symbol) [0x00007FF782F5B7E3]
+	(No symbol) [0x00007FF782F275C8]
+	(No symbol) [0x00007FF782F28731]
+	GetHandleVerifier [0x00007FF7833D643D+3118829]
+	GetHandleVerifier [0x00007FF783426C90+3448640]
+	GetHandleVerifier [0x00007FF78341CF0D+3408317]
+	GetHandleVerifier [0x00007FF7831AA40B+841403]
+	(No symbol) [0x00007FF78305340F]
+	(No symbol) [0x00007FF78304F484]
+	(No symbol) [0x00007FF78304F61D]
+	(No symbol) [0x00007FF78303EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 18:26:03 - Volviendo a la página de resultados.
+2024-10-27 18:26:03 - Procesando fila 5...
+2024-10-27 18:26:03 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 18:26:05 - Clic en el enlace 'Ver detalle'.
+2024-10-27 18:26:05 - El modal de carga ha desaparecido.
+2024-10-27 18:26:05 - ID de unidad fiscalizable extraído: DFZ-2014-245-VI-RCA-IA
+2024-10-27 18:26:15 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 18:26:16 - Sección 'Documentos' expandida.
+2024-10-27 18:26:16 - Documento ignorado: 
+2024-10-27 18:26:16 - Documento ignorado: 
+2024-10-27 18:26:16 - Documento ignorado: 
+2024-10-27 18:26:16 - Documento ignorado: 
+2024-10-27 18:26:16 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7830E3AB5+28005]
+	(No symbol) [0x00007FF7830483B0]
+	(No symbol) [0x00007FF782EE580A]
+	(No symbol) [0x00007FF782F35A3E]
+	(No symbol) [0x00007FF782F35D2C]
+	(No symbol) [0x00007FF782F2937C]
+	(No symbol) [0x00007FF782F5BA7F]
+	(No symbol) [0x00007FF782F29246]
+	(No symbol) [0x00007FF782F5BC50]
+	(No symbol) [0x00007FF782F7B8B3]
+	(No symbol) [0x00007FF782F5B7E3]
+	(No symbol) [0x00007FF782F275C8]
+	(No symbol) [0x00007FF782F28731]
+	GetHandleVerifier [0x00007FF7833D643D+3118829]
+	GetHandleVerifier [0x00007FF783426C90+3448640]
+	GetHandleVerifier [0x00007FF78341CF0D+3408317]
+	GetHandleVerifier [0x00007FF7831AA40B+841403]
+	(No symbol) [0x00007FF78305340F]
+	(No symbol) [0x00007FF78304F484]
+	(No symbol) [0x00007FF78304F61D]
+	(No symbol) [0x00007FF78303EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 18:26:52 - Volviendo a la página de resultados.
+2024-10-27 18:26:52 - Procesando fila 6...
+2024-10-27 18:26:53 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 18:26:55 - Clic en el enlace 'Ver detalle'.
+2024-10-27 18:26:56 - El modal de carga ha desaparecido.
+2024-10-27 18:26:56 - ID de unidad fiscalizable extraído: DFZ-2014-2273-VI-RCA-IA
+2024-10-27 18:27:06 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 18:27:06 - Sección 'Documentos' expandida.
+2024-10-27 18:27:07 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 18:27:07 - Documento ignorado: 
+2024-10-27 18:27:07 - Documento ignorado: 
+2024-10-27 18:27:07 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7830E3AB5+28005]
+	(No symbol) [0x00007FF7830483B0]
+	(No symbol) [0x00007FF782EE580A]
+	(No symbol) [0x00007FF782F35A3E]
+	(No symbol) [0x00007FF782F35D2C]
+	(No symbol) [0x00007FF782F2937C]
+	(No symbol) [0x00007FF782F5BA7F]
+	(No symbol) [0x00007FF782F29246]
+	(No symbol) [0x00007FF782F5BC50]
+	(No symbol) [0x00007FF782F7B8B3]
+	(No symbol) [0x00007FF782F5B7E3]
+	(No symbol) [0x00007FF782F275C8]
+	(No symbol) [0x00007FF782F28731]
+	GetHandleVerifier [0x00007FF7833D643D+3118829]
+	GetHandleVerifier [0x00007FF783426C90+3448640]
+	GetHandleVerifier [0x00007FF78341CF0D+3408317]
+	GetHandleVerifier [0x00007FF7831AA40B+841403]
+	(No symbol) [0x00007FF78305340F]
+	(No symbol) [0x00007FF78304F484]
+	(No symbol) [0x00007FF78304F61D]
+	(No symbol) [0x00007FF78303EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 18:27:25 - Volviendo a la página de resultados.
+2024-10-27 18:27:25 - Procesando fila 7...
+2024-10-27 18:27:25 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 18:27:27 - Clic en el enlace 'Ver detalle'.
+2024-10-27 18:27:27 - El modal de carga ha desaparecido.
+2024-10-27 18:27:27 - ID de unidad fiscalizable extraído: DFZ-2014-103-VI-RCA-IA
+2024-10-27 18:27:38 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 18:27:38 - Sección 'Documentos' expandida.
+2024-10-27 18:27:38 - Documento ignorado: 
+2024-10-27 18:27:38 - Documento ignorado: 
+2024-10-27 18:27:38 - Documento ignorado: 
+2024-10-27 18:27:38 - Documento ignorado: 
+2024-10-27 18:27:38 - Documento ignorado: 
+2024-10-27 18:27:38 - Documento ignorado: 
+2024-10-27 18:27:38 - Documento ignorado: 
+2024-10-27 18:27:38 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7830E3AB5+28005]
+	(No symbol) [0x00007FF7830483B0]
+	(No symbol) [0x00007FF782EE580A]
+	(No symbol) [0x00007FF782F35A3E]
+	(No symbol) [0x00007FF782F35D2C]
+	(No symbol) [0x00007FF782F2937C]
+	(No symbol) [0x00007FF782F5BA7F]
+	(No symbol) [0x00007FF782F29246]
+	(No symbol) [0x00007FF782F5BC50]
+	(No symbol) [0x00007FF782F7B8B3]
+	(No symbol) [0x00007FF782F5B7E3]
+	(No symbol) [0x00007FF782F275C8]
+	(No symbol) [0x00007FF782F28731]
+	GetHandleVerifier [0x00007FF7833D643D+3118829]
+	GetHandleVerifier [0x00007FF783426C90+3448640]
+	GetHandleVerifier [0x00007FF78341CF0D+3408317]
+	GetHandleVerifier [0x00007FF7831AA40B+841403]
+	(No symbol) [0x00007FF78305340F]
+	(No symbol) [0x00007FF78304F484]
+	(No symbol) [0x00007FF78304F61D]
+	(No symbol) [0x00007FF78303EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 18:27:58 - Volviendo a la página de resultados.
+2024-10-27 18:27:59 - Procesando fila 8...
+2024-10-27 18:28:01 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 18:28:08 - Clic en el enlace 'Ver detalle'.
+2024-10-27 18:28:08 - El modal de carga ha desaparecido.
+2024-10-27 18:28:08 - ID de unidad fiscalizable extraído: DFZ-2014-314-VII-RCA-IA
+2024-10-27 18:28:18 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 18:28:19 - Sección 'Documentos' expandida.
+2024-10-27 18:28:19 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 18:28:22 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-314-VII-RCA-IA.pdf
+2024-10-27 18:28:22 - Documento ignorado: 
+2024-10-27 18:28:22 - Documento ignorado: 
+2024-10-27 18:28:22 - Documento ignorado: 
+2024-10-27 18:28:22 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7830E3AB5+28005]
+	(No symbol) [0x00007FF7830483B0]
+	(No symbol) [0x00007FF782EE580A]
+	(No symbol) [0x00007FF782F35A3E]
+	(No symbol) [0x00007FF782F35D2C]
+	(No symbol) [0x00007FF782F2937C]
+	(No symbol) [0x00007FF782F5BA7F]
+	(No symbol) [0x00007FF782F29246]
+	(No symbol) [0x00007FF782F5BC50]
+	(No symbol) [0x00007FF782F7B8B3]
+	(No symbol) [0x00007FF782F5B7E3]
+	(No symbol) [0x00007FF782F275C8]
+	(No symbol) [0x00007FF782F28731]
+	GetHandleVerifier [0x00007FF7833D643D+3118829]
+	GetHandleVerifier [0x00007FF783426C90+3448640]
+	GetHandleVerifier [0x00007FF78341CF0D+3408317]
+	GetHandleVerifier [0x00007FF7831AA40B+841403]
+	(No symbol) [0x00007FF78305340F]
+	(No symbol) [0x00007FF78304F484]
+	(No symbol) [0x00007FF78304F61D]
+	(No symbol) [0x00007FF78303EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 18:28:40 - Volviendo a la página de resultados.
+2024-10-27 18:28:40 - Procesando fila 9...
+2024-10-27 18:28:40 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 18:28:41 - Clic en el enlace 'Ver detalle'.
+2024-10-27 18:28:41 - El modal de carga ha desaparecido.
+2024-10-27 18:28:41 - ID de unidad fiscalizable extraído: DFZ-2014-47-VII-RCA-IA
+2024-10-27 18:28:51 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 18:28:52 - Sección 'Documentos' expandida.
+2024-10-27 18:28:52 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 18:28:52 - Documento ignorado: 
+2024-10-27 18:28:52 - Documento ignorado: 
+2024-10-27 18:28:52 - Documento ignorado: 
+2024-10-27 18:28:52 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7830E3AB5+28005]
+	(No symbol) [0x00007FF7830483B0]
+	(No symbol) [0x00007FF782EE580A]
+	(No symbol) [0x00007FF782F35A3E]
+	(No symbol) [0x00007FF782F35D2C]
+	(No symbol) [0x00007FF782F2937C]
+	(No symbol) [0x00007FF782F5BA7F]
+	(No symbol) [0x00007FF782F29246]
+	(No symbol) [0x00007FF782F5BC50]
+	(No symbol) [0x00007FF782F7B8B3]
+	(No symbol) [0x00007FF782F5B7E3]
+	(No symbol) [0x00007FF782F275C8]
+	(No symbol) [0x00007FF782F28731]
+	GetHandleVerifier [0x00007FF7833D643D+3118829]
+	GetHandleVerifier [0x00007FF783426C90+3448640]
+	GetHandleVerifier [0x00007FF78341CF0D+3408317]
+	GetHandleVerifier [0x00007FF7831AA40B+841403]
+	(No symbol) [0x00007FF78305340F]
+	(No symbol) [0x00007FF78304F484]
+	(No symbol) [0x00007FF78304F61D]
+	(No symbol) [0x00007FF78303EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 18:29:10 - Volviendo a la página de resultados.
+2024-10-27 18:29:10 - Procesando fila 10...
+2024-10-27 18:29:11 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 18:29:11 - Clic en el enlace 'Ver detalle'.
+2024-10-27 18:29:12 - El modal de carga ha desaparecido.
+2024-10-27 18:29:12 - ID de unidad fiscalizable extraído: DFZ-2014-487-VII-RCA-IA
+2024-10-27 18:29:22 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 18:29:22 - Sección 'Documentos' expandida.
+2024-10-27 18:29:22 - Documento ignorado: 
+2024-10-27 18:29:22 - Documento ignorado: 
+2024-10-27 18:29:22 - Documento ignorado: 
+2024-10-27 18:29:23 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7830E3AB5+28005]
+	(No symbol) [0x00007FF7830483B0]
+	(No symbol) [0x00007FF782EE580A]
+	(No symbol) [0x00007FF782F35A3E]
+	(No symbol) [0x00007FF782F35D2C]
+	(No symbol) [0x00007FF782F2937C]
+	(No symbol) [0x00007FF782F5BA7F]
+	(No symbol) [0x00007FF782F29246]
+	(No symbol) [0x00007FF782F5BC50]
+	(No symbol) [0x00007FF782F7B8B3]
+	(No symbol) [0x00007FF782F5B7E3]
+	(No symbol) [0x00007FF782F275C8]
+	(No symbol) [0x00007FF782F28731]
+	GetHandleVerifier [0x00007FF7833D643D+3118829]
+	GetHandleVerifier [0x00007FF783426C90+3448640]
+	GetHandleVerifier [0x00007FF78341CF0D+3408317]
+	GetHandleVerifier [0x00007FF7831AA40B+841403]
+	(No symbol) [0x00007FF78305340F]
+	(No symbol) [0x00007FF78304F484]
+	(No symbol) [0x00007FF78304F61D]
+	(No symbol) [0x00007FF78303EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 18:29:39 - Volviendo a la página de resultados.
+2024-10-27 18:29:39 - Procesando fila 11...
+2024-10-27 18:29:39 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 18:29:40 - Clic en el enlace 'Ver detalle'.
+2024-10-27 18:29:41 - El modal de carga ha desaparecido.
+2024-10-27 18:29:41 - ID de unidad fiscalizable extraído: DFZ-2014-76-VII-RCA-IA
+2024-10-27 18:29:51 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 18:29:51 - Sección 'Documentos' expandida.
+2024-10-27 18:29:51 - Documento ignorado: 
+2024-10-27 18:29:51 - Documento ignorado: 
+2024-10-27 18:29:51 - Documento ignorado: 
+2024-10-27 18:29:51 - Documento ignorado: 
+2024-10-27 18:29:51 - Documento ignorado: 
+2024-10-27 18:29:51 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7830E3AB5+28005]
+	(No symbol) [0x00007FF7830483B0]
+	(No symbol) [0x00007FF782EE580A]
+	(No symbol) [0x00007FF782F35A3E]
+	(No symbol) [0x00007FF782F35D2C]
+	(No symbol) [0x00007FF782F2937C]
+	(No symbol) [0x00007FF782F5BA7F]
+	(No symbol) [0x00007FF782F29246]
+	(No symbol) [0x00007FF782F5BC50]
+	(No symbol) [0x00007FF782F7B8B3]
+	(No symbol) [0x00007FF782F5B7E3]
+	(No symbol) [0x00007FF782F275C8]
+	(No symbol) [0x00007FF782F28731]
+	GetHandleVerifier [0x00007FF7833D643D+3118829]
+	GetHandleVerifier [0x00007FF783426C90+3448640]
+	GetHandleVerifier [0x00007FF78341CF0D+3408317]
+	GetHandleVerifier [0x00007FF7831AA40B+841403]
+	(No symbol) [0x00007FF78305340F]
+	(No symbol) [0x00007FF78304F484]
+	(No symbol) [0x00007FF78304F61D]
+	(No symbol) [0x00007FF78303EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 18:30:07 - Volviendo a la página de resultados.
+2024-10-27 18:30:07 - Procesando fila 12...
+2024-10-27 18:30:07 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 18:30:08 - Clic en el enlace 'Ver detalle'.
+2024-10-27 18:30:09 - El modal de carga ha desaparecido.
+2024-10-27 18:30:09 - ID de unidad fiscalizable extraído: DFZ-2014-188-VII-RCA-IA
+2024-10-27 18:30:19 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 18:30:19 - Sección 'Documentos' expandida.
+2024-10-27 18:30:19 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 18:30:20 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-188-VII-RCA-IA.pdf
+2024-10-27 18:30:20 - Documento ignorado: 
+2024-10-27 18:30:20 - Documento ignorado: 
+2024-10-27 18:30:20 - Documento ignorado: 
+2024-10-27 18:30:20 - Documento ignorado: 
+2024-10-27 18:30:20 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7830E3AB5+28005]
+	(No symbol) [0x00007FF7830483B0]
+	(No symbol) [0x00007FF782EE580A]
+	(No symbol) [0x00007FF782F35A3E]
+	(No symbol) [0x00007FF782F35D2C]
+	(No symbol) [0x00007FF782F2937C]
+	(No symbol) [0x00007FF782F5BA7F]
+	(No symbol) [0x00007FF782F29246]
+	(No symbol) [0x00007FF782F5BC50]
+	(No symbol) [0x00007FF782F7B8B3]
+	(No symbol) [0x00007FF782F5B7E3]
+	(No symbol) [0x00007FF782F275C8]
+	(No symbol) [0x00007FF782F28731]
+	GetHandleVerifier [0x00007FF7833D643D+3118829]
+	GetHandleVerifier [0x00007FF783426C90+3448640]
+	GetHandleVerifier [0x00007FF78341CF0D+3408317]
+	GetHandleVerifier [0x00007FF7831AA40B+841403]
+	(No symbol) [0x00007FF78305340F]
+	(No symbol) [0x00007FF78304F484]
+	(No symbol) [0x00007FF78304F61D]
+	(No symbol) [0x00007FF78303EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 18:30:37 - Volviendo a la página de resultados.
+2024-10-27 18:30:37 - Procesando fila 13...
+2024-10-27 18:30:37 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 18:30:38 - Clic en el enlace 'Ver detalle'.
+2024-10-27 18:30:39 - El modal de carga ha desaparecido.
+2024-10-27 18:30:39 - ID de unidad fiscalizable extraído: DFZ-2014-114-VIII-RCA-IA
+2024-10-27 18:30:49 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 18:30:50 - Sección 'Documentos' expandida.
+2024-10-27 18:30:50 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 18:30:51 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-114-VIII-RCA-IA.pdf
+2024-10-27 18:30:51 - Documento ignorado: 
+2024-10-27 18:30:51 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7830E3AB5+28005]
+	(No symbol) [0x00007FF7830483B0]
+	(No symbol) [0x00007FF782EE580A]
+	(No symbol) [0x00007FF782F35A3E]
+	(No symbol) [0x00007FF782F35D2C]
+	(No symbol) [0x00007FF782F2937C]
+	(No symbol) [0x00007FF782F5BA7F]
+	(No symbol) [0x00007FF782F29246]
+	(No symbol) [0x00007FF782F5BC50]
+	(No symbol) [0x00007FF782F7B8B3]
+	(No symbol) [0x00007FF782F5B7E3]
+	(No symbol) [0x00007FF782F275C8]
+	(No symbol) [0x00007FF782F28731]
+	GetHandleVerifier [0x00007FF7833D643D+3118829]
+	GetHandleVerifier [0x00007FF783426C90+3448640]
+	GetHandleVerifier [0x00007FF78341CF0D+3408317]
+	GetHandleVerifier [0x00007FF7831AA40B+841403]
+	(No symbol) [0x00007FF78305340F]
+	(No symbol) [0x00007FF78304F484]
+	(No symbol) [0x00007FF78304F61D]
+	(No symbol) [0x00007FF78303EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 18:31:08 - Volviendo a la página de resultados.
+2024-10-27 18:31:08 - Procesando fila 14...
+2024-10-27 18:31:08 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 18:31:10 - Clic en el enlace 'Ver detalle'.
+2024-10-27 18:31:10 - El modal de carga ha desaparecido.
+2024-10-27 18:31:10 - ID de unidad fiscalizable extraído: DFZ-2014-191-VI-NE-IA
+2024-10-27 18:31:21 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 18:31:21 - Sección 'Documentos' expandida.
+2024-10-27 18:31:21 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 18:31:21 - Documento ignorado: 
+2024-10-27 18:31:21 - Documento ignorado: 
+2024-10-27 18:31:21 - Documento ignorado: 
+2024-10-27 18:31:21 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7830E3AB5+28005]
+	(No symbol) [0x00007FF7830483B0]
+	(No symbol) [0x00007FF782EE580A]
+	(No symbol) [0x00007FF782F35A3E]
+	(No symbol) [0x00007FF782F35D2C]
+	(No symbol) [0x00007FF782F2937C]
+	(No symbol) [0x00007FF782F5BA7F]
+	(No symbol) [0x00007FF782F29246]
+	(No symbol) [0x00007FF782F5BC50]
+	(No symbol) [0x00007FF782F7B8B3]
+	(No symbol) [0x00007FF782F5B7E3]
+	(No symbol) [0x00007FF782F275C8]
+	(No symbol) [0x00007FF782F28731]
+	GetHandleVerifier [0x00007FF7833D643D+3118829]
+	GetHandleVerifier [0x00007FF783426C90+3448640]
+	GetHandleVerifier [0x00007FF78341CF0D+3408317]
+	GetHandleVerifier [0x00007FF7831AA40B+841403]
+	(No symbol) [0x00007FF78305340F]
+	(No symbol) [0x00007FF78304F484]
+	(No symbol) [0x00007FF78304F61D]
+	(No symbol) [0x00007FF78303EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 18:31:37 - Volviendo a la página de resultados.
+2024-10-27 18:31:37 - Procesando fila 15...
+2024-10-27 18:31:37 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 18:31:38 - Clic en el enlace 'Ver detalle'.
+2024-10-27 18:31:39 - El modal de carga ha desaparecido.
+2024-10-27 18:31:39 - ID de unidad fiscalizable extraído: DFZ-2014-123-III-NE-IA
+2024-10-27 18:31:49 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 18:31:49 - Sección 'Documentos' expandida.
+2024-10-27 18:31:49 - Documento ignorado: 
+2024-10-27 18:31:50 - Documento ignorado: 
+2024-10-27 18:31:50 - Documento ignorado: 
+2024-10-27 18:31:50 - Documento ignorado: 
+2024-10-27 18:31:50 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7830E3AB5+28005]
+	(No symbol) [0x00007FF7830483B0]
+	(No symbol) [0x00007FF782EE580A]
+	(No symbol) [0x00007FF782F35A3E]
+	(No symbol) [0x00007FF782F35D2C]
+	(No symbol) [0x00007FF782F2937C]
+	(No symbol) [0x00007FF782F5BA7F]
+	(No symbol) [0x00007FF782F29246]
+	(No symbol) [0x00007FF782F5BC50]
+	(No symbol) [0x00007FF782F7B8B3]
+	(No symbol) [0x00007FF782F5B7E3]
+	(No symbol) [0x00007FF782F275C8]
+	(No symbol) [0x00007FF782F28731]
+	GetHandleVerifier [0x00007FF7833D643D+3118829]
+	GetHandleVerifier [0x00007FF783426C90+3448640]
+	GetHandleVerifier [0x00007FF78341CF0D+3408317]
+	GetHandleVerifier [0x00007FF7831AA40B+841403]
+	(No symbol) [0x00007FF78305340F]
+	(No symbol) [0x00007FF78304F484]
+	(No symbol) [0x00007FF78304F61D]
+	(No symbol) [0x00007FF78303EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 18:32:05 - Volviendo a la página de resultados.
+2024-10-27 18:32:06 - Procesando fila 16...
+2024-10-27 18:32:06 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 18:32:06 - Clic en el enlace 'Ver detalle'.
+2024-10-27 18:32:07 - El modal de carga ha desaparecido.
+2024-10-27 18:32:07 - ID de unidad fiscalizable extraído: DFZ-2014-211-XIII-SRCA-IA
+2024-10-27 18:32:17 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 18:32:17 - Sección 'Documentos' expandida.
+2024-10-27 18:32:17 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 18:32:17 - Documento ignorado: 
+2024-10-27 18:32:17 - Documento ignorado: 
+2024-10-27 18:32:17 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7830E3AB5+28005]
+	(No symbol) [0x00007FF7830483B0]
+	(No symbol) [0x00007FF782EE580A]
+	(No symbol) [0x00007FF782F35A3E]
+	(No symbol) [0x00007FF782F35D2C]
+	(No symbol) [0x00007FF782F2937C]
+	(No symbol) [0x00007FF782F5BA7F]
+	(No symbol) [0x00007FF782F29246]
+	(No symbol) [0x00007FF782F5BC50]
+	(No symbol) [0x00007FF782F7B8B3]
+	(No symbol) [0x00007FF782F5B7E3]
+	(No symbol) [0x00007FF782F275C8]
+	(No symbol) [0x00007FF782F28731]
+	GetHandleVerifier [0x00007FF7833D643D+3118829]
+	GetHandleVerifier [0x00007FF783426C90+3448640]
+	GetHandleVerifier [0x00007FF78341CF0D+3408317]
+	GetHandleVerifier [0x00007FF7831AA40B+841403]
+	(No symbol) [0x00007FF78305340F]
+	(No symbol) [0x00007FF78304F484]
+	(No symbol) [0x00007FF78304F61D]
+	(No symbol) [0x00007FF78303EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 18:32:34 - Volviendo a la página de resultados.
+2024-10-27 18:32:34 - Procesando fila 17...
+2024-10-27 18:32:34 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 18:32:37 - Clic en el enlace 'Ver detalle'.
+2024-10-27 18:32:37 - El modal de carga ha desaparecido.
+2024-10-27 18:32:38 - ID de unidad fiscalizable extraído: DFZ-2014-221-IX-RCA-IA
+2024-10-27 18:32:48 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 18:32:48 - Sección 'Documentos' expandida.
+2024-10-27 18:32:48 - Documento ignorado: 
+2024-10-27 18:32:48 - Documento ignorado: 
+2024-10-27 18:32:48 - Documento ignorado: 
+2024-10-27 18:32:48 - Documento ignorado: 
+2024-10-27 18:32:48 - Documento ignorado: 
+2024-10-27 18:32:48 - Documento ignorado: 
+2024-10-27 18:32:48 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7830E3AB5+28005]
+	(No symbol) [0x00007FF7830483B0]
+	(No symbol) [0x00007FF782EE580A]
+	(No symbol) [0x00007FF782F35A3E]
+	(No symbol) [0x00007FF782F35D2C]
+	(No symbol) [0x00007FF782F2937C]
+	(No symbol) [0x00007FF782F5BA7F]
+	(No symbol) [0x00007FF782F29246]
+	(No symbol) [0x00007FF782F5BC50]
+	(No symbol) [0x00007FF782F7B8B3]
+	(No symbol) [0x00007FF782F5B7E3]
+	(No symbol) [0x00007FF782F275C8]
+	(No symbol) [0x00007FF782F28731]
+	GetHandleVerifier [0x00007FF7833D643D+3118829]
+	GetHandleVerifier [0x00007FF783426C90+3448640]
+	GetHandleVerifier [0x00007FF78341CF0D+3408317]
+	GetHandleVerifier [0x00007FF7831AA40B+841403]
+	(No symbol) [0x00007FF78305340F]
+	(No symbol) [0x00007FF78304F484]
+	(No symbol) [0x00007FF78304F61D]
+	(No symbol) [0x00007FF78303EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 18:33:05 - Volviendo a la página de resultados.
+2024-10-27 18:33:05 - Procesando fila 18...
+2024-10-27 18:33:05 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 18:33:06 - Clic en el enlace 'Ver detalle'.
+2024-10-27 18:33:06 - El modal de carga ha desaparecido.
+2024-10-27 18:33:07 - ID de unidad fiscalizable extraído: DFZ-2014-257-VII-RCA-IA
+2024-10-27 18:33:17 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 18:33:17 - Sección 'Documentos' expandida.
+2024-10-27 18:33:17 - Documento ignorado: 
+2024-10-27 18:33:17 - Documento ignorado: 
+2024-10-27 18:33:17 - Documento ignorado: 
+2024-10-27 18:33:17 - Documento ignorado: 
+2024-10-27 18:33:17 - Documento ignorado: 
+2024-10-27 18:33:17 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7830E3AB5+28005]
+	(No symbol) [0x00007FF7830483B0]
+	(No symbol) [0x00007FF782EE580A]
+	(No symbol) [0x00007FF782F35A3E]
+	(No symbol) [0x00007FF782F35D2C]
+	(No symbol) [0x00007FF782F2937C]
+	(No symbol) [0x00007FF782F5BA7F]
+	(No symbol) [0x00007FF782F29246]
+	(No symbol) [0x00007FF782F5BC50]
+	(No symbol) [0x00007FF782F7B8B3]
+	(No symbol) [0x00007FF782F5B7E3]
+	(No symbol) [0x00007FF782F275C8]
+	(No symbol) [0x00007FF782F28731]
+	GetHandleVerifier [0x00007FF7833D643D+3118829]
+	GetHandleVerifier [0x00007FF783426C90+3448640]
+	GetHandleVerifier [0x00007FF78341CF0D+3408317]
+	GetHandleVerifier [0x00007FF7831AA40B+841403]
+	(No symbol) [0x00007FF78305340F]
+	(No symbol) [0x00007FF78304F484]
+	(No symbol) [0x00007FF78304F61D]
+	(No symbol) [0x00007FF78303EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 18:33:33 - Volviendo a la página de resultados.
+2024-10-27 18:33:33 - Procesando fila 19...
+2024-10-27 18:33:33 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 18:33:34 - Clic en el enlace 'Ver detalle'.
+2024-10-27 18:33:34 - El modal de carga ha desaparecido.
+2024-10-27 18:33:34 - ID de unidad fiscalizable extraído: DFZ-2014-355-XIII-SRCA-IA
+2024-10-27 18:33:45 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 18:33:45 - Sección 'Documentos' expandida.
+2024-10-27 18:33:45 - Documento ignorado: 
+2024-10-27 18:33:48 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-355-XIII-SRCA-IA.pdf
+2024-10-27 18:33:48 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7830E3AB5+28005]
+	(No symbol) [0x00007FF7830483B0]
+	(No symbol) [0x00007FF782EE580A]
+	(No symbol) [0x00007FF782F35A3E]
+	(No symbol) [0x00007FF782F35D2C]
+	(No symbol) [0x00007FF782F2937C]
+	(No symbol) [0x00007FF782F5BA7F]
+	(No symbol) [0x00007FF782F29246]
+	(No symbol) [0x00007FF782F5BC50]
+	(No symbol) [0x00007FF782F7B8B3]
+	(No symbol) [0x00007FF782F5B7E3]
+	(No symbol) [0x00007FF782F275C8]
+	(No symbol) [0x00007FF782F28731]
+	GetHandleVerifier [0x00007FF7833D643D+3118829]
+	GetHandleVerifier [0x00007FF783426C90+3448640]
+	GetHandleVerifier [0x00007FF78341CF0D+3408317]
+	GetHandleVerifier [0x00007FF7831AA40B+841403]
+	(No symbol) [0x00007FF78305340F]
+	(No symbol) [0x00007FF78304F484]
+	(No symbol) [0x00007FF78304F61D]
+	(No symbol) [0x00007FF78303EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 18:34:05 - Volviendo a la página de resultados.
+2024-10-27 18:34:05 - Procesando fila 20...
+2024-10-27 18:34:05 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 18:34:08 - Clic en el enlace 'Ver detalle'.
+2024-10-27 18:34:08 - El modal de carga ha desaparecido.
+2024-10-27 18:34:08 - ID de unidad fiscalizable extraído: DFZ-2014-337-VI-PC-IA
+2024-10-27 18:34:18 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 18:34:18 - Sección 'Documentos' expandida.
+2024-10-27 18:34:18 - Documento ignorado: 
+2024-10-27 18:34:18 - Documento ignorado: 
+2024-10-27 18:34:18 - Documento ignorado: 
+2024-10-27 18:34:19 - Documento ignorado: 
+2024-10-27 18:34:19 - Documento ignorado: 
+2024-10-27 18:34:19 - Documento ignorado: 
+2024-10-27 18:34:19 - Documento ignorado: 
+2024-10-27 18:34:19 - Documento ignorado: 
+2024-10-27 18:34:19 - Documento ignorado: 
+2024-10-27 18:34:19 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7830E3AB5+28005]
+	(No symbol) [0x00007FF7830483B0]
+	(No symbol) [0x00007FF782EE580A]
+	(No symbol) [0x00007FF782F35A3E]
+	(No symbol) [0x00007FF782F35D2C]
+	(No symbol) [0x00007FF782F2937C]
+	(No symbol) [0x00007FF782F5BA7F]
+	(No symbol) [0x00007FF782F29246]
+	(No symbol) [0x00007FF782F5BC50]
+	(No symbol) [0x00007FF782F7B8B3]
+	(No symbol) [0x00007FF782F5B7E3]
+	(No symbol) [0x00007FF782F275C8]
+	(No symbol) [0x00007FF782F28731]
+	GetHandleVerifier [0x00007FF7833D643D+3118829]
+	GetHandleVerifier [0x00007FF783426C90+3448640]
+	GetHandleVerifier [0x00007FF78341CF0D+3408317]
+	GetHandleVerifier [0x00007FF7831AA40B+841403]
+	(No symbol) [0x00007FF78305340F]
+	(No symbol) [0x00007FF78304F484]
+	(No symbol) [0x00007FF78304F61D]
+	(No symbol) [0x00007FF78303EB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 18:34:33 - Volviendo a la página de resultados.
+2024-10-27 18:34:33 - Procesando fila 21...
+2024-10-27 18:34:33 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 18:34:37 - Terminando scraping.
+2024-10-27 19:21:04 - Categoría 'Agroindustrias' seleccionada.
+2024-10-27 19:21:52 - Clic en el botón 'Buscar'.
+2024-10-27 19:21:52 - El modal de carga ha desaparecido.
+2024-10-27 19:21:52 - Procesando fila 1...
+2024-10-27 19:21:52 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 19:21:55 - Clic en el enlace 'Ver detalle'.
+2024-10-27 19:21:55 - El modal de carga ha desaparecido.
+2024-10-27 19:21:55 - ID de unidad fiscalizable extraído: DFZ-2014-78-XV-RCA-IA
+2024-10-27 19:22:05 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 19:22:05 - Sección 'Documentos' expandida.
+2024-10-27 19:22:05 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 19:22:05 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 19:22:06 - Archivo Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf ya existe y será sobrescrito.
+2024-10-27 19:22:10 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+2024-10-27 19:22:10 - Documento ignorado: 
+2024-10-27 19:22:10 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF65CA93AB5+28005]
+	(No symbol) [0x00007FF65C9F83B0]
+	(No symbol) [0x00007FF65C89580A]
+	(No symbol) [0x00007FF65C8E5A3E]
+	(No symbol) [0x00007FF65C8E5D2C]
+	(No symbol) [0x00007FF65C8D937C]
+	(No symbol) [0x00007FF65C90BA7F]
+	(No symbol) [0x00007FF65C8D9246]
+	(No symbol) [0x00007FF65C90BC50]
+	(No symbol) [0x00007FF65C92B8B3]
+	(No symbol) [0x00007FF65C90B7E3]
+	(No symbol) [0x00007FF65C8D75C8]
+	(No symbol) [0x00007FF65C8D8731]
+	GetHandleVerifier [0x00007FF65CD8643D+3118829]
+	GetHandleVerifier [0x00007FF65CDD6C90+3448640]
+	GetHandleVerifier [0x00007FF65CDCCF0D+3408317]
+	GetHandleVerifier [0x00007FF65CB5A40B+841403]
+	(No symbol) [0x00007FF65CA0340F]
+	(No symbol) [0x00007FF65C9FF484]
+	(No symbol) [0x00007FF65C9FF61D]
+	(No symbol) [0x00007FF65C9EEB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 19:22:34 - Volviendo a la página de resultados.
+2024-10-27 19:22:34 - Procesando fila 2...
+2024-10-27 19:22:34 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 19:22:35 - Clic en el enlace 'Ver detalle'.
+2024-10-27 19:22:37 - El modal de carga ha desaparecido.
+2024-10-27 19:22:37 - ID de unidad fiscalizable extraído: DFZ-2014-2297-V-RCA-IA
+2024-10-27 19:22:47 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 19:22:48 - Sección 'Documentos' expandida.
+2024-10-27 19:22:48 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 19:22:48 - Archivo Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf ya existe y será sobrescrito.
+2024-10-27 19:22:53 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf
+2024-10-27 19:22:54 - Documento ignorado: 
+2024-10-27 19:22:54 - Documento ignorado: 
+2024-10-27 19:22:54 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF65CA93AB5+28005]
+	(No symbol) [0x00007FF65C9F83B0]
+	(No symbol) [0x00007FF65C89580A]
+	(No symbol) [0x00007FF65C8E5A3E]
+	(No symbol) [0x00007FF65C8E5D2C]
+	(No symbol) [0x00007FF65C8D937C]
+	(No symbol) [0x00007FF65C90BA7F]
+	(No symbol) [0x00007FF65C8D9246]
+	(No symbol) [0x00007FF65C90BC50]
+	(No symbol) [0x00007FF65C92B8B3]
+	(No symbol) [0x00007FF65C90B7E3]
+	(No symbol) [0x00007FF65C8D75C8]
+	(No symbol) [0x00007FF65C8D8731]
+	GetHandleVerifier [0x00007FF65CD8643D+3118829]
+	GetHandleVerifier [0x00007FF65CDD6C90+3448640]
+	GetHandleVerifier [0x00007FF65CDCCF0D+3408317]
+	GetHandleVerifier [0x00007FF65CB5A40B+841403]
+	(No symbol) [0x00007FF65CA0340F]
+	(No symbol) [0x00007FF65C9FF484]
+	(No symbol) [0x00007FF65C9FF61D]
+	(No symbol) [0x00007FF65C9EEB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 19:23:18 - Volviendo a la página de resultados.
+2024-10-27 19:23:18 - Procesando fila 3...
+2024-10-27 19:23:18 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 19:23:20 - Clic en el enlace 'Ver detalle'.
+2024-10-27 19:23:21 - El modal de carga ha desaparecido.
+2024-10-27 19:23:22 - ID de unidad fiscalizable extraído: DFZ-2014-347-XIII-RCA-IA
+2024-10-27 19:23:32 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 19:23:32 - Sección 'Documentos' expandida.
+2024-10-27 19:23:32 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 19:23:32 - Documento ignorado: 
+2024-10-27 19:23:32 - Documento ignorado: 
+2024-10-27 19:23:32 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF65CA93AB5+28005]
+	(No symbol) [0x00007FF65C9F83B0]
+	(No symbol) [0x00007FF65C89580A]
+	(No symbol) [0x00007FF65C8E5A3E]
+	(No symbol) [0x00007FF65C8E5D2C]
+	(No symbol) [0x00007FF65C8D937C]
+	(No symbol) [0x00007FF65C90BA7F]
+	(No symbol) [0x00007FF65C8D9246]
+	(No symbol) [0x00007FF65C90BC50]
+	(No symbol) [0x00007FF65C92B8B3]
+	(No symbol) [0x00007FF65C90B7E3]
+	(No symbol) [0x00007FF65C8D75C8]
+	(No symbol) [0x00007FF65C8D8731]
+	GetHandleVerifier [0x00007FF65CD8643D+3118829]
+	GetHandleVerifier [0x00007FF65CDD6C90+3448640]
+	GetHandleVerifier [0x00007FF65CDCCF0D+3408317]
+	GetHandleVerifier [0x00007FF65CB5A40B+841403]
+	(No symbol) [0x00007FF65CA0340F]
+	(No symbol) [0x00007FF65C9FF484]
+	(No symbol) [0x00007FF65C9FF61D]
+	(No symbol) [0x00007FF65C9EEB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 19:23:55 - Volviendo a la página de resultados.
+2024-10-27 19:23:56 - Procesando fila 4...
+2024-10-27 19:23:56 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 19:23:57 - Clic en el enlace 'Ver detalle'.
+2024-10-27 19:23:58 - El modal de carga ha desaparecido.
+2024-10-27 19:23:58 - ID de unidad fiscalizable extraído: DFZ-2014-179-XIII-RCA-IA
+2024-10-27 19:24:08 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 19:24:08 - Sección 'Documentos' expandida.
+2024-10-27 19:24:08 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 19:24:08 - Documento ignorado: 
+2024-10-27 19:24:08 - Documento ignorado: 
+2024-10-27 19:24:08 - Documento ignorado: 
+2024-10-27 19:24:08 - Documento ignorado: 
+2024-10-27 19:24:08 - Documento ignorado: 
+2024-10-27 19:24:08 - Documento ignorado: 
+2024-10-27 19:24:08 - Documento ignorado: 
+2024-10-27 19:24:08 - Documento ignorado: 
+2024-10-27 19:24:08 - Documento ignorado: 
+2024-10-27 19:24:09 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF65CA93AB5+28005]
+	(No symbol) [0x00007FF65C9F83B0]
+	(No symbol) [0x00007FF65C89580A]
+	(No symbol) [0x00007FF65C8E5A3E]
+	(No symbol) [0x00007FF65C8E5D2C]
+	(No symbol) [0x00007FF65C8D937C]
+	(No symbol) [0x00007FF65C90BA7F]
+	(No symbol) [0x00007FF65C8D9246]
+	(No symbol) [0x00007FF65C90BC50]
+	(No symbol) [0x00007FF65C92B8B3]
+	(No symbol) [0x00007FF65C90B7E3]
+	(No symbol) [0x00007FF65C8D75C8]
+	(No symbol) [0x00007FF65C8D8731]
+	GetHandleVerifier [0x00007FF65CD8643D+3118829]
+	GetHandleVerifier [0x00007FF65CDD6C90+3448640]
+	GetHandleVerifier [0x00007FF65CDCCF0D+3408317]
+	GetHandleVerifier [0x00007FF65CB5A40B+841403]
+	(No symbol) [0x00007FF65CA0340F]
+	(No symbol) [0x00007FF65C9FF484]
+	(No symbol) [0x00007FF65C9FF61D]
+	(No symbol) [0x00007FF65C9EEB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 19:24:35 - Volviendo a la página de resultados.
+2024-10-27 19:24:35 - Procesando fila 5...
+2024-10-27 19:24:35 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 19:24:36 - Clic en el enlace 'Ver detalle'.
+2024-10-27 19:24:36 - El modal de carga ha desaparecido.
+2024-10-27 19:24:36 - ID de unidad fiscalizable extraído: DFZ-2014-245-VI-RCA-IA
+2024-10-27 19:24:47 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 19:24:47 - Sección 'Documentos' expandida.
+2024-10-27 19:24:47 - Documento ignorado: 
+2024-10-27 19:24:47 - Documento ignorado: 
+2024-10-27 19:24:47 - Documento ignorado: 
+2024-10-27 19:24:47 - Documento ignorado: 
+2024-10-27 19:24:47 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF65CA93AB5+28005]
+	(No symbol) [0x00007FF65C9F83B0]
+	(No symbol) [0x00007FF65C89580A]
+	(No symbol) [0x00007FF65C8E5A3E]
+	(No symbol) [0x00007FF65C8E5D2C]
+	(No symbol) [0x00007FF65C8D937C]
+	(No symbol) [0x00007FF65C90BA7F]
+	(No symbol) [0x00007FF65C8D9246]
+	(No symbol) [0x00007FF65C90BC50]
+	(No symbol) [0x00007FF65C92B8B3]
+	(No symbol) [0x00007FF65C90B7E3]
+	(No symbol) [0x00007FF65C8D75C8]
+	(No symbol) [0x00007FF65C8D8731]
+	GetHandleVerifier [0x00007FF65CD8643D+3118829]
+	GetHandleVerifier [0x00007FF65CDD6C90+3448640]
+	GetHandleVerifier [0x00007FF65CDCCF0D+3408317]
+	GetHandleVerifier [0x00007FF65CB5A40B+841403]
+	(No symbol) [0x00007FF65CA0340F]
+	(No symbol) [0x00007FF65C9FF484]
+	(No symbol) [0x00007FF65C9FF61D]
+	(No symbol) [0x00007FF65C9EEB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 19:25:12 - Volviendo a la página de resultados.
+2024-10-27 19:25:12 - Procesando fila 6...
+2024-10-27 19:25:12 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 19:25:13 - Clic en el enlace 'Ver detalle'.
+2024-10-27 19:25:13 - El modal de carga ha desaparecido.
+2024-10-27 19:25:13 - ID de unidad fiscalizable extraído: DFZ-2014-2273-VI-RCA-IA
+2024-10-27 19:25:24 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 19:25:24 - Sección 'Documentos' expandida.
+2024-10-27 19:25:24 - Documento ignorado: 
+2024-10-27 19:25:24 - Documento ignorado: 
+2024-10-27 19:25:24 - Documento ignorado: 
+2024-10-27 19:25:24 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF65CA93AB5+28005]
+	(No symbol) [0x00007FF65C9F83B0]
+	(No symbol) [0x00007FF65C89580A]
+	(No symbol) [0x00007FF65C8E5A3E]
+	(No symbol) [0x00007FF65C8E5D2C]
+	(No symbol) [0x00007FF65C8D937C]
+	(No symbol) [0x00007FF65C90BA7F]
+	(No symbol) [0x00007FF65C8D9246]
+	(No symbol) [0x00007FF65C90BC50]
+	(No symbol) [0x00007FF65C92B8B3]
+	(No symbol) [0x00007FF65C90B7E3]
+	(No symbol) [0x00007FF65C8D75C8]
+	(No symbol) [0x00007FF65C8D8731]
+	GetHandleVerifier [0x00007FF65CD8643D+3118829]
+	GetHandleVerifier [0x00007FF65CDD6C90+3448640]
+	GetHandleVerifier [0x00007FF65CDCCF0D+3408317]
+	GetHandleVerifier [0x00007FF65CB5A40B+841403]
+	(No symbol) [0x00007FF65CA0340F]
+	(No symbol) [0x00007FF65C9FF484]
+	(No symbol) [0x00007FF65C9FF61D]
+	(No symbol) [0x00007FF65C9EEB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 19:25:41 - Volviendo a la página de resultados.
+2024-10-27 19:25:41 - Procesando fila 7...
+2024-10-27 19:25:41 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 19:25:44 - Clic en el enlace 'Ver detalle'.
+2024-10-27 19:25:45 - El modal de carga ha desaparecido.
+2024-10-27 19:25:45 - ID de unidad fiscalizable extraído: DFZ-2014-103-VI-RCA-IA
+2024-10-27 19:25:55 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 19:25:55 - Sección 'Documentos' expandida.
+2024-10-27 19:25:55 - Documento ignorado: 
+2024-10-27 19:25:55 - Documento ignorado: 
+2024-10-27 19:25:55 - Documento ignorado: 
+2024-10-27 19:25:55 - Documento ignorado: 
+2024-10-27 19:25:55 - Documento ignorado: 
+2024-10-27 19:25:55 - Documento ignorado: 
+2024-10-27 19:25:55 - Documento ignorado: 
+2024-10-27 19:25:55 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF65CA93AB5+28005]
+	(No symbol) [0x00007FF65C9F83B0]
+	(No symbol) [0x00007FF65C89580A]
+	(No symbol) [0x00007FF65C8E5A3E]
+	(No symbol) [0x00007FF65C8E5D2C]
+	(No symbol) [0x00007FF65C8D937C]
+	(No symbol) [0x00007FF65C90BA7F]
+	(No symbol) [0x00007FF65C8D9246]
+	(No symbol) [0x00007FF65C90BC50]
+	(No symbol) [0x00007FF65C92B8B3]
+	(No symbol) [0x00007FF65C90B7E3]
+	(No symbol) [0x00007FF65C8D75C8]
+	(No symbol) [0x00007FF65C8D8731]
+	GetHandleVerifier [0x00007FF65CD8643D+3118829]
+	GetHandleVerifier [0x00007FF65CDD6C90+3448640]
+	GetHandleVerifier [0x00007FF65CDCCF0D+3408317]
+	GetHandleVerifier [0x00007FF65CB5A40B+841403]
+	(No symbol) [0x00007FF65CA0340F]
+	(No symbol) [0x00007FF65C9FF484]
+	(No symbol) [0x00007FF65C9FF61D]
+	(No symbol) [0x00007FF65C9EEB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 19:26:20 - Volviendo a la página de resultados.
+2024-10-27 19:26:20 - Procesando fila 8...
+2024-10-27 19:26:20 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 19:26:22 - Clic en el enlace 'Ver detalle'.
+2024-10-27 19:26:23 - El modal de carga ha desaparecido.
+2024-10-27 19:26:23 - ID de unidad fiscalizable extraído: DFZ-2014-314-VII-RCA-IA
+2024-10-27 19:26:33 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 19:26:33 - Sección 'Documentos' expandida.
+2024-10-27 19:26:33 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 19:26:33 - Archivo Informe de Fiscalización Ambiental_DFZ-2014-314-VII-RCA-IA.pdf ya existe y será sobrescrito.
+2024-10-27 19:26:34 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-314-VII-RCA-IA.pdf
+2024-10-27 19:26:34 - Documento ignorado: 
+2024-10-27 19:26:34 - Documento ignorado: 
+2024-10-27 19:26:34 - Documento ignorado: 
+2024-10-27 19:26:34 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF65CA93AB5+28005]
+	(No symbol) [0x00007FF65C9F83B0]
+	(No symbol) [0x00007FF65C89580A]
+	(No symbol) [0x00007FF65C8E5A3E]
+	(No symbol) [0x00007FF65C8E5D2C]
+	(No symbol) [0x00007FF65C8D937C]
+	(No symbol) [0x00007FF65C90BA7F]
+	(No symbol) [0x00007FF65C8D9246]
+	(No symbol) [0x00007FF65C90BC50]
+	(No symbol) [0x00007FF65C92B8B3]
+	(No symbol) [0x00007FF65C90B7E3]
+	(No symbol) [0x00007FF65C8D75C8]
+	(No symbol) [0x00007FF65C8D8731]
+	GetHandleVerifier [0x00007FF65CD8643D+3118829]
+	GetHandleVerifier [0x00007FF65CDD6C90+3448640]
+	GetHandleVerifier [0x00007FF65CDCCF0D+3408317]
+	GetHandleVerifier [0x00007FF65CB5A40B+841403]
+	(No symbol) [0x00007FF65CA0340F]
+	(No symbol) [0x00007FF65C9FF484]
+	(No symbol) [0x00007FF65C9FF61D]
+	(No symbol) [0x00007FF65C9EEB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 19:26:53 - Volviendo a la página de resultados.
+2024-10-27 19:26:53 - Procesando fila 9...
+2024-10-27 19:26:53 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 19:26:54 - Clic en el enlace 'Ver detalle'.
+2024-10-27 19:26:54 - El modal de carga ha desaparecido.
+2024-10-27 19:26:54 - ID de unidad fiscalizable extraído: DFZ-2014-47-VII-RCA-IA
+2024-10-27 19:27:05 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 19:27:05 - Sección 'Documentos' expandida.
+2024-10-27 19:27:05 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 19:27:10 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-47-VII-RCA-IA.pdf
+2024-10-27 19:27:10 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 19:27:10 - Documento ignorado: 
+2024-10-27 19:27:10 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF65CA93AB5+28005]
+	(No symbol) [0x00007FF65C9F83B0]
+	(No symbol) [0x00007FF65C89580A]
+	(No symbol) [0x00007FF65C8E5A3E]
+	(No symbol) [0x00007FF65C8E5D2C]
+	(No symbol) [0x00007FF65C8D937C]
+	(No symbol) [0x00007FF65C90BA7F]
+	(No symbol) [0x00007FF65C8D9246]
+	(No symbol) [0x00007FF65C90BC50]
+	(No symbol) [0x00007FF65C92B8B3]
+	(No symbol) [0x00007FF65C90B7E3]
+	(No symbol) [0x00007FF65C8D75C8]
+	(No symbol) [0x00007FF65C8D8731]
+	GetHandleVerifier [0x00007FF65CD8643D+3118829]
+	GetHandleVerifier [0x00007FF65CDD6C90+3448640]
+	GetHandleVerifier [0x00007FF65CDCCF0D+3408317]
+	GetHandleVerifier [0x00007FF65CB5A40B+841403]
+	(No symbol) [0x00007FF65CA0340F]
+	(No symbol) [0x00007FF65C9FF484]
+	(No symbol) [0x00007FF65C9FF61D]
+	(No symbol) [0x00007FF65C9EEB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 19:27:29 - Volviendo a la página de resultados.
+2024-10-27 19:27:29 - Procesando fila 10...
+2024-10-27 19:27:29 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 19:27:30 - Clic en el enlace 'Ver detalle'.
+2024-10-27 19:27:31 - El modal de carga ha desaparecido.
+2024-10-27 19:27:31 - ID de unidad fiscalizable extraído: DFZ-2014-487-VII-RCA-IA
+2024-10-27 19:27:41 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 19:27:41 - Sección 'Documentos' expandida.
+2024-10-27 19:27:41 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 19:27:41 - Documento ignorado: 
+2024-10-27 19:27:41 - Documento ignorado: 
+2024-10-27 19:27:41 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF65CA93AB5+28005]
+	(No symbol) [0x00007FF65C9F83B0]
+	(No symbol) [0x00007FF65C89580A]
+	(No symbol) [0x00007FF65C8E5A3E]
+	(No symbol) [0x00007FF65C8E5D2C]
+	(No symbol) [0x00007FF65C8D937C]
+	(No symbol) [0x00007FF65C90BA7F]
+	(No symbol) [0x00007FF65C8D9246]
+	(No symbol) [0x00007FF65C90BC50]
+	(No symbol) [0x00007FF65C92B8B3]
+	(No symbol) [0x00007FF65C90B7E3]
+	(No symbol) [0x00007FF65C8D75C8]
+	(No symbol) [0x00007FF65C8D8731]
+	GetHandleVerifier [0x00007FF65CD8643D+3118829]
+	GetHandleVerifier [0x00007FF65CDD6C90+3448640]
+	GetHandleVerifier [0x00007FF65CDCCF0D+3408317]
+	GetHandleVerifier [0x00007FF65CB5A40B+841403]
+	(No symbol) [0x00007FF65CA0340F]
+	(No symbol) [0x00007FF65C9FF484]
+	(No symbol) [0x00007FF65C9FF61D]
+	(No symbol) [0x00007FF65C9EEB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 19:27:59 - Volviendo a la página de resultados.
+2024-10-27 19:27:59 - Procesando fila 11...
+2024-10-27 19:27:59 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 19:28:01 - Clic en el enlace 'Ver detalle'.
+2024-10-27 19:28:02 - El modal de carga ha desaparecido.
+2024-10-27 19:28:02 - ID de unidad fiscalizable extraído: DFZ-2014-76-VII-RCA-IA
+2024-10-27 19:28:12 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 19:28:12 - Sección 'Documentos' expandida.
+2024-10-27 19:28:12 - Documento ignorado: 
+2024-10-27 19:28:12 - Documento ignorado: 
+2024-10-27 19:28:12 - Documento ignorado: 
+2024-10-27 19:28:12 - Documento ignorado: 
+2024-10-27 19:28:12 - Documento ignorado: 
+2024-10-27 19:28:12 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF65CA93AB5+28005]
+	(No symbol) [0x00007FF65C9F83B0]
+	(No symbol) [0x00007FF65C89580A]
+	(No symbol) [0x00007FF65C8E5A3E]
+	(No symbol) [0x00007FF65C8E5D2C]
+	(No symbol) [0x00007FF65C8D937C]
+	(No symbol) [0x00007FF65C90BA7F]
+	(No symbol) [0x00007FF65C8D9246]
+	(No symbol) [0x00007FF65C90BC50]
+	(No symbol) [0x00007FF65C92B8B3]
+	(No symbol) [0x00007FF65C90B7E3]
+	(No symbol) [0x00007FF65C8D75C8]
+	(No symbol) [0x00007FF65C8D8731]
+	GetHandleVerifier [0x00007FF65CD8643D+3118829]
+	GetHandleVerifier [0x00007FF65CDD6C90+3448640]
+	GetHandleVerifier [0x00007FF65CDCCF0D+3408317]
+	GetHandleVerifier [0x00007FF65CB5A40B+841403]
+	(No symbol) [0x00007FF65CA0340F]
+	(No symbol) [0x00007FF65C9FF484]
+	(No symbol) [0x00007FF65C9FF61D]
+	(No symbol) [0x00007FF65C9EEB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 19:28:29 - Volviendo a la página de resultados.
+2024-10-27 19:28:29 - Procesando fila 12...
+2024-10-27 19:28:29 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 19:28:30 - Clic en el enlace 'Ver detalle'.
+2024-10-27 19:28:31 - El modal de carga ha desaparecido.
+2024-10-27 19:28:31 - ID de unidad fiscalizable extraído: DFZ-2014-188-VII-RCA-IA
+2024-10-27 19:28:42 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 19:28:42 - Sección 'Documentos' expandida.
+2024-10-27 19:28:42 - Documento ignorado: 
+2024-10-27 19:28:42 - Documento ignorado: 
+2024-10-27 19:28:42 - Documento ignorado: 
+2024-10-27 19:28:42 - Documento ignorado: 
+2024-10-27 19:28:42 - Documento ignorado: 
+2024-10-27 19:28:42 - Documento ignorado: 
+2024-10-27 19:28:42 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF65CA93AB5+28005]
+	(No symbol) [0x00007FF65C9F83B0]
+	(No symbol) [0x00007FF65C89580A]
+	(No symbol) [0x00007FF65C8E5A3E]
+	(No symbol) [0x00007FF65C8E5D2C]
+	(No symbol) [0x00007FF65C8D937C]
+	(No symbol) [0x00007FF65C90BA7F]
+	(No symbol) [0x00007FF65C8D9246]
+	(No symbol) [0x00007FF65C90BC50]
+	(No symbol) [0x00007FF65C92B8B3]
+	(No symbol) [0x00007FF65C90B7E3]
+	(No symbol) [0x00007FF65C8D75C8]
+	(No symbol) [0x00007FF65C8D8731]
+	GetHandleVerifier [0x00007FF65CD8643D+3118829]
+	GetHandleVerifier [0x00007FF65CDD6C90+3448640]
+	GetHandleVerifier [0x00007FF65CDCCF0D+3408317]
+	GetHandleVerifier [0x00007FF65CB5A40B+841403]
+	(No symbol) [0x00007FF65CA0340F]
+	(No symbol) [0x00007FF65C9FF484]
+	(No symbol) [0x00007FF65C9FF61D]
+	(No symbol) [0x00007FF65C9EEB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 19:29:00 - Volviendo a la página de resultados.
+2024-10-27 19:29:00 - Procesando fila 13...
+2024-10-27 19:29:00 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 19:29:01 - Clic en el enlace 'Ver detalle'.
+2024-10-27 19:29:01 - El modal de carga ha desaparecido.
+2024-10-27 19:29:02 - ID de unidad fiscalizable extraído: DFZ-2014-114-VIII-RCA-IA
+2024-10-27 19:29:12 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 19:29:12 - Sección 'Documentos' expandida.
+2024-10-27 19:29:12 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 19:29:12 - Documento ignorado: 
+2024-10-27 19:29:12 - Documento ignorado: 
+2024-10-27 19:29:12 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF65CA93AB5+28005]
+	(No symbol) [0x00007FF65C9F83B0]
+	(No symbol) [0x00007FF65C89580A]
+	(No symbol) [0x00007FF65C8E5A3E]
+	(No symbol) [0x00007FF65C8E5D2C]
+	(No symbol) [0x00007FF65C8D937C]
+	(No symbol) [0x00007FF65C90BA7F]
+	(No symbol) [0x00007FF65C8D9246]
+	(No symbol) [0x00007FF65C90BC50]
+	(No symbol) [0x00007FF65C92B8B3]
+	(No symbol) [0x00007FF65C90B7E3]
+	(No symbol) [0x00007FF65C8D75C8]
+	(No symbol) [0x00007FF65C8D8731]
+	GetHandleVerifier [0x00007FF65CD8643D+3118829]
+	GetHandleVerifier [0x00007FF65CDD6C90+3448640]
+	GetHandleVerifier [0x00007FF65CDCCF0D+3408317]
+	GetHandleVerifier [0x00007FF65CB5A40B+841403]
+	(No symbol) [0x00007FF65CA0340F]
+	(No symbol) [0x00007FF65C9FF484]
+	(No symbol) [0x00007FF65C9FF61D]
+	(No symbol) [0x00007FF65C9EEB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 19:29:28 - Volviendo a la página de resultados.
+2024-10-27 19:29:28 - Procesando fila 14...
+2024-10-27 19:29:28 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 19:29:30 - Clic en el enlace 'Ver detalle'.
+2024-10-27 19:29:31 - El modal de carga ha desaparecido.
+2024-10-27 19:29:31 - ID de unidad fiscalizable extraído: DFZ-2014-191-VI-NE-IA
+2024-10-27 19:29:41 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 19:29:41 - Sección 'Documentos' expandida.
+2024-10-27 19:29:41 - Documento ignorado: 
+2024-10-27 19:29:41 - Documento ignorado: 
+2024-10-27 19:29:41 - Documento ignorado: 
+2024-10-27 19:29:41 - Documento ignorado: 
+2024-10-27 19:29:41 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF65CA93AB5+28005]
+	(No symbol) [0x00007FF65C9F83B0]
+	(No symbol) [0x00007FF65C89580A]
+	(No symbol) [0x00007FF65C8E5A3E]
+	(No symbol) [0x00007FF65C8E5D2C]
+	(No symbol) [0x00007FF65C8D937C]
+	(No symbol) [0x00007FF65C90BA7F]
+	(No symbol) [0x00007FF65C8D9246]
+	(No symbol) [0x00007FF65C90BC50]
+	(No symbol) [0x00007FF65C92B8B3]
+	(No symbol) [0x00007FF65C90B7E3]
+	(No symbol) [0x00007FF65C8D75C8]
+	(No symbol) [0x00007FF65C8D8731]
+	GetHandleVerifier [0x00007FF65CD8643D+3118829]
+	GetHandleVerifier [0x00007FF65CDD6C90+3448640]
+	GetHandleVerifier [0x00007FF65CDCCF0D+3408317]
+	GetHandleVerifier [0x00007FF65CB5A40B+841403]
+	(No symbol) [0x00007FF65CA0340F]
+	(No symbol) [0x00007FF65C9FF484]
+	(No symbol) [0x00007FF65C9FF61D]
+	(No symbol) [0x00007FF65C9EEB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 19:30:00 - Volviendo a la página de resultados.
+2024-10-27 19:30:00 - Procesando fila 15...
+2024-10-27 19:30:01 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 19:30:03 - Clic en el enlace 'Ver detalle'.
+2024-10-27 19:30:04 - El modal de carga ha desaparecido.
+2024-10-27 19:30:05 - ID de unidad fiscalizable extraído: DFZ-2014-123-III-NE-IA
+2024-10-27 19:30:15 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 19:30:15 - Sección 'Documentos' expandida.
+2024-10-27 19:30:15 - Documento ignorado: 
+2024-10-27 19:30:15 - Documento ignorado: 
+2024-10-27 19:30:15 - Documento ignorado: 
+2024-10-27 19:30:15 - Documento ignorado: 
+2024-10-27 19:30:15 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF65CA93AB5+28005]
+	(No symbol) [0x00007FF65C9F83B0]
+	(No symbol) [0x00007FF65C89580A]
+	(No symbol) [0x00007FF65C8E5A3E]
+	(No symbol) [0x00007FF65C8E5D2C]
+	(No symbol) [0x00007FF65C8D937C]
+	(No symbol) [0x00007FF65C90BA7F]
+	(No symbol) [0x00007FF65C8D9246]
+	(No symbol) [0x00007FF65C90BC50]
+	(No symbol) [0x00007FF65C92B8B3]
+	(No symbol) [0x00007FF65C90B7E3]
+	(No symbol) [0x00007FF65C8D75C8]
+	(No symbol) [0x00007FF65C8D8731]
+	GetHandleVerifier [0x00007FF65CD8643D+3118829]
+	GetHandleVerifier [0x00007FF65CDD6C90+3448640]
+	GetHandleVerifier [0x00007FF65CDCCF0D+3408317]
+	GetHandleVerifier [0x00007FF65CB5A40B+841403]
+	(No symbol) [0x00007FF65CA0340F]
+	(No symbol) [0x00007FF65C9FF484]
+	(No symbol) [0x00007FF65C9FF61D]
+	(No symbol) [0x00007FF65C9EEB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 19:30:29 - Volviendo a la página de resultados.
+2024-10-27 19:30:29 - Procesando fila 16...
+2024-10-27 19:30:29 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 19:30:31 - Clic en el enlace 'Ver detalle'.
+2024-10-27 19:30:31 - El modal de carga ha desaparecido.
+2024-10-27 19:30:31 - ID de unidad fiscalizable extraído: DFZ-2014-211-XIII-SRCA-IA
+2024-10-27 19:30:41 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 19:30:41 - Sección 'Documentos' expandida.
+2024-10-27 19:30:42 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 19:30:42 - Documento ignorado: 
+2024-10-27 19:30:42 - Documento ignorado: 
+2024-10-27 19:30:42 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF65CA93AB5+28005]
+	(No symbol) [0x00007FF65C9F83B0]
+	(No symbol) [0x00007FF65C89580A]
+	(No symbol) [0x00007FF65C8E5A3E]
+	(No symbol) [0x00007FF65C8E5D2C]
+	(No symbol) [0x00007FF65C8D937C]
+	(No symbol) [0x00007FF65C90BA7F]
+	(No symbol) [0x00007FF65C8D9246]
+	(No symbol) [0x00007FF65C90BC50]
+	(No symbol) [0x00007FF65C92B8B3]
+	(No symbol) [0x00007FF65C90B7E3]
+	(No symbol) [0x00007FF65C8D75C8]
+	(No symbol) [0x00007FF65C8D8731]
+	GetHandleVerifier [0x00007FF65CD8643D+3118829]
+	GetHandleVerifier [0x00007FF65CDD6C90+3448640]
+	GetHandleVerifier [0x00007FF65CDCCF0D+3408317]
+	GetHandleVerifier [0x00007FF65CB5A40B+841403]
+	(No symbol) [0x00007FF65CA0340F]
+	(No symbol) [0x00007FF65C9FF484]
+	(No symbol) [0x00007FF65C9FF61D]
+	(No symbol) [0x00007FF65C9EEB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 19:30:57 - Volviendo a la página de resultados.
+2024-10-27 19:30:57 - Procesando fila 17...
+2024-10-27 19:30:57 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 19:31:00 - Clic en el enlace 'Ver detalle'.
+2024-10-27 19:31:00 - El modal de carga ha desaparecido.
+2024-10-27 19:31:00 - ID de unidad fiscalizable extraído: DFZ-2014-221-IX-RCA-IA
+2024-10-27 19:31:10 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 19:31:11 - Sección 'Documentos' expandida.
+2024-10-27 19:31:11 - Documento ignorado: 
+2024-10-27 19:31:11 - Documento ignorado: 
+2024-10-27 19:31:11 - Documento ignorado: 
+2024-10-27 19:31:11 - Documento ignorado: 
+2024-10-27 19:31:11 - Documento ignorado: 
+2024-10-27 19:31:11 - Documento ignorado: 
+2024-10-27 19:31:11 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF65CA93AB5+28005]
+	(No symbol) [0x00007FF65C9F83B0]
+	(No symbol) [0x00007FF65C89580A]
+	(No symbol) [0x00007FF65C8E5A3E]
+	(No symbol) [0x00007FF65C8E5D2C]
+	(No symbol) [0x00007FF65C8D937C]
+	(No symbol) [0x00007FF65C90BA7F]
+	(No symbol) [0x00007FF65C8D9246]
+	(No symbol) [0x00007FF65C90BC50]
+	(No symbol) [0x00007FF65C92B8B3]
+	(No symbol) [0x00007FF65C90B7E3]
+	(No symbol) [0x00007FF65C8D75C8]
+	(No symbol) [0x00007FF65C8D8731]
+	GetHandleVerifier [0x00007FF65CD8643D+3118829]
+	GetHandleVerifier [0x00007FF65CDD6C90+3448640]
+	GetHandleVerifier [0x00007FF65CDCCF0D+3408317]
+	GetHandleVerifier [0x00007FF65CB5A40B+841403]
+	(No symbol) [0x00007FF65CA0340F]
+	(No symbol) [0x00007FF65C9FF484]
+	(No symbol) [0x00007FF65C9FF61D]
+	(No symbol) [0x00007FF65C9EEB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 19:31:27 - Volviendo a la página de resultados.
+2024-10-27 19:31:27 - Procesando fila 18...
+2024-10-27 19:31:27 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 19:31:29 - Clic en el enlace 'Ver detalle'.
+2024-10-27 19:31:29 - El modal de carga ha desaparecido.
+2024-10-27 19:31:29 - ID de unidad fiscalizable extraído: DFZ-2014-257-VII-RCA-IA
+2024-10-27 19:31:39 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 19:31:40 - Sección 'Documentos' expandida.
+2024-10-27 19:31:40 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 19:31:40 - Documento ignorado: 
+2024-10-27 19:31:40 - Documento ignorado: 
+2024-10-27 19:31:40 - Documento ignorado: 
+2024-10-27 19:31:40 - Documento ignorado: 
+2024-10-27 19:31:40 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF65CA93AB5+28005]
+	(No symbol) [0x00007FF65C9F83B0]
+	(No symbol) [0x00007FF65C89580A]
+	(No symbol) [0x00007FF65C8E5A3E]
+	(No symbol) [0x00007FF65C8E5D2C]
+	(No symbol) [0x00007FF65C8D937C]
+	(No symbol) [0x00007FF65C90BA7F]
+	(No symbol) [0x00007FF65C8D9246]
+	(No symbol) [0x00007FF65C90BC50]
+	(No symbol) [0x00007FF65C92B8B3]
+	(No symbol) [0x00007FF65C90B7E3]
+	(No symbol) [0x00007FF65C8D75C8]
+	(No symbol) [0x00007FF65C8D8731]
+	GetHandleVerifier [0x00007FF65CD8643D+3118829]
+	GetHandleVerifier [0x00007FF65CDD6C90+3448640]
+	GetHandleVerifier [0x00007FF65CDCCF0D+3408317]
+	GetHandleVerifier [0x00007FF65CB5A40B+841403]
+	(No symbol) [0x00007FF65CA0340F]
+	(No symbol) [0x00007FF65C9FF484]
+	(No symbol) [0x00007FF65C9FF61D]
+	(No symbol) [0x00007FF65C9EEB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 19:31:56 - Volviendo a la página de resultados.
+2024-10-27 19:31:56 - Procesando fila 19...
+2024-10-27 19:31:56 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 19:31:57 - Clic en el enlace 'Ver detalle'.
+2024-10-27 19:31:59 - El modal de carga ha desaparecido.
+2024-10-27 19:31:59 - ID de unidad fiscalizable extraído: DFZ-2014-355-XIII-SRCA-IA
+2024-10-27 19:32:09 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 19:32:09 - Sección 'Documentos' expandida.
+2024-10-27 19:32:09 - Documento ignorado: 
+2024-10-27 19:32:09 - Documento ignorado: 
+2024-10-27 19:32:09 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF65CA93AB5+28005]
+	(No symbol) [0x00007FF65C9F83B0]
+	(No symbol) [0x00007FF65C89580A]
+	(No symbol) [0x00007FF65C8E5A3E]
+	(No symbol) [0x00007FF65C8E5D2C]
+	(No symbol) [0x00007FF65C8D937C]
+	(No symbol) [0x00007FF65C90BA7F]
+	(No symbol) [0x00007FF65C8D9246]
+	(No symbol) [0x00007FF65C90BC50]
+	(No symbol) [0x00007FF65C92B8B3]
+	(No symbol) [0x00007FF65C90B7E3]
+	(No symbol) [0x00007FF65C8D75C8]
+	(No symbol) [0x00007FF65C8D8731]
+	GetHandleVerifier [0x00007FF65CD8643D+3118829]
+	GetHandleVerifier [0x00007FF65CDD6C90+3448640]
+	GetHandleVerifier [0x00007FF65CDCCF0D+3408317]
+	GetHandleVerifier [0x00007FF65CB5A40B+841403]
+	(No symbol) [0x00007FF65CA0340F]
+	(No symbol) [0x00007FF65C9FF484]
+	(No symbol) [0x00007FF65C9FF61D]
+	(No symbol) [0x00007FF65C9EEB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 19:32:23 - Volviendo a la página de resultados.
+2024-10-27 19:32:23 - Procesando fila 20...
+2024-10-27 19:32:23 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 19:32:25 - Clic en el enlace 'Ver detalle'.
+2024-10-27 19:32:25 - El modal de carga ha desaparecido.
+2024-10-27 19:32:25 - ID de unidad fiscalizable extraído: DFZ-2014-337-VI-PC-IA
+2024-10-27 19:32:35 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 19:32:35 - Sección 'Documentos' expandida.
+2024-10-27 19:32:36 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 19:32:36 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 19:32:36 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 19:32:36 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 19:32:36 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 19:32:36 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 19:32:36 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 19:32:36 - Documento ignorado: 
+2024-10-27 19:32:36 - Documento ignorado: 
+2024-10-27 19:32:36 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF65CA93AB5+28005]
+	(No symbol) [0x00007FF65C9F83B0]
+	(No symbol) [0x00007FF65C89580A]
+	(No symbol) [0x00007FF65C8E5A3E]
+	(No symbol) [0x00007FF65C8E5D2C]
+	(No symbol) [0x00007FF65C8D937C]
+	(No symbol) [0x00007FF65C90BA7F]
+	(No symbol) [0x00007FF65C8D9246]
+	(No symbol) [0x00007FF65C90BC50]
+	(No symbol) [0x00007FF65C92B8B3]
+	(No symbol) [0x00007FF65C90B7E3]
+	(No symbol) [0x00007FF65C8D75C8]
+	(No symbol) [0x00007FF65C8D8731]
+	GetHandleVerifier [0x00007FF65CD8643D+3118829]
+	GetHandleVerifier [0x00007FF65CDD6C90+3448640]
+	GetHandleVerifier [0x00007FF65CDCCF0D+3408317]
+	GetHandleVerifier [0x00007FF65CB5A40B+841403]
+	(No symbol) [0x00007FF65CA0340F]
+	(No symbol) [0x00007FF65C9FF484]
+	(No symbol) [0x00007FF65C9FF61D]
+	(No symbol) [0x00007FF65C9EEB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 19:32:54 - Volviendo a la página de resultados.
+2024-10-27 19:32:54 - Procesando fila 21...
+2024-10-27 19:32:55 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 19:32:56 - Clic en el enlace 'Ver detalle'.
+2024-10-27 19:32:56 - El modal de carga ha desaparecido.
+2024-10-27 19:32:56 - ID de unidad fiscalizable extraído: DFZ-2014-366-VI-PC-IA
+2024-10-27 19:33:06 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 19:33:06 - Sección 'Documentos' expandida.
+2024-10-27 19:33:06 - Documento ignorado: 
+2024-10-27 19:33:06 - Documento ignorado: 
+2024-10-27 19:33:06 - Documento ignorado: 
+2024-10-27 19:33:06 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF65CA93AB5+28005]
+	(No symbol) [0x00007FF65C9F83B0]
+	(No symbol) [0x00007FF65C89580A]
+	(No symbol) [0x00007FF65C8E5A3E]
+	(No symbol) [0x00007FF65C8E5D2C]
+	(No symbol) [0x00007FF65C8D937C]
+	(No symbol) [0x00007FF65C90BA7F]
+	(No symbol) [0x00007FF65C8D9246]
+	(No symbol) [0x00007FF65C90BC50]
+	(No symbol) [0x00007FF65C92B8B3]
+	(No symbol) [0x00007FF65C90B7E3]
+	(No symbol) [0x00007FF65C8D75C8]
+	(No symbol) [0x00007FF65C8D8731]
+	GetHandleVerifier [0x00007FF65CD8643D+3118829]
+	GetHandleVerifier [0x00007FF65CDD6C90+3448640]
+	GetHandleVerifier [0x00007FF65CDCCF0D+3408317]
+	GetHandleVerifier [0x00007FF65CB5A40B+841403]
+	(No symbol) [0x00007FF65CA0340F]
+	(No symbol) [0x00007FF65C9FF484]
+	(No symbol) [0x00007FF65C9FF61D]
+	(No symbol) [0x00007FF65C9EEB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 19:33:20 - Volviendo a la página de resultados.
+2024-10-27 19:33:20 - Procesando fila 22...
+2024-10-27 19:33:20 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 19:33:22 - Clic en el enlace 'Ver detalle'.
+2024-10-27 19:33:23 - El modal de carga ha desaparecido.
+2024-10-27 19:33:23 - ID de unidad fiscalizable extraído: DFZ-2014-386-VI-PC-IA
+2024-10-27 19:33:33 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 19:33:33 - Sección 'Documentos' expandida.
+2024-10-27 19:33:33 - Documento ignorado: 
+2024-10-27 19:33:33 - Documento ignorado: 
+2024-10-27 19:33:33 - Documento ignorado: 
+2024-10-27 19:33:33 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF65CA93AB5+28005]
+	(No symbol) [0x00007FF65C9F83B0]
+	(No symbol) [0x00007FF65C89580A]
+	(No symbol) [0x00007FF65C8E5A3E]
+	(No symbol) [0x00007FF65C8E5D2C]
+	(No symbol) [0x00007FF65C8D937C]
+	(No symbol) [0x00007FF65C90BA7F]
+	(No symbol) [0x00007FF65C8D9246]
+	(No symbol) [0x00007FF65C90BC50]
+	(No symbol) [0x00007FF65C92B8B3]
+	(No symbol) [0x00007FF65C90B7E3]
+	(No symbol) [0x00007FF65C8D75C8]
+	(No symbol) [0x00007FF65C8D8731]
+	GetHandleVerifier [0x00007FF65CD8643D+3118829]
+	GetHandleVerifier [0x00007FF65CDD6C90+3448640]
+	GetHandleVerifier [0x00007FF65CDCCF0D+3408317]
+	GetHandleVerifier [0x00007FF65CB5A40B+841403]
+	(No symbol) [0x00007FF65CA0340F]
+	(No symbol) [0x00007FF65C9FF484]
+	(No symbol) [0x00007FF65C9FF61D]
+	(No symbol) [0x00007FF65C9EEB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 19:33:49 - Volviendo a la página de resultados.
+2024-10-27 19:33:50 - Procesando fila 23...
+2024-10-27 19:33:50 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 19:33:51 - Clic en el enlace 'Ver detalle'.
+2024-10-27 19:33:51 - El modal de carga ha desaparecido.
+2024-10-27 19:33:52 - ID de unidad fiscalizable extraído: DFZ-2014-464-VI-NE-IA
+2024-10-27 19:34:02 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 19:34:02 - Sección 'Documentos' expandida.
+2024-10-27 19:34:02 - Documento ignorado: 
+2024-10-27 19:34:02 - Documento ignorado: 
+2024-10-27 19:34:02 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF65CA93AB5+28005]
+	(No symbol) [0x00007FF65C9F83B0]
+	(No symbol) [0x00007FF65C89580A]
+	(No symbol) [0x00007FF65C8E5A3E]
+	(No symbol) [0x00007FF65C8E5D2C]
+	(No symbol) [0x00007FF65C8D937C]
+	(No symbol) [0x00007FF65C90BA7F]
+	(No symbol) [0x00007FF65C8D9246]
+	(No symbol) [0x00007FF65C90BC50]
+	(No symbol) [0x00007FF65C92B8B3]
+	(No symbol) [0x00007FF65C90B7E3]
+	(No symbol) [0x00007FF65C8D75C8]
+	(No symbol) [0x00007FF65C8D8731]
+	GetHandleVerifier [0x00007FF65CD8643D+3118829]
+	GetHandleVerifier [0x00007FF65CDD6C90+3448640]
+	GetHandleVerifier [0x00007FF65CDCCF0D+3408317]
+	GetHandleVerifier [0x00007FF65CB5A40B+841403]
+	(No symbol) [0x00007FF65CA0340F]
+	(No symbol) [0x00007FF65C9FF484]
+	(No symbol) [0x00007FF65C9FF61D]
+	(No symbol) [0x00007FF65C9EEB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 19:34:17 - Volviendo a la página de resultados.
+2024-10-27 19:34:17 - Procesando fila 24...
+2024-10-27 19:34:17 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 19:34:18 - Clic en el enlace 'Ver detalle'.
+2024-10-27 19:34:18 - El modal de carga ha desaparecido.
+2024-10-27 19:34:19 - ID de unidad fiscalizable extraído: DFZ-2014-465-VI-NE-IA
+2024-10-27 19:34:29 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 19:34:29 - Sección 'Documentos' expandida.
+2024-10-27 19:34:29 - Documento ignorado: 
+2024-10-27 19:34:29 - Documento ignorado: 
+2024-10-27 19:34:29 - Documento ignorado: 
+2024-10-27 19:34:29 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF65CA93AB5+28005]
+	(No symbol) [0x00007FF65C9F83B0]
+	(No symbol) [0x00007FF65C89580A]
+	(No symbol) [0x00007FF65C8E5A3E]
+	(No symbol) [0x00007FF65C8E5D2C]
+	(No symbol) [0x00007FF65C8D937C]
+	(No symbol) [0x00007FF65C90BA7F]
+	(No symbol) [0x00007FF65C8D9246]
+	(No symbol) [0x00007FF65C90BC50]
+	(No symbol) [0x00007FF65C92B8B3]
+	(No symbol) [0x00007FF65C90B7E3]
+	(No symbol) [0x00007FF65C8D75C8]
+	(No symbol) [0x00007FF65C8D8731]
+	GetHandleVerifier [0x00007FF65CD8643D+3118829]
+	GetHandleVerifier [0x00007FF65CDD6C90+3448640]
+	GetHandleVerifier [0x00007FF65CDCCF0D+3408317]
+	GetHandleVerifier [0x00007FF65CB5A40B+841403]
+	(No symbol) [0x00007FF65CA0340F]
+	(No symbol) [0x00007FF65C9FF484]
+	(No symbol) [0x00007FF65C9FF61D]
+	(No symbol) [0x00007FF65C9EEB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 19:34:46 - Volviendo a la página de resultados.
+2024-10-27 19:34:46 - Procesando fila 25...
+2024-10-27 19:34:46 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 19:34:47 - Clic en el enlace 'Ver detalle'.
+2024-10-27 19:34:48 - El modal de carga ha desaparecido.
+2024-10-27 19:34:48 - ID de unidad fiscalizable extraído: DFZ-2014-1072-XI-NE-IA
+2024-10-27 19:34:58 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 19:34:58 - Sección 'Documentos' expandida.
+2024-10-27 19:34:58 - Documento ignorado: 
+2024-10-27 19:34:58 - Documento ignorado: 
+2024-10-27 19:34:58 - Documento ignorado: 
+2024-10-27 19:34:58 - Documento ignorado: 
+2024-10-27 19:34:58 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF65CA93AB5+28005]
+	(No symbol) [0x00007FF65C9F83B0]
+	(No symbol) [0x00007FF65C89580A]
+	(No symbol) [0x00007FF65C8E5A3E]
+	(No symbol) [0x00007FF65C8E5D2C]
+	(No symbol) [0x00007FF65C8D937C]
+	(No symbol) [0x00007FF65C90BA7F]
+	(No symbol) [0x00007FF65C8D9246]
+	(No symbol) [0x00007FF65C90BC50]
+	(No symbol) [0x00007FF65C92B8B3]
+	(No symbol) [0x00007FF65C90B7E3]
+	(No symbol) [0x00007FF65C8D75C8]
+	(No symbol) [0x00007FF65C8D8731]
+	GetHandleVerifier [0x00007FF65CD8643D+3118829]
+	GetHandleVerifier [0x00007FF65CDD6C90+3448640]
+	GetHandleVerifier [0x00007FF65CDCCF0D+3408317]
+	GetHandleVerifier [0x00007FF65CB5A40B+841403]
+	(No symbol) [0x00007FF65CA0340F]
+	(No symbol) [0x00007FF65C9FF484]
+	(No symbol) [0x00007FF65C9FF61D]
+	(No symbol) [0x00007FF65C9EEB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 19:35:13 - Volviendo a la página de resultados.
+2024-10-27 19:35:13 - Procesando fila 26...
+2024-10-27 19:35:13 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 19:35:14 - Clic en el enlace 'Ver detalle'.
+2024-10-27 19:35:14 - El modal de carga ha desaparecido.
+2024-10-27 19:35:14 - ID de unidad fiscalizable extraído: DFZ-2014-2261-III-NE-IA
+2024-10-27 19:35:25 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 19:35:25 - Sección 'Documentos' expandida.
+2024-10-27 19:35:25 - Documento ignorado: 
+2024-10-27 19:35:25 - Documento ignorado: 
+2024-10-27 19:35:25 - Documento ignorado: 
+2024-10-27 19:35:25 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF65CA93AB5+28005]
+	(No symbol) [0x00007FF65C9F83B0]
+	(No symbol) [0x00007FF65C89580A]
+	(No symbol) [0x00007FF65C8E5A3E]
+	(No symbol) [0x00007FF65C8E5D2C]
+	(No symbol) [0x00007FF65C8D937C]
+	(No symbol) [0x00007FF65C90BA7F]
+	(No symbol) [0x00007FF65C8D9246]
+	(No symbol) [0x00007FF65C90BC50]
+	(No symbol) [0x00007FF65C92B8B3]
+	(No symbol) [0x00007FF65C90B7E3]
+	(No symbol) [0x00007FF65C8D75C8]
+	(No symbol) [0x00007FF65C8D8731]
+	GetHandleVerifier [0x00007FF65CD8643D+3118829]
+	GetHandleVerifier [0x00007FF65CDD6C90+3448640]
+	GetHandleVerifier [0x00007FF65CDCCF0D+3408317]
+	GetHandleVerifier [0x00007FF65CB5A40B+841403]
+	(No symbol) [0x00007FF65CA0340F]
+	(No symbol) [0x00007FF65C9FF484]
+	(No symbol) [0x00007FF65C9FF61D]
+	(No symbol) [0x00007FF65C9EEB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 19:35:41 - Volviendo a la página de resultados.
+2024-10-27 19:35:41 - Procesando fila 27...
+2024-10-27 19:35:41 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 19:35:42 - Clic en el enlace 'Ver detalle'.
+2024-10-27 19:35:43 - El modal de carga ha desaparecido.
+2024-10-27 19:35:44 - ID de unidad fiscalizable extraído: DFZ-2014-2259-VI-NE-IA
+2024-10-27 19:35:54 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 19:35:54 - Sección 'Documentos' expandida.
+2024-10-27 19:35:54 - Documento ignorado: 
+2024-10-27 19:35:54 - Documento ignorado: 
+2024-10-27 19:35:54 - Documento ignorado: 
+2024-10-27 19:35:54 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF65CA93AB5+28005]
+	(No symbol) [0x00007FF65C9F83B0]
+	(No symbol) [0x00007FF65C89580A]
+	(No symbol) [0x00007FF65C8E5A3E]
+	(No symbol) [0x00007FF65C8E5D2C]
+	(No symbol) [0x00007FF65C8D937C]
+	(No symbol) [0x00007FF65C90BA7F]
+	(No symbol) [0x00007FF65C8D9246]
+	(No symbol) [0x00007FF65C90BC50]
+	(No symbol) [0x00007FF65C92B8B3]
+	(No symbol) [0x00007FF65C90B7E3]
+	(No symbol) [0x00007FF65C8D75C8]
+	(No symbol) [0x00007FF65C8D8731]
+	GetHandleVerifier [0x00007FF65CD8643D+3118829]
+	GetHandleVerifier [0x00007FF65CDD6C90+3448640]
+	GetHandleVerifier [0x00007FF65CDCCF0D+3408317]
+	GetHandleVerifier [0x00007FF65CB5A40B+841403]
+	(No symbol) [0x00007FF65CA0340F]
+	(No symbol) [0x00007FF65C9FF484]
+	(No symbol) [0x00007FF65C9FF61D]
+	(No symbol) [0x00007FF65C9EEB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 19:36:08 - Volviendo a la página de resultados.
+2024-10-27 19:36:08 - Procesando fila 28...
+2024-10-27 19:36:08 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 19:36:10 - Clic en el enlace 'Ver detalle'.
+2024-10-27 19:36:10 - El modal de carga ha desaparecido.
+2024-10-27 19:36:10 - ID de unidad fiscalizable extraído: DFZ-2014-2304-XII-NE-IA
+2024-10-27 19:36:20 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 19:36:21 - Sección 'Documentos' expandida.
+2024-10-27 19:36:21 - Documento ignorado: 
+2024-10-27 19:36:21 - Documento ignorado: 
+2024-10-27 19:36:21 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF65CA93AB5+28005]
+	(No symbol) [0x00007FF65C9F83B0]
+	(No symbol) [0x00007FF65C89580A]
+	(No symbol) [0x00007FF65C8E5A3E]
+	(No symbol) [0x00007FF65C8E5D2C]
+	(No symbol) [0x00007FF65C8D937C]
+	(No symbol) [0x00007FF65C90BA7F]
+	(No symbol) [0x00007FF65C8D9246]
+	(No symbol) [0x00007FF65C90BC50]
+	(No symbol) [0x00007FF65C92B8B3]
+	(No symbol) [0x00007FF65C90B7E3]
+	(No symbol) [0x00007FF65C8D75C8]
+	(No symbol) [0x00007FF65C8D8731]
+	GetHandleVerifier [0x00007FF65CD8643D+3118829]
+	GetHandleVerifier [0x00007FF65CDD6C90+3448640]
+	GetHandleVerifier [0x00007FF65CDCCF0D+3408317]
+	GetHandleVerifier [0x00007FF65CB5A40B+841403]
+	(No symbol) [0x00007FF65CA0340F]
+	(No symbol) [0x00007FF65C9FF484]
+	(No symbol) [0x00007FF65C9FF61D]
+	(No symbol) [0x00007FF65C9EEB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 19:36:35 - Volviendo a la página de resultados.
+2024-10-27 19:36:35 - Procesando fila 29...
+2024-10-27 19:36:36 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-27 19:36:37 - Clic en el enlace 'Ver detalle'.
+2024-10-27 19:36:37 - El modal de carga ha desaparecido.
+2024-10-27 19:36:37 - ID de unidad fiscalizable extraído: DFZ-2014-473-V-NE-IA
+2024-10-27 19:36:47 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-27 19:36:47 - Sección 'Documentos' expandida.
+2024-10-27 19:36:48 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-27 19:36:49 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-473-V-NE-IA.pdf
+2024-10-27 19:36:49 - Documento ignorado: 
+2024-10-27 19:36:49 - Documento ignorado: 
+2024-10-27 19:36:49 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF65CA93AB5+28005]
+	(No symbol) [0x00007FF65C9F83B0]
+	(No symbol) [0x00007FF65C89580A]
+	(No symbol) [0x00007FF65C8E5A3E]
+	(No symbol) [0x00007FF65C8E5D2C]
+	(No symbol) [0x00007FF65C8D937C]
+	(No symbol) [0x00007FF65C90BA7F]
+	(No symbol) [0x00007FF65C8D9246]
+	(No symbol) [0x00007FF65C90BC50]
+	(No symbol) [0x00007FF65C92B8B3]
+	(No symbol) [0x00007FF65C90B7E3]
+	(No symbol) [0x00007FF65C8D75C8]
+	(No symbol) [0x00007FF65C8D8731]
+	GetHandleVerifier [0x00007FF65CD8643D+3118829]
+	GetHandleVerifier [0x00007FF65CDD6C90+3448640]
+	GetHandleVerifier [0x00007FF65CDCCF0D+3408317]
+	GetHandleVerifier [0x00007FF65CB5A40B+841403]
+	(No symbol) [0x00007FF65CA0340F]
+	(No symbol) [0x00007FF65C9FF484]
+	(No symbol) [0x00007FF65C9FF61D]
+	(No symbol) [0x00007FF65C9EEB79]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-27 19:37:03 - Volviendo a la página de resultados.
+2024-10-27 19:37:10 - Terminando scraping.
