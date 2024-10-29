@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'odorwatch',
     'app',
+    'modulos',
     
 #    'vercel',
 ]

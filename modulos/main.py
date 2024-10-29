@@ -1,11 +1,23 @@
 import os
+import sys
+import time
+import requests
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException, TimeoutException, StaleElementReferenceException
-import time
-import requests
+
+# Añade el directorio raíz del proyecto al PYTHONPATH
+project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(project_root)
+
+# Configuración de Django
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "core.settings")
+import django
+django.setup()
+
+from odorwatch.models import UnidadFiscalizable  # Importa el modelo después de configurar Django
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 download_dir = os.path.join(current_dir, 'Descargas')
@@ -80,6 +92,50 @@ def extract_expediente_id(driver):
         log_activity("No se encontró el elemento 'Expediente' en el div especificado.")
         return None
 
+def get_ubicacion(driver):
+    """Extrae la ubicación de la unidad fiscalizable."""
+    try:
+        ubicacion_element = WebDriverWait(driver, 10).until(
+            EC.presence_of_element_located((By.XPATH, "//li[contains(., 'Región')]"))
+        )
+        ubicacion_u_fiscalizable = ubicacion_element.text.split("Región")[1].strip()
+        log_activity(f"Ubicación extraída: {ubicacion_u_fiscalizable}")
+        return ubicacion_u_fiscalizable
+    except TimeoutException:
+        log_activity("No se pudo encontrar la ubicación.")
+        return None
+
+def get_nombre_u_fiscalizable(driver):
+    """Extrae el nombre de la unidad fiscalizable."""
+    try:
+        nombre_element = WebDriverWait(driver, 10).until(
+            EC.presence_of_element_located((By.XPATH, "//td[@data-label='Nombre Razon Social']//li"))
+        )
+        nombre_u_fiscalizable = nombre_element.text.strip()
+        log_activity(f"Nombre de unidad fiscalizable extraído: {nombre_u_fiscalizable}")
+        return nombre_u_fiscalizable
+    except TimeoutException:
+        log_activity("No se pudo encontrar el nombre de la unidad fiscalizable.")
+        return None
+
+def save_unidad_fiscalizable(driver, ID_unidad_fiscalizable):
+    """Guarda la unidad fiscalizable en la base de datos."""
+    ubicacion = get_ubicacion(driver)
+    nombre = get_nombre_u_fiscalizable(driver)
+    
+    if ID_unidad_fiscalizable and ubicacion and nombre:
+        unidad_fiscalizable = UnidadFiscalizable(
+            id=ID_unidad_fiscalizable,
+            nombre=nombre,
+            ubicacion=ubicacion,
+            url=driver.current_url,
+            cliente_id=ID_unidad_fiscalizable
+        )
+        unidad_fiscalizable.save()
+        log_activity(f"Unidad Fiscalizable '{nombre}' guardada en la base de datos.")
+    else:
+        log_activity("No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.")
+
 def download_document(driver, download_url, document_name, ID_unidad_fiscalizable):
     """Descarga el documento con un nombre personalizado y sobrescribe si existe."""
     try:
@@ -88,7 +144,8 @@ def download_document(driver, download_url, document_name, ID_unidad_fiscalizabl
 
         # Si el archivo existe, se sobrescribirá.
         if os.path.exists(file_path):
-            log_activity(f"Archivo {file_name} ya existe y será sobrescrito.")
+            os.remove(file_path)
+            log_activity(f"Archivo {file_name} ya existe y será reemplazado.")
 
         response = requests.get(download_url, stream=True)
         with open(file_path, 'wb') as file:
@@ -164,6 +221,7 @@ def process_row(driver, row):
     wait_for_modal_to_disappear(driver)
     
     ID_unidad_fiscalizable = extract_expediente_id(driver)
+    save_unidad_fiscalizable(driver, ID_unidad_fiscalizable)
     
     click_documentos_tab(driver)
     process_document_table(driver, ID_unidad_fiscalizable)
