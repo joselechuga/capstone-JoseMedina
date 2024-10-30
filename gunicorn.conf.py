@@ -1,4 +1,4 @@
 bind = '0.0.0.0:8000'
-workers = 4
+workers = 2
 module = 'core.wsgi:application'
-timeout = 120
+timeout = 300
