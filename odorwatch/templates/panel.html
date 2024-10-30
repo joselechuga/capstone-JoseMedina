@@ -10,15 +10,37 @@
 
 <!-- Contenido -->
 {% block content %}
-<h1>Panel de administración Scraping</h1>
+<h1>Administración Scraping</h1>
 
 
 <!-- Botón para ejecutar el script -->
-<button id="runScriptBtn">Ejecutar 'main.py'</button>
 
 
-<h1>Contenido de logs_scraping.txt</h1>
-    
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Iniciar Scraping
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Ejecución manual</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ¿Quieres iniciar el scraping?
+      </div>
+      <div class="modal-footer">
+        <button id="runScriptBtn" type="button" class="btn btn-primary" data-bs-dismiss="modal">Iniciar</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" >Cancelar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h4>Logs de ejecución</h4>
 <!-- Div donde se mostrará el contenido de logs_scraping.txt -->
 <div id="log-output" style="white-space: pre-wrap; border: 1px solid black; padding: 10px; height: 300px; overflow-y: scroll;">
     Cargando logs...
@@ -56,13 +78,19 @@
             .then(response => response.json())
             .then(data => {
                 const logOutput = document.getElementById('log-output');
+                const isScrolledToBottom = logOutput.scrollHeight - logOutput.clientHeight <= logOutput.scrollTop + 1;
                 if (data.logs) {
                     // Limpia el contenido del div antes de añadir los logs
                     logOutput.textContent = '';
-                    // Añade cada línea del log al div
-                    data.logs.forEach(log => {
+                    // Añade las últimas 100 líneas del log al div
+                    const last100Logs = data.logs.slice(-50);
+                    last100Logs.forEach(log => {
                         logOutput.textContent += log + '\n';
                     });
+                    // Si el usuario estaba al final, mantenerlo al final
+                    if (isScrolledToBottom) {
+                        logOutput.scrollTop = logOutput.scrollHeight;
+                    }
                 } else if (data.error) {
                     logOutput.textContent = 'Error: ' + data.error;
                 }

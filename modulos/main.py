@@ -18,6 +18,7 @@ import django
 django.setup()
 
 from odorwatch.models import UnidadFiscalizable  # Importa el modelo después de configurar Django
+from modulos.views import add_cliente, add_unidad
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 download_dir = os.path.join(current_dir, 'Descargas')
@@ -136,26 +137,7 @@ def save_unidad_fiscalizable(driver, ID_unidad_fiscalizable):
     else:
         log_activity("No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.")
 
-def download_document(driver, download_url, document_name, ID_unidad_fiscalizable):
-    """Descarga el documento con un nombre personalizado y sobrescribe si existe."""
-    try:
-        file_name = f"{document_name}_{ID_unidad_fiscalizable}.pdf"
-        file_path = os.path.join(download_dir, file_name)
-
-        # Si el archivo existe, se sobrescribirá.
-        if os.path.exists(file_path):
-            os.remove(file_path)
-            log_activity(f"Archivo {file_name} ya existe y será reemplazado.")
-
-        response = requests.get(download_url, stream=True)
-        with open(file_path, 'wb') as file:
-            file.write(response.content)
-
-        log_activity(f"Documento descargado como: {file_name}")
-
-    except Exception as e:
-        log_activity(f"Error al descargar el documento: {e}")
-
+# clic en drop de documentos
 def click_documentos_tab(driver):
     """Hace clic en la pestaña de documentos."""
     try:
@@ -167,6 +149,7 @@ def click_documentos_tab(driver):
     except TimeoutException:
         log_activity("No se pudo hacer clic en la pestaña 'Documentos'.")
 
+# Expandir seccion de documentos para 
 def expand_document_section(driver):
     """Expande la sección de Documentos si está colapsada."""
     try:
@@ -180,6 +163,8 @@ def expand_document_section(driver):
     except Exception as e:
         log_activity(f"Error inesperado al intentar expandir la sección 'Documentos': {e}")
 
+
+# Recorrer las filas de la tabla de documentos
 def process_document_table(driver, ID_unidad_fiscalizable):
     """Recorre las filas de la tabla y descarga los documentos que correspondan."""
     try:
@@ -209,25 +194,79 @@ def process_document_table(driver, ID_unidad_fiscalizable):
     except TimeoutException:
         log_activity("Tiempo de espera agotado al intentar acceder a la tabla.")
 
-def process_row(driver, row):
+# descargar documento en formato PDF con ID de U.Fiscalizable
+def download_document(driver, download_url, document_name, ID_unidad_fiscalizable):
+    """Descarga el documento con un nombre personalizado y sobrescribe si existe."""
+    try:
+        file_name = f"{document_name}_{ID_unidad_fiscalizable}.pdf"
+        file_path = os.path.join(download_dir, file_name)
+
+        # Si el archivo existe, se sobrescribirá.
+        if os.path.exists(file_path):
+            os.remove(file_path)
+            log_activity(f"Archivo {file_name} ya existe y será reemplazado.")
+
+        response = requests.get(download_url, stream=True)
+        with open(file_path, 'wb') as file:
+            file.write(response.content)
+
+        log_activity(f"Documento descargado como: {file_name}")
+
+    except Exception as e:
+        log_activity(f"Error al descargar el documento: {e}")
+
+# obtener nombre del cliente
+def get_cliente_nombre(driver, filas):
+    """Extrae el nombre del cliente desde la tabla de resultados."""
+    try:
+        cliente_element = WebDriverWait(driver, 10).until(
+            EC.presence_of_element_located((By.XPATH, f"/html/body/div[6]/div[4]/div/div/div/div/div[2]/div[3]/table/tbody/tr[{filas}]/td[3]/ul/li"))
+        )
+        nombre_cliente = cliente_element.text.strip()
+        log_activity(f"Nombre del cliente extraído: {nombre_cliente}")
+        return nombre_cliente
+    except TimeoutException:
+        log_activity("No se pudo encontrar el nombre del cliente.")
+        return None
+    except NoSuchElementException:
+        log_activity("No se encontró el elemento del nombre del cliente.")
+        return None
+    except Exception as e:
+        log_activity(f"Error inesperado al extraer el nombre del cliente: {e}")
+        return None
+
+# proceso en la primera tabla
+def process_row(driver, row,filas):
     """Procesa una fila de la tabla y descarga el documento correspondiente."""
-    wait = WebDriverWait(driver, 10)
+    # espera a que desaparezca el modal emergente
+    wait = WebDriverWait(driver, 20) # 20 segundos
+    
+    # Extrae y guarda el nombre del cliente
+    nombre_cliente = get_cliente_nombre(driver, filas)
+    if nombre_cliente:
+        resultado = add_cliente(nombre_cliente)
+        log_activity(resultado)
+    
     detalle_link = row.find_element(By.XPATH, ".//a[contains(text(),'Ver detalle')]")
     driver.execute_script("arguments[0].scrollIntoView(true);", detalle_link)
     log_activity("Scroll hacia el enlace 'Ver detalle'.")
     detalle_link.click()
     log_activity("Clic en el enlace 'Ver detalle'.")
-
+    # esperar a que desaparezca el modal emergente
     wait_for_modal_to_disappear(driver)
-    
+    # parametros para unidad fiscalizable
+    nombre_unidad, ubicacion_unidad, url_unidad = get_unidad(driver)
+    if nombre_unidad and ubicacion_unidad and url_unidad:
+        resultado = add_unidad(nombre_unidad, ubicacion_unidad, url_unidad, nombre_cliente)
+        log_activity(resultado)
+
     ID_unidad_fiscalizable = extract_expediente_id(driver)
     save_unidad_fiscalizable(driver, ID_unidad_fiscalizable)
-    
     click_documentos_tab(driver)
     process_document_table(driver, ID_unidad_fiscalizable)
     driver.back()
     log_activity("Volviendo a la página de resultados.")
-
+    filas = filas + 1
     if ID_unidad_fiscalizable:
         print(f"ID Unidad Fiscalizable: {ID_unidad_fiscalizable}")
 
@@ -265,13 +304,47 @@ def process_first_category(driver):
 
     for i in range(1, 30):
         try:
+            filas = 1
             row_xpath = f"//table/tbody/tr[{i}]"
             row = wait.until(EC.presence_of_element_located((By.XPATH, row_xpath)))
             log_activity(f"Procesando fila {i}...")
-            process_row(driver, row)
+            process_row(driver, row, filas)
         except TimeoutException:
             log_activity(f"No se pudo encontrar la fila {i}, terminando proceso.")
             break
+# recolectar datos para tabla 'UFiscal'
+def get_unidad(driver):
+    """Extrae el nombre, la ubicación y la URL de la unidad fiscalizable."""
+    try:
+        # Extraer el nombre
+        nombre_element = WebDriverWait(driver, 10).until(
+            EC.presence_of_element_located((By.XPATH, "/html/body/div[6]/div[3]/div/div[2]/div/div/div/div[1]/div/ul/li/a"))
+        )
+        nombre = nombre_element.text.strip()
+        log_activity(f"Nombre extraído: {nombre}")
+
+        # Extraer la ubicación
+        ubicacion_element = WebDriverWait(driver, 10).until(
+            EC.presence_of_element_located((By.XPATH, "/html/body/div[6]/div[3]/div/div[2]/div/div/div/div[1]/div/ul/li"))
+        )
+        ubicacion = ubicacion_element.text.strip()
+        log_activity(f"Ubicación extraída: {ubicacion}")
+
+        # Extraer la URL
+        url = nombre_element.get_attribute('href')
+        log_activity(f"URL extraída: {url}")
+
+        return nombre, ubicacion, url
+
+    except TimeoutException:
+        log_activity("No se pudo encontrar uno de los elementos necesarios.")
+        return None, None, None
+    except NoSuchElementException:
+        log_activity("No se encontró uno de los elementos necesarios.")
+        return None, None, None
+    except Exception as e:
+        log_activity(f"Error inesperado al extraer los datos de la unidad: {e}")
+        return None, None, None
 
 def main():
     driver = setup_driver()

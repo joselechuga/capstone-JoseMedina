@@ -53,6 +53,12 @@ Lenguajes y tecnologias utilizadas en el proyecto
   ```
   pip install grpcio
   ```
+
+  ## Es necesario instalar la siguiente dependencia de Teseract
+
+  ```
+  https://github.com/UB-Mannheim/tesseract/wiki
+   ```
 </details>
 
 <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
