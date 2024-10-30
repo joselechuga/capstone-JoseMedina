@@ -16306,3 +16306,112 @@ Stacktrace:
 2024-10-29 21:13:48 - Categoría 'Agroindustrias' seleccionada.
 2024-10-29 21:14:05 - Clic en el botón 'Buscar'.
 2024-10-29 21:14:07 - Terminando scraping.
+2024-10-30 11:55:01 - Categoría 'Agroindustrias' seleccionada.
+2024-10-30 11:59:59 - Clic en el botón 'Buscar'.
+2024-10-30 12:00:01 - El modal de carga ha desaparecido.
+2024-10-30 12:00:01 - Procesando fila 1...
+2024-10-30 12:00:02 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-10-30 12:00:02 - 1- Añadiendo Cliente a BD
+2024-10-30 12:00:02 - 2- El usuario ha sido recibido
+2024-10-30 12:00:02 - Cliente 'AGROINDUSTRIAL ARICA' añadido a la base de datos.
+2024-10-30 12:00:02 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-30 12:00:04 - Clic en el enlace 'Ver detalle'.
+2024-10-30 12:00:04 - El modal de carga ha desaparecido.
+2024-10-30 12:00:04 - Nombre extraído: PLANTA FAENADORA DE AVES ARICA
+2024-10-30 12:00:04 - Ubicación extraída: Región de Arica y Parinacota
+2024-10-30 12:00:04 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2593
+2024-10-30 12:00:04 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-10-30 12:00:04 - 2- La unidad fiscalizable ha sido añadida
+2024-10-30 12:00:04 - Unidad Fiscalizable 'PLANTA FAENADORA DE AVES ARICA' añadida a la base de datos.
+2024-10-30 12:00:04 - ID de unidad fiscalizable extraído: DFZ-2014-78-XV-RCA-IA
+2024-10-30 12:00:04 - Ubicación extraída: de Arica y Parinacota
+2024-10-30 12:00:14 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-10-30 12:00:14 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-10-30 12:00:25 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-30 12:00:26 - Sección 'Documentos' expandida.
+2024-10-30 12:00:26 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-30 12:00:26 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-30 12:00:26 - Archivo Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf ya existe y será reemplazado.
+2024-10-30 12:00:29 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+2024-10-30 12:00:29 - Documento ignorado: 
+2024-10-30 12:00:29 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF724CE3AF5+28005]
+	(No symbol) [0x00007FF724C483F0]
+	(No symbol) [0x00007FF724AE580A]
+	(No symbol) [0x00007FF724B35A3E]
+	(No symbol) [0x00007FF724B35D2C]
+	(No symbol) [0x00007FF724B2937C]
+	(No symbol) [0x00007FF724B5BA7F]
+	(No symbol) [0x00007FF724B29246]
+	(No symbol) [0x00007FF724B5BC50]
+	(No symbol) [0x00007FF724B7B8B3]
+	(No symbol) [0x00007FF724B5B7E3]
+	(No symbol) [0x00007FF724B275C8]
+	(No symbol) [0x00007FF724B28731]
+	GetHandleVerifier [0x00007FF724FD646D+3118813]
+	GetHandleVerifier [0x00007FF725026CC0+3448624]
+	GetHandleVerifier [0x00007FF72501CF3D+3408301]
+	GetHandleVerifier [0x00007FF724DAA44B+841403]
+	(No symbol) [0x00007FF724C5344F]
+	(No symbol) [0x00007FF724C4F4C4]
+	(No symbol) [0x00007FF724C4F65D]
+	(No symbol) [0x00007FF724C3EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-30 12:00:55 - Volviendo a la página de resultados.
+2024-10-30 12:00:56 - Procesando fila 2...
+2024-10-30 12:00:56 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-10-30 12:00:56 - 1- Añadiendo Cliente a BD
+2024-10-30 12:00:56 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-10-30 12:00:56 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-30 12:00:58 - Clic en el enlace 'Ver detalle'.
+2024-10-30 12:01:00 - El modal de carga ha desaparecido.
+2024-10-30 12:01:01 - Nombre extraído: PLANTEL DE AVES DE LEYDA
+2024-10-30 12:01:01 - Ubicación extraída: Región de Valparaíso
+2024-10-30 12:01:01 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/1840
+2024-10-30 12:01:01 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-10-30 12:01:01 - 2- La unidad fiscalizable ha sido añadida
+2024-10-30 12:01:01 - Unidad Fiscalizable 'PLANTEL DE AVES DE LEYDA' añadida a la base de datos.
+2024-10-30 12:01:01 - ID de unidad fiscalizable extraído: DFZ-2014-2297-V-RCA-IA
+2024-10-30 12:01:01 - Ubicación extraída: de Valparaíso
+2024-10-30 12:01:11 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-10-30 12:01:11 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-10-30 12:01:22 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-30 12:01:22 - Sección 'Documentos' expandida.
+2024-10-30 12:01:22 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-30 12:01:22 - Archivo Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf ya existe y será reemplazado.
+2024-10-30 12:01:27 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf
+2024-10-30 12:01:27 - Documento ignorado: 
+2024-10-30 12:01:28 - Documento ignorado: 
+2024-10-30 12:01:28 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF724CE3AF5+28005]
+	(No symbol) [0x00007FF724C483F0]
+	(No symbol) [0x00007FF724AE580A]
+	(No symbol) [0x00007FF724B35A3E]
+	(No symbol) [0x00007FF724B35D2C]
+	(No symbol) [0x00007FF724B2937C]
+	(No symbol) [0x00007FF724B5BA7F]
+	(No symbol) [0x00007FF724B29246]
+	(No symbol) [0x00007FF724B5BC50]
+	(No symbol) [0x00007FF724B7B8B3]
+	(No symbol) [0x00007FF724B5B7E3]
+	(No symbol) [0x00007FF724B275C8]
+	(No symbol) [0x00007FF724B28731]
+	GetHandleVerifier [0x00007FF724FD646D+3118813]
+	GetHandleVerifier [0x00007FF725026CC0+3448624]
+	GetHandleVerifier [0x00007FF72501CF3D+3408301]
+	GetHandleVerifier [0x00007FF724DAA44B+841403]
+	(No symbol) [0x00007FF724C5344F]
+	(No symbol) [0x00007FF724C4F4C4]
+	(No symbol) [0x00007FF724C4F65D]
+	(No symbol) [0x00007FF724C3EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-30 12:01:58 - Volviendo a la página de resultados.
+2024-10-30 12:02:18 - Terminando scraping.

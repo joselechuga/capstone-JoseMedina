@@ -8,6 +8,10 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException, TimeoutException, StaleElementReferenceException
 
+from odorwatch.models import UnidadFiscalizable  
+# Importa el modelos
+from modulos.views import add_cliente, add_unidad
+
 # Añade el directorio raíz del proyecto al PYTHONPATH
 project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(project_root)
@@ -17,8 +21,7 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "core.settings")
 import django
 django.setup()
 
-from odorwatch.models import UnidadFiscalizable  # Importa el modelo después de configurar Django
-from modulos.views import add_cliente, add_unidad
+
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 download_dir = os.path.join(current_dir, 'Descargas')
@@ -259,7 +262,7 @@ def process_row(driver, row,filas):
     if nombre_unidad and ubicacion_unidad and url_unidad:
         resultado = add_unidad(nombre_unidad, ubicacion_unidad, url_unidad, nombre_cliente)
         log_activity(resultado)
-
+    # Extraer ID para nidad fiscalizable
     ID_unidad_fiscalizable = extract_expediente_id(driver)
     save_unidad_fiscalizable(driver, ID_unidad_fiscalizable)
     click_documentos_tab(driver)
@@ -327,7 +330,8 @@ def get_unidad(driver):
         ubicacion_element = WebDriverWait(driver, 10).until(
             EC.presence_of_element_located((By.XPATH, "/html/body/div[6]/div[3]/div/div[2]/div/div/div/div[1]/div/ul/li"))
         )
-        ubicacion = ubicacion_element.text.strip()
+        ubicacion_text = ubicacion_element.text.strip()
+        ubicacion = ubicacion_text.split('-')[-1].strip()  # Obtener la ubicación después del guion
         log_activity(f"Ubicación extraída: {ubicacion}")
 
         # Extraer la URL

@@ -5,3 +5,8 @@
     border: 1px solid #ccc; /* Borde para visualizar el contenedor */
     background-color: #f9f9f9; /* Color de fondo opcional */
 }
+
+.outputlogs{
+    background-color: rgb(33, 31, 31);
+    color: #ccc;
+}

@@ -14,15 +14,6 @@ class Palabras(models.Model):
         return self.palabras
 
 
-class Usuario(models.Model):
-    nombre = models.CharField(max_length=100)
-    email = models.EmailField(max_length=150, unique=True)
-    password = models.CharField(max_length=255)
-    rol = models.CharField(max_length=255)
-
-    def __str__(self):
-        return self.nombre
-
 
 class Estado(models.Model):
     nombre = models.CharField(max_length=100)
@@ -44,7 +35,6 @@ class UnidadFiscalizable(models.Model):
 class Documento(models.Model):
     url = models.URLField(max_length=255)
     unidad_fiscalizable = models.ForeignKey(UnidadFiscalizable, on_delete=models.CASCADE, related_name="documentos")
-    usuario = models.ForeignKey(Usuario, on_delete=models.CASCADE, related_name="documentos")
 
     def __str__(self):
         return f"Documento de {self.unidad_fiscalizable.nombre}"
@@ -58,11 +48,3 @@ class Coincidencias(models.Model):
     def __str__(self):
         return f"Coincidencias en {self.documento} - {self.cantidad}"
 
-
-class LogsUsuario(models.Model):
-    accion = models.CharField(max_length=255)
-    fecha_hora = models.DateTimeField()
-    usuario = models.ForeignKey(Usuario, on_delete=models.CASCADE, related_name="logs")
-
-    def __str__(self):
-        return f"Log de {self.usuario} - {self.fecha_hora}"

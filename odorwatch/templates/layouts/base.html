@@ -105,10 +105,16 @@
                 <ul class="sublista" id="sublista3">
                   <li class="sublista-item"><a class="link-nav" href="{% url 'panel' %}">
                     <i class="fa-solid fa-box-open"></i>Scraping</a></li>
-                  <li class="sublista-item"><a class="link-nav" href="https://example.com/3-2">
+                  <li class="sublista-item"><a class="link-nav" href="#">
                     <i class="fa-solid fa-user"></i>Usuarios</a></li>
-                  <li class="sublista-item"><a class="link-nav" href="https://example.com/3-3"></a></li>
                 </ul>
+              </li>
+              <li class="lista-item">
+                {% if user.is_authenticated %}
+                <a class="link-nav" href="{% url 'logout' %}">
+                    <i class="fa-solid fa-arrow-right-from-bracket"></i>Cerrar Sesión
+                </a>
+              {% endif %}
               </li>
             </ul>
 
