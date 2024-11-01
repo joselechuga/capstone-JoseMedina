@@ -1,7 +1,7 @@
 import os
 from PyPDF2 import PdfReader
 from django.conf import settings
-from modulos.models import Palabras, Coincidencias, Documento
+from odorwatch.models import Palabras, Documento, Coincidencias
 
 def scan_pdfs_and_record_coincidences():
     """Escanea archivos PDF en la carpeta Descargas y registra coincidencias en la base de datos."""

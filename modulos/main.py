@@ -8,10 +8,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException, TimeoutException, StaleElementReferenceException
 
-from odorwatch.models import UnidadFiscalizable  
-# Importa el modelos
-from modulos.views import add_cliente, add_unidad
-
 # Añade el directorio raíz del proyecto al PYTHONPATH
 project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(project_root)
@@ -21,7 +17,8 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "core.settings")
 import django
 django.setup()
 
-
+from odorwatch.models import UnidadFiscalizable 
+from modulos.views import add_cliente, add_unidad
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 download_dir = os.path.join(current_dir, 'Descargas')
@@ -331,7 +328,7 @@ def get_unidad(driver):
             EC.presence_of_element_located((By.XPATH, "/html/body/div[6]/div[3]/div/div[2]/div/div/div/div[1]/div/ul/li"))
         )
         ubicacion_text = ubicacion_element.text.strip()
-        ubicacion = ubicacion_text.split('-')[-1].strip()  # Obtener la ubicación después del guion
+        ubicacion = ubicacion_text.split('-')[-1].strip() if '-' in ubicacion_text else ubicacion_text
         log_activity(f"Ubicación extraída: {ubicacion}")
 
         # Extraer la URL

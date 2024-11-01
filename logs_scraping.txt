@@ -16415,3 +16415,1696 @@ Stacktrace:
 
 2024-10-30 12:01:58 - Volviendo a la página de resultados.
 2024-10-30 12:02:18 - Terminando scraping.
+2024-10-31 19:53:16 - Categoría 'Agroindustrias' seleccionada.
+2024-10-31 19:53:22 - Clic en el botón 'Buscar'.
+2024-10-31 19:53:24 - Terminando scraping.
+2024-10-31 20:05:08 - Categoría 'Agroindustrias' seleccionada.
+2024-10-31 20:05:58 - Clic en el botón 'Buscar'.
+2024-10-31 20:05:58 - El modal de carga ha desaparecido.
+2024-10-31 20:05:58 - Procesando fila 1...
+2024-10-31 20:05:58 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-10-31 20:05:58 - 1- Añadiendo Cliente a BD
+2024-10-31 20:05:58 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-10-31 20:05:59 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-31 20:06:01 - Clic en el enlace 'Ver detalle'.
+2024-10-31 20:06:02 - El modal de carga ha desaparecido.
+2024-10-31 20:06:03 - Nombre extraído: PLANTA FAENADORA DE AVES ARICA
+2024-10-31 20:06:04 - Ubicación extraída: PLANTA FAENADORA DE AVES ARICA
+Arica - Región de Arica y Parinacota
+2024-10-31 20:06:04 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2593
+2024-10-31 20:06:04 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-10-31 20:06:04 - 2- La unidad fiscalizable ha sido añadida
+2024-10-31 20:06:04 - Unidad Fiscalizable 'PLANTA FAENADORA DE AVES ARICA' añadida a la base de datos.
+2024-10-31 20:06:04 - ID de unidad fiscalizable extraído: DFZ-2014-78-XV-RCA-IA
+2024-10-31 20:06:04 - Ubicación extraída: de Arica y Parinacota
+2024-10-31 20:06:14 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-10-31 20:06:14 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-10-31 20:06:24 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-31 20:06:24 - Sección 'Documentos' expandida.
+2024-10-31 20:06:24 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-31 20:06:24 - Documento ignorado: 
+2024-10-31 20:06:24 - Documento ignorado: 
+2024-10-31 20:06:24 - Documento ignorado: 
+2024-10-31 20:06:24 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF79B943AF5+28005]
+	(No symbol) [0x00007FF79B8A83F0]
+	(No symbol) [0x00007FF79B74580A]
+	(No symbol) [0x00007FF79B795A3E]
+	(No symbol) [0x00007FF79B795D2C]
+	(No symbol) [0x00007FF79B78937C]
+	(No symbol) [0x00007FF79B7BBA7F]
+	(No symbol) [0x00007FF79B789246]
+	(No symbol) [0x00007FF79B7BBC50]
+	(No symbol) [0x00007FF79B7DB8B3]
+	(No symbol) [0x00007FF79B7BB7E3]
+	(No symbol) [0x00007FF79B7875C8]
+	(No symbol) [0x00007FF79B788731]
+	GetHandleVerifier [0x00007FF79BC3646D+3118813]
+	GetHandleVerifier [0x00007FF79BC86CC0+3448624]
+	GetHandleVerifier [0x00007FF79BC7CF3D+3408301]
+	GetHandleVerifier [0x00007FF79BA0A44B+841403]
+	(No symbol) [0x00007FF79B8B344F]
+	(No symbol) [0x00007FF79B8AF4C4]
+	(No symbol) [0x00007FF79B8AF65D]
+	(No symbol) [0x00007FF79B89EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-31 20:06:54 - Volviendo a la página de resultados.
+2024-10-31 20:06:54 - Procesando fila 2...
+2024-10-31 20:06:54 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-10-31 20:06:54 - 1- Añadiendo Cliente a BD
+2024-10-31 20:06:54 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-10-31 20:06:55 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-31 20:06:56 - Clic en el enlace 'Ver detalle'.
+2024-10-31 20:06:56 - El modal de carga ha desaparecido.
+2024-10-31 20:06:56 - Nombre extraído: PLANTEL DE AVES DE LEYDA
+2024-10-31 20:06:56 - Ubicación extraída: PLANTEL DE AVES DE LEYDA
+San Antonio - Región de Valparaíso
+2024-10-31 20:06:56 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/1840
+2024-10-31 20:06:56 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-10-31 20:06:56 - 2- La unidad fiscalizable ha sido añadida
+2024-10-31 20:06:56 - Unidad Fiscalizable 'PLANTEL DE AVES DE LEYDA' añadida a la base de datos.
+2024-10-31 20:06:56 - ID de unidad fiscalizable extraído: DFZ-2014-2297-V-RCA-IA
+2024-10-31 20:06:56 - Ubicación extraída: de Valparaíso
+2024-10-31 20:07:07 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-10-31 20:07:07 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-10-31 20:07:17 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-31 20:07:17 - Sección 'Documentos' expandida.
+2024-10-31 20:07:17 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-31 20:07:17 - Archivo Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf ya existe y será reemplazado.
+2024-10-31 20:07:22 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf
+2024-10-31 20:07:22 - Documento ignorado: 
+2024-10-31 20:07:22 - Documento ignorado: 
+2024-10-31 20:07:22 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF79B943AF5+28005]
+	(No symbol) [0x00007FF79B8A83F0]
+	(No symbol) [0x00007FF79B74580A]
+	(No symbol) [0x00007FF79B795A3E]
+	(No symbol) [0x00007FF79B795D2C]
+	(No symbol) [0x00007FF79B78937C]
+	(No symbol) [0x00007FF79B7BBA7F]
+	(No symbol) [0x00007FF79B789246]
+	(No symbol) [0x00007FF79B7BBC50]
+	(No symbol) [0x00007FF79B7DB8B3]
+	(No symbol) [0x00007FF79B7BB7E3]
+	(No symbol) [0x00007FF79B7875C8]
+	(No symbol) [0x00007FF79B788731]
+	GetHandleVerifier [0x00007FF79BC3646D+3118813]
+	GetHandleVerifier [0x00007FF79BC86CC0+3448624]
+	GetHandleVerifier [0x00007FF79BC7CF3D+3408301]
+	GetHandleVerifier [0x00007FF79BA0A44B+841403]
+	(No symbol) [0x00007FF79B8B344F]
+	(No symbol) [0x00007FF79B8AF4C4]
+	(No symbol) [0x00007FF79B8AF65D]
+	(No symbol) [0x00007FF79B89EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-31 20:07:49 - Volviendo a la página de resultados.
+2024-10-31 20:07:50 - Procesando fila 3...
+2024-10-31 20:07:50 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-10-31 20:07:50 - 1- Añadiendo Cliente a BD
+2024-10-31 20:07:50 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-10-31 20:07:50 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-31 20:07:52 - Clic en el enlace 'Ver detalle'.
+2024-10-31 20:07:55 - El modal de carga ha desaparecido.
+2024-10-31 20:07:56 - Nombre extraído: CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A.
+2024-10-31 20:07:56 - Ubicación extraída: CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A.
+Isla de Maipo - Región Metropolitana
+2024-10-31 20:07:56 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/4495
+2024-10-31 20:07:56 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-10-31 20:07:56 - 2- La unidad fiscalizable ha sido añadida
+2024-10-31 20:07:56 - Unidad Fiscalizable 'CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A.' añadida a la base de datos.
+2024-10-31 20:07:56 - ID de unidad fiscalizable extraído: DFZ-2014-347-XIII-RCA-IA
+2024-10-31 20:07:56 - Ubicación extraída: Metropolitana
+2024-10-31 20:08:06 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-10-31 20:08:06 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-10-31 20:08:17 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-31 20:08:17 - Sección 'Documentos' expandida.
+2024-10-31 20:08:17 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-31 20:08:18 - Archivo Informe de Fiscalización Ambiental_DFZ-2014-347-XIII-RCA-IA.pdf ya existe y será reemplazado.
+2024-10-31 20:08:31 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-347-XIII-RCA-IA.pdf
+2024-10-31 20:08:31 - Documento ignorado: 
+2024-10-31 20:08:31 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF79B943AF5+28005]
+	(No symbol) [0x00007FF79B8A83F0]
+	(No symbol) [0x00007FF79B74580A]
+	(No symbol) [0x00007FF79B795A3E]
+	(No symbol) [0x00007FF79B795D2C]
+	(No symbol) [0x00007FF79B78937C]
+	(No symbol) [0x00007FF79B7BBA7F]
+	(No symbol) [0x00007FF79B789246]
+	(No symbol) [0x00007FF79B7BBC50]
+	(No symbol) [0x00007FF79B7DB8B3]
+	(No symbol) [0x00007FF79B7BB7E3]
+	(No symbol) [0x00007FF79B7875C8]
+	(No symbol) [0x00007FF79B788731]
+	GetHandleVerifier [0x00007FF79BC3646D+3118813]
+	GetHandleVerifier [0x00007FF79BC86CC0+3448624]
+	GetHandleVerifier [0x00007FF79BC7CF3D+3408301]
+	GetHandleVerifier [0x00007FF79BA0A44B+841403]
+	(No symbol) [0x00007FF79B8B344F]
+	(No symbol) [0x00007FF79B8AF4C4]
+	(No symbol) [0x00007FF79B8AF65D]
+	(No symbol) [0x00007FF79B89EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-31 20:08:59 - Volviendo a la página de resultados.
+2024-10-31 20:08:59 - Procesando fila 4...
+2024-10-31 20:09:00 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-10-31 20:09:00 - 1- Añadiendo Cliente a BD
+2024-10-31 20:09:00 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-10-31 20:09:00 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-31 20:09:02 - Clic en el enlace 'Ver detalle'.
+2024-10-31 20:09:03 - El modal de carga ha desaparecido.
+2024-10-31 20:09:03 - Nombre extraído: CERDOS LA MANGA - AGROSUPER
+2024-10-31 20:09:03 - Ubicación extraída: CERDOS LA MANGA - AGROSUPER
+San Pedro - Región Metropolitana
+2024-10-31 20:09:03 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/4494
+2024-10-31 20:09:03 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-10-31 20:09:03 - 2- La unidad fiscalizable ha sido añadida
+2024-10-31 20:09:03 - Unidad Fiscalizable 'CERDOS LA MANGA - AGROSUPER' añadida a la base de datos.
+2024-10-31 20:09:03 - ID de unidad fiscalizable extraído: DFZ-2014-179-XIII-RCA-IA
+2024-10-31 20:09:03 - Ubicación extraída: Metropolitana
+2024-10-31 20:09:14 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-10-31 20:09:14 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-10-31 20:09:24 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-31 20:09:25 - Sección 'Documentos' expandida.
+2024-10-31 20:09:26 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-31 20:09:27 - Archivo Informe de Fiscalización Ambiental_DFZ-2014-179-XIII-RCA-IA.pdf ya existe y será reemplazado.
+2024-10-31 20:09:29 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-179-XIII-RCA-IA.pdf
+2024-10-31 20:09:29 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-31 20:09:29 - Documento ignorado: 
+2024-10-31 20:09:29 - Documento ignorado: 
+2024-10-31 20:09:29 - Documento ignorado: 
+2024-10-31 20:09:29 - Documento ignorado: 
+2024-10-31 20:09:29 - Documento ignorado: 
+2024-10-31 20:09:29 - Documento ignorado: 
+2024-10-31 20:09:29 - Documento ignorado: 
+2024-10-31 20:09:29 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF79B943AF5+28005]
+	(No symbol) [0x00007FF79B8A83F0]
+	(No symbol) [0x00007FF79B74580A]
+	(No symbol) [0x00007FF79B795A3E]
+	(No symbol) [0x00007FF79B795D2C]
+	(No symbol) [0x00007FF79B78937C]
+	(No symbol) [0x00007FF79B7BBA7F]
+	(No symbol) [0x00007FF79B789246]
+	(No symbol) [0x00007FF79B7BBC50]
+	(No symbol) [0x00007FF79B7DB8B3]
+	(No symbol) [0x00007FF79B7BB7E3]
+	(No symbol) [0x00007FF79B7875C8]
+	(No symbol) [0x00007FF79B788731]
+	GetHandleVerifier [0x00007FF79BC3646D+3118813]
+	GetHandleVerifier [0x00007FF79BC86CC0+3448624]
+	GetHandleVerifier [0x00007FF79BC7CF3D+3408301]
+	GetHandleVerifier [0x00007FF79BA0A44B+841403]
+	(No symbol) [0x00007FF79B8B344F]
+	(No symbol) [0x00007FF79B8AF4C4]
+	(No symbol) [0x00007FF79B8AF65D]
+	(No symbol) [0x00007FF79B89EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-31 20:09:51 - Volviendo a la página de resultados.
+2024-10-31 20:09:51 - Procesando fila 5...
+2024-10-31 20:09:51 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-10-31 20:09:51 - 1- Añadiendo Cliente a BD
+2024-10-31 20:09:51 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-10-31 20:09:51 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-31 20:09:57 - Clic en el enlace 'Ver detalle'.
+2024-10-31 20:09:58 - El modal de carga ha desaparecido.
+2024-10-31 20:09:59 - Nombre extraído: AGROSUPER - CERDOS LA ESTRELLA
+2024-10-31 20:09:59 - Ubicación extraída: AGROSUPER - CERDOS LA ESTRELLA
+La Estrella - Región del Libertador General Bernardo O'Higgins
+2024-10-31 20:10:02 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2180
+2024-10-31 20:10:02 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-10-31 20:10:02 - 2- La unidad fiscalizable ha sido añadida
+2024-10-31 20:10:02 - Unidad Fiscalizable 'AGROSUPER - CERDOS LA ESTRELLA' añadida a la base de datos.
+2024-10-31 20:10:02 - ID de unidad fiscalizable extraído: DFZ-2014-245-VI-RCA-IA
+2024-10-31 20:10:02 - Ubicación extraída: del Libertador General Bernardo O'Higgins
+2024-10-31 20:10:12 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-10-31 20:10:12 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-10-31 20:10:23 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-31 20:10:23 - Sección 'Documentos' expandida.
+2024-10-31 20:10:23 - Documento ignorado: 
+2024-10-31 20:10:23 - Documento ignorado: 
+2024-10-31 20:10:23 - Documento ignorado: 
+2024-10-31 20:10:23 - Documento ignorado: 
+2024-10-31 20:10:23 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF79B943AF5+28005]
+	(No symbol) [0x00007FF79B8A83F0]
+	(No symbol) [0x00007FF79B74580A]
+	(No symbol) [0x00007FF79B795A3E]
+	(No symbol) [0x00007FF79B795D2C]
+	(No symbol) [0x00007FF79B78937C]
+	(No symbol) [0x00007FF79B7BBA7F]
+	(No symbol) [0x00007FF79B789246]
+	(No symbol) [0x00007FF79B7BBC50]
+	(No symbol) [0x00007FF79B7DB8B3]
+	(No symbol) [0x00007FF79B7BB7E3]
+	(No symbol) [0x00007FF79B7875C8]
+	(No symbol) [0x00007FF79B788731]
+	GetHandleVerifier [0x00007FF79BC3646D+3118813]
+	GetHandleVerifier [0x00007FF79BC86CC0+3448624]
+	GetHandleVerifier [0x00007FF79BC7CF3D+3408301]
+	GetHandleVerifier [0x00007FF79BA0A44B+841403]
+	(No symbol) [0x00007FF79B8B344F]
+	(No symbol) [0x00007FF79B8AF4C4]
+	(No symbol) [0x00007FF79B8AF65D]
+	(No symbol) [0x00007FF79B89EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-31 20:10:40 - Volviendo a la página de resultados.
+2024-10-31 20:10:40 - Procesando fila 6...
+2024-10-31 20:10:40 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-10-31 20:10:40 - 1- Añadiendo Cliente a BD
+2024-10-31 20:10:40 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-10-31 20:10:40 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-31 20:10:42 - Clic en el enlace 'Ver detalle'.
+2024-10-31 20:10:42 - El modal de carga ha desaparecido.
+2024-10-31 20:10:42 - Nombre extraído: AGROSUPER - PLANTA LO MIRANDA
+2024-10-31 20:10:42 - Ubicación extraída: AGROSUPER - PLANTA LO MIRANDA
+Doñihue - Región del Libertador General Bernardo O'Higgins
+2024-10-31 20:10:42 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2061
+2024-10-31 20:10:42 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-10-31 20:10:43 - 2- La unidad fiscalizable ha sido añadida
+2024-10-31 20:10:43 - Unidad Fiscalizable 'AGROSUPER - PLANTA LO MIRANDA' añadida a la base de datos.
+2024-10-31 20:10:43 - ID de unidad fiscalizable extraído: DFZ-2014-2273-VI-RCA-IA
+2024-10-31 20:10:43 - Ubicación extraída: del Libertador General Bernardo O'Higgins
+2024-10-31 20:10:53 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-10-31 20:10:53 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-10-31 20:11:03 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-31 20:11:03 - Sección 'Documentos' expandida.
+2024-10-31 20:11:03 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-31 20:11:03 - Documento ignorado: 
+2024-10-31 20:11:03 - Documento ignorado: 
+2024-10-31 20:11:03 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF79B943AF5+28005]
+	(No symbol) [0x00007FF79B8A83F0]
+	(No symbol) [0x00007FF79B74580A]
+	(No symbol) [0x00007FF79B795A3E]
+	(No symbol) [0x00007FF79B795D2C]
+	(No symbol) [0x00007FF79B78937C]
+	(No symbol) [0x00007FF79B7BBA7F]
+	(No symbol) [0x00007FF79B789246]
+	(No symbol) [0x00007FF79B7BBC50]
+	(No symbol) [0x00007FF79B7DB8B3]
+	(No symbol) [0x00007FF79B7BB7E3]
+	(No symbol) [0x00007FF79B7875C8]
+	(No symbol) [0x00007FF79B788731]
+	GetHandleVerifier [0x00007FF79BC3646D+3118813]
+	GetHandleVerifier [0x00007FF79BC86CC0+3448624]
+	GetHandleVerifier [0x00007FF79BC7CF3D+3408301]
+	GetHandleVerifier [0x00007FF79BA0A44B+841403]
+	(No symbol) [0x00007FF79B8B344F]
+	(No symbol) [0x00007FF79B8AF4C4]
+	(No symbol) [0x00007FF79B8AF65D]
+	(No symbol) [0x00007FF79B89EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-31 20:11:22 - Volviendo a la página de resultados.
+2024-10-31 20:11:22 - Procesando fila 7...
+2024-10-31 20:11:22 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-10-31 20:11:22 - 1- Añadiendo Cliente a BD
+2024-10-31 20:11:22 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-10-31 20:11:22 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-31 20:11:23 - Clic en el enlace 'Ver detalle'.
+2024-10-31 20:11:24 - El modal de carga ha desaparecido.
+2024-10-31 20:11:24 - Nombre extraído: INVERTEC FOOD - PLANTA RENGO
+2024-10-31 20:11:24 - Ubicación extraída: INVERTEC FOOD - PLANTA RENGO
+Rengo - Región del Libertador General Bernardo O'Higgins
+2024-10-31 20:11:24 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2096
+2024-10-31 20:11:24 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-10-31 20:11:24 - 2- La unidad fiscalizable ha sido añadida
+2024-10-31 20:11:24 - Unidad Fiscalizable 'INVERTEC FOOD - PLANTA RENGO' añadida a la base de datos.
+2024-10-31 20:11:24 - ID de unidad fiscalizable extraído: DFZ-2014-103-VI-RCA-IA
+2024-10-31 20:11:24 - Ubicación extraída: del Libertador General Bernardo O'Higgins
+2024-10-31 20:11:34 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-10-31 20:11:34 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-10-31 20:11:45 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-31 20:11:45 - Sección 'Documentos' expandida.
+2024-10-31 20:11:45 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-31 20:11:45 - Documento ignorado: 
+2024-10-31 20:11:45 - Documento ignorado: 
+2024-10-31 20:11:45 - Documento ignorado: 
+2024-10-31 20:11:45 - Documento ignorado: 
+2024-10-31 20:11:45 - Documento ignorado: 
+2024-10-31 20:11:45 - Documento ignorado: 
+2024-10-31 20:11:45 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF79B943AF5+28005]
+	(No symbol) [0x00007FF79B8A83F0]
+	(No symbol) [0x00007FF79B74580A]
+	(No symbol) [0x00007FF79B795A3E]
+	(No symbol) [0x00007FF79B795D2C]
+	(No symbol) [0x00007FF79B78937C]
+	(No symbol) [0x00007FF79B7BBA7F]
+	(No symbol) [0x00007FF79B789246]
+	(No symbol) [0x00007FF79B7BBC50]
+	(No symbol) [0x00007FF79B7DB8B3]
+	(No symbol) [0x00007FF79B7BB7E3]
+	(No symbol) [0x00007FF79B7875C8]
+	(No symbol) [0x00007FF79B788731]
+	GetHandleVerifier [0x00007FF79BC3646D+3118813]
+	GetHandleVerifier [0x00007FF79BC86CC0+3448624]
+	GetHandleVerifier [0x00007FF79BC7CF3D+3408301]
+	GetHandleVerifier [0x00007FF79BA0A44B+841403]
+	(No symbol) [0x00007FF79B8B344F]
+	(No symbol) [0x00007FF79B8AF4C4]
+	(No symbol) [0x00007FF79B8AF65D]
+	(No symbol) [0x00007FF79B89EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-31 20:12:05 - Volviendo a la página de resultados.
+2024-10-31 20:12:05 - Procesando fila 8...
+2024-10-31 20:12:06 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-10-31 20:12:06 - 1- Añadiendo Cliente a BD
+2024-10-31 20:12:06 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-10-31 20:12:06 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-31 20:12:06 - Clic en el enlace 'Ver detalle'.
+2024-10-31 20:12:06 - El modal de carga ha desaparecido.
+2024-10-31 20:12:07 - Nombre extraído: AVICOLA LAS RASTRAS
+2024-10-31 20:12:07 - Ubicación extraída: AVICOLA LAS RASTRAS
+Talca - Región del Maule
+2024-10-31 20:12:07 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2879
+2024-10-31 20:12:07 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-10-31 20:12:07 - 2- La unidad fiscalizable ha sido añadida
+2024-10-31 20:12:07 - Unidad Fiscalizable 'AVICOLA LAS RASTRAS' añadida a la base de datos.
+2024-10-31 20:12:07 - ID de unidad fiscalizable extraído: DFZ-2014-314-VII-RCA-IA
+2024-10-31 20:12:07 - Ubicación extraída: del Maule
+2024-10-31 20:12:17 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-10-31 20:12:17 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-10-31 20:12:28 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-31 20:12:28 - Sección 'Documentos' expandida.
+2024-10-31 20:12:28 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-31 20:12:28 - Documento ignorado: 
+2024-10-31 20:12:28 - Documento ignorado: 
+2024-10-31 20:12:28 - Documento ignorado: 
+2024-10-31 20:12:28 - Documento ignorado: 
+2024-10-31 20:12:28 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF79B943AF5+28005]
+	(No symbol) [0x00007FF79B8A83F0]
+	(No symbol) [0x00007FF79B74580A]
+	(No symbol) [0x00007FF79B795A3E]
+	(No symbol) [0x00007FF79B795D2C]
+	(No symbol) [0x00007FF79B78937C]
+	(No symbol) [0x00007FF79B7BBA7F]
+	(No symbol) [0x00007FF79B789246]
+	(No symbol) [0x00007FF79B7BBC50]
+	(No symbol) [0x00007FF79B7DB8B3]
+	(No symbol) [0x00007FF79B7BB7E3]
+	(No symbol) [0x00007FF79B7875C8]
+	(No symbol) [0x00007FF79B788731]
+	GetHandleVerifier [0x00007FF79BC3646D+3118813]
+	GetHandleVerifier [0x00007FF79BC86CC0+3448624]
+	GetHandleVerifier [0x00007FF79BC7CF3D+3408301]
+	GetHandleVerifier [0x00007FF79BA0A44B+841403]
+	(No symbol) [0x00007FF79B8B344F]
+	(No symbol) [0x00007FF79B8AF4C4]
+	(No symbol) [0x00007FF79B8AF65D]
+	(No symbol) [0x00007FF79B89EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-31 20:12:49 - Volviendo a la página de resultados.
+2024-10-31 20:12:49 - Procesando fila 9...
+2024-10-31 20:12:50 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-10-31 20:12:50 - 1- Añadiendo Cliente a BD
+2024-10-31 20:12:50 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-10-31 20:12:50 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-31 20:12:51 - Clic en el enlace 'Ver detalle'.
+2024-10-31 20:12:51 - El modal de carga ha desaparecido.
+2024-10-31 20:12:51 - Nombre extraído: AGRICOLA SAN CLEMENTE
+2024-10-31 20:12:52 - Ubicación extraída: AGRICOLA SAN CLEMENTE
+Talca - Región del Maule
+2024-10-31 20:12:52 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2328
+2024-10-31 20:12:52 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-10-31 20:12:52 - 2- La unidad fiscalizable ha sido añadida
+2024-10-31 20:12:52 - Unidad Fiscalizable 'AGRICOLA SAN CLEMENTE' añadida a la base de datos.
+2024-10-31 20:12:52 - ID de unidad fiscalizable extraído: DFZ-2014-47-VII-RCA-IA
+2024-10-31 20:12:52 - Ubicación extraída: del Maule
+2024-10-31 20:13:02 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-10-31 20:13:02 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-10-31 20:13:12 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-31 20:13:13 - Sección 'Documentos' expandida.
+2024-10-31 20:13:13 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-31 20:13:13 - Documento ignorado: 
+2024-10-31 20:13:13 - Documento ignorado: 
+2024-10-31 20:13:13 - Documento ignorado: 
+2024-10-31 20:13:13 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF79B943AF5+28005]
+	(No symbol) [0x00007FF79B8A83F0]
+	(No symbol) [0x00007FF79B74580A]
+	(No symbol) [0x00007FF79B795A3E]
+	(No symbol) [0x00007FF79B795D2C]
+	(No symbol) [0x00007FF79B78937C]
+	(No symbol) [0x00007FF79B7BBA7F]
+	(No symbol) [0x00007FF79B789246]
+	(No symbol) [0x00007FF79B7BBC50]
+	(No symbol) [0x00007FF79B7DB8B3]
+	(No symbol) [0x00007FF79B7BB7E3]
+	(No symbol) [0x00007FF79B7875C8]
+	(No symbol) [0x00007FF79B788731]
+	GetHandleVerifier [0x00007FF79BC3646D+3118813]
+	GetHandleVerifier [0x00007FF79BC86CC0+3448624]
+	GetHandleVerifier [0x00007FF79BC7CF3D+3408301]
+	GetHandleVerifier [0x00007FF79BA0A44B+841403]
+	(No symbol) [0x00007FF79B8B344F]
+	(No symbol) [0x00007FF79B8AF4C4]
+	(No symbol) [0x00007FF79B8AF65D]
+	(No symbol) [0x00007FF79B89EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-31 20:13:32 - Volviendo a la página de resultados.
+2024-10-31 20:13:33 - Procesando fila 10...
+2024-10-31 20:13:33 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-10-31 20:13:33 - 1- Añadiendo Cliente a BD
+2024-10-31 20:13:33 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-10-31 20:13:33 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-31 20:13:34 - Clic en el enlace 'Ver detalle'.
+2024-10-31 20:13:34 - El modal de carga ha desaparecido.
+2024-10-31 20:13:34 - Nombre extraído: PLANTA DE ACEITE DE OLIVA HUILLIBORGOA
+2024-10-31 20:13:34 - Ubicación extraída: PLANTA DE ACEITE DE OLIVA HUILLIBORGOA
+San Rafael - Región del Maule
+2024-10-31 20:13:34 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/8553
+2024-10-31 20:13:34 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-10-31 20:13:35 - 2- La unidad fiscalizable ha sido añadida
+2024-10-31 20:13:35 - Unidad Fiscalizable 'PLANTA DE ACEITE DE OLIVA HUILLIBORGOA' añadida a la base de datos.
+2024-10-31 20:13:35 - ID de unidad fiscalizable extraído: DFZ-2014-487-VII-RCA-IA
+2024-10-31 20:13:35 - Ubicación extraída: del Maule
+2024-10-31 20:13:45 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-10-31 20:13:45 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-10-31 20:13:55 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-31 20:13:55 - Sección 'Documentos' expandida.
+2024-10-31 20:13:55 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-31 20:13:56 - Archivo Informe de Fiscalización Ambiental_DFZ-2014-487-VII-RCA-IA.pdf ya existe y será reemplazado.
+2024-10-31 20:13:57 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-487-VII-RCA-IA.pdf
+2024-10-31 20:13:57 - Documento ignorado: 
+2024-10-31 20:13:57 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF79B943AF5+28005]
+	(No symbol) [0x00007FF79B8A83F0]
+	(No symbol) [0x00007FF79B74580A]
+	(No symbol) [0x00007FF79B795A3E]
+	(No symbol) [0x00007FF79B795D2C]
+	(No symbol) [0x00007FF79B78937C]
+	(No symbol) [0x00007FF79B7BBA7F]
+	(No symbol) [0x00007FF79B789246]
+	(No symbol) [0x00007FF79B7BBC50]
+	(No symbol) [0x00007FF79B7DB8B3]
+	(No symbol) [0x00007FF79B7BB7E3]
+	(No symbol) [0x00007FF79B7875C8]
+	(No symbol) [0x00007FF79B788731]
+	GetHandleVerifier [0x00007FF79BC3646D+3118813]
+	GetHandleVerifier [0x00007FF79BC86CC0+3448624]
+	GetHandleVerifier [0x00007FF79BC7CF3D+3408301]
+	GetHandleVerifier [0x00007FF79BA0A44B+841403]
+	(No symbol) [0x00007FF79B8B344F]
+	(No symbol) [0x00007FF79B8AF4C4]
+	(No symbol) [0x00007FF79B8AF65D]
+	(No symbol) [0x00007FF79B89EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-31 20:14:19 - Volviendo a la página de resultados.
+2024-10-31 20:14:19 - Procesando fila 11...
+2024-10-31 20:14:19 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-10-31 20:14:19 - 1- Añadiendo Cliente a BD
+2024-10-31 20:14:19 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-10-31 20:14:19 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-31 20:14:20 - Clic en el enlace 'Ver detalle'.
+2024-10-31 20:14:21 - El modal de carga ha desaparecido.
+2024-10-31 20:14:21 - Nombre extraído: PATAGONIAFRESH - PLANTA MOLINA (JUGOS)
+2024-10-31 20:14:21 - Ubicación extraída: PATAGONIAFRESH - PLANTA MOLINA (JUGOS)
+Molina - Región del Maule
+2024-10-31 20:14:21 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/10503
+2024-10-31 20:14:21 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-10-31 20:14:21 - 2- La unidad fiscalizable ha sido añadida
+2024-10-31 20:14:21 - Unidad Fiscalizable 'PATAGONIAFRESH - PLANTA MOLINA (JUGOS)' añadida a la base de datos.
+2024-10-31 20:14:21 - ID de unidad fiscalizable extraído: DFZ-2014-76-VII-RCA-IA
+2024-10-31 20:14:21 - Ubicación extraída: del Maule
+2024-10-31 20:14:32 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-10-31 20:14:32 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-10-31 20:14:42 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-31 20:14:42 - Sección 'Documentos' expandida.
+2024-10-31 20:14:42 - Documento ignorado: 
+2024-10-31 20:14:42 - Documento ignorado: 
+2024-10-31 20:14:42 - Documento ignorado: 
+2024-10-31 20:14:42 - Documento ignorado: 
+2024-10-31 20:14:42 - Documento ignorado: 
+2024-10-31 20:14:42 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF79B943AF5+28005]
+	(No symbol) [0x00007FF79B8A83F0]
+	(No symbol) [0x00007FF79B74580A]
+	(No symbol) [0x00007FF79B795A3E]
+	(No symbol) [0x00007FF79B795D2C]
+	(No symbol) [0x00007FF79B78937C]
+	(No symbol) [0x00007FF79B7BBA7F]
+	(No symbol) [0x00007FF79B789246]
+	(No symbol) [0x00007FF79B7BBC50]
+	(No symbol) [0x00007FF79B7DB8B3]
+	(No symbol) [0x00007FF79B7BB7E3]
+	(No symbol) [0x00007FF79B7875C8]
+	(No symbol) [0x00007FF79B788731]
+	GetHandleVerifier [0x00007FF79BC3646D+3118813]
+	GetHandleVerifier [0x00007FF79BC86CC0+3448624]
+	GetHandleVerifier [0x00007FF79BC7CF3D+3408301]
+	GetHandleVerifier [0x00007FF79BA0A44B+841403]
+	(No symbol) [0x00007FF79B8B344F]
+	(No symbol) [0x00007FF79B8AF4C4]
+	(No symbol) [0x00007FF79B8AF65D]
+	(No symbol) [0x00007FF79B89EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-31 20:15:00 - Volviendo a la página de resultados.
+2024-10-31 20:15:01 - Procesando fila 12...
+2024-10-31 20:15:01 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-10-31 20:15:01 - 1- Añadiendo Cliente a BD
+2024-10-31 20:15:01 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-10-31 20:15:01 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-31 20:15:02 - Clic en el enlace 'Ver detalle'.
+2024-10-31 20:15:03 - El modal de carga ha desaparecido.
+2024-10-31 20:15:03 - Nombre extraído: CAROZZI PLANTA TENO
+2024-10-31 20:15:03 - Ubicación extraída: CAROZZI PLANTA TENO
+Teno - Región del Maule
+2024-10-31 20:15:03 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2612
+2024-10-31 20:15:03 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-10-31 20:15:03 - 2- La unidad fiscalizable ha sido añadida
+2024-10-31 20:15:03 - Unidad Fiscalizable 'CAROZZI PLANTA TENO' añadida a la base de datos.
+2024-10-31 20:15:03 - ID de unidad fiscalizable extraído: DFZ-2014-188-VII-RCA-IA
+2024-10-31 20:15:03 - Ubicación extraída: del Maule
+2024-10-31 20:15:13 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-10-31 20:15:13 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-10-31 20:15:23 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-31 20:15:24 - Sección 'Documentos' expandida.
+2024-10-31 20:15:24 - Documento ignorado: 
+2024-10-31 20:15:24 - Documento ignorado: 
+2024-10-31 20:15:24 - Documento ignorado: 
+2024-10-31 20:15:24 - Documento ignorado: 
+2024-10-31 20:15:24 - Documento ignorado: 
+2024-10-31 20:15:24 - Documento ignorado: 
+2024-10-31 20:15:24 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF79B943AF5+28005]
+	(No symbol) [0x00007FF79B8A83F0]
+	(No symbol) [0x00007FF79B74580A]
+	(No symbol) [0x00007FF79B795A3E]
+	(No symbol) [0x00007FF79B795D2C]
+	(No symbol) [0x00007FF79B78937C]
+	(No symbol) [0x00007FF79B7BBA7F]
+	(No symbol) [0x00007FF79B789246]
+	(No symbol) [0x00007FF79B7BBC50]
+	(No symbol) [0x00007FF79B7DB8B3]
+	(No symbol) [0x00007FF79B7BB7E3]
+	(No symbol) [0x00007FF79B7875C8]
+	(No symbol) [0x00007FF79B788731]
+	GetHandleVerifier [0x00007FF79BC3646D+3118813]
+	GetHandleVerifier [0x00007FF79BC86CC0+3448624]
+	GetHandleVerifier [0x00007FF79BC7CF3D+3408301]
+	GetHandleVerifier [0x00007FF79BA0A44B+841403]
+	(No symbol) [0x00007FF79B8B344F]
+	(No symbol) [0x00007FF79B8AF4C4]
+	(No symbol) [0x00007FF79B8AF65D]
+	(No symbol) [0x00007FF79B89EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-31 20:16:13 - Volviendo a la página de resultados.
+2024-10-31 20:16:14 - Procesando fila 13...
+2024-10-31 20:16:14 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-10-31 20:16:14 - 1- Añadiendo Cliente a BD
+2024-10-31 20:16:14 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-10-31 20:16:14 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-31 20:16:15 - Clic en el enlace 'Ver detalle'.
+2024-10-31 20:16:15 - El modal de carga ha desaparecido.
+2024-10-31 20:16:15 - Nombre extraído: PLANTEL SITIO DESTETE-SECTOR RUCAPEQUEN
+2024-10-31 20:16:16 - Ubicación extraída: PLANTEL SITIO DESTETE-SECTOR RUCAPEQUEN
+Chillán Viejo - Región de Ñuble
+2024-10-31 20:16:16 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/8776
+2024-10-31 20:16:16 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-10-31 20:16:16 - 2- La unidad fiscalizable ha sido añadida
+2024-10-31 20:16:16 - Unidad Fiscalizable 'PLANTEL SITIO DESTETE-SECTOR RUCAPEQUEN' añadida a la base de datos.
+2024-10-31 20:16:16 - ID de unidad fiscalizable extraído: DFZ-2014-114-VIII-RCA-IA
+2024-10-31 20:16:16 - Ubicación extraída: de Ñuble
+2024-10-31 20:16:26 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-10-31 20:16:26 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-10-31 20:16:37 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-31 20:16:37 - Sección 'Documentos' expandida.
+2024-10-31 20:16:37 - Documento ignorado: 
+2024-10-31 20:16:37 - Documento ignorado: 
+2024-10-31 20:16:37 - Documento ignorado: 
+2024-10-31 20:16:37 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF79B943AF5+28005]
+	(No symbol) [0x00007FF79B8A83F0]
+	(No symbol) [0x00007FF79B74580A]
+	(No symbol) [0x00007FF79B795A3E]
+	(No symbol) [0x00007FF79B795D2C]
+	(No symbol) [0x00007FF79B78937C]
+	(No symbol) [0x00007FF79B7BBA7F]
+	(No symbol) [0x00007FF79B789246]
+	(No symbol) [0x00007FF79B7BBC50]
+	(No symbol) [0x00007FF79B7DB8B3]
+	(No symbol) [0x00007FF79B7BB7E3]
+	(No symbol) [0x00007FF79B7875C8]
+	(No symbol) [0x00007FF79B788731]
+	GetHandleVerifier [0x00007FF79BC3646D+3118813]
+	GetHandleVerifier [0x00007FF79BC86CC0+3448624]
+	GetHandleVerifier [0x00007FF79BC7CF3D+3408301]
+	GetHandleVerifier [0x00007FF79BA0A44B+841403]
+	(No symbol) [0x00007FF79B8B344F]
+	(No symbol) [0x00007FF79B8AF4C4]
+	(No symbol) [0x00007FF79B8AF65D]
+	(No symbol) [0x00007FF79B89EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-31 20:16:57 - Volviendo a la página de resultados.
+2024-10-31 20:16:58 - Procesando fila 14...
+2024-10-31 20:16:58 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-10-31 20:16:58 - 1- Añadiendo Cliente a BD
+2024-10-31 20:16:58 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-10-31 20:16:58 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-31 20:16:59 - Clic en el enlace 'Ver detalle'.
+2024-10-31 20:17:00 - El modal de carga ha desaparecido.
+2024-10-31 20:17:00 - Nombre extraído: LACTEOS TINGUIRIRICA
+2024-10-31 20:17:00 - Ubicación extraída: LACTEOS TINGUIRIRICA
+Chimbarongo - Región del Libertador General Bernardo O'Higgins
+2024-10-31 20:17:00 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/7514
+2024-10-31 20:17:00 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-10-31 20:17:00 - 2- La unidad fiscalizable ha sido añadida
+2024-10-31 20:17:00 - Unidad Fiscalizable 'LACTEOS TINGUIRIRICA' añadida a la base de datos.
+2024-10-31 20:17:00 - ID de unidad fiscalizable extraído: DFZ-2014-191-VI-NE-IA
+2024-10-31 20:17:00 - Ubicación extraída: del Libertador General Bernardo O'Higgins
+2024-10-31 20:17:10 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-10-31 20:17:10 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-10-31 20:17:20 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-31 20:17:20 - Sección 'Documentos' expandida.
+2024-10-31 20:17:20 - Documento ignorado: 
+2024-10-31 20:17:20 - Documento ignorado: 
+2024-10-31 20:17:20 - Documento ignorado: 
+2024-10-31 20:17:20 - Documento ignorado: 
+2024-10-31 20:17:20 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF79B943AF5+28005]
+	(No symbol) [0x00007FF79B8A83F0]
+	(No symbol) [0x00007FF79B74580A]
+	(No symbol) [0x00007FF79B795A3E]
+	(No symbol) [0x00007FF79B795D2C]
+	(No symbol) [0x00007FF79B78937C]
+	(No symbol) [0x00007FF79B7BBA7F]
+	(No symbol) [0x00007FF79B789246]
+	(No symbol) [0x00007FF79B7BBC50]
+	(No symbol) [0x00007FF79B7DB8B3]
+	(No symbol) [0x00007FF79B7BB7E3]
+	(No symbol) [0x00007FF79B7875C8]
+	(No symbol) [0x00007FF79B788731]
+	GetHandleVerifier [0x00007FF79BC3646D+3118813]
+	GetHandleVerifier [0x00007FF79BC86CC0+3448624]
+	GetHandleVerifier [0x00007FF79BC7CF3D+3408301]
+	GetHandleVerifier [0x00007FF79BA0A44B+841403]
+	(No symbol) [0x00007FF79B8B344F]
+	(No symbol) [0x00007FF79B8AF4C4]
+	(No symbol) [0x00007FF79B8AF65D]
+	(No symbol) [0x00007FF79B89EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-31 20:17:39 - Volviendo a la página de resultados.
+2024-10-31 20:17:40 - Procesando fila 15...
+2024-10-31 20:17:40 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-10-31 20:17:40 - 1- Añadiendo Cliente a BD
+2024-10-31 20:17:40 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-10-31 20:17:40 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-31 20:17:41 - Clic en el enlace 'Ver detalle'.
+2024-10-31 20:17:42 - El modal de carga ha desaparecido.
+2024-10-31 20:17:42 - Nombre extraído: EXPORTADORA UNIFRUTTI
+2024-10-31 20:17:42 - Ubicación extraída: EXPORTADORA UNIFRUTTI
+Copiapó - Región de Atacama
+2024-10-31 20:17:42 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/10346
+2024-10-31 20:17:42 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-10-31 20:17:42 - 2- La unidad fiscalizable ha sido añadida
+2024-10-31 20:17:42 - Unidad Fiscalizable 'EXPORTADORA UNIFRUTTI' añadida a la base de datos.
+2024-10-31 20:17:43 - ID de unidad fiscalizable extraído: DFZ-2014-123-III-NE-IA
+2024-10-31 20:17:43 - Ubicación extraída: de Atacama
+2024-10-31 20:17:53 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-10-31 20:17:53 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-10-31 20:18:03 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-31 20:18:03 - Sección 'Documentos' expandida.
+2024-10-31 20:18:03 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-31 20:18:03 - Documento ignorado: 
+2024-10-31 20:18:03 - Documento ignorado: 
+2024-10-31 20:18:03 - Documento ignorado: 
+2024-10-31 20:18:03 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF79B943AF5+28005]
+	(No symbol) [0x00007FF79B8A83F0]
+	(No symbol) [0x00007FF79B74580A]
+	(No symbol) [0x00007FF79B795A3E]
+	(No symbol) [0x00007FF79B795D2C]
+	(No symbol) [0x00007FF79B78937C]
+	(No symbol) [0x00007FF79B7BBA7F]
+	(No symbol) [0x00007FF79B789246]
+	(No symbol) [0x00007FF79B7BBC50]
+	(No symbol) [0x00007FF79B7DB8B3]
+	(No symbol) [0x00007FF79B7BB7E3]
+	(No symbol) [0x00007FF79B7875C8]
+	(No symbol) [0x00007FF79B788731]
+	GetHandleVerifier [0x00007FF79BC3646D+3118813]
+	GetHandleVerifier [0x00007FF79BC86CC0+3448624]
+	GetHandleVerifier [0x00007FF79BC7CF3D+3408301]
+	GetHandleVerifier [0x00007FF79BA0A44B+841403]
+	(No symbol) [0x00007FF79B8B344F]
+	(No symbol) [0x00007FF79B8AF4C4]
+	(No symbol) [0x00007FF79B8AF65D]
+	(No symbol) [0x00007FF79B89EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-31 20:18:22 - Volviendo a la página de resultados.
+2024-10-31 20:18:22 - Procesando fila 16...
+2024-10-31 20:18:23 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-10-31 20:18:23 - 1- Añadiendo Cliente a BD
+2024-10-31 20:18:23 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-10-31 20:18:23 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-31 20:18:24 - Clic en el enlace 'Ver detalle'.
+2024-10-31 20:18:24 - El modal de carga ha desaparecido.
+2024-10-31 20:18:24 - Nombre extraído: AGRICOLA IBATAO
+2024-10-31 20:18:24 - Ubicación extraída: AGRICOLA IBATAO
+Isla de Maipo - Región Metropolitana
+2024-10-31 20:18:25 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/10475
+2024-10-31 20:18:25 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-10-31 20:18:25 - 2- La unidad fiscalizable ha sido añadida
+2024-10-31 20:18:25 - Unidad Fiscalizable 'AGRICOLA IBATAO' añadida a la base de datos.
+2024-10-31 20:18:25 - ID de unidad fiscalizable extraído: DFZ-2014-211-XIII-SRCA-IA
+2024-10-31 20:18:25 - Ubicación extraída: Metropolitana
+2024-10-31 20:18:35 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-10-31 20:18:35 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-10-31 20:18:45 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-31 20:18:45 - Sección 'Documentos' expandida.
+2024-10-31 20:18:46 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-31 20:18:46 - Documento ignorado: 
+2024-10-31 20:18:46 - Documento ignorado: 
+2024-10-31 20:18:46 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF79B943AF5+28005]
+	(No symbol) [0x00007FF79B8A83F0]
+	(No symbol) [0x00007FF79B74580A]
+	(No symbol) [0x00007FF79B795A3E]
+	(No symbol) [0x00007FF79B795D2C]
+	(No symbol) [0x00007FF79B78937C]
+	(No symbol) [0x00007FF79B7BBA7F]
+	(No symbol) [0x00007FF79B789246]
+	(No symbol) [0x00007FF79B7BBC50]
+	(No symbol) [0x00007FF79B7DB8B3]
+	(No symbol) [0x00007FF79B7BB7E3]
+	(No symbol) [0x00007FF79B7875C8]
+	(No symbol) [0x00007FF79B788731]
+	GetHandleVerifier [0x00007FF79BC3646D+3118813]
+	GetHandleVerifier [0x00007FF79BC86CC0+3448624]
+	GetHandleVerifier [0x00007FF79BC7CF3D+3408301]
+	GetHandleVerifier [0x00007FF79BA0A44B+841403]
+	(No symbol) [0x00007FF79B8B344F]
+	(No symbol) [0x00007FF79B8AF4C4]
+	(No symbol) [0x00007FF79B8AF65D]
+	(No symbol) [0x00007FF79B89EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-31 20:19:03 - Volviendo a la página de resultados.
+2024-10-31 20:19:03 - Procesando fila 17...
+2024-10-31 20:19:03 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-10-31 20:19:03 - 1- Añadiendo Cliente a BD
+2024-10-31 20:19:03 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-10-31 20:19:03 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-31 20:19:04 - Clic en el enlace 'Ver detalle'.
+2024-10-31 20:19:05 - El modal de carga ha desaparecido.
+2024-10-31 20:19:05 - Nombre extraído: FRIGORIFICO TEMUCO
+2024-10-31 20:19:05 - Ubicación extraída: FRIGORIFICO TEMUCO
+Temuco - Región de la Araucanía
+2024-10-31 20:19:05 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2457
+2024-10-31 20:19:05 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-10-31 20:19:05 - 2- La unidad fiscalizable ha sido añadida
+2024-10-31 20:19:05 - Unidad Fiscalizable 'FRIGORIFICO TEMUCO' añadida a la base de datos.
+2024-10-31 20:19:05 - ID de unidad fiscalizable extraído: DFZ-2014-221-IX-RCA-IA
+2024-10-31 20:19:05 - Ubicación extraída: de la Araucanía
+2024-10-31 20:19:15 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-10-31 20:19:15 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-10-31 20:19:26 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-31 20:19:26 - Sección 'Documentos' expandida.
+2024-10-31 20:19:26 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-31 20:19:26 - Documento ignorado: 
+2024-10-31 20:19:26 - Documento ignorado: 
+2024-10-31 20:19:26 - Documento ignorado: 
+2024-10-31 20:19:26 - Documento ignorado: 
+2024-10-31 20:19:26 - Documento ignorado: 
+2024-10-31 20:19:26 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF79B943AF5+28005]
+	(No symbol) [0x00007FF79B8A83F0]
+	(No symbol) [0x00007FF79B74580A]
+	(No symbol) [0x00007FF79B795A3E]
+	(No symbol) [0x00007FF79B795D2C]
+	(No symbol) [0x00007FF79B78937C]
+	(No symbol) [0x00007FF79B7BBA7F]
+	(No symbol) [0x00007FF79B789246]
+	(No symbol) [0x00007FF79B7BBC50]
+	(No symbol) [0x00007FF79B7DB8B3]
+	(No symbol) [0x00007FF79B7BB7E3]
+	(No symbol) [0x00007FF79B7875C8]
+	(No symbol) [0x00007FF79B788731]
+	GetHandleVerifier [0x00007FF79BC3646D+3118813]
+	GetHandleVerifier [0x00007FF79BC86CC0+3448624]
+	GetHandleVerifier [0x00007FF79BC7CF3D+3408301]
+	GetHandleVerifier [0x00007FF79BA0A44B+841403]
+	(No symbol) [0x00007FF79B8B344F]
+	(No symbol) [0x00007FF79B8AF4C4]
+	(No symbol) [0x00007FF79B8AF65D]
+	(No symbol) [0x00007FF79B89EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-31 20:19:47 - Volviendo a la página de resultados.
+2024-10-31 20:19:48 - Procesando fila 18...
+2024-10-31 20:19:48 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-10-31 20:19:48 - 1- Añadiendo Cliente a BD
+2024-10-31 20:19:48 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-10-31 20:19:48 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-31 20:19:49 - Clic en el enlace 'Ver detalle'.
+2024-10-31 20:19:49 - El modal de carga ha desaparecido.
+2024-10-31 20:19:49 - Nombre extraído: PATACON
+2024-10-31 20:19:49 - Ubicación extraída: PATACON
+Molina - Región del Maule
+2024-10-31 20:19:49 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/8204
+2024-10-31 20:19:49 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-10-31 20:19:49 - 2- La unidad fiscalizable ha sido añadida
+2024-10-31 20:19:49 - Unidad Fiscalizable 'PATACON' añadida a la base de datos.
+2024-10-31 20:19:50 - ID de unidad fiscalizable extraído: DFZ-2014-257-VII-RCA-IA
+2024-10-31 20:19:50 - Ubicación extraída: del Maule
+2024-10-31 20:20:00 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-10-31 20:20:00 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-10-31 20:20:10 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-31 20:20:10 - Sección 'Documentos' expandida.
+2024-10-31 20:20:10 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-31 20:20:10 - Documento ignorado: 
+2024-10-31 20:20:10 - Documento ignorado: 
+2024-10-31 20:20:10 - Documento ignorado: 
+2024-10-31 20:20:10 - Documento ignorado: 
+2024-10-31 20:20:10 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF79B943AF5+28005]
+	(No symbol) [0x00007FF79B8A83F0]
+	(No symbol) [0x00007FF79B74580A]
+	(No symbol) [0x00007FF79B795A3E]
+	(No symbol) [0x00007FF79B795D2C]
+	(No symbol) [0x00007FF79B78937C]
+	(No symbol) [0x00007FF79B7BBA7F]
+	(No symbol) [0x00007FF79B789246]
+	(No symbol) [0x00007FF79B7BBC50]
+	(No symbol) [0x00007FF79B7DB8B3]
+	(No symbol) [0x00007FF79B7BB7E3]
+	(No symbol) [0x00007FF79B7875C8]
+	(No symbol) [0x00007FF79B788731]
+	GetHandleVerifier [0x00007FF79BC3646D+3118813]
+	GetHandleVerifier [0x00007FF79BC86CC0+3448624]
+	GetHandleVerifier [0x00007FF79BC7CF3D+3408301]
+	GetHandleVerifier [0x00007FF79BA0A44B+841403]
+	(No symbol) [0x00007FF79B8B344F]
+	(No symbol) [0x00007FF79B8AF4C4]
+	(No symbol) [0x00007FF79B8AF65D]
+	(No symbol) [0x00007FF79B89EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-31 20:20:31 - Volviendo a la página de resultados.
+2024-10-31 20:20:31 - Procesando fila 19...
+2024-10-31 20:20:31 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-10-31 20:20:31 - 1- Añadiendo Cliente a BD
+2024-10-31 20:20:31 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-10-31 20:20:32 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-31 20:20:32 - Clic en el enlace 'Ver detalle'.
+2024-10-31 20:20:32 - El modal de carga ha desaparecido.
+2024-10-31 20:20:32 - Nombre extraído: PLANTEL PORCINO TAMAR 2
+2024-10-31 20:20:33 - Ubicación extraída: PLANTEL PORCINO TAMAR 2
+Paine - Región Metropolitana
+2024-10-31 20:20:33 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2907
+2024-10-31 20:20:33 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-10-31 20:20:33 - 2- La unidad fiscalizable ha sido añadida
+2024-10-31 20:20:33 - Unidad Fiscalizable 'PLANTEL PORCINO TAMAR 2' añadida a la base de datos.
+2024-10-31 20:20:33 - ID de unidad fiscalizable extraído: DFZ-2014-355-XIII-SRCA-IA
+2024-10-31 20:20:33 - Ubicación extraída: Metropolitana
+2024-10-31 20:20:43 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-10-31 20:20:43 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-10-31 20:20:54 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-31 20:20:54 - Sección 'Documentos' expandida.
+2024-10-31 20:20:54 - Documento ignorado: 
+2024-10-31 20:20:54 - Documento ignorado: 
+2024-10-31 20:20:54 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF79B943AF5+28005]
+	(No symbol) [0x00007FF79B8A83F0]
+	(No symbol) [0x00007FF79B74580A]
+	(No symbol) [0x00007FF79B795A3E]
+	(No symbol) [0x00007FF79B795D2C]
+	(No symbol) [0x00007FF79B78937C]
+	(No symbol) [0x00007FF79B7BBA7F]
+	(No symbol) [0x00007FF79B789246]
+	(No symbol) [0x00007FF79B7BBC50]
+	(No symbol) [0x00007FF79B7DB8B3]
+	(No symbol) [0x00007FF79B7BB7E3]
+	(No symbol) [0x00007FF79B7875C8]
+	(No symbol) [0x00007FF79B788731]
+	GetHandleVerifier [0x00007FF79BC3646D+3118813]
+	GetHandleVerifier [0x00007FF79BC86CC0+3448624]
+	GetHandleVerifier [0x00007FF79BC7CF3D+3408301]
+	GetHandleVerifier [0x00007FF79BA0A44B+841403]
+	(No symbol) [0x00007FF79B8B344F]
+	(No symbol) [0x00007FF79B8AF4C4]
+	(No symbol) [0x00007FF79B8AF65D]
+	(No symbol) [0x00007FF79B89EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-31 20:21:14 - Volviendo a la página de resultados.
+2024-10-31 20:21:15 - Procesando fila 20...
+2024-10-31 20:21:15 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-10-31 20:21:15 - 1- Añadiendo Cliente a BD
+2024-10-31 20:21:15 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-10-31 20:21:15 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-31 20:21:16 - Clic en el enlace 'Ver detalle'.
+2024-10-31 20:21:16 - El modal de carga ha desaparecido.
+2024-10-31 20:21:16 - Nombre extraído: AGROORGANICOS MOSTAZAL - CHIMBARONGO
+2024-10-31 20:21:17 - Ubicación extraída: AGROORGANICOS MOSTAZAL - CHIMBARONGO
+Chimbarongo - Región del Libertador General Bernardo O'Higgins
+2024-10-31 20:21:17 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2312
+2024-10-31 20:21:17 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-10-31 20:21:17 - 2- La unidad fiscalizable ha sido añadida
+2024-10-31 20:21:17 - Unidad Fiscalizable 'AGROORGANICOS MOSTAZAL - CHIMBARONGO' añadida a la base de datos.
+2024-10-31 20:21:17 - ID de unidad fiscalizable extraído: DFZ-2014-337-VI-PC-IA
+2024-10-31 20:21:17 - Ubicación extraída: del Libertador General Bernardo O'Higgins
+2024-10-31 20:21:27 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-10-31 20:21:27 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-10-31 20:21:37 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-31 20:21:37 - Sección 'Documentos' expandida.
+2024-10-31 20:21:38 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-31 20:21:38 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-31 20:21:38 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-31 20:21:38 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-31 20:21:38 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-31 20:21:38 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-31 20:21:38 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-31 20:21:38 - Archivo Informe de Fiscalización Ambiental_DFZ-2014-337-VI-PC-IA.pdf ya existe y será reemplazado.
+2024-10-31 20:21:43 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-337-VI-PC-IA.pdf
+2024-10-31 20:21:43 - Documento ignorado: 
+2024-10-31 20:21:43 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF79B943AF5+28005]
+	(No symbol) [0x00007FF79B8A83F0]
+	(No symbol) [0x00007FF79B74580A]
+	(No symbol) [0x00007FF79B795A3E]
+	(No symbol) [0x00007FF79B795D2C]
+	(No symbol) [0x00007FF79B78937C]
+	(No symbol) [0x00007FF79B7BBA7F]
+	(No symbol) [0x00007FF79B789246]
+	(No symbol) [0x00007FF79B7BBC50]
+	(No symbol) [0x00007FF79B7DB8B3]
+	(No symbol) [0x00007FF79B7BB7E3]
+	(No symbol) [0x00007FF79B7875C8]
+	(No symbol) [0x00007FF79B788731]
+	GetHandleVerifier [0x00007FF79BC3646D+3118813]
+	GetHandleVerifier [0x00007FF79BC86CC0+3448624]
+	GetHandleVerifier [0x00007FF79BC7CF3D+3408301]
+	GetHandleVerifier [0x00007FF79BA0A44B+841403]
+	(No symbol) [0x00007FF79B8B344F]
+	(No symbol) [0x00007FF79B8AF4C4]
+	(No symbol) [0x00007FF79B8AF65D]
+	(No symbol) [0x00007FF79B89EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-31 20:22:02 - Volviendo a la página de resultados.
+2024-10-31 20:22:02 - Procesando fila 21...
+2024-10-31 20:22:02 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-10-31 20:22:02 - 1- Añadiendo Cliente a BD
+2024-10-31 20:22:02 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-10-31 20:22:02 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-31 20:22:03 - Clic en el enlace 'Ver detalle'.
+2024-10-31 20:22:04 - El modal de carga ha desaparecido.
+2024-10-31 20:22:04 - Nombre extraído: PLANTA RENDERING CHILE MINK
+2024-10-31 20:22:04 - Ubicación extraída: PLANTA RENDERING CHILE MINK
+Mostazal - Región del Libertador General Bernardo O'Higgins
+2024-10-31 20:22:04 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2212
+2024-10-31 20:22:04 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-10-31 20:22:04 - 2- La unidad fiscalizable ha sido añadida
+2024-10-31 20:22:04 - Unidad Fiscalizable 'PLANTA RENDERING CHILE MINK' añadida a la base de datos.
+2024-10-31 20:22:04 - ID de unidad fiscalizable extraído: DFZ-2014-366-VI-PC-IA
+2024-10-31 20:22:04 - Ubicación extraída: del Libertador General Bernardo O'Higgins
+2024-10-31 20:22:15 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-10-31 20:22:15 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-10-31 20:22:25 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-31 20:22:25 - Sección 'Documentos' expandida.
+2024-10-31 20:22:25 - Documento ignorado: 
+2024-10-31 20:22:25 - Documento ignorado: 
+2024-10-31 20:22:25 - Documento ignorado: 
+2024-10-31 20:22:25 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF79B943AF5+28005]
+	(No symbol) [0x00007FF79B8A83F0]
+	(No symbol) [0x00007FF79B74580A]
+	(No symbol) [0x00007FF79B795A3E]
+	(No symbol) [0x00007FF79B795D2C]
+	(No symbol) [0x00007FF79B78937C]
+	(No symbol) [0x00007FF79B7BBA7F]
+	(No symbol) [0x00007FF79B789246]
+	(No symbol) [0x00007FF79B7BBC50]
+	(No symbol) [0x00007FF79B7DB8B3]
+	(No symbol) [0x00007FF79B7BB7E3]
+	(No symbol) [0x00007FF79B7875C8]
+	(No symbol) [0x00007FF79B788731]
+	GetHandleVerifier [0x00007FF79BC3646D+3118813]
+	GetHandleVerifier [0x00007FF79BC86CC0+3448624]
+	GetHandleVerifier [0x00007FF79BC7CF3D+3408301]
+	GetHandleVerifier [0x00007FF79BA0A44B+841403]
+	(No symbol) [0x00007FF79B8B344F]
+	(No symbol) [0x00007FF79B8AF4C4]
+	(No symbol) [0x00007FF79B8AF65D]
+	(No symbol) [0x00007FF79B89EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-31 20:22:46 - Volviendo a la página de resultados.
+2024-10-31 20:22:46 - Procesando fila 22...
+2024-10-31 20:22:46 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-10-31 20:22:46 - 1- Añadiendo Cliente a BD
+2024-10-31 20:22:46 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-10-31 20:22:47 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-31 20:22:47 - Clic en el enlace 'Ver detalle'.
+2024-10-31 20:22:48 - El modal de carga ha desaparecido.
+2024-10-31 20:22:48 - Nombre extraído: VIÑA ERRAZURIZ
+2024-10-31 20:22:48 - Ubicación extraída: VIÑA ERRAZURIZ
+Marchihue - Región del Libertador General Bernardo O'Higgins
+2024-10-31 20:22:48 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2190
+2024-10-31 20:22:48 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-10-31 20:22:48 - 2- La unidad fiscalizable ha sido añadida
+2024-10-31 20:22:48 - Unidad Fiscalizable 'VIÑA ERRAZURIZ' añadida a la base de datos.
+2024-10-31 20:22:48 - ID de unidad fiscalizable extraído: DFZ-2014-386-VI-PC-IA
+2024-10-31 20:22:48 - Ubicación extraída: del Libertador General Bernardo O'Higgins
+2024-10-31 20:22:58 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-10-31 20:22:58 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-10-31 20:23:09 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-31 20:23:09 - Sección 'Documentos' expandida.
+2024-10-31 20:23:09 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-31 20:23:09 - Documento ignorado: 
+2024-10-31 20:23:09 - Documento ignorado: 
+2024-10-31 20:23:09 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF79B943AF5+28005]
+	(No symbol) [0x00007FF79B8A83F0]
+	(No symbol) [0x00007FF79B74580A]
+	(No symbol) [0x00007FF79B795A3E]
+	(No symbol) [0x00007FF79B795D2C]
+	(No symbol) [0x00007FF79B78937C]
+	(No symbol) [0x00007FF79B7BBA7F]
+	(No symbol) [0x00007FF79B789246]
+	(No symbol) [0x00007FF79B7BBC50]
+	(No symbol) [0x00007FF79B7DB8B3]
+	(No symbol) [0x00007FF79B7BB7E3]
+	(No symbol) [0x00007FF79B7875C8]
+	(No symbol) [0x00007FF79B788731]
+	GetHandleVerifier [0x00007FF79BC3646D+3118813]
+	GetHandleVerifier [0x00007FF79BC86CC0+3448624]
+	GetHandleVerifier [0x00007FF79BC7CF3D+3408301]
+	GetHandleVerifier [0x00007FF79BA0A44B+841403]
+	(No symbol) [0x00007FF79B8B344F]
+	(No symbol) [0x00007FF79B8AF4C4]
+	(No symbol) [0x00007FF79B8AF65D]
+	(No symbol) [0x00007FF79B89EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-31 20:23:28 - Volviendo a la página de resultados.
+2024-10-31 20:23:28 - Procesando fila 23...
+2024-10-31 20:23:28 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-10-31 20:23:28 - 1- Añadiendo Cliente a BD
+2024-10-31 20:23:28 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-10-31 20:23:29 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-31 20:23:30 - Clic en el enlace 'Ver detalle'.
+2024-10-31 20:23:30 - El modal de carga ha desaparecido.
+2024-10-31 20:23:31 - Nombre extraído: PATAGONIA FRESH - SAN FERNANDO
+2024-10-31 20:23:31 - Ubicación extraída: PATAGONIA FRESH - SAN FERNANDO
+San Fernando - Región del Libertador General Bernardo O'Higgins
+2024-10-31 20:23:31 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/141
+2024-10-31 20:23:31 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-10-31 20:23:31 - 2- La unidad fiscalizable ha sido añadida
+2024-10-31 20:23:31 - Unidad Fiscalizable 'PATAGONIA FRESH - SAN FERNANDO' añadida a la base de datos.
+2024-10-31 20:23:31 - ID de unidad fiscalizable extraído: DFZ-2014-464-VI-NE-IA
+2024-10-31 20:23:31 - Ubicación extraída: del Libertador General Bernardo O'Higgins
+2024-10-31 20:23:41 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-10-31 20:23:41 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-10-31 20:23:52 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-31 20:23:52 - Sección 'Documentos' expandida.
+2024-10-31 20:23:52 - Documento ignorado: 
+2024-10-31 20:23:52 - Documento ignorado: 
+2024-10-31 20:23:52 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF79B943AF5+28005]
+	(No symbol) [0x00007FF79B8A83F0]
+	(No symbol) [0x00007FF79B74580A]
+	(No symbol) [0x00007FF79B795A3E]
+	(No symbol) [0x00007FF79B795D2C]
+	(No symbol) [0x00007FF79B78937C]
+	(No symbol) [0x00007FF79B7BBA7F]
+	(No symbol) [0x00007FF79B789246]
+	(No symbol) [0x00007FF79B7BBC50]
+	(No symbol) [0x00007FF79B7DB8B3]
+	(No symbol) [0x00007FF79B7BB7E3]
+	(No symbol) [0x00007FF79B7875C8]
+	(No symbol) [0x00007FF79B788731]
+	GetHandleVerifier [0x00007FF79BC3646D+3118813]
+	GetHandleVerifier [0x00007FF79BC86CC0+3448624]
+	GetHandleVerifier [0x00007FF79BC7CF3D+3408301]
+	GetHandleVerifier [0x00007FF79BA0A44B+841403]
+	(No symbol) [0x00007FF79B8B344F]
+	(No symbol) [0x00007FF79B8AF4C4]
+	(No symbol) [0x00007FF79B8AF65D]
+	(No symbol) [0x00007FF79B89EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-31 20:24:13 - Volviendo a la página de resultados.
+2024-10-31 20:24:13 - Procesando fila 24...
+2024-10-31 20:24:13 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-10-31 20:24:13 - 1- Añadiendo Cliente a BD
+2024-10-31 20:24:13 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-10-31 20:24:13 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-31 20:24:14 - Clic en el enlace 'Ver detalle'.
+2024-10-31 20:24:15 - El modal de carga ha desaparecido.
+2024-10-31 20:24:15 - Nombre extraído: VIÑA MONTES
+2024-10-31 20:24:15 - Ubicación extraída: VIÑA MONTES
+Chimbarongo - Región del Libertador General Bernardo O'Higgins
+2024-10-31 20:24:15 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2042
+2024-10-31 20:24:15 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-10-31 20:24:15 - 2- La unidad fiscalizable ha sido añadida
+2024-10-31 20:24:15 - Unidad Fiscalizable 'VIÑA MONTES' añadida a la base de datos.
+2024-10-31 20:24:15 - ID de unidad fiscalizable extraído: DFZ-2014-465-VI-NE-IA
+2024-10-31 20:24:15 - Ubicación extraída: del Libertador General Bernardo O'Higgins
+2024-10-31 20:24:26 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-10-31 20:24:26 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-10-31 20:24:36 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-31 20:24:36 - Sección 'Documentos' expandida.
+2024-10-31 20:24:36 - Documento ignorado: 
+2024-10-31 20:24:36 - Documento ignorado: 
+2024-10-31 20:24:36 - Documento ignorado: 
+2024-10-31 20:24:36 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF79B943AF5+28005]
+	(No symbol) [0x00007FF79B8A83F0]
+	(No symbol) [0x00007FF79B74580A]
+	(No symbol) [0x00007FF79B795A3E]
+	(No symbol) [0x00007FF79B795D2C]
+	(No symbol) [0x00007FF79B78937C]
+	(No symbol) [0x00007FF79B7BBA7F]
+	(No symbol) [0x00007FF79B789246]
+	(No symbol) [0x00007FF79B7BBC50]
+	(No symbol) [0x00007FF79B7DB8B3]
+	(No symbol) [0x00007FF79B7BB7E3]
+	(No symbol) [0x00007FF79B7875C8]
+	(No symbol) [0x00007FF79B788731]
+	GetHandleVerifier [0x00007FF79BC3646D+3118813]
+	GetHandleVerifier [0x00007FF79BC86CC0+3448624]
+	GetHandleVerifier [0x00007FF79BC7CF3D+3408301]
+	GetHandleVerifier [0x00007FF79BA0A44B+841403]
+	(No symbol) [0x00007FF79B8B344F]
+	(No symbol) [0x00007FF79B8AF4C4]
+	(No symbol) [0x00007FF79B8AF65D]
+	(No symbol) [0x00007FF79B89EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-31 20:24:59 - Volviendo a la página de resultados.
+2024-10-31 20:24:59 - Procesando fila 25...
+2024-10-31 20:24:59 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-10-31 20:24:59 - 1- Añadiendo Cliente a BD
+2024-10-31 20:24:59 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-10-31 20:24:59 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-31 20:25:00 - Clic en el enlace 'Ver detalle'.
+2024-10-31 20:25:01 - El modal de carga ha desaparecido.
+2024-10-31 20:25:01 - Nombre extraído: FAENADORA CISNE AUSTRAL
+2024-10-31 20:25:01 - Ubicación extraída: FAENADORA CISNE AUSTRAL
+Coyhaique - Región de Aysén del General Carlos Ibáñez del Campo
+2024-10-31 20:25:01 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2529
+2024-10-31 20:25:01 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-10-31 20:25:01 - 2- La unidad fiscalizable ha sido añadida
+2024-10-31 20:25:01 - Unidad Fiscalizable 'FAENADORA CISNE AUSTRAL' añadida a la base de datos.
+2024-10-31 20:25:01 - ID de unidad fiscalizable extraído: DFZ-2014-1072-XI-NE-IA
+2024-10-31 20:25:01 - Ubicación extraída: de Aysén del General Carlos Ibáñez del Campo
+2024-10-31 20:25:11 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-10-31 20:25:11 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-10-31 20:25:22 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-31 20:25:22 - Sección 'Documentos' expandida.
+2024-10-31 20:25:22 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-31 20:25:22 - Archivo Informe de Fiscalización Ambiental_DFZ-2014-1072-XI-NE-IA.pdf ya existe y será reemplazado.
+2024-10-31 20:25:24 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-1072-XI-NE-IA.pdf
+2024-10-31 20:25:24 - Documento ignorado: 
+2024-10-31 20:25:24 - Documento ignorado: 
+2024-10-31 20:25:24 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF79B943AF5+28005]
+	(No symbol) [0x00007FF79B8A83F0]
+	(No symbol) [0x00007FF79B74580A]
+	(No symbol) [0x00007FF79B795A3E]
+	(No symbol) [0x00007FF79B795D2C]
+	(No symbol) [0x00007FF79B78937C]
+	(No symbol) [0x00007FF79B7BBA7F]
+	(No symbol) [0x00007FF79B789246]
+	(No symbol) [0x00007FF79B7BBC50]
+	(No symbol) [0x00007FF79B7DB8B3]
+	(No symbol) [0x00007FF79B7BB7E3]
+	(No symbol) [0x00007FF79B7875C8]
+	(No symbol) [0x00007FF79B788731]
+	GetHandleVerifier [0x00007FF79BC3646D+3118813]
+	GetHandleVerifier [0x00007FF79BC86CC0+3448624]
+	GetHandleVerifier [0x00007FF79BC7CF3D+3408301]
+	GetHandleVerifier [0x00007FF79BA0A44B+841403]
+	(No symbol) [0x00007FF79B8B344F]
+	(No symbol) [0x00007FF79B8AF4C4]
+	(No symbol) [0x00007FF79B8AF65D]
+	(No symbol) [0x00007FF79B89EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-31 20:25:44 - Volviendo a la página de resultados.
+2024-10-31 20:25:45 - Procesando fila 26...
+2024-10-31 20:25:45 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-10-31 20:25:45 - 1- Añadiendo Cliente a BD
+2024-10-31 20:25:45 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-10-31 20:25:45 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-31 20:25:46 - Clic en el enlace 'Ver detalle'.
+2024-10-31 20:25:46 - El modal de carga ha desaparecido.
+2024-10-31 20:25:46 - Nombre extraído: AGROSEVILLA
+2024-10-31 20:25:47 - Ubicación extraída: AGROSEVILLA
+Copiapó - Región de Atacama
+2024-10-31 20:25:47 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/10279
+2024-10-31 20:25:47 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-10-31 20:25:47 - 2- La unidad fiscalizable ha sido añadida
+2024-10-31 20:25:47 - Unidad Fiscalizable 'AGROSEVILLA' añadida a la base de datos.
+2024-10-31 20:25:47 - ID de unidad fiscalizable extraído: DFZ-2014-2261-III-NE-IA
+2024-10-31 20:25:47 - Ubicación extraída: de Atacama
+2024-10-31 20:25:57 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-10-31 20:25:57 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-10-31 20:26:07 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-31 20:26:07 - Sección 'Documentos' expandida.
+2024-10-31 20:26:07 - Documento ignorado: 
+2024-10-31 20:26:07 - Documento ignorado: 
+2024-10-31 20:26:07 - Documento ignorado: 
+2024-10-31 20:26:07 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF79B943AF5+28005]
+	(No symbol) [0x00007FF79B8A83F0]
+	(No symbol) [0x00007FF79B74580A]
+	(No symbol) [0x00007FF79B795A3E]
+	(No symbol) [0x00007FF79B795D2C]
+	(No symbol) [0x00007FF79B78937C]
+	(No symbol) [0x00007FF79B7BBA7F]
+	(No symbol) [0x00007FF79B789246]
+	(No symbol) [0x00007FF79B7BBC50]
+	(No symbol) [0x00007FF79B7DB8B3]
+	(No symbol) [0x00007FF79B7BB7E3]
+	(No symbol) [0x00007FF79B7875C8]
+	(No symbol) [0x00007FF79B788731]
+	GetHandleVerifier [0x00007FF79BC3646D+3118813]
+	GetHandleVerifier [0x00007FF79BC86CC0+3448624]
+	GetHandleVerifier [0x00007FF79BC7CF3D+3408301]
+	GetHandleVerifier [0x00007FF79BA0A44B+841403]
+	(No symbol) [0x00007FF79B8B344F]
+	(No symbol) [0x00007FF79B8AF4C4]
+	(No symbol) [0x00007FF79B8AF65D]
+	(No symbol) [0x00007FF79B89EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-31 20:26:30 - Volviendo a la página de resultados.
+2024-10-31 20:26:30 - Procesando fila 27...
+2024-10-31 20:26:31 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-10-31 20:26:31 - 1- Añadiendo Cliente a BD
+2024-10-31 20:26:31 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-10-31 20:26:31 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-31 20:26:32 - Clic en el enlace 'Ver detalle'.
+2024-10-31 20:26:32 - El modal de carga ha desaparecido.
+2024-10-31 20:26:32 - Nombre extraído: PLANTA SUGAL QUINTA DE TILCOCO
+2024-10-31 20:26:32 - Ubicación extraída: PLANTA SUGAL QUINTA DE TILCOCO
+Quinta de Tilcoco - Región del Libertador General Bernardo O'Higgins
+2024-10-31 20:26:32 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2250
+2024-10-31 20:26:32 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-10-31 20:26:32 - 2- La unidad fiscalizable ha sido añadida
+2024-10-31 20:26:32 - Unidad Fiscalizable 'PLANTA SUGAL QUINTA DE TILCOCO' añadida a la base de datos.
+2024-10-31 20:26:32 - ID de unidad fiscalizable extraído: DFZ-2014-2259-VI-NE-IA
+2024-10-31 20:26:32 - Ubicación extraída: del Libertador General Bernardo O'Higgins
+2024-10-31 20:26:42 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-10-31 20:26:42 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-10-31 20:26:53 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-31 20:26:53 - Sección 'Documentos' expandida.
+2024-10-31 20:26:53 - Archivo Informe de Fiscalización Ambiental_DFZ-2014-2259-VI-NE-IA.pdf ya existe y será reemplazado.
+2024-10-31 20:26:54 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-2259-VI-NE-IA.pdf
+2024-10-31 20:26:54 - Documento ignorado: 
+2024-10-31 20:26:54 - Documento ignorado: 
+2024-10-31 20:26:54 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF79B943AF5+28005]
+	(No symbol) [0x00007FF79B8A83F0]
+	(No symbol) [0x00007FF79B74580A]
+	(No symbol) [0x00007FF79B795A3E]
+	(No symbol) [0x00007FF79B795D2C]
+	(No symbol) [0x00007FF79B78937C]
+	(No symbol) [0x00007FF79B7BBA7F]
+	(No symbol) [0x00007FF79B789246]
+	(No symbol) [0x00007FF79B7BBC50]
+	(No symbol) [0x00007FF79B7DB8B3]
+	(No symbol) [0x00007FF79B7BB7E3]
+	(No symbol) [0x00007FF79B7875C8]
+	(No symbol) [0x00007FF79B788731]
+	GetHandleVerifier [0x00007FF79BC3646D+3118813]
+	GetHandleVerifier [0x00007FF79BC86CC0+3448624]
+	GetHandleVerifier [0x00007FF79BC7CF3D+3408301]
+	GetHandleVerifier [0x00007FF79BA0A44B+841403]
+	(No symbol) [0x00007FF79B8B344F]
+	(No symbol) [0x00007FF79B8AF4C4]
+	(No symbol) [0x00007FF79B8AF65D]
+	(No symbol) [0x00007FF79B89EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-31 20:27:15 - Volviendo a la página de resultados.
+2024-10-31 20:27:15 - Procesando fila 28...
+2024-10-31 20:27:15 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-10-31 20:27:15 - 1- Añadiendo Cliente a BD
+2024-10-31 20:27:15 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-10-31 20:27:16 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-31 20:27:17 - Clic en el enlace 'Ver detalle'.
+2024-10-31 20:27:17 - El modal de carga ha desaparecido.
+2024-10-31 20:27:17 - Nombre extraído: FRIGORIFICO SIMUNOVIC
+2024-10-31 20:27:17 - Ubicación extraída: FRIGORIFICO SIMUNOVIC
+Punta Arenas - Región de Magallanes y la Antártica Chilena
+2024-10-31 20:27:17 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/6916
+2024-10-31 20:27:17 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-10-31 20:27:17 - 2- La unidad fiscalizable ha sido añadida
+2024-10-31 20:27:17 - Unidad Fiscalizable 'FRIGORIFICO SIMUNOVIC' añadida a la base de datos.
+2024-10-31 20:27:17 - ID de unidad fiscalizable extraído: DFZ-2014-2304-XII-NE-IA
+2024-10-31 20:27:17 - Ubicación extraída: de Magallanes y la Antártica Chilena
+2024-10-31 20:27:28 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-10-31 20:27:28 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-10-31 20:27:38 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-31 20:27:38 - Sección 'Documentos' expandida.
+2024-10-31 20:27:38 - Documento ignorado: 
+2024-10-31 20:27:38 - Documento ignorado: 
+2024-10-31 20:27:38 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF79B943AF5+28005]
+	(No symbol) [0x00007FF79B8A83F0]
+	(No symbol) [0x00007FF79B74580A]
+	(No symbol) [0x00007FF79B795A3E]
+	(No symbol) [0x00007FF79B795D2C]
+	(No symbol) [0x00007FF79B78937C]
+	(No symbol) [0x00007FF79B7BBA7F]
+	(No symbol) [0x00007FF79B789246]
+	(No symbol) [0x00007FF79B7BBC50]
+	(No symbol) [0x00007FF79B7DB8B3]
+	(No symbol) [0x00007FF79B7BB7E3]
+	(No symbol) [0x00007FF79B7875C8]
+	(No symbol) [0x00007FF79B788731]
+	GetHandleVerifier [0x00007FF79BC3646D+3118813]
+	GetHandleVerifier [0x00007FF79BC86CC0+3448624]
+	GetHandleVerifier [0x00007FF79BC7CF3D+3408301]
+	GetHandleVerifier [0x00007FF79BA0A44B+841403]
+	(No symbol) [0x00007FF79B8B344F]
+	(No symbol) [0x00007FF79B8AF4C4]
+	(No symbol) [0x00007FF79B8AF65D]
+	(No symbol) [0x00007FF79B89EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-31 20:28:00 - Volviendo a la página de resultados.
+2024-10-31 20:28:00 - Procesando fila 29...
+2024-10-31 20:28:00 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-10-31 20:28:00 - 1- Añadiendo Cliente a BD
+2024-10-31 20:28:00 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-10-31 20:28:00 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-31 20:28:01 - Clic en el enlace 'Ver detalle'.
+2024-10-31 20:28:02 - El modal de carga ha desaparecido.
+2024-10-31 20:28:02 - Nombre extraído: PLANTA AGROINDUSTRIAL CARTER FRUITS AGROINDUSTRIAL S.A
+2024-10-31 20:28:02 - Ubicación extraída: PLANTA AGROINDUSTRIAL CARTER FRUITS AGROINDUSTRIAL S.A
+Putaendo - Región de Valparaíso
+2024-10-31 20:28:02 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/1765
+2024-10-31 20:28:02 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-10-31 20:28:02 - 2- La unidad fiscalizable ha sido añadida
+2024-10-31 20:28:02 - Unidad Fiscalizable 'PLANTA AGROINDUSTRIAL CARTER FRUITS AGROINDUSTRIAL S.A' añadida a la base de datos.
+2024-10-31 20:28:02 - ID de unidad fiscalizable extraído: DFZ-2014-473-V-NE-IA
+2024-10-31 20:28:02 - Ubicación extraída: de Valparaíso
+2024-10-31 20:28:12 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-10-31 20:28:12 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-10-31 20:28:23 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-31 20:28:23 - Sección 'Documentos' expandida.
+2024-10-31 20:28:23 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-31 20:28:23 - Archivo Informe de Fiscalización Ambiental_DFZ-2014-473-V-NE-IA.pdf ya existe y será reemplazado.
+2024-10-31 20:28:24 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-473-V-NE-IA.pdf
+2024-10-31 20:28:24 - Documento ignorado: 
+2024-10-31 20:28:24 - Documento ignorado: 
+2024-10-31 20:28:24 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF79B943AF5+28005]
+	(No symbol) [0x00007FF79B8A83F0]
+	(No symbol) [0x00007FF79B74580A]
+	(No symbol) [0x00007FF79B795A3E]
+	(No symbol) [0x00007FF79B795D2C]
+	(No symbol) [0x00007FF79B78937C]
+	(No symbol) [0x00007FF79B7BBA7F]
+	(No symbol) [0x00007FF79B789246]
+	(No symbol) [0x00007FF79B7BBC50]
+	(No symbol) [0x00007FF79B7DB8B3]
+	(No symbol) [0x00007FF79B7BB7E3]
+	(No symbol) [0x00007FF79B7875C8]
+	(No symbol) [0x00007FF79B788731]
+	GetHandleVerifier [0x00007FF79BC3646D+3118813]
+	GetHandleVerifier [0x00007FF79BC86CC0+3448624]
+	GetHandleVerifier [0x00007FF79BC7CF3D+3408301]
+	GetHandleVerifier [0x00007FF79BA0A44B+841403]
+	(No symbol) [0x00007FF79B8B344F]
+	(No symbol) [0x00007FF79B8AF4C4]
+	(No symbol) [0x00007FF79B8AF65D]
+	(No symbol) [0x00007FF79B89EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-31 20:28:44 - Volviendo a la página de resultados.
+2024-10-31 20:28:48 - Terminando scraping.
+2024-10-31 22:48:11 - Categoría 'Agroindustrias' seleccionada.
+2024-10-31 22:48:59 - Clic en el botón 'Buscar'.
+2024-10-31 22:48:59 - El modal de carga ha desaparecido.
+2024-10-31 22:49:00 - Procesando fila 1...
+2024-10-31 22:49:00 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-10-31 22:49:00 - 1- Añadiendo Cliente a BD
+2024-10-31 22:49:00 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-10-31 22:49:00 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-31 22:49:04 - Clic en el enlace 'Ver detalle'.
+2024-10-31 22:49:04 - El modal de carga ha desaparecido.
+2024-10-31 22:49:04 - Nombre extraído: PLANTA FAENADORA DE AVES ARICA
+2024-10-31 22:49:05 - Ubicación extraída: PLANTA FAENADORA DE AVES ARICA
+Arica - Región de Arica y Parinacota
+2024-10-31 22:49:11 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2593
+2024-10-31 22:49:11 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-10-31 22:49:11 - Unidad Fiscalizable 'PLANTA FAENADORA DE AVES ARICA' ya existe en la base de datos.
+2024-10-31 22:49:12 - ID de unidad fiscalizable extraído: DFZ-2014-78-XV-RCA-IA
+2024-10-31 22:49:13 - Ubicación extraída: de Arica y Parinacota
+2024-10-31 22:49:23 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-10-31 22:49:23 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-10-31 22:49:33 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-31 22:49:33 - Sección 'Documentos' expandida.
+2024-10-31 22:49:33 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-31 22:49:33 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-31 22:49:33 - Archivo Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf ya existe y será reemplazado.
+2024-10-31 22:49:38 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+2024-10-31 22:49:38 - Documento ignorado: 
+2024-10-31 22:49:38 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF76C013AF5+28005]
+	(No symbol) [0x00007FF76BF783F0]
+	(No symbol) [0x00007FF76BE1580A]
+	(No symbol) [0x00007FF76BE65A3E]
+	(No symbol) [0x00007FF76BE65D2C]
+	(No symbol) [0x00007FF76BE5937C]
+	(No symbol) [0x00007FF76BE8BA7F]
+	(No symbol) [0x00007FF76BE59246]
+	(No symbol) [0x00007FF76BE8BC50]
+	(No symbol) [0x00007FF76BEAB8B3]
+	(No symbol) [0x00007FF76BE8B7E3]
+	(No symbol) [0x00007FF76BE575C8]
+	(No symbol) [0x00007FF76BE58731]
+	GetHandleVerifier [0x00007FF76C30646D+3118813]
+	GetHandleVerifier [0x00007FF76C356CC0+3448624]
+	GetHandleVerifier [0x00007FF76C34CF3D+3408301]
+	GetHandleVerifier [0x00007FF76C0DA44B+841403]
+	(No symbol) [0x00007FF76BF8344F]
+	(No symbol) [0x00007FF76BF7F4C4]
+	(No symbol) [0x00007FF76BF7F65D]
+	(No symbol) [0x00007FF76BF6EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-31 22:50:07 - Volviendo a la página de resultados.
+2024-10-31 22:50:08 - Procesando fila 2...
+2024-10-31 22:50:09 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-10-31 22:50:09 - 1- Añadiendo Cliente a BD
+2024-10-31 22:50:09 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-10-31 22:50:09 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-31 22:50:10 - Clic en el enlace 'Ver detalle'.
+2024-10-31 22:50:11 - El modal de carga ha desaparecido.
+2024-10-31 22:50:11 - Nombre extraído: PLANTEL DE AVES DE LEYDA
+2024-10-31 22:50:11 - Ubicación extraída: PLANTEL DE AVES DE LEYDA
+San Antonio - Región de Valparaíso
+2024-10-31 22:50:11 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/1840
+2024-10-31 22:50:11 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-10-31 22:50:11 - Unidad Fiscalizable 'PLANTEL DE AVES DE LEYDA' ya existe en la base de datos.
+2024-10-31 22:50:11 - ID de unidad fiscalizable extraído: DFZ-2014-2297-V-RCA-IA
+2024-10-31 22:50:12 - Ubicación extraída: de Valparaíso
+2024-10-31 22:50:22 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-10-31 22:50:22 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-10-31 22:50:32 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-31 22:50:32 - Sección 'Documentos' expandida.
+2024-10-31 22:50:32 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-31 22:50:32 - Archivo Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf ya existe y será reemplazado.
+2024-10-31 22:50:38 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf
+2024-10-31 22:50:38 - Documento ignorado: 
+2024-10-31 22:50:38 - Documento ignorado: 
+2024-10-31 22:50:38 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF76C013AF5+28005]
+	(No symbol) [0x00007FF76BF783F0]
+	(No symbol) [0x00007FF76BE1580A]
+	(No symbol) [0x00007FF76BE65A3E]
+	(No symbol) [0x00007FF76BE65D2C]
+	(No symbol) [0x00007FF76BE5937C]
+	(No symbol) [0x00007FF76BE8BA7F]
+	(No symbol) [0x00007FF76BE59246]
+	(No symbol) [0x00007FF76BE8BC50]
+	(No symbol) [0x00007FF76BEAB8B3]
+	(No symbol) [0x00007FF76BE8B7E3]
+	(No symbol) [0x00007FF76BE575C8]
+	(No symbol) [0x00007FF76BE58731]
+	GetHandleVerifier [0x00007FF76C30646D+3118813]
+	GetHandleVerifier [0x00007FF76C356CC0+3448624]
+	GetHandleVerifier [0x00007FF76C34CF3D+3408301]
+	GetHandleVerifier [0x00007FF76C0DA44B+841403]
+	(No symbol) [0x00007FF76BF8344F]
+	(No symbol) [0x00007FF76BF7F4C4]
+	(No symbol) [0x00007FF76BF7F65D]
+	(No symbol) [0x00007FF76BF6EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-31 22:50:59 - Volviendo a la página de resultados.
+2024-10-31 22:50:59 - Procesando fila 3...
+2024-10-31 22:51:00 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-10-31 22:51:00 - 1- Añadiendo Cliente a BD
+2024-10-31 22:51:00 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-10-31 22:51:00 - Scroll hacia el enlace 'Ver detalle'.
+2024-10-31 22:51:01 - Clic en el enlace 'Ver detalle'.
+2024-10-31 22:51:02 - El modal de carga ha desaparecido.
+2024-10-31 22:51:02 - Nombre extraído: CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A.
+2024-10-31 22:51:02 - Ubicación extraída: CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A.
+Isla de Maipo - Región Metropolitana
+2024-10-31 22:51:02 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/4495
+2024-10-31 22:51:02 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-10-31 22:51:02 - Unidad Fiscalizable 'CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A.' ya existe en la base de datos.
+2024-10-31 22:51:02 - ID de unidad fiscalizable extraído: DFZ-2014-347-XIII-RCA-IA
+2024-10-31 22:51:02 - Ubicación extraída: Metropolitana
+2024-10-31 22:51:12 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-10-31 22:51:12 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-10-31 22:51:22 - No se pudo hacer clic en la pestaña 'Documentos'.
+2024-10-31 22:51:22 - Sección 'Documentos' expandida.
+2024-10-31 22:51:23 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-10-31 22:51:23 - Archivo Informe de Fiscalización Ambiental_DFZ-2014-347-XIII-RCA-IA.pdf ya existe y será reemplazado.
+2024-10-31 22:51:37 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-347-XIII-RCA-IA.pdf
+2024-10-31 22:51:37 - Documento ignorado: 
+2024-10-31 22:51:37 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF76C013AF5+28005]
+	(No symbol) [0x00007FF76BF783F0]
+	(No symbol) [0x00007FF76BE1580A]
+	(No symbol) [0x00007FF76BE65A3E]
+	(No symbol) [0x00007FF76BE65D2C]
+	(No symbol) [0x00007FF76BE5937C]
+	(No symbol) [0x00007FF76BE8BA7F]
+	(No symbol) [0x00007FF76BE59246]
+	(No symbol) [0x00007FF76BE8BC50]
+	(No symbol) [0x00007FF76BEAB8B3]
+	(No symbol) [0x00007FF76BE8B7E3]
+	(No symbol) [0x00007FF76BE575C8]
+	(No symbol) [0x00007FF76BE58731]
+	GetHandleVerifier [0x00007FF76C30646D+3118813]
+	GetHandleVerifier [0x00007FF76C356CC0+3448624]
+	GetHandleVerifier [0x00007FF76C34CF3D+3408301]
+	GetHandleVerifier [0x00007FF76C0DA44B+841403]
+	(No symbol) [0x00007FF76BF8344F]
+	(No symbol) [0x00007FF76BF7F4C4]
+	(No symbol) [0x00007FF76BF7F65D]
+	(No symbol) [0x00007FF76BF6EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-10-31 22:51:44 - Volviendo a la página de resultados.
+2024-10-31 22:51:50 - Terminando scraping.
+2024-10-31 23:25:37 - Categoría 'Agroindustrias' seleccionada.
+2024-10-31 23:25:47 - Clic en el botón 'Buscar'.
+2024-10-31 23:25:49 - Terminando scraping.
+2024-11-01 00:47:48 - Categoría 'Agroindustrias' seleccionada.
+2024-11-01 00:47:56 - Clic en el botón 'Buscar'.
+2024-11-01 00:47:59 - Terminando scraping.
