@@ -36,10 +36,52 @@ def setup_driver():
     driver = webdriver.Chrome(options=options)
     return driver
 
-def close_driver(driver):
-    """Cierra el WebDriver."""
-    driver.quit()
+def process_first_category(driver):
+    """Realiza la búsqueda en la primera categoría y descarga los documentos fila por fila."""
+    base_url = 'https://snifa.sma.gob.cl/Fiscalizacion'
+    driver.get(base_url)
 
+    if not check_page_load(driver):
+        return
+
+    select_category(driver)
+    wait_for_modal_to_disappear(driver)
+    wait = WebDriverWait(driver, 10)
+    # filas que recorrerá de la tabla principal
+    for i in range(1, 50):
+        try:
+            filas = 1
+            row_xpath = f"//table/tbody/tr[{i}]"
+            row = wait.until(EC.presence_of_element_located((By.XPATH, row_xpath)))
+            log_activity(f"Procesando fila {i}...")
+            process_row(driver, row, filas)
+        except TimeoutException:
+            log_activity(f"No se pudo encontrar la fila {i}, terminando proceso.")
+            break
+# SELECCION DE CATEGORIA Y CLIC EN BUSCAR
+def select_category(driver):
+    """Selecciona la categoría 'Agroindustrias' y hace clic en el botón de buscar."""
+    try:
+        wait = WebDriverWait(driver, 20)# esperar a que desaparezca el modal en 20 seg
+        category_select = wait.until(EC.presence_of_element_located((By.ID, "categoria"))) #busqueda del selector categoria
+        category_select.click() # clic en el selector
+
+        agroindustria_option = wait.until(EC.presence_of_element_located((By.XPATH, "//select[@id='categoria']/option[@value='6']")))
+        agroindustria_option.click()
+
+        log_activity("Categoría 'Agroindustrias' seleccionada.")
+        buscar_button = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[contains(text(),'Buscar')]")))
+        buscar_button.click()
+        log_activity("Clic en el botón 'Buscar'.")
+
+    except TimeoutException:
+        log_activity("Error al seleccionar la categoría o hacer clic en buscar.")
+    except Exception as e:
+        log_activity(f"Error inesperado: {e}")
+
+####################################################################
+####################################################################
+# FUNCIONES DE UTILIDAD DE ACCION Y CONTROL DE LAS DEMAS FUNCIONES
 def log_activity(message):
     """Guarda la actividad en un archivo de log."""
     log_file_path = os.path.join(os.getcwd(), "logs_scraping.txt")
@@ -75,6 +117,9 @@ def check_page_load(driver):
     except NoSuchElementException:
         return True
 
+###################################################################################
+###################################################################################
+
 def extract_expediente_id(driver):
     """Extrae el ID de expediente de la etiqueta <h3> dentro del div específico."""
     try:
@@ -106,11 +151,12 @@ def get_ubicacion(driver):
         log_activity("No se pudo encontrar la ubicación.")
         return None
 
+# obtener nombre de la unidad fiscalizable
 def get_nombre_u_fiscalizable(driver):
-    """Extrae el nombre de la unidad fiscalizable."""
+    log_activity("""Extrayendo el nombre de la unidad fiscalizable...""")
     try:
-        nombre_element = WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.XPATH, "//td[@data-label='Nombre Razon Social']//li"))
+        nombre_element = WebDriverWait(driver, 10).until( # esperando al modal para luego buscar en la ruta
+            EC.presence_of_element_located((By.XPATH, "/html/body/div[6]/div[4]/div/div/div/div/div[2]/div[3]/table/tbody/tr[1]/td[3]/ul/li/text()"))
         )
         nombre_u_fiscalizable = nombre_element.text.strip()
         log_activity(f"Nombre de unidad fiscalizable extraído: {nombre_u_fiscalizable}")
@@ -142,7 +188,7 @@ def click_documentos_tab(driver):
     """Hace clic en la pestaña de documentos."""
     try:
         documentos_tab = WebDriverWait(driver, 10).until(
-            EC.element_to_be_clickable((By.XPATH, "//a[@data-toggle='tab' and @href='#documentos']"))
+            EC.element_to_be_clickable((By.XPATH, "/html/body/div[6]/div[4]/div/div/div/div/div/div/div[2]/div[1]/div[1]/h4/a"))
         )
         documentos_tab.click()
         log_activity("Clic en la pestaña 'Documentos'.")
@@ -173,19 +219,24 @@ def process_document_table(driver, ID_unidad_fiscalizable):
         rows = driver.find_elements(By.XPATH, "//table[contains(@class, 'tabla-resultado-busqueda')]/tbody/tr")
 
         for row in rows:
-            tipo_documento = row.find_element(By.XPATH, ".//td[@data-label='Tipo Documento']").text
-            if "Informe de Fiscalización Ambiental" in tipo_documento and "anexo" not in tipo_documento.lower():
-                try:
-                    download_link = row.find_element(By.XPATH, ".//td[@data-label='Link']/a")
-                    download_url = download_link.get_attribute('href')
-                    download_document(driver, download_url, "Informe de Fiscalización Ambiental", ID_unidad_fiscalizable)
+            try:
+                tipo_documento = row.find_element(By.XPATH, ".//td[@data-label='Tipo Documento']").text
+                if "Informe de Fiscalización Ambiental" in tipo_documento and "anexo" not in tipo_documento.lower():
+                    try:
+                        download_link = row.find_element(By.XPATH, "/html/body/div[6]/div[4]/div/div/div/div/div/div/div[2]/div[1]/div[2]/div/table/tbody/tr[2]/td[3]")
+                        if "Informe de Fiscalización Ambiental" in download_link.text:
+                            download_button = row.find_element(By.XPATH, "/html/body/div[6]/div[4]/div/div/div/div/div/div/div[2]/div[1]/div[2]/div/table/tbody/tr[2]/td[4]/a")
+                            download_url = download_button.get_attribute('href')
+                            download_document(driver, download_url, "Informe de Fiscalización Ambiental", ID_unidad_fiscalizable)
 
-                except NoSuchElementException as e:
-                    log_activity(f"Error: No se encontró el enlace de descarga en la fila. Detalle: {e}")
-                except Exception as e:
-                    log_activity(f"Error al intentar descargar el documento. Detalle: {e}")
-            else:
-                log_activity(f"Documento ignorado: {tipo_documento}")
+                    except NoSuchElementException as e:
+                        log_activity(f"Error: No se encontró el enlace de descarga en la fila. Detalle: {e}")
+                    except Exception as e:
+                        log_activity(f"Error al intentar descargar el documento. Detalle: {e}")
+                else:
+                    log_activity(f"Documento ignorado: {tipo_documento}")
+            except NoSuchElementException as e:
+                log_activity(f"Error al procesar la tabla de documentos: {e}")
 
     except NoSuchElementException as e:
         log_activity(f"Error al procesar la tabla de documentos: {e}")
@@ -196,7 +247,7 @@ def process_document_table(driver, ID_unidad_fiscalizable):
 
 # descargar documento en formato PDF con ID de U.Fiscalizable
 def download_document(driver, download_url, document_name, ID_unidad_fiscalizable):
-    """Descarga el documento con un nombre personalizado y sobrescribe si existe."""
+    """Descarga el documento con un nombre personalizado y sobrescribe si existe. Luego, escanea el documento en busca de palabras clave."""
     try:
         file_name = f"{document_name}_{ID_unidad_fiscalizable}.pdf"
         file_path = os.path.join(download_dir, file_name)
@@ -212,8 +263,28 @@ def download_document(driver, download_url, document_name, ID_unidad_fiscalizabl
 
         log_activity(f"Documento descargado como: {file_name}")
 
+        # Escanear el documento en busca de palabras clave
+        if scan_document_for_keywords(file_path, ['olor', 'olores']):
+            log_activity(f"El documento {file_name} contiene palabras clave relacionadas con 'olor'.")
+
     except Exception as e:
         log_activity(f"Error al descargar el documento: {e}")
+
+def scan_document_for_keywords(file_path, keywords):
+    """Escanea el documento PDF en busca de palabras clave."""
+    try:
+        import PyPDF2
+        with open(file_path, 'rb') as file:
+            reader = PyPDF2.PdfFileReader(file)
+            for page_num in range(reader.numPages):
+                page = reader.getPage(page_num)
+                text = page.extract_text()
+                if any(keyword in text for keyword in keywords):
+                    return True
+        return False
+    except Exception as e:
+        log_activity(f"Error al escanear el documento: {e}")
+        return False
 
 # obtener nombre del cliente
 def get_cliente_nombre(driver, filas):
@@ -270,48 +341,7 @@ def process_row(driver, row,filas):
     if ID_unidad_fiscalizable:
         print(f"ID Unidad Fiscalizable: {ID_unidad_fiscalizable}")
 
-def select_category(driver):
-    """Selecciona la categoría 'Agroindustrias' y hace clic en el botón de buscar."""
-    try:
-        wait = WebDriverWait(driver, 20)
-        category_select = wait.until(EC.presence_of_element_located((By.ID, "categoria")))
-        category_select.click()
 
-        agroindustria_option = wait.until(EC.presence_of_element_located((By.XPATH, "//select[@id='categoria']/option[@value='6']")))
-        agroindustria_option.click()
-
-        log_activity("Categoría 'Agroindustrias' seleccionada.")
-        buscar_button = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[contains(text(),'Buscar')]")))
-        buscar_button.click()
-        log_activity("Clic en el botón 'Buscar'.")
-
-    except TimeoutException:
-        log_activity("Error al seleccionar la categoría o hacer clic en buscar.")
-    except Exception as e:
-        log_activity(f"Error inesperado: {e}")
-
-def process_first_category(driver):
-    """Realiza la búsqueda en la primera categoría y descarga los documentos fila por fila."""
-    base_url = 'https://snifa.sma.gob.cl/Fiscalizacion'
-    driver.get(base_url)
-
-    if not check_page_load(driver):
-        return
-
-    select_category(driver)
-    wait_for_modal_to_disappear(driver)
-    wait = WebDriverWait(driver, 10)
-
-    for i in range(1, 30):
-        try:
-            filas = 1
-            row_xpath = f"//table/tbody/tr[{i}]"
-            row = wait.until(EC.presence_of_element_located((By.XPATH, row_xpath)))
-            log_activity(f"Procesando fila {i}...")
-            process_row(driver, row, filas)
-        except TimeoutException:
-            log_activity(f"No se pudo encontrar la fila {i}, terminando proceso.")
-            break
 # recolectar datos para tabla 'UFiscal'
 def get_unidad(driver):
     """Extrae el nombre, la ubicación y la URL de la unidad fiscalizable."""
@@ -347,6 +377,10 @@ def get_unidad(driver):
         log_activity(f"Error inesperado al extraer los datos de la unidad: {e}")
         return None, None, None
 
+def close_driver(driver):
+    """Cierra el WebDriver."""
+    driver.quit()
+    
 def main():
     driver = setup_driver()
     try:

@@ -67,11 +67,20 @@ def run_script(request):
     """Ejecuta el script main.py y devuelve la salida."""
     try:
         # Ejecuta el script main.py
-        result = subprocess.run(['python', 'modulos/main.py'], capture_output=True, text=True)
+        result = subprocess.run(
+            ['python', 'modulos\main.py'],
+            capture_output=True,
+            text=True,
+            check=True  # Esto lanzará una excepción si el script falla
+        )
         # Retorna el resultado en formato JSON
         return JsonResponse({'output': result.stdout})
+    except subprocess.CalledProcessError as e:
+        # Captura errores de ejecución del script
+        return JsonResponse({'error': f'Error al ejecutar el script: {e.stderr}'})
     except Exception as e:
-        return JsonResponse({'error': f'Error al ejecutar el script: {str(e)}'})
+        # Captura cualquier otro tipo de error
+        return JsonResponse({'error': f'Error inesperado: {str(e)}'})
     
 @login_required(login_url='/login/')
 def panel(request):

@@ -1,31 +1,24 @@
 import os
-from PyPDF2 import PdfReader
+import django
 from django.conf import settings
-from odorwatch.models import Palabras, Documento, Coincidencias
 
-def scan_pdfs_and_record_coincidences():
-    """Escanea archivos PDF en la carpeta Descargas y registra coincidencias en la base de datos."""
-    download_dir = os.path.join(settings.BASE_DIR, 'modulos', 'Descargas')
-    palabras = Palabras.objects.all()
+# Configurar Django
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'core.settings')
+django.setup()
 
-    for filename in os.listdir(download_dir):
-        if filename.endswith('.pdf'):
-            file_path = os.path.join(download_dir, filename)
-            with open(file_path, 'rb') as file:
-                reader = PdfReader(file)
-                text = ''
-                for page in reader.pages:
-                    text += page.extract_text()
+from odorwatch.models import Palabras
 
-                for palabra in palabras:
-                    count = text.lower().count(palabra.palabras.lower())
-                    if count > 0:
-                        # Asumiendo que tienes un documento relacionado con el archivo PDF
-                        documento = Documento.objects.filter(url=file_path).first()
-                        if documento:
-                            Coincidencias.objects.create(
-                                cantidad=count,
-                                documento=documento,
-                                palabras=palabra
-                            )
-                            print(f"Coincidencias encontradas: {count} para la palabra '{palabra.palabras}' en el documento '{filename}'")
+def obtener_palabras():
+    """Obtiene todas las palabras del modelo Palabras."""
+    try:
+        palabras = Palabras.objects.all()
+        lista_palabras = [palabra.palabra for palabra in palabras]
+        return lista_palabras
+    except Exception as e:
+        print(f"Error al obtener palabras: {e}")
+        return []
+
+# Ejemplo de uso
+if __name__ == "__main__":
+    palabras = obtener_palabras()
+    print("Palabras obtenidas:", palabras)

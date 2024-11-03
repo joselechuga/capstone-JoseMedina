@@ -83,7 +83,7 @@
                     // Limpia el contenido del div antes de añadir los logs
                     logOutput.textContent = '';
                     // Añade las últimas 100 líneas del log al div
-                    const last100Logs = data.logs.slice(-50);
+                    const last100Logs = data.logs.slice(-100);
                     last100Logs.forEach(log => {
                         logOutput.textContent += log + '\n';
                     });
