@@ -10,29 +10,43 @@
 
 <!-- Contenido -->
 {% block content %}
-<h1>Bienvenidos al sistema Smart OdorWatch</h1>
+  <h1>Sistema Smart OdorWatch</h1>
 
-<div class="row">
-  <div class="col-sm-6 mb-3 mb-sm-0">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
+  <div class="card">
+    <div class="card-header">Selecciones</div>
+    <div class="card-body">
+      <h5 class="card-title">Accede directamente a los modulos que deseas visualizar</h5>
+      <a href="{% url 'snifa' %}" class="btn link-home">
+        <div class="card card-home" style="width: 18rem;">
+          <img src="https://snifa.sma.gob.cl/images/snifa-logo.png" class="card-img-top" alt="..." />
+        </div>
+      </a>
     </div>
   </div>
-  <div class="col-sm-6">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+
+  <div class="container container-hamster">
+    <h2>Pronto se añadirán nuevos modulos</h2>
+    <p>Estamos trabajando en ello...</p>
+
+    <div aria-label="Orange and tan hamster running in a metal wheel" role="img" class="wheel-and-hamster">
+      <div class="wheel"></div>
+      <div class="hamster">
+        <div class="hamster__body">
+          <div class="hamster__head">
+            <div class="hamster__ear"></div>
+            <div class="hamster__eye"></div>
+            <div class="hamster__nose"></div>
+          </div>
+          <div class="hamster__limb hamster__limb--fr"></div>
+          <div class="hamster__limb hamster__limb--fl"></div>
+          <div class="hamster__limb hamster__limb--br"></div>
+          <div class="hamster__limb hamster__limb--bl"></div>
+          <div class="hamster__tail"></div>
+        </div>
       </div>
+      <div class="spoke"></div>
     </div>
   </div>
-</div>
-
 {% endblock %}
 
 <!-- SCRIPTS -->

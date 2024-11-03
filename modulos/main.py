@@ -165,6 +165,7 @@ def get_nombre_u_fiscalizable(driver):
         log_activity("No se pudo encontrar el nombre de la unidad fiscalizable.")
         return None
 
+# guardar id de la unidad fiscalizable en la base de datos
 def save_unidad_fiscalizable(driver, ID_unidad_fiscalizable):
     """Guarda la unidad fiscalizable en la base de datos."""
     ubicacion = get_ubicacion(driver)
@@ -209,7 +210,6 @@ def expand_document_section(driver):
     except Exception as e:
         log_activity(f"Error inesperado al intentar expandir la sección 'Documentos': {e}")
 
-
 # Recorrer las filas de la tabla de documentos
 def process_document_table(driver, ID_unidad_fiscalizable):
     """Recorre las filas de la tabla y descarga los documentos que correspondan."""
@@ -237,6 +237,7 @@ def process_document_table(driver, ID_unidad_fiscalizable):
                     log_activity(f"Documento ignorado: {tipo_documento}")
             except NoSuchElementException as e:
                 log_activity(f"Error al procesar la tabla de documentos: {e}")
+                continue  # Continuar con la siguiente fila si no se encuentra el elemento
 
     except NoSuchElementException as e:
         log_activity(f"Error al procesar la tabla de documentos: {e}")
@@ -252,7 +253,7 @@ def download_document(driver, download_url, document_name, ID_unidad_fiscalizabl
         file_name = f"{document_name}_{ID_unidad_fiscalizable}.pdf"
         file_path = os.path.join(download_dir, file_name)
 
-        # Si el archivo existe, se sobrescribirá.
+        # Si el archivo existe se sobrescribe
         if os.path.exists(file_path):
             os.remove(file_path)
             log_activity(f"Archivo {file_name} ya existe y será reemplazado.")
@@ -264,14 +265,15 @@ def download_document(driver, download_url, document_name, ID_unidad_fiscalizabl
         log_activity(f"Documento descargado como: {file_name}")
 
         # Escanear el documento en busca de palabras clave
-        if scan_document_for_keywords(file_path, ['olor', 'olores']):
+        if scan_palabras(file_path, ['olor', 'olores']):
             log_activity(f"El documento {file_name} contiene palabras clave relacionadas con 'olor'.")
 
     except Exception as e:
         log_activity(f"Error al descargar el documento: {e}")
 
-def scan_document_for_keywords(file_path, keywords):
-    """Escanea el documento PDF en busca de palabras clave."""
+def scan_palabras(file_path, keywords):
+    """Escanea el documento PDF en busca de palabras 'olor' 'olores' y elimina el documento si no contiene ninguna."""
+    log_activity('Escaneando archivos en busca de palabras...')
     try:
         import PyPDF2
         with open(file_path, 'rb') as file:
@@ -281,6 +283,9 @@ def scan_document_for_keywords(file_path, keywords):
                 text = page.extract_text()
                 if any(keyword in text for keyword in keywords):
                     return True
+        # Si no se encuentran palabras clave, eliminar el archivo
+        os.remove(file_path)
+        log_activity(f"Documento {file_path} eliminado por no contener palabras clave.")
         return False
     except Exception as e:
         log_activity(f"Error al escanear el documento: {e}")

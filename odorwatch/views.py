@@ -130,3 +130,7 @@ def enviar_logs_a_api():
 
 # Llamada a la función para enviar los logs
 enviar_logs_a_api()
+
+
+def snifa(request):
+    return render(request, 'snifa.html')
