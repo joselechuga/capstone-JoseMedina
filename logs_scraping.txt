@@ -44573,3 +44573,2094 @@ Stacktrace:
 
 2024-11-03 13:58:17 - Volviendo a la página de resultados.
 2024-11-03 13:58:20 - Terminando scraping.
+2024-11-04 16:56:54 - Categoría 'Agroindustrias' seleccionada.
+2024-11-04 16:57:50 - Clic en el botón 'Buscar'.
+2024-11-04 16:57:52 - El modal de carga ha desaparecido.
+2024-11-04 16:57:53 - Procesando fila 1...
+2024-11-04 16:57:53 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-11-04 16:57:53 - 1- Añadiendo Cliente a BD
+2024-11-04 16:57:53 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-11-04 16:57:53 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-04 16:57:54 - Clic en el enlace 'Ver detalle'.
+2024-11-04 16:57:54 - El modal de carga ha desaparecido.
+2024-11-04 16:57:54 - Nombre extraído: PLANTA FAENADORA DE AVES ARICA
+2024-11-04 16:57:54 - Ubicación extraída: Región de Arica y Parinacota
+2024-11-04 16:57:54 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2593
+2024-11-04 16:57:54 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-04 16:57:54 - Unidad Fiscalizable 'PLANTA FAENADORA DE AVES ARICA' ya existe en la base de datos.
+2024-11-04 16:57:54 - ID de unidad fiscalizable extraído: DFZ-2014-78-XV-RCA-IA
+2024-11-04 16:57:54 - Ubicación extraída: de Arica y Parinacota
+2024-11-04 16:57:54 - Extrayendo el nombre de la unidad fiscalizable...
+2024-11-04 16:58:04 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-11-04 16:58:04 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-11-04 16:58:05 - Clic en la pestaña 'Documentos'.
+2024-11-04 16:58:05 - Sección 'Documentos' expandida.
+2024-11-04 16:58:05 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-11-04 16:58:05 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-11-04 16:58:05 - Archivo Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf ya existe y será reemplazado.
+2024-11-04 16:58:16 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+2024-11-04 16:58:16 - Escaneando archivos en busca de palabras...
+2024-11-04 16:58:16 - Error al escanear el documento: No module named 'PyPDF2'
+2024-11-04 16:58:16 - Documento ignorado: 
+2024-11-04 16:58:16 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 16:58:38 - Volviendo a la página de resultados.
+2024-11-04 16:58:38 - Procesando fila 2...
+2024-11-04 16:58:38 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-11-04 16:58:38 - 1- Añadiendo Cliente a BD
+2024-11-04 16:58:38 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-11-04 16:58:38 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-04 16:58:40 - Clic en el enlace 'Ver detalle'.
+2024-11-04 16:58:40 - El modal de carga ha desaparecido.
+2024-11-04 16:58:40 - Nombre extraído: PLANTEL DE AVES DE LEYDA
+2024-11-04 16:58:40 - Ubicación extraída: Región de Valparaíso
+2024-11-04 16:58:40 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/1840
+2024-11-04 16:58:40 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-04 16:58:40 - Unidad Fiscalizable 'PLANTEL DE AVES DE LEYDA' ya existe en la base de datos.
+2024-11-04 16:58:40 - ID de unidad fiscalizable extraído: DFZ-2014-2297-V-RCA-IA
+2024-11-04 16:58:40 - Ubicación extraída: de Valparaíso
+2024-11-04 16:58:40 - Extrayendo el nombre de la unidad fiscalizable...
+2024-11-04 16:58:51 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-11-04 16:58:51 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-11-04 16:58:51 - Clic en la pestaña 'Documentos'.
+2024-11-04 16:59:01 - No se pudo expandir la sección 'Documentos'.
+2024-11-04 16:59:01 - Documento ignorado: 
+2024-11-04 16:59:01 - Documento ignorado: 
+2024-11-04 16:59:01 - Documento ignorado: 
+2024-11-04 16:59:01 - Documento ignorado: 
+2024-11-04 16:59:01 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 16:59:01 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 16:59:01 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 16:59:01 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 16:59:01 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 16:59:24 - Volviendo a la página de resultados.
+2024-11-04 16:59:24 - Procesando fila 3...
+2024-11-04 16:59:24 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-11-04 16:59:24 - 1- Añadiendo Cliente a BD
+2024-11-04 16:59:24 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-11-04 16:59:24 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-04 16:59:25 - Clic en el enlace 'Ver detalle'.
+2024-11-04 16:59:26 - El modal de carga ha desaparecido.
+2024-11-04 16:59:26 - Nombre extraído: CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A.
+2024-11-04 16:59:26 - Ubicación extraída: Región Metropolitana
+2024-11-04 16:59:26 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/4495
+2024-11-04 16:59:26 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-04 16:59:26 - Unidad Fiscalizable 'CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A.' ya existe en la base de datos.
+2024-11-04 16:59:27 - ID de unidad fiscalizable extraído: DFZ-2014-347-XIII-RCA-IA
+2024-11-04 16:59:27 - Ubicación extraída: Metropolitana
+2024-11-04 16:59:27 - Extrayendo el nombre de la unidad fiscalizable...
+2024-11-04 16:59:37 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-11-04 16:59:37 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-11-04 16:59:37 - Clic en la pestaña 'Documentos'.
+2024-11-04 16:59:37 - Sección 'Documentos' expandida.
+2024-11-04 16:59:37 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-11-04 16:59:37 - Archivo Informe de Fiscalización Ambiental_DFZ-2014-347-XIII-RCA-IA.pdf ya existe y será reemplazado.
+2024-11-04 16:59:50 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-347-XIII-RCA-IA.pdf
+2024-11-04 16:59:50 - Escaneando archivos en busca de palabras...
+2024-11-04 16:59:50 - Error al escanear el documento: No module named 'PyPDF2'
+2024-11-04 16:59:50 - Documento ignorado: 
+2024-11-04 16:59:50 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 16:59:50 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 16:59:50 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 16:59:50 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:00:13 - Volviendo a la página de resultados.
+2024-11-04 17:00:13 - Procesando fila 4...
+2024-11-04 17:00:13 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-11-04 17:00:13 - 1- Añadiendo Cliente a BD
+2024-11-04 17:00:13 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-11-04 17:00:13 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-04 17:00:14 - Clic en el enlace 'Ver detalle'.
+2024-11-04 17:00:15 - El modal de carga ha desaparecido.
+2024-11-04 17:00:15 - Nombre extraído: CERDOS LA MANGA - AGROSUPER
+2024-11-04 17:00:16 - Ubicación extraída: Región Metropolitana
+2024-11-04 17:00:16 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/4494
+2024-11-04 17:00:16 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-04 17:00:16 - Unidad Fiscalizable 'CERDOS LA MANGA - AGROSUPER' ya existe en la base de datos.
+2024-11-04 17:00:16 - ID de unidad fiscalizable extraído: DFZ-2014-179-XIII-RCA-IA
+2024-11-04 17:00:16 - Ubicación extraída: Metropolitana
+2024-11-04 17:00:16 - Extrayendo el nombre de la unidad fiscalizable...
+2024-11-04 17:00:26 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-11-04 17:00:26 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-11-04 17:00:26 - Clic en la pestaña 'Documentos'.
+2024-11-04 17:00:26 - Sección 'Documentos' expandida.
+2024-11-04 17:00:26 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-11-04 17:00:26 - Archivo Informe de Fiscalización Ambiental_DFZ-2014-179-XIII-RCA-IA.pdf ya existe y será reemplazado.
+2024-11-04 17:00:28 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-179-XIII-RCA-IA.pdf
+2024-11-04 17:00:28 - Escaneando archivos en busca de palabras...
+2024-11-04 17:00:28 - Error al escanear el documento: No module named 'PyPDF2'
+2024-11-04 17:00:28 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-11-04 17:00:28 - Documento ignorado: 
+2024-11-04 17:00:28 - Documento ignorado: 
+2024-11-04 17:00:28 - Documento ignorado: 
+2024-11-04 17:00:28 - Documento ignorado: 
+2024-11-04 17:00:28 - Documento ignorado: 
+2024-11-04 17:00:28 - Documento ignorado: 
+2024-11-04 17:00:28 - Documento ignorado: 
+2024-11-04 17:00:28 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:00:28 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:00:28 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:00:47 - Volviendo a la página de resultados.
+2024-11-04 17:00:47 - Procesando fila 5...
+2024-11-04 17:00:47 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-11-04 17:00:47 - 1- Añadiendo Cliente a BD
+2024-11-04 17:00:47 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-11-04 17:00:47 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-04 17:00:48 - Clic en el enlace 'Ver detalle'.
+2024-11-04 17:00:48 - El modal de carga ha desaparecido.
+2024-11-04 17:00:49 - Nombre extraído: AGROSUPER - CERDOS LA ESTRELLA
+2024-11-04 17:00:49 - Ubicación extraída: Región del Libertador General Bernardo O'Higgins
+2024-11-04 17:00:49 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2180
+2024-11-04 17:00:49 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-04 17:00:49 - Unidad Fiscalizable 'AGROSUPER - CERDOS LA ESTRELLA' ya existe en la base de datos.
+2024-11-04 17:00:49 - ID de unidad fiscalizable extraído: DFZ-2014-245-VI-RCA-IA
+2024-11-04 17:00:49 - Ubicación extraída: del Libertador General Bernardo O'Higgins
+2024-11-04 17:00:49 - Extrayendo el nombre de la unidad fiscalizable...
+2024-11-04 17:00:59 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-11-04 17:00:59 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-11-04 17:00:59 - Clic en la pestaña 'Documentos'.
+2024-11-04 17:00:59 - Sección 'Documentos' expandida.
+2024-11-04 17:00:59 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-11-04 17:00:59 - Archivo Informe de Fiscalización Ambiental_DFZ-2014-245-VI-RCA-IA.pdf ya existe y será reemplazado.
+2024-11-04 17:01:03 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-245-VI-RCA-IA.pdf
+2024-11-04 17:01:03 - Escaneando archivos en busca de palabras...
+2024-11-04 17:01:03 - Error al escanear el documento: No module named 'PyPDF2'
+2024-11-04 17:01:03 - Documento ignorado: 
+2024-11-04 17:01:03 - Documento ignorado: 
+2024-11-04 17:01:03 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:01:03 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:01:03 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:01:03 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:01:03 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:01:20 - Volviendo a la página de resultados.
+2024-11-04 17:01:20 - Procesando fila 6...
+2024-11-04 17:01:20 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-11-04 17:01:20 - 1- Añadiendo Cliente a BD
+2024-11-04 17:01:20 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-11-04 17:01:21 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-04 17:01:22 - Clic en el enlace 'Ver detalle'.
+2024-11-04 17:01:22 - El modal de carga ha desaparecido.
+2024-11-04 17:01:22 - Nombre extraído: AGROSUPER - PLANTA LO MIRANDA
+2024-11-04 17:01:22 - Ubicación extraída: Región del Libertador General Bernardo O'Higgins
+2024-11-04 17:01:22 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2061
+2024-11-04 17:01:22 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-04 17:01:22 - Unidad Fiscalizable 'AGROSUPER - PLANTA LO MIRANDA' ya existe en la base de datos.
+2024-11-04 17:01:22 - ID de unidad fiscalizable extraído: DFZ-2014-2273-VI-RCA-IA
+2024-11-04 17:01:22 - Ubicación extraída: del Libertador General Bernardo O'Higgins
+2024-11-04 17:01:22 - Extrayendo el nombre de la unidad fiscalizable...
+2024-11-04 17:01:32 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-11-04 17:01:32 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-11-04 17:01:32 - Clic en la pestaña 'Documentos'.
+2024-11-04 17:01:32 - Sección 'Documentos' expandida.
+2024-11-04 17:01:32 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-11-04 17:01:32 - Archivo Informe de Fiscalización Ambiental_DFZ-2014-2273-VI-RCA-IA.pdf ya existe y será reemplazado.
+2024-11-04 17:01:34 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-2273-VI-RCA-IA.pdf
+2024-11-04 17:01:34 - Escaneando archivos en busca de palabras...
+2024-11-04 17:01:34 - Error al escanear el documento: No module named 'PyPDF2'
+2024-11-04 17:01:34 - Documento ignorado: 
+2024-11-04 17:01:34 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:01:34 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:01:34 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:01:34 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:01:53 - Volviendo a la página de resultados.
+2024-11-04 17:01:54 - Procesando fila 7...
+2024-11-04 17:01:54 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-11-04 17:01:54 - 1- Añadiendo Cliente a BD
+2024-11-04 17:01:54 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-11-04 17:01:54 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-04 17:01:55 - Clic en el enlace 'Ver detalle'.
+2024-11-04 17:01:56 - El modal de carga ha desaparecido.
+2024-11-04 17:01:56 - Nombre extraído: INVERTEC FOOD - PLANTA RENGO
+2024-11-04 17:01:56 - Ubicación extraída: Región del Libertador General Bernardo O'Higgins
+2024-11-04 17:01:56 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2096
+2024-11-04 17:01:56 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-04 17:01:56 - Unidad Fiscalizable 'INVERTEC FOOD - PLANTA RENGO' ya existe en la base de datos.
+2024-11-04 17:01:56 - ID de unidad fiscalizable extraído: DFZ-2014-103-VI-RCA-IA
+2024-11-04 17:01:56 - Ubicación extraída: del Libertador General Bernardo O'Higgins
+2024-11-04 17:01:56 - Extrayendo el nombre de la unidad fiscalizable...
+2024-11-04 17:02:07 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-11-04 17:02:07 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-11-04 17:02:07 - Clic en la pestaña 'Documentos'.
+2024-11-04 17:02:07 - Sección 'Documentos' expandida.
+2024-11-04 17:02:07 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-11-04 17:02:07 - Archivo Informe de Fiscalización Ambiental_DFZ-2014-103-VI-RCA-IA.pdf ya existe y será reemplazado.
+2024-11-04 17:02:08 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-103-VI-RCA-IA.pdf
+2024-11-04 17:02:08 - Escaneando archivos en busca de palabras...
+2024-11-04 17:02:08 - Error al escanear el documento: No module named 'PyPDF2'
+2024-11-04 17:02:09 - Documento ignorado: 
+2024-11-04 17:02:09 - Documento ignorado: 
+2024-11-04 17:02:09 - Documento ignorado: 
+2024-11-04 17:02:09 - Documento ignorado: 
+2024-11-04 17:02:09 - Documento ignorado: 
+2024-11-04 17:02:09 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:02:09 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:02:09 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:02:29 - Volviendo a la página de resultados.
+2024-11-04 17:02:29 - Procesando fila 8...
+2024-11-04 17:02:29 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-11-04 17:02:29 - 1- Añadiendo Cliente a BD
+2024-11-04 17:02:29 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-11-04 17:02:29 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-04 17:02:30 - Clic en el enlace 'Ver detalle'.
+2024-11-04 17:02:32 - El modal de carga ha desaparecido.
+2024-11-04 17:02:32 - Nombre extraído: AVICOLA LAS RASTRAS
+2024-11-04 17:02:32 - Ubicación extraída: Región del Maule
+2024-11-04 17:02:32 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2879
+2024-11-04 17:02:32 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-04 17:02:32 - Unidad Fiscalizable 'AVICOLA LAS RASTRAS' ya existe en la base de datos.
+2024-11-04 17:02:32 - ID de unidad fiscalizable extraído: DFZ-2014-314-VII-RCA-IA
+2024-11-04 17:02:32 - Ubicación extraída: del Maule
+2024-11-04 17:02:32 - Extrayendo el nombre de la unidad fiscalizable...
+2024-11-04 17:02:42 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-11-04 17:02:42 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-11-04 17:02:42 - Clic en la pestaña 'Documentos'.
+2024-11-04 17:02:42 - Sección 'Documentos' expandida.
+2024-11-04 17:02:42 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-11-04 17:02:42 - Archivo Informe de Fiscalización Ambiental_DFZ-2014-314-VII-RCA-IA.pdf ya existe y será reemplazado.
+2024-11-04 17:02:44 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-314-VII-RCA-IA.pdf
+2024-11-04 17:02:44 - Escaneando archivos en busca de palabras...
+2024-11-04 17:02:44 - Error al escanear el documento: No module named 'PyPDF2'
+2024-11-04 17:02:44 - Documento ignorado: 
+2024-11-04 17:02:44 - Documento ignorado: 
+2024-11-04 17:02:44 - Documento ignorado: 
+2024-11-04 17:02:44 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:02:44 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:02:44 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:03:02 - Volviendo a la página de resultados.
+2024-11-04 17:03:02 - Procesando fila 9...
+2024-11-04 17:03:02 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-11-04 17:03:02 - 1- Añadiendo Cliente a BD
+2024-11-04 17:03:02 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-11-04 17:03:02 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-04 17:03:03 - Clic en el enlace 'Ver detalle'.
+2024-11-04 17:03:04 - El modal de carga ha desaparecido.
+2024-11-04 17:03:04 - Nombre extraído: AGRICOLA SAN CLEMENTE
+2024-11-04 17:03:04 - Ubicación extraída: Región del Maule
+2024-11-04 17:03:04 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2328
+2024-11-04 17:03:04 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-04 17:03:04 - Unidad Fiscalizable 'AGRICOLA SAN CLEMENTE' ya existe en la base de datos.
+2024-11-04 17:03:04 - ID de unidad fiscalizable extraído: DFZ-2014-47-VII-RCA-IA
+2024-11-04 17:03:04 - Ubicación extraída: del Maule
+2024-11-04 17:03:04 - Extrayendo el nombre de la unidad fiscalizable...
+2024-11-04 17:03:14 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-11-04 17:03:14 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-11-04 17:03:14 - Clic en la pestaña 'Documentos'.
+2024-11-04 17:03:14 - Sección 'Documentos' expandida.
+2024-11-04 17:03:14 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-11-04 17:03:14 - Archivo Informe de Fiscalización Ambiental_DFZ-2014-47-VII-RCA-IA.pdf ya existe y será reemplazado.
+2024-11-04 17:03:20 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-47-VII-RCA-IA.pdf
+2024-11-04 17:03:20 - Escaneando archivos en busca de palabras...
+2024-11-04 17:03:20 - Error al escanear el documento: No module named 'PyPDF2'
+2024-11-04 17:03:20 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-11-04 17:03:20 - Documento ignorado: 
+2024-11-04 17:03:20 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:03:20 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:03:39 - Volviendo a la página de resultados.
+2024-11-04 17:03:39 - Procesando fila 10...
+2024-11-04 17:03:39 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-11-04 17:03:39 - 1- Añadiendo Cliente a BD
+2024-11-04 17:03:39 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-11-04 17:03:39 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-04 17:03:40 - Clic en el enlace 'Ver detalle'.
+2024-11-04 17:03:40 - El modal de carga ha desaparecido.
+2024-11-04 17:03:41 - Nombre extraído: PLANTA DE ACEITE DE OLIVA HUILLIBORGOA
+2024-11-04 17:03:41 - Ubicación extraída: Región del Maule
+2024-11-04 17:03:41 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/8553
+2024-11-04 17:03:41 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-04 17:03:41 - Unidad Fiscalizable 'PLANTA DE ACEITE DE OLIVA HUILLIBORGOA' ya existe en la base de datos.
+2024-11-04 17:03:41 - ID de unidad fiscalizable extraído: DFZ-2014-487-VII-RCA-IA
+2024-11-04 17:03:41 - Ubicación extraída: del Maule
+2024-11-04 17:03:41 - Extrayendo el nombre de la unidad fiscalizable...
+2024-11-04 17:03:52 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-11-04 17:03:52 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-11-04 17:03:52 - Clic en la pestaña 'Documentos'.
+2024-11-04 17:03:52 - Sección 'Documentos' expandida.
+2024-11-04 17:03:52 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-11-04 17:03:52 - Archivo Informe de Fiscalización Ambiental_DFZ-2014-487-VII-RCA-IA.pdf ya existe y será reemplazado.
+2024-11-04 17:03:54 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-487-VII-RCA-IA.pdf
+2024-11-04 17:03:54 - Escaneando archivos en busca de palabras...
+2024-11-04 17:03:54 - Error al escanear el documento: No module named 'PyPDF2'
+2024-11-04 17:03:54 - Documento ignorado: 
+2024-11-04 17:03:54 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:03:54 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:03:54 - Documento ignorado: 
+2024-11-04 17:03:54 - Documento ignorado: 
+2024-11-04 17:03:54 - Documento ignorado: 
+2024-11-04 17:03:54 - Documento ignorado: 
+2024-11-04 17:03:54 - Documento ignorado: 
+2024-11-04 17:03:54 - Documento ignorado: 
+2024-11-04 17:03:54 - Documento ignorado: 
+2024-11-04 17:03:54 - Documento ignorado: 
+2024-11-04 17:03:54 - Documento ignorado: 
+2024-11-04 17:03:54 - Documento ignorado: 
+2024-11-04 17:04:12 - Volviendo a la página de resultados.
+2024-11-04 17:04:12 - Procesando fila 11...
+2024-11-04 17:04:12 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-11-04 17:04:12 - 1- Añadiendo Cliente a BD
+2024-11-04 17:04:12 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-11-04 17:04:12 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-04 17:04:13 - Clic en el enlace 'Ver detalle'.
+2024-11-04 17:04:13 - El modal de carga ha desaparecido.
+2024-11-04 17:04:14 - Nombre extraído: PATAGONIAFRESH - PLANTA MOLINA (JUGOS)
+2024-11-04 17:04:14 - Ubicación extraída: Región del Maule
+2024-11-04 17:04:14 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/10503
+2024-11-04 17:04:14 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-04 17:04:14 - Unidad Fiscalizable 'PATAGONIAFRESH - PLANTA MOLINA (JUGOS)' ya existe en la base de datos.
+2024-11-04 17:04:14 - ID de unidad fiscalizable extraído: DFZ-2014-76-VII-RCA-IA
+2024-11-04 17:04:14 - Ubicación extraída: del Maule
+2024-11-04 17:04:14 - Extrayendo el nombre de la unidad fiscalizable...
+2024-11-04 17:04:24 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-11-04 17:04:24 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-11-04 17:04:24 - Clic en la pestaña 'Documentos'.
+2024-11-04 17:04:24 - Sección 'Documentos' expandida.
+2024-11-04 17:04:24 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-11-04 17:04:24 - Archivo Informe de Fiscalización Ambiental_DFZ-2014-76-VII-RCA-IA.pdf ya existe y será reemplazado.
+2024-11-04 17:04:25 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-76-VII-RCA-IA.pdf
+2024-11-04 17:04:25 - Escaneando archivos en busca de palabras...
+2024-11-04 17:04:25 - Error al escanear el documento: No module named 'PyPDF2'
+2024-11-04 17:04:25 - Documento ignorado: 
+2024-11-04 17:04:25 - Documento ignorado: 
+2024-11-04 17:04:25 - Documento ignorado: 
+2024-11-04 17:04:25 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:04:25 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:04:43 - Volviendo a la página de resultados.
+2024-11-04 17:04:43 - Procesando fila 12...
+2024-11-04 17:04:43 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-11-04 17:04:43 - 1- Añadiendo Cliente a BD
+2024-11-04 17:04:43 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-11-04 17:04:44 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-04 17:04:45 - Clic en el enlace 'Ver detalle'.
+2024-11-04 17:04:45 - El modal de carga ha desaparecido.
+2024-11-04 17:04:45 - Nombre extraído: CAROZZI PLANTA TENO
+2024-11-04 17:04:45 - Ubicación extraída: Región del Maule
+2024-11-04 17:04:45 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2612
+2024-11-04 17:04:45 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-04 17:04:45 - Unidad Fiscalizable 'CAROZZI PLANTA TENO' ya existe en la base de datos.
+2024-11-04 17:04:45 - ID de unidad fiscalizable extraído: DFZ-2014-188-VII-RCA-IA
+2024-11-04 17:04:45 - Ubicación extraída: del Maule
+2024-11-04 17:04:45 - Extrayendo el nombre de la unidad fiscalizable...
+2024-11-04 17:04:55 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-11-04 17:04:55 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-11-04 17:04:56 - Clic en la pestaña 'Documentos'.
+2024-11-04 17:04:56 - Sección 'Documentos' expandida.
+2024-11-04 17:04:56 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-11-04 17:04:56 - Archivo Informe de Fiscalización Ambiental_DFZ-2014-188-VII-RCA-IA.pdf ya existe y será reemplazado.
+2024-11-04 17:04:57 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-188-VII-RCA-IA.pdf
+2024-11-04 17:04:57 - Escaneando archivos en busca de palabras...
+2024-11-04 17:04:57 - Error al escanear el documento: No module named 'PyPDF2'
+2024-11-04 17:04:57 - Documento ignorado: 
+2024-11-04 17:04:57 - Documento ignorado: 
+2024-11-04 17:04:57 - Documento ignorado: 
+2024-11-04 17:04:57 - Documento ignorado: 
+2024-11-04 17:04:57 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:04:57 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:04:57 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:05:14 - Volviendo a la página de resultados.
+2024-11-04 17:05:14 - Procesando fila 13...
+2024-11-04 17:05:14 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-11-04 17:05:14 - 1- Añadiendo Cliente a BD
+2024-11-04 17:05:14 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-11-04 17:05:14 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-04 17:05:15 - Clic en el enlace 'Ver detalle'.
+2024-11-04 17:05:16 - El modal de carga ha desaparecido.
+2024-11-04 17:05:16 - Nombre extraído: PLANTEL SITIO DESTETE-SECTOR RUCAPEQUEN
+2024-11-04 17:05:16 - Ubicación extraída: Región de Ñuble
+2024-11-04 17:05:16 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/8776
+2024-11-04 17:05:16 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-04 17:05:16 - Unidad Fiscalizable 'PLANTEL SITIO DESTETE-SECTOR RUCAPEQUEN' ya existe en la base de datos.
+2024-11-04 17:05:16 - ID de unidad fiscalizable extraído: DFZ-2014-114-VIII-RCA-IA
+2024-11-04 17:05:16 - Ubicación extraída: de Ñuble
+2024-11-04 17:05:16 - Extrayendo el nombre de la unidad fiscalizable...
+2024-11-04 17:05:26 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-11-04 17:05:26 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-11-04 17:05:26 - Clic en la pestaña 'Documentos'.
+2024-11-04 17:05:27 - Sección 'Documentos' expandida.
+2024-11-04 17:05:27 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-11-04 17:05:27 - Archivo Informe de Fiscalización Ambiental_DFZ-2014-114-VIII-RCA-IA.pdf ya existe y será reemplazado.
+2024-11-04 17:05:28 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-114-VIII-RCA-IA.pdf
+2024-11-04 17:05:28 - Escaneando archivos en busca de palabras...
+2024-11-04 17:05:28 - Error al escanear el documento: No module named 'PyPDF2'
+2024-11-04 17:05:28 - Documento ignorado: 
+2024-11-04 17:05:28 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:05:28 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:05:28 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:05:45 - Volviendo a la página de resultados.
+2024-11-04 17:05:45 - Procesando fila 14...
+2024-11-04 17:05:45 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-11-04 17:05:45 - 1- Añadiendo Cliente a BD
+2024-11-04 17:05:45 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-11-04 17:05:46 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-04 17:05:47 - Clic en el enlace 'Ver detalle'.
+2024-11-04 17:05:47 - El modal de carga ha desaparecido.
+2024-11-04 17:05:47 - Nombre extraído: LACTEOS TINGUIRIRICA
+2024-11-04 17:05:48 - Ubicación extraída: Región del Libertador General Bernardo O'Higgins
+2024-11-04 17:05:48 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/7514
+2024-11-04 17:05:48 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-04 17:05:48 - Unidad Fiscalizable 'LACTEOS TINGUIRIRICA' ya existe en la base de datos.
+2024-11-04 17:05:48 - ID de unidad fiscalizable extraído: DFZ-2014-191-VI-NE-IA
+2024-11-04 17:05:48 - Ubicación extraída: del Libertador General Bernardo O'Higgins
+2024-11-04 17:05:48 - Extrayendo el nombre de la unidad fiscalizable...
+2024-11-04 17:05:58 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-11-04 17:05:58 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-11-04 17:05:58 - Clic en la pestaña 'Documentos'.
+2024-11-04 17:05:58 - Sección 'Documentos' expandida.
+2024-11-04 17:05:58 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-11-04 17:05:58 - Archivo Informe de Fiscalización Ambiental_DFZ-2014-191-VI-NE-IA.pdf ya existe y será reemplazado.
+2024-11-04 17:05:59 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-191-VI-NE-IA.pdf
+2024-11-04 17:05:59 - Escaneando archivos en busca de palabras...
+2024-11-04 17:05:59 - Error al escanear el documento: No module named 'PyPDF2'
+2024-11-04 17:05:59 - Documento ignorado: 
+2024-11-04 17:05:59 - Documento ignorado: 
+2024-11-04 17:05:59 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:05:59 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:06:17 - Volviendo a la página de resultados.
+2024-11-04 17:06:17 - Procesando fila 15...
+2024-11-04 17:06:17 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-11-04 17:06:17 - 1- Añadiendo Cliente a BD
+2024-11-04 17:06:17 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-11-04 17:06:18 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-04 17:06:19 - Clic en el enlace 'Ver detalle'.
+2024-11-04 17:06:19 - El modal de carga ha desaparecido.
+2024-11-04 17:06:19 - Nombre extraído: EXPORTADORA UNIFRUTTI
+2024-11-04 17:06:20 - Ubicación extraída: Región de Atacama
+2024-11-04 17:06:20 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/10346
+2024-11-04 17:06:20 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-04 17:06:20 - Unidad Fiscalizable 'EXPORTADORA UNIFRUTTI' ya existe en la base de datos.
+2024-11-04 17:06:20 - ID de unidad fiscalizable extraído: DFZ-2014-123-III-NE-IA
+2024-11-04 17:06:20 - Ubicación extraída: de Atacama
+2024-11-04 17:06:20 - Extrayendo el nombre de la unidad fiscalizable...
+2024-11-04 17:06:30 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-11-04 17:06:30 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-11-04 17:06:30 - Clic en la pestaña 'Documentos'.
+2024-11-04 17:06:30 - Sección 'Documentos' expandida.
+2024-11-04 17:06:30 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-11-04 17:06:30 - Archivo Informe de Fiscalización Ambiental_DFZ-2014-123-III-NE-IA.pdf ya existe y será reemplazado.
+2024-11-04 17:06:32 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-123-III-NE-IA.pdf
+2024-11-04 17:06:32 - Escaneando archivos en busca de palabras...
+2024-11-04 17:06:32 - Error al escanear el documento: No module named 'PyPDF2'
+2024-11-04 17:06:33 - Documento ignorado: 
+2024-11-04 17:06:33 - Documento ignorado: 
+2024-11-04 17:06:33 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:06:33 - Documento ignorado: 
+2024-11-04 17:06:33 - Documento ignorado: 
+2024-11-04 17:06:33 - Documento ignorado: 
+2024-11-04 17:06:59 - Volviendo a la página de resultados.
+2024-11-04 17:07:00 - Procesando fila 16...
+2024-11-04 17:07:00 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-11-04 17:07:00 - 1- Añadiendo Cliente a BD
+2024-11-04 17:07:00 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-11-04 17:07:00 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-04 17:07:01 - Clic en el enlace 'Ver detalle'.
+2024-11-04 17:07:01 - El modal de carga ha desaparecido.
+2024-11-04 17:07:01 - Nombre extraído: AGRICOLA IBATAO
+2024-11-04 17:07:02 - Ubicación extraída: Región Metropolitana
+2024-11-04 17:07:02 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/10475
+2024-11-04 17:07:02 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-04 17:07:02 - Unidad Fiscalizable 'AGRICOLA IBATAO' ya existe en la base de datos.
+2024-11-04 17:07:02 - ID de unidad fiscalizable extraído: DFZ-2014-211-XIII-SRCA-IA
+2024-11-04 17:07:02 - Ubicación extraída: Metropolitana
+2024-11-04 17:07:02 - Extrayendo el nombre de la unidad fiscalizable...
+2024-11-04 17:07:12 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-11-04 17:07:12 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-11-04 17:07:12 - Clic en la pestaña 'Documentos'.
+2024-11-04 17:07:12 - Sección 'Documentos' expandida.
+2024-11-04 17:07:13 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-11-04 17:07:13 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-11-04 17:07:13 - Archivo Informe de Fiscalización Ambiental_DFZ-2014-211-XIII-SRCA-IA.pdf ya existe y será reemplazado.
+2024-11-04 17:07:15 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-211-XIII-SRCA-IA.pdf
+2024-11-04 17:07:15 - Escaneando archivos en busca de palabras...
+2024-11-04 17:07:15 - Error al escanear el documento: No module named 'PyPDF2'
+2024-11-04 17:07:16 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:07:16 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:07:16 - Documento ignorado: 
+2024-11-04 17:07:37 - Volviendo a la página de resultados.
+2024-11-04 17:07:37 - Procesando fila 17...
+2024-11-04 17:07:37 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-11-04 17:07:37 - 1- Añadiendo Cliente a BD
+2024-11-04 17:07:37 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-11-04 17:07:37 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-04 17:07:41 - Clic en el enlace 'Ver detalle'.
+2024-11-04 17:07:41 - El modal de carga ha desaparecido.
+2024-11-04 17:07:41 - Nombre extraído: FRIGORIFICO TEMUCO
+2024-11-04 17:07:41 - Ubicación extraída: Región de la Araucanía
+2024-11-04 17:07:41 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2457
+2024-11-04 17:07:41 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-04 17:07:41 - Unidad Fiscalizable 'FRIGORIFICO TEMUCO' ya existe en la base de datos.
+2024-11-04 17:07:41 - ID de unidad fiscalizable extraído: DFZ-2014-221-IX-RCA-IA
+2024-11-04 17:07:41 - Ubicación extraída: de la Araucanía
+2024-11-04 17:07:41 - Extrayendo el nombre de la unidad fiscalizable...
+2024-11-04 17:07:51 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-11-04 17:07:51 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-11-04 17:07:52 - Clic en la pestaña 'Documentos'.
+2024-11-04 17:07:52 - Sección 'Documentos' expandida.
+2024-11-04 17:07:52 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-11-04 17:07:52 - Archivo Informe de Fiscalización Ambiental_DFZ-2014-221-IX-RCA-IA.pdf ya existe y será reemplazado.
+2024-11-04 17:07:53 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-221-IX-RCA-IA.pdf
+2024-11-04 17:07:53 - Escaneando archivos en busca de palabras...
+2024-11-04 17:07:53 - Error al escanear el documento: No module named 'PyPDF2'
+2024-11-04 17:07:53 - Documento ignorado: 
+2024-11-04 17:07:54 - Documento ignorado: 
+2024-11-04 17:07:54 - Documento ignorado: 
+2024-11-04 17:07:54 - Documento ignorado: 
+2024-11-04 17:07:54 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:07:54 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:07:54 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:08:11 - Volviendo a la página de resultados.
+2024-11-04 17:08:11 - Procesando fila 18...
+2024-11-04 17:08:11 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-11-04 17:08:11 - 1- Añadiendo Cliente a BD
+2024-11-04 17:08:11 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-11-04 17:08:12 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-04 17:08:13 - Clic en el enlace 'Ver detalle'.
+2024-11-04 17:08:13 - El modal de carga ha desaparecido.
+2024-11-04 17:08:13 - Nombre extraído: PATACON
+2024-11-04 17:08:13 - Ubicación extraída: Región del Maule
+2024-11-04 17:08:13 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/8204
+2024-11-04 17:08:13 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-04 17:08:13 - Unidad Fiscalizable 'PATACON' ya existe en la base de datos.
+2024-11-04 17:08:13 - ID de unidad fiscalizable extraído: DFZ-2014-257-VII-RCA-IA
+2024-11-04 17:08:13 - Ubicación extraída: del Maule
+2024-11-04 17:08:13 - Extrayendo el nombre de la unidad fiscalizable...
+2024-11-04 17:08:23 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-11-04 17:08:23 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-11-04 17:08:24 - Clic en la pestaña 'Documentos'.
+2024-11-04 17:08:24 - Sección 'Documentos' expandida.
+2024-11-04 17:08:24 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-11-04 17:08:24 - Archivo Informe de Fiscalización Ambiental_DFZ-2014-257-VII-RCA-IA.pdf ya existe y será reemplazado.
+2024-11-04 17:08:26 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-257-VII-RCA-IA.pdf
+2024-11-04 17:08:26 - Escaneando archivos en busca de palabras...
+2024-11-04 17:08:26 - Error al escanear el documento: No module named 'PyPDF2'
+2024-11-04 17:08:26 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-11-04 17:08:26 - Documento ignorado: 
+2024-11-04 17:08:26 - Documento ignorado: 
+2024-11-04 17:08:26 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:08:44 - Volviendo a la página de resultados.
+2024-11-04 17:08:44 - Procesando fila 19...
+2024-11-04 17:08:44 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-11-04 17:08:44 - 1- Añadiendo Cliente a BD
+2024-11-04 17:08:44 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-11-04 17:08:44 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-04 17:08:45 - Clic en el enlace 'Ver detalle'.
+2024-11-04 17:08:45 - El modal de carga ha desaparecido.
+2024-11-04 17:08:45 - Nombre extraído: PLANTEL PORCINO TAMAR 2
+2024-11-04 17:08:45 - Ubicación extraída: Región Metropolitana
+2024-11-04 17:08:45 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2907
+2024-11-04 17:08:45 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-04 17:08:45 - Unidad Fiscalizable 'PLANTEL PORCINO TAMAR 2' ya existe en la base de datos.
+2024-11-04 17:08:45 - ID de unidad fiscalizable extraído: DFZ-2014-355-XIII-SRCA-IA
+2024-11-04 17:08:45 - Ubicación extraída: Metropolitana
+2024-11-04 17:08:45 - Extrayendo el nombre de la unidad fiscalizable...
+2024-11-04 17:08:55 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-11-04 17:08:55 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-11-04 17:08:56 - Clic en la pestaña 'Documentos'.
+2024-11-04 17:08:56 - Sección 'Documentos' expandida.
+2024-11-04 17:08:56 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-11-04 17:08:56 - Archivo Informe de Fiscalización Ambiental_DFZ-2014-355-XIII-SRCA-IA.pdf ya existe y será reemplazado.
+2024-11-04 17:09:00 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-355-XIII-SRCA-IA.pdf
+2024-11-04 17:09:00 - Escaneando archivos en busca de palabras...
+2024-11-04 17:09:00 - Error al escanear el documento: No module named 'PyPDF2'
+2024-11-04 17:09:00 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:09:00 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:09:22 - Volviendo a la página de resultados.
+2024-11-04 17:09:22 - Procesando fila 20...
+2024-11-04 17:09:23 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-11-04 17:09:23 - 1- Añadiendo Cliente a BD
+2024-11-04 17:09:23 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-11-04 17:09:23 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-04 17:09:23 - Clic en el enlace 'Ver detalle'.
+2024-11-04 17:09:23 - El modal de carga ha desaparecido.
+2024-11-04 17:09:24 - Nombre extraído: AGROORGANICOS MOSTAZAL - CHIMBARONGO
+2024-11-04 17:09:24 - Ubicación extraída: Región del Libertador General Bernardo O'Higgins
+2024-11-04 17:09:24 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2312
+2024-11-04 17:09:24 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-04 17:09:24 - Unidad Fiscalizable 'AGROORGANICOS MOSTAZAL - CHIMBARONGO' ya existe en la base de datos.
+2024-11-04 17:09:24 - ID de unidad fiscalizable extraído: DFZ-2014-337-VI-PC-IA
+2024-11-04 17:09:24 - Ubicación extraída: del Libertador General Bernardo O'Higgins
+2024-11-04 17:09:24 - Extrayendo el nombre de la unidad fiscalizable...
+2024-11-04 17:09:34 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-11-04 17:09:34 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-11-04 17:09:34 - Clic en la pestaña 'Documentos'.
+2024-11-04 17:09:34 - Sección 'Documentos' expandida.
+2024-11-04 17:09:34 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-11-04 17:09:34 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-11-04 17:09:34 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-11-04 17:09:35 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-11-04 17:09:35 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-11-04 17:09:35 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-11-04 17:09:35 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-11-04 17:09:35 - Archivo Informe de Fiscalización Ambiental_DFZ-2014-337-VI-PC-IA.pdf ya existe y será reemplazado.
+2024-11-04 17:09:49 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-337-VI-PC-IA.pdf
+2024-11-04 17:09:49 - Escaneando archivos en busca de palabras...
+2024-11-04 17:09:49 - Error al escanear el documento: No module named 'PyPDF2'
+2024-11-04 17:09:49 - Documento ignorado: 
+2024-11-04 17:09:49 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:09:49 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:10:10 - Volviendo a la página de resultados.
+2024-11-04 17:10:10 - Procesando fila 21...
+2024-11-04 17:10:10 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-11-04 17:10:10 - 1- Añadiendo Cliente a BD
+2024-11-04 17:10:10 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-11-04 17:10:11 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-04 17:10:12 - Clic en el enlace 'Ver detalle'.
+2024-11-04 17:10:13 - El modal de carga ha desaparecido.
+2024-11-04 17:10:13 - Nombre extraído: PLANTA RENDERING CHILE MINK
+2024-11-04 17:10:13 - Ubicación extraída: Región del Libertador General Bernardo O'Higgins
+2024-11-04 17:10:13 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2212
+2024-11-04 17:10:13 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-04 17:10:13 - Unidad Fiscalizable 'PLANTA RENDERING CHILE MINK' ya existe en la base de datos.
+2024-11-04 17:10:13 - ID de unidad fiscalizable extraído: DFZ-2014-366-VI-PC-IA
+2024-11-04 17:10:13 - Ubicación extraída: del Libertador General Bernardo O'Higgins
+2024-11-04 17:10:13 - Extrayendo el nombre de la unidad fiscalizable...
+2024-11-04 17:10:23 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-11-04 17:10:23 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-11-04 17:10:23 - Clic en la pestaña 'Documentos'.
+2024-11-04 17:10:24 - Sección 'Documentos' expandida.
+2024-11-04 17:10:24 - Documento ignorado: 
+2024-11-04 17:10:24 - Documento ignorado: 
+2024-11-04 17:10:24 - Documento ignorado: 
+2024-11-04 17:10:24 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:10:24 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF688103AF5+28005]
+	(No symbol) [0x00007FF6880683F0]
+	(No symbol) [0x00007FF687F0580A]
+	(No symbol) [0x00007FF687F55A3E]
+	(No symbol) [0x00007FF687F55D2C]
+	(No symbol) [0x00007FF687F4937C]
+	(No symbol) [0x00007FF687F7BA7F]
+	(No symbol) [0x00007FF687F49246]
+	(No symbol) [0x00007FF687F7BC50]
+	(No symbol) [0x00007FF687F9B8B3]
+	(No symbol) [0x00007FF687F7B7E3]
+	(No symbol) [0x00007FF687F475C8]
+	(No symbol) [0x00007FF687F48731]
+	GetHandleVerifier [0x00007FF6883F646D+3118813]
+	GetHandleVerifier [0x00007FF688446CC0+3448624]
+	GetHandleVerifier [0x00007FF68843CF3D+3408301]
+	GetHandleVerifier [0x00007FF6881CA44B+841403]
+	(No symbol) [0x00007FF68807344F]
+	(No symbol) [0x00007FF68806F4C4]
+	(No symbol) [0x00007FF68806F65D]
+	(No symbol) [0x00007FF68805EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-04 17:10:49 - Volviendo a la página de resultados.
+2024-11-04 17:10:49 - Procesando fila 22...
+2024-11-04 17:10:49 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-11-04 17:10:49 - 1- Añadiendo Cliente a BD
+2024-11-04 17:10:49 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-11-04 17:10:50 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-04 17:10:51 - Clic en el enlace 'Ver detalle'.
+2024-11-04 17:10:51 - El modal de carga ha desaparecido.
+2024-11-04 17:10:51 - Nombre extraído: VIÑA ERRAZURIZ
+2024-11-04 17:10:52 - Ubicación extraída: Región del Libertador General Bernardo O'Higgins
+2024-11-04 17:10:52 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2190
+2024-11-04 17:10:52 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-04 17:10:52 - Unidad Fiscalizable 'VIÑA ERRAZURIZ' ya existe en la base de datos.
+2024-11-04 17:10:52 - ID de unidad fiscalizable extraído: DFZ-2014-386-VI-PC-IA
+2024-11-04 17:10:52 - Ubicación extraída: del Libertador General Bernardo O'Higgins
+2024-11-04 17:10:52 - Extrayendo el nombre de la unidad fiscalizable...

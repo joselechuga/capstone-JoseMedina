@@ -1,3 +1,5 @@
-bind = '0.0.0.0:8000'
-workers = 2
-module = 'core.wsgi:application'
+import os
+
+port = os.environ.get("PORT", "10000")  # Render especifica el puerto en una variable de entorno
+command = f"gunicorn core.wsgi:application --bind 0.0.0.0:{port}"
+os.system(command)
