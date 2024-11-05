@@ -1,8 +1,14 @@
 {
+  "builds": [
+    {
+      "src": "core/wsgi.py",
+      "use": "@vercel/python"
+    }
+  ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "odorwatch/templates/home.html"
+      "dest": "core/wsgi.py"
     }
   ]
 }
