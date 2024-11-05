@@ -2,7 +2,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "odorwatch/templates"
+      "dest": "odorwatch/templates/home.html"
     }
   ]
 }
