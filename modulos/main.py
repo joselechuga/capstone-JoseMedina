@@ -6,7 +6,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import NoSuchElementException, TimeoutException, StaleElementReferenceException
+from selenium.common.exceptions import NoSuchElementException, TimeoutException, StaleElementReferenceException, ElementClickInterceptedException
 
 # Añade el directorio raíz del proyecto al PYTHONPATH
 project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -50,11 +50,10 @@ def process_first_category(driver):
     # filas que recorrerá de la tabla principal
     for i in range(1, 50):
         try:
-            filas = 1
             row_xpath = f"//table/tbody/tr[{i}]"
             row = wait.until(EC.presence_of_element_located((By.XPATH, row_xpath)))
             log_activity(f"Procesando fila {i}...")
-            process_row(driver, row, filas)
+            process_row(driver, row, i)
         except TimeoutException:
             log_activity(f"No se pudo encontrar la fila {i}, terminando proceso.")
             break
@@ -211,40 +210,35 @@ def expand_document_section(driver):
         log_activity(f"Error inesperado al intentar expandir la sección 'Documentos': {e}")
 
 # Recorrer las filas de la tabla de documentos
-def process_document_table(driver, ID_unidad_fiscalizable):
+def process_document_table(driver, ID_unidad_fiscalizable, search_phrase):
     """Recorre las filas de la tabla y descarga los documentos que correspondan."""
     try:
         expand_document_section(driver)
-        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, "//table[contains(@class, 'tabla-resultado-busqueda')]/tbody/tr")))
-        rows = driver.find_elements(By.XPATH, "//table[contains(@class, 'tabla-resultado-busqueda')]/tbody/tr")
+    except:
+        log_activity("No se encontró acordeon")
+    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, "//table[contains(@class, 'tabla-resultado-busqueda')]/tbody/tr")))
+    rows = driver.find_elements(By.XPATH, "//table[contains(@class, 'tabla-resultado-busqueda')]/tbody/tr")
 
-        for row in rows:
-            try:
-                tipo_documento = row.find_element(By.XPATH, ".//td[@data-label='Tipo Documento']").text
-                if "Informe de Fiscalización Ambiental" in tipo_documento and "anexo" not in tipo_documento.lower():
-                    try:
-                        download_link = row.find_element(By.XPATH, "/html/body/div[6]/div[4]/div/div/div/div/div/div/div[2]/div[1]/div[2]/div/table/tbody/tr[2]/td[3]")
-                        if "Informe de Fiscalización Ambiental" in download_link.text:
-                            download_button = row.find_element(By.XPATH, "/html/body/div[6]/div[4]/div/div/div/div/div/div/div[2]/div[1]/div[2]/div/table/tbody/tr[2]/td[4]/a")
-                            download_url = download_button.get_attribute('href')
-                            download_document(driver, download_url, "Informe de Fiscalización Ambiental", ID_unidad_fiscalizable)
+    for row in rows:
+        try:
+            tipo_documento = row.find_element(By.XPATH, ".//td[@data-label='Tipo Documento']").text
+            if search_phrase in tipo_documento and "anexo" not in tipo_documento.lower():
+                try:
+                    download_button = row.find_element(By.XPATH, ".//td/a[contains(@href, 'document')]")
+                    download_url = download_button.get_attribute('href')
+                    download_document(driver, download_url, search_phrase, ID_unidad_fiscalizable)
+                    download_button.click()
+                    log_activity(f"Clic en el enlace de descarga para el documento: {search_phrase}")
 
-                    except NoSuchElementException as e:
-                        log_activity(f"Error: No se encontró el enlace de descarga en la fila. Detalle: {e}")
-                    except Exception as e:
-                        log_activity(f"Error al intentar descargar el documento. Detalle: {e}")
-                else:
-                    log_activity(f"Documento ignorado: {tipo_documento}")
-            except NoSuchElementException as e:
-                log_activity(f"Error al procesar la tabla de documentos: {e}")
-                continue  # Continuar con la siguiente fila si no se encuentra el elemento
-
-    except NoSuchElementException as e:
-        log_activity(f"Error al procesar la tabla de documentos: {e}")
-    except StaleElementReferenceException:
-        log_activity("El elemento ya no es adjunto al DOM. Intentando de nuevo...")
-    except TimeoutException:
-        log_activity("Tiempo de espera agotado al intentar acceder a la tabla.")
+                except NoSuchElementException as e:
+                    log_activity(f"Error: No se encontró el enlace de descarga en la fila. Detalle: {e}")
+                except Exception as e:
+                    log_activity(f"Error al intentar descargar el documento. Detalle: {e}")
+            else:
+                log_activity(f"Documento ignorado: {tipo_documento}")
+        except NoSuchElementException as e:
+            log_activity(f"Error al procesar la tabla de documentos: {e}")
+            continue  # Continuar con la siguiente fila si no se encuentra el elemento
 
 # descargar documento en formato PDF con ID de U.Fiscalizable
 def download_document(driver, download_url, document_name, ID_unidad_fiscalizable):
@@ -292,12 +286,13 @@ def scan_palabras(file_path, keywords):
         return False
 
 # obtener nombre del cliente
-def get_cliente_nombre(driver, filas):
+def get_cliente_nombre(driver, i):
     """Extrae el nombre del cliente desde la tabla de resultados."""
     try:
         cliente_element = WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.XPATH, f"/html/body/div[6]/div[4]/div/div/div/div/div[2]/div[3]/table/tbody/tr[{filas}]/td[3]/ul/li"))
+            EC.presence_of_element_located((By.XPATH, f"/html/body/div[6]/div[4]/div/div/div/div/div[2]/div[3]/table/tbody/tr[{i}]/td[3]/ul/li"))
         )
+        log_activity(f"FILAS: {i}")
         nombre_cliente = cliente_element.text.strip()
         log_activity(f"Nombre del cliente extraído: {nombre_cliente}")
         return nombre_cliente
@@ -312,13 +307,13 @@ def get_cliente_nombre(driver, filas):
         return None
 
 # proceso en la primera tabla
-def process_row(driver, row,filas):
+def process_row(driver, row, i):
     """Procesa una fila de la tabla y descarga el documento correspondiente."""
     # espera a que desaparezca el modal emergente
-    wait = WebDriverWait(driver, 20) # 20 segundos
+    wait = WebDriverWait(driver, 20)  # 20 segundos
     
     # Extrae y guarda el nombre del cliente
-    nombre_cliente = get_cliente_nombre(driver, filas)
+    nombre_cliente = get_cliente_nombre(driver, i)
     if nombre_cliente:
         resultado = add_cliente(nombre_cliente)
         log_activity(resultado)
@@ -326,23 +321,33 @@ def process_row(driver, row,filas):
     detalle_link = row.find_element(By.XPATH, ".//a[contains(text(),'Ver detalle')]")
     driver.execute_script("arguments[0].scrollIntoView(true);", detalle_link)
     log_activity("Scroll hacia el enlace 'Ver detalle'.")
-    detalle_link.click()
-    log_activity("Clic en el enlace 'Ver detalle'.")
+    
+    # Esperar a que el modal desaparezca antes de hacer clic
+    wait_for_modal_to_disappear(driver)
+    
+    try:
+        detalle_link.click()
+        log_activity("Clic en el enlace 'Ver detalle'.")
+    except ElementClickInterceptedException:
+        log_activity("El clic en el enlace 'Ver detalle' fue interceptado. Intentando de nuevo...")
+        wait_for_modal_to_disappear(driver)
+        detalle_link.click()
+    
     # esperar a que desaparezca el modal emergente
     wait_for_modal_to_disappear(driver)
-    # parametros para unidad fiscalizable
+    # parámetros para unidad fiscalizable
     nombre_unidad, ubicacion_unidad, url_unidad = get_unidad(driver)
     if nombre_unidad and ubicacion_unidad and url_unidad:
         resultado = add_unidad(nombre_unidad, ubicacion_unidad, url_unidad, nombre_cliente)
         log_activity(resultado)
-    # Extraer ID para nidad fiscalizable
+    # Extraer ID para unidad fiscalizable
     ID_unidad_fiscalizable = extract_expediente_id(driver)
     save_unidad_fiscalizable(driver, ID_unidad_fiscalizable)
     click_documentos_tab(driver)
-    process_document_table(driver, ID_unidad_fiscalizable)
+    documento = "Informe de Fiscalización Ambiental	"
+    process_document_table(driver, ID_unidad_fiscalizable,documento)
     driver.back()
     log_activity("Volviendo a la página de resultados.")
-    filas = filas + 1
     if ID_unidad_fiscalizable:
         print(f"ID Unidad Fiscalizable: {ID_unidad_fiscalizable}")
 
