@@ -2,7 +2,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "core/wsgi.py"
+      "dest": "odorwatch/templates"
     }
   ]
 }
