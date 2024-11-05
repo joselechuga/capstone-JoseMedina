@@ -55157,3 +55157,130 @@ Stacktrace:
 2024-11-05 16:13:05 - Nombre del cliente extraído: AGRICOLA EL MONTE S.A.
 2024-11-05 16:13:05 - 1- Añadiendo Cliente a BD
 2024-11-05 16:13:05 - Cliente 'AGRICOLA EL MONTE S.A.' ya existe en la base de datos.
+2024-11-05 16:13:06 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-05 16:13:07 - El modal de carga ha desaparecido.
+2024-11-05 16:13:10 - Clic en el enlace 'Ver detalle'.
+2024-11-05 16:13:11 - El modal de carga ha desaparecido.
+2024-11-05 16:13:11 - Nombre extraído: CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A.
+2024-11-05 16:13:11 - Ubicación extraída: Región Metropolitana
+2024-11-05 16:13:11 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/4495
+2024-11-05 16:13:11 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-05 16:13:11 - Unidad Fiscalizable 'CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A.' ya existe en la base de datos.
+2024-11-05 16:13:11 - ID de unidad fiscalizable extraído: DFZ-2014-347-XIII-RCA-IA
+2024-11-05 16:13:11 - Ubicación extraída: Metropolitana
+2024-11-05 16:13:11 - Extrayendo el nombre de la unidad fiscalizable...
+2024-11-05 16:13:22 - No se pudo encontrar el nombre de la unidad fiscalizable.
+2024-11-05 16:13:22 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
+2024-11-05 16:13:22 - Clic en la pestaña 'Documentos'.
+2024-11-05 16:13:22 - Sección 'Documentos' expandida.
+2024-11-05 16:13:22 - Documento ignorado: Anexo Informe de Fiscalización Ambiental
+2024-11-05 16:13:22 - Documento ignorado: Informe de Fiscalización Ambiental
+2024-11-05 16:13:22 - Documento ignorado: 
+2024-11-05 16:13:22 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7EA023AF5+28005]
+	(No symbol) [0x00007FF7E9F883F0]
+	(No symbol) [0x00007FF7E9E2580A]
+	(No symbol) [0x00007FF7E9E75A3E]
+	(No symbol) [0x00007FF7E9E75D2C]
+	(No symbol) [0x00007FF7E9E6937C]
+	(No symbol) [0x00007FF7E9E9BA7F]
+	(No symbol) [0x00007FF7E9E69246]
+	(No symbol) [0x00007FF7E9E9BC50]
+	(No symbol) [0x00007FF7E9EBB8B3]
+	(No symbol) [0x00007FF7E9E9B7E3]
+	(No symbol) [0x00007FF7E9E675C8]
+	(No symbol) [0x00007FF7E9E68731]
+	GetHandleVerifier [0x00007FF7EA31646D+3118813]
+	GetHandleVerifier [0x00007FF7EA366CC0+3448624]
+	GetHandleVerifier [0x00007FF7EA35CF3D+3408301]
+	GetHandleVerifier [0x00007FF7EA0EA44B+841403]
+	(No symbol) [0x00007FF7E9F9344F]
+	(No symbol) [0x00007FF7E9F8F4C4]
+	(No symbol) [0x00007FF7E9F8F65D]
+	(No symbol) [0x00007FF7E9F7EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-05 16:13:22 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7EA023AF5+28005]
+	(No symbol) [0x00007FF7E9F883F0]
+	(No symbol) [0x00007FF7E9E2580A]
+	(No symbol) [0x00007FF7E9E75A3E]
+	(No symbol) [0x00007FF7E9E75D2C]
+	(No symbol) [0x00007FF7E9E6937C]
+	(No symbol) [0x00007FF7E9E9BA7F]
+	(No symbol) [0x00007FF7E9E69246]
+	(No symbol) [0x00007FF7E9E9BC50]
+	(No symbol) [0x00007FF7E9EBB8B3]
+	(No symbol) [0x00007FF7E9E9B7E3]
+	(No symbol) [0x00007FF7E9E675C8]
+	(No symbol) [0x00007FF7E9E68731]
+	GetHandleVerifier [0x00007FF7EA31646D+3118813]
+	GetHandleVerifier [0x00007FF7EA366CC0+3448624]
+	GetHandleVerifier [0x00007FF7EA35CF3D+3408301]
+	GetHandleVerifier [0x00007FF7EA0EA44B+841403]
+	(No symbol) [0x00007FF7E9F9344F]
+	(No symbol) [0x00007FF7E9F8F4C4]
+	(No symbol) [0x00007FF7E9F8F65D]
+	(No symbol) [0x00007FF7E9F7EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-05 16:13:22 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7EA023AF5+28005]
+	(No symbol) [0x00007FF7E9F883F0]
+	(No symbol) [0x00007FF7E9E2580A]
+	(No symbol) [0x00007FF7E9E75A3E]
+	(No symbol) [0x00007FF7E9E75D2C]
+	(No symbol) [0x00007FF7E9E6937C]
+	(No symbol) [0x00007FF7E9E9BA7F]
+	(No symbol) [0x00007FF7E9E69246]
+	(No symbol) [0x00007FF7E9E9BC50]
+	(No symbol) [0x00007FF7E9EBB8B3]
+	(No symbol) [0x00007FF7E9E9B7E3]
+	(No symbol) [0x00007FF7E9E675C8]
+	(No symbol) [0x00007FF7E9E68731]
+	GetHandleVerifier [0x00007FF7EA31646D+3118813]
+	GetHandleVerifier [0x00007FF7EA366CC0+3448624]
+	GetHandleVerifier [0x00007FF7EA35CF3D+3408301]
+	GetHandleVerifier [0x00007FF7EA0EA44B+841403]
+	(No symbol) [0x00007FF7E9F9344F]
+	(No symbol) [0x00007FF7E9F8F4C4]
+	(No symbol) [0x00007FF7E9F8F65D]
+	(No symbol) [0x00007FF7E9F7EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
+2024-11-05 16:13:22 - Error al procesar la tabla de documentos: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//td[@data-label='Tipo Documento']"}
+  (Session info: chrome=130.0.6723.92); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7EA023AF5+28005]
+	(No symbol) [0x00007FF7E9F883F0]
+	(No symbol) [0x00007FF7E9E2580A]
+	(No symbol) [0x00007FF7E9E75A3E]
+	(No symbol) [0x00007FF7E9E75D2C]
+	(No symbol) [0x00007FF7E9E6937C]
+	(No symbol) [0x00007FF7E9E9BA7F]
+	(No symbol) [0x00007FF7E9E69246]
+	(No symbol) [0x00007FF7E9E9BC50]
+	(No symbol) [0x00007FF7E9EBB8B3]
+	(No symbol) [0x00007FF7E9E9B7E3]
+	(No symbol) [0x00007FF7E9E675C8]
+	(No symbol) [0x00007FF7E9E68731]
+	GetHandleVerifier [0x00007FF7EA31646D+3118813]
+	GetHandleVerifier [0x00007FF7EA366CC0+3448624]
+	GetHandleVerifier [0x00007FF7EA35CF3D+3408301]
+	GetHandleVerifier [0x00007FF7EA0EA44B+841403]
+	(No symbol) [0x00007FF7E9F9344F]
+	(No symbol) [0x00007FF7E9F8F4C4]
+	(No symbol) [0x00007FF7E9F8F65D]
+	(No symbol) [0x00007FF7E9F7EBB9]
+	BaseThreadInitThunk [0x00007FF9C2447374+20]
+	RtlUserThreadStart [0x00007FF9C407CC91+33]
+
