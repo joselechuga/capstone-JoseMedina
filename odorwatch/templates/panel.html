@@ -64,6 +64,8 @@
         .catch((error) => console.error('Error al ejecutar el script:', error))
     })
   </script>
+
+  
   <!-- Lectura y prints de logs en pantalla del html -->
   <script>
     function fetchLogs() {
@@ -96,7 +98,7 @@
     // Llama a la función fetchLogs para obtener los logs al cargar la página
     fetchLogs()
     // Si deseas actualizar los logs periódicamente cada 5 segundos:
-    setInterval(fetchLogs, 5000) // Actualiza cada 5 segundos
+    setInterval(fetchLogs, 2000) // Actualiza cada 5 segundos
   </script>
 
   <script src="{% static 'js/panel.js' %}"></script>

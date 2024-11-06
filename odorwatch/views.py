@@ -81,7 +81,8 @@ def run_script(request):
     except Exception as e:
         # Captura cualquier otro tipo de error
         return JsonResponse({'error': f'Error inesperado: {str(e)}'})
-    
+
+
 @login_required(login_url='/login/')
 def panel(request):
     try:

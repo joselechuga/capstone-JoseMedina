@@ -6,7 +6,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import NoSuchElementException, TimeoutException, StaleElementReferenceException, ElementClickInterceptedException
+from selenium.common.exceptions import NoSuchElementException, TimeoutException, StaleElementReferenceException, ElementClickInterceptedException, ElementNotInteractableException, NoSuchWindowException
 
 # Añade el directorio raíz del proyecto al PYTHONPATH
 project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -39,7 +39,13 @@ def setup_driver():
 def process_first_category(driver):
     """Realiza la búsqueda en la primera categoría y descarga los documentos fila por fila."""
     base_url = 'https://snifa.sma.gob.cl/Fiscalizacion'
-    driver.get(base_url)
+    
+    try:
+        driver.get(base_url)
+    except NoSuchWindowException:
+        log_activity("La ventana del navegador se cerró inesperadamente. Reiniciando el WebDriver.")
+        driver = setup_driver()
+        driver.get(base_url)
 
     if not check_page_load(driver):
         return
@@ -52,10 +58,14 @@ def process_first_category(driver):
         try:
             row_xpath = f"//table/tbody/tr[{i}]"
             row = wait.until(EC.presence_of_element_located((By.XPATH, row_xpath)))
-            log_activity(f"Procesando fila {i}...")
+            log_activity(f"""***************************************
+                        Procesando fila {i}...""")
             process_row(driver, row, i)
         except TimeoutException:
             log_activity(f"No se pudo encontrar la fila {i}, terminando proceso.")
+            break
+        except NoSuchWindowException:
+            log_activity("La ventana del navegador se cerró inesperadamente durante el procesamiento de filas.")
             break
 # SELECCION DE CATEGORIA Y CLIC EN BUSCAR
 def select_category(driver):
@@ -217,28 +227,50 @@ def process_document_table(driver, ID_unidad_fiscalizable, search_phrase):
     except:
         log_activity("No se encontró acordeon")
     WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, "//table[contains(@class, 'tabla-resultado-busqueda')]/tbody/tr")))
-    rows = driver.find_elements(By.XPATH, "//table[contains(@class, 'tabla-resultado-busqueda')]/tbody/tr")
-
-    for row in rows:
-        try:
-            tipo_documento = row.find_element(By.XPATH, ".//td[@data-label='Tipo Documento']").text
-            if search_phrase in tipo_documento and "anexo" not in tipo_documento.lower():
+    try:
+        elemento = buscar_elemento_por_palabra(driver, "Informe de Fiscalización Ambiental")
+        #log_activity(f"ELEMENTO: {elemento.get_attribute('outerHTML')}")
+        if elemento:
+            try:
+                fila = elemento.find_element(By.XPATH, "./ancestor::tr")
+                #log_activity(f"FILA: {fila.get_attribute('outerHTML')}")
+                link_element = fila.find_element(By.XPATH, ".//td[4]/a")
+                log_activity(f"LINK ELEMENT: {link_element.get_attribute('outerHTML')}")
+                
+                # Intentar hacer clic en el enlace
                 try:
-                    download_button = row.find_element(By.XPATH, ".//td/a[contains(@href, 'document')]")
-                    download_url = download_button.get_attribute('href')
-                    download_document(driver, download_url, search_phrase, ID_unidad_fiscalizable)
-                    download_button.click()
-                    log_activity(f"Clic en el enlace de descarga para el documento: {search_phrase}")
+                    link_element.click()
+                    log_activity("Clic en el enlace del 'Informe de Fiscalización Ambiental'.")
+                except ElementNotInteractableException:
+                    log_activity("El elemento no es interactuable, intentando con JavaScript.")
+                    driver.execute_script("arguments[0].click();", link_element)
+                    log_activity("Clic en el enlace usando JavaScript.")
+                
+                # Descargar el documento
+                download_url = link_element.get_attribute('href')
+                document_name = "Informe de Fiscalización Ambiental"
+                download_document(driver, download_url, document_name, ID_unidad_fiscalizable)
+                
+            except NoSuchElementException as e:
+                log_activity(f"Error al procesar la tabla de documentos: {e}")
+    except NoSuchElementException as e:
+        log_activity(f"Error al procesar la tabla de documentos: {e}")
 
-                except NoSuchElementException as e:
-                    log_activity(f"Error: No se encontró el enlace de descarga en la fila. Detalle: {e}")
-                except Exception as e:
-                    log_activity(f"Error al intentar descargar el documento. Detalle: {e}")
-            else:
-                log_activity(f"Documento ignorado: {tipo_documento}")
-        except NoSuchElementException as e:
-            log_activity(f"Error al procesar la tabla de documentos: {e}")
-            continue  # Continuar con la siguiente fila si no se encuentra el elemento
+def buscar_elemento_por_palabra(driver, palabra):
+    """Busca un elemento en la página que contenga solo la frase especificada
+        en la variable 'documento'."""
+    try:
+        elemento = WebDriverWait(driver, 10).until(
+            EC.presence_of_element_located((By.XPATH, f"//*[text()='{palabra}']"))
+        )
+        log_activity(f"Elemento encontrado con la palabra: {palabra}")
+        return elemento
+    except TimeoutException:
+        log_activity(f"No se encontró ningún elemento con la palabra: {palabra}")
+        return None
+    except Exception as e:
+        log_activity(f"Error inesperado al buscar el elemento con la palabra '{palabra}': {e}")
+        return None
 
 # descargar documento en formato PDF con ID de U.Fiscalizable
 def download_document(driver, download_url, document_name, ID_unidad_fiscalizable):
@@ -258,24 +290,42 @@ def download_document(driver, download_url, document_name, ID_unidad_fiscalizabl
 
         log_activity(f"Documento descargado como: {file_name}")
 
+        # Verificar si el archivo está completo
+        if not is_pdf_complete(file_path):
+            log_activity(f"El documento {file_name} está incompleto o corrupto. Intentando descargar de nuevo...")
+            os.remove(file_path)
+            return
+
         # Escanear el documento en busca de palabras clave
         if scan_palabras(file_path, ['olor', 'olores']):
-            log_activity(f"El documento {file_name} contiene palabras clave relacionadas con 'olor'.")
+            log_activity(f"El documento {file_name} contiene palabras clave relacionadas con 'olor' o 'olores'.")
 
     except Exception as e:
         log_activity(f"Error al descargar el documento: {e}")
 
-def scan_palabras(file_path, keywords):
-    """Escanea el documento PDF en busca de palabras 'olor' 'olores' y elimina el documento si no contiene ninguna."""
+def is_pdf_complete(file_path):
+    """Verifica si el archivo PDF está completo."""
+    try:
+        from PyPDF2 import PdfReader
+        with open(file_path, 'rb') as file:
+            reader = PdfReader(file)
+            # Intentar leer el documento para verificar su integridad
+            reader.pages
+        return True
+    except Exception as e:
+        log_activity(f"Error al verificar el documento PDF: {e}")
+        return False
+
+def scan_palabras(file_path):
+    """Abre el documento PDF y analiza su contenido en busca de palabras 'olor' y 'olores'. Elimina el documento si no contiene ninguna."""
     log_activity('Escaneando archivos en busca de palabras...')
     try:
-        import PyPDF2
+        from PyPDF2 import PdfReader
         with open(file_path, 'rb') as file:
-            reader = PyPDF2.PdfFileReader(file)
-            for page_num in range(reader.numPages):
-                page = reader.getPage(page_num)
+            reader = PdfReader(file)
+            for page in reader.pages:
                 text = page.extract_text()
-                if any(keyword in text for keyword in keywords):
+                if 'olor' in text or 'olores' in text:
                     return True
         # Si no se encuentran palabras clave, eliminar el archivo
         os.remove(file_path)
@@ -344,7 +394,7 @@ def process_row(driver, row, i):
     ID_unidad_fiscalizable = extract_expediente_id(driver)
     save_unidad_fiscalizable(driver, ID_unidad_fiscalizable)
     click_documentos_tab(driver)
-    documento = "Informe de Fiscalización Ambiental	"
+    documento = "Informe de Fiscalización Ambiental"
     process_document_table(driver, ID_unidad_fiscalizable,documento)
     driver.back()
     log_activity("Volviendo a la página de resultados.")
@@ -398,6 +448,7 @@ def main():
     finally:
         close_driver(driver)
         log_activity("Terminando scraping.")
+        log_activity("***************************************")
 
 if __name__ == '__main__':
     main()
