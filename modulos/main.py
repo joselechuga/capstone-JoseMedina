@@ -167,7 +167,7 @@ def get_nombre_u_fiscalizable(driver):
     log_activity("""Extrayendo el nombre de la unidad fiscalizable...""")
     try:
         nombre_element = WebDriverWait(driver, 10).until( # esperando al modal para luego buscar en la ruta
-            EC.presence_of_element_located((By.XPATH, "/html/body/div[6]/div[4]/div/div/div/div/div[2]/div[3]/table/tbody/tr[1]/td[3]/ul/li/text()"))
+            EC.presence_of_element_located((By.XPATH, "/html/body/div[6]/div[3]/div/div[2]/div/div/div/div[1]/div/ul/li/a"))
         )
         nombre_u_fiscalizable = nombre_element.text.strip()
         log_activity(f"Nombre de unidad fiscalizable extraído: {nombre_u_fiscalizable}")
