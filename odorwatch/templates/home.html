@@ -12,42 +12,62 @@
 {% block content %}
   <h1>Sistema Smart OdorWatch</h1>
 
+  <br><br>
+
   <div class="card">
     <div class="card-header">
       <h5 class="card-title">Accede directamente a los modulos que deseas visualizar</h5>
     </div>
-    <div class="card-body">
-      <a href="{% url 'snifa' %}" class="btn link-home">
-        <div class="card card-home" style="width: 18rem;">
-          <img src="https://snifa.sma.gob.cl/images/snifa-logo.png" class="card-img-top" alt="..." />
-        </div>
-      </a>
-    </div>
-  </div>
-
-  <div class="container container-hamster">
-    <h2>Pronto se añadirán nuevos modulos</h2>
-    <p>Estamos trabajando en ello...</p>
-
-    <div aria-label="Orange and tan hamster running in a metal wheel" role="img" class="wheel-and-hamster">
-      <div class="wheel"></div>
-      <div class="hamster">
-        <div class="hamster__body">
-          <div class="hamster__head">
-            <div class="hamster__ear"></div>
-            <div class="hamster__eye"></div>
-            <div class="hamster__nose"></div>
+    
+    <div class="container container-modulos-home">
+      <div class="card-body">
+        <a href="{% url 'snifa' %}" class="btn link-home">
+          <div class="card card-home" style="width: 18rem;">
+            <img src="https://snifa.sma.gob.cl/images/snifa-logo.png" class="card-img-top" alt="..." />
           </div>
-          <div class="hamster__limb hamster__limb--fr"></div>
-          <div class="hamster__limb hamster__limb--fl"></div>
-          <div class="hamster__limb hamster__limb--br"></div>
-          <div class="hamster__limb hamster__limb--bl"></div>
-          <div class="hamster__tail"></div>
+        </a>
+        <a href="#" class="btn link-home">
+          <div class="card card-home" style="width: 18rem;">
+            <img src="https://ciudadmoto.com/site/wp-content/uploads/2024/04/trabajando.png" class="card-img-top" alt="..." />
+          </div>
+        </a>
+        <a href="#" class="btn link-home">
+          <div class="card card-home" style="width: 18rem;">
+            <img src="https://ciudadmoto.com/site/wp-content/uploads/2024/04/trabajando.png" class="card-img-top" alt="..." />
+          </div>
+        </a>
+  
+        
+    <div class="container container-hamster">
+      <h2>Pronto se añadirán nuevos modulos</h2>
+      <p>Estamos trabajando en ello...</p>
+  
+        <div aria-label="Orange and tan hamster running in a metal wheel" role="img" class="wheel-and-hamster">
+          <div class="wheel"></div>
+          <div class="hamster">
+            <div class="hamster__body">
+              <div class="hamster__head">
+                <div class="hamster__ear"></div>
+                <div class="hamster__eye"></div>
+                <div class="hamster__nose"></div>
+              </div>
+              <div class="hamster__limb hamster__limb--fr"></div>
+              <div class="hamster__limb hamster__limb--fl"></div>
+              <div class="hamster__limb hamster__limb--br"></div>
+              <div class="hamster__limb hamster__limb--bl"></div>
+              <div class="hamster__tail"></div>
+            </div>
+          </div>
+          <div class="spoke"></div>
         </div>
       </div>
-      <div class="spoke"></div>
-    </div>
+    
+      </div>
+
   </div>
+  </div>
+
+
 {% endblock %}
 
 <!-- SCRIPTS -->

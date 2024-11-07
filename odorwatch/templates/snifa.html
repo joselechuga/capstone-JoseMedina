@@ -12,35 +12,35 @@
 {% block content %}
 <h1>Modulo SNIFA</h1>
 
-<table class="table table-hover">
-    <thead>
-      <tr>
-        <th scope="col">#</th>
-        <th scope="col">Cliente</th>
-        <th scope="col">Unidad Fiscalizable</th>
-        <th scope="col">Documento</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <th scope="row">1</th>
-        <td>Mark</td>
-        <td>Otto</td>
-        <td>@mdo</td>
-      </tr>
-      <tr>
-        <th scope="row">2</th>
-        <td>Jacob</td>
-        <td>Thornton</td>
-        <td>@fat</td>
-      </tr>
-      <tr>
-        <th scope="row">3</th>
-        <td colspan="2">Larry the Bird</td>
-        <td>@twitter</td>
-      </tr>
-    </tbody>
-  </table>
+<br><br><br>
+<div style="max-height: 50vh; overflow-y: auto;">
+  <table class="table table-hover">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Cliente</th>
+          <th scope="col">Unidad Fiscalizable</th>
+          <th scope="col">Documento</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for cliente in clientes %}
+        <tr>
+          <th scope="row">{{ forloop.counter }}</th>
+          <td>{{ cliente.nombre }}</td>
+          <td>
+            {% for unidad in unidades %}
+              {% if unidad.cliente == cliente %}
+                {{ unidad.nombre }}<br>
+              {% endif %}
+            {% endfor %}
+          </td>
+          <td>@documento</td> <!-- Reemplaza con el campo correspondiente -->
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+</div>
 
 {% endblock %}
 

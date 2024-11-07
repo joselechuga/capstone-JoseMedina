@@ -1,3 +1,4 @@
+from django.shortcuts import render
 from odorwatch.models import Cliente, UnidadFiscalizable
 
 # Enviar datos a Cliente 
@@ -55,3 +56,5 @@ def add_unidad(nombre_unidad, ubicacion_unidad, url_unidad, nombre_cliente):
         return f"Error: Cliente '{nombre_cliente}' no encontrado."
     except Exception as e:
         return f"Error al añadir la unidad fiscalizable: {str(e)}"
+
+

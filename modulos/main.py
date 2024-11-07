@@ -257,30 +257,32 @@ def process_document_table(driver, ID_unidad_fiscalizable, search_phrase):
         log_activity(f"Error al procesar la tabla de documentos: {e}")
 
 def buscar_elemento_por_palabra(driver, palabra):
-    """Busca un elemento en la página que contenga solo la frase especificada
-        en la variable 'documento', excluyendo aquellos que contengan 'ANEXO'."""
+    """Busca un elemento en la página que contenga exactamente la frase 'Informe de Fiscalización Ambiental'."""
     try:
         elementos = WebDriverWait(driver, 10).until(
-            EC.presence_of_all_elements_located((By.XPATH, f"//*[contains(text(), '{palabra}')]"))
+            EC.presence_of_all_elements_located((By.XPATH, f"//*[text()='{palabra}']"))
         )
         for elemento in elementos:
-            if "ANEXO" not in elemento.text:
-                log_activity(f"Elemento encontrado con la palabra: {palabra}")
-                return elemento
-        log_activity(f"No se encontró ningún elemento con la palabra: {palabra} que no contenga 'ANEXO'")
+            log_activity(f"Elemento encontrado con la palabra exacta: {palabra}")
+            return elemento
+        log_activity(f"No se encontró ningún elemento con la palabra exacta: {palabra}")
         return None
     except TimeoutException:
-        log_activity(f"No se encontró ningún elemento con la palabra: {palabra}")
+        log_activity(f"No se encontró ningún elemento con la palabra exacta: {palabra}")
         return None
     except Exception as e:
-        log_activity(f"Error inesperado al buscar el elemento con la palabra '{palabra}': {e}")
+        log_activity(f"Error inesperado al buscar el elemento con la palabra exacta '{palabra}': {e}")
         return None
 
 # descargar documento en formato PDF con ID de U.Fiscalizable
 def download_document(driver, download_url, document_name, ID_unidad_fiscalizable):
-    """Descarga el documento con un nombre personalizado y sobrescribe si existe. Luego, escanea el documento en busca de palabras clave."""
+    """Descarga el documento en formato PDF con un nombre personalizado y sobrescribe si existe. Luego, escanea el documento en busca de palabras clave."""
     try:
-        file_name = f"{document_name}_{ID_unidad_fiscalizable}.pdf"
+        # Asegurarse de que todos los documentos contengan el ID de unidad fiscalizable en el nombre
+        if not document_name.endswith(f"_{ID_unidad_fiscalizable}"):
+            document_name = f"{document_name}_{ID_unidad_fiscalizable}"
+        
+        file_name = f"{document_name}.pdf"
         file_path = os.path.join(download_dir, file_name)
 
         # Si el archivo existe se sobrescribe

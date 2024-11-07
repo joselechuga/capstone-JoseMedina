@@ -12,6 +12,8 @@ from django.http import JsonResponse
 
 from django.views.decorators.csrf import csrf_exempt
 
+from .models import Cliente,UnidadFiscalizable,Documento
+
 def custom_404(request, exception):
     return render(request, '404.html',{})
 
@@ -134,4 +136,6 @@ enviar_logs_a_api()
 
 
 def snifa(request):
-    return render(request, 'snifa.html')
+    clientes = Cliente.objects.all()
+    unidades = UnidadFiscalizable.objects.all()
+    return render(request, 'snifa.html',  {'clientes': clientes, 'unidades': unidades})
