@@ -12,11 +12,7 @@
 {% block content %}
   <h1>Administración Scraping</h1>
 
-  <!-- Botón para ejecutar el script -->
-
-  <!-- Button trigger modal -->
-  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Iniciar Scraping</button>
-
+  <br>
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -35,7 +31,18 @@
   </div>
 
   <div class="container">
-    <h4>Logs de ejecución</h4>
+    <!-- Botón para ejecutar el script -->
+
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Iniciar Scraping</button>
+
+    <br><br><br>
+
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">Logs de ejecución</a>
+      </li>
+    </ul>
     <!-- Div donde se mostrará el contenido de logs_scraping.txt -->
     <div id="log-output" class="outputlogs" style="white-space: pre-wrap; border: 1px solid black; padding: 10px; height: 300px; overflow-y: scroll;">Cargando logs...</div>
   </div>

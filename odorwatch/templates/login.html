@@ -19,35 +19,30 @@
           <!-- Div con fondo de imagen -->
         <div class="image-background-container">
           <!-- Div centrado con el texto "Hola" -->
-          <div class="container-fluid container-login">
-            <div class="container-fluid login-container">
-              <div class="login-box">
-                <div>
-                  <img class='imglogo' src="{% static 'img/logo.png' %}" alt="">
-                </div>
-                <h2>Smart OdorWatch</h2>
-                <p>Inicio de sesión</p>
-                <form action="{% url 'login' %}" method="POST">
-                  {% csrf_token %}
-                  <div class="input-group">
-                    <input id="username" type="text" name="username" placeholder="Usuario" required />
+          <div class="container">
+              <input id="signup_toggle" type="checkbox">
+              <form class="form" action="{% url 'login' %}" method="POST">
+                {% csrf_token %}
+                  <div class="form_front">
+                      <div class="form_details">Inicio de Sesión</div>
+                      <input id="username" name="username" type="text" class="input" placeholder="Usuario">
+                      <input id="password" name="password" type="password" class="input" placeholder="Contraseña">
+                      <button class="btn btn-primary">Ingresar</button>
+                      <button onclick="window.location.href='https://launcher.myapps.microsoft.com/api/signin/45a7e488-7538-4189-a465-cc838d441633?tenantId=31df8db8-2c61-452e-bccf-751fea3fca78';"
+                      style="font-size: 14px; padding: 0 10px; height: 35px; border-radius: 15px;" class="login100-form-btn" 
+                      type="button"><img style="width: 20px; margin-right: 5px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/2048px-Microsoft_logo.svg.png" alt="Microsoft" />Ingresar con Microsoft</button>
+                          <label for="signup_toggle" class="signup_tog">
+                              Sign Up
+                          </label>
+                      </span>
+                      {% if error_message %}
+                      <p class="errormsg" style="color: red;">{{ error_message }}</p>
+                    {% endif %}
                   </div>
-                  <div class="input-group">
-                    <input id="password" type="password" name="password" placeholder="Contraseña" required />
-                  </div>
-                  <button type="submit" class="login-btn">Ingresar</button>
-                  <button onclick="window.location.href='https://launcher.myapps.microsoft.com/api/signin/45a7e488-7538-4189-a465-cc838d441633?tenantId=31df8db8-2c61-452e-bccf-751fea3fca78';"
-                  style="font-size: 14px; padding: 0 10px; height: 35px; border-radius: 15px;" class="login100-form-btn" 
-                  type="button"><img style="width: 20px; margin-right: 5px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/2048px-Microsoft_logo.svg.png" alt="Microsoft" />Ingresar con Microsoft</button>
-                </form>
-              </div>
-            </div>
-        </div>
-
-        {% if error_message %}
-          <p class="errormsg" style="color: red;">{{ error_message }}</p>
-        {% endif %}
+              </form>
+          </div>
       </div>
+      
     </main>
     <footer>
       <!-- place footer here -->

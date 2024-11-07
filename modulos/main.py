@@ -37,6 +37,9 @@ def setup_driver():
     return driver
 
 def process_first_category(driver):
+    
+    log_activity('Iniciando Scraping...')
+    
     """Realiza la búsqueda en la primera categoría y descarga los documentos fila por fila."""
     base_url = 'https://snifa.sma.gob.cl/Fiscalizacion'
     
@@ -58,8 +61,7 @@ def process_first_category(driver):
         try:
             row_xpath = f"//table/tbody/tr[{i}]"
             row = wait.until(EC.presence_of_element_located((By.XPATH, row_xpath)))
-            log_activity(f"""***************************************
-                        Procesando fila {i}...""")
+            log_activity(f"""Procesando fila {i}...""")
             process_row(driver, row, i)
         except TimeoutException:
             log_activity(f"No se pudo encontrar la fila {i}, terminando proceso.")
@@ -229,13 +231,10 @@ def process_document_table(driver, ID_unidad_fiscalizable, search_phrase):
     WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, "//table[contains(@class, 'tabla-resultado-busqueda')]/tbody/tr")))
     try:
         elemento = buscar_elemento_por_palabra(driver, "Informe de Fiscalización Ambiental")
-        #log_activity(f"ELEMENTO: {elemento.get_attribute('outerHTML')}")
         if elemento:
             try:
                 fila = elemento.find_element(By.XPATH, "./ancestor::tr")
-                #log_activity(f"FILA: {fila.get_attribute('outerHTML')}")
                 link_element = fila.find_element(By.XPATH, ".//td[4]/a")
-                log_activity(f"LINK ELEMENT: {link_element.get_attribute('outerHTML')}")
                 
                 # Intentar hacer clic en el enlace
                 try:
@@ -249,7 +248,8 @@ def process_document_table(driver, ID_unidad_fiscalizable, search_phrase):
                 # Descargar el documento
                 download_url = link_element.get_attribute('href')
                 document_name = "Informe de Fiscalización Ambiental"
-                download_document(driver, download_url, document_name, ID_unidad_fiscalizable)
+                if "Anexo" not in document_name and "ANEXO" not in document_name and not download_url.endswith('.zip'):
+                    download_document(driver, download_url, document_name, ID_unidad_fiscalizable)
                 
             except NoSuchElementException as e:
                 log_activity(f"Error al procesar la tabla de documentos: {e}")
@@ -258,13 +258,17 @@ def process_document_table(driver, ID_unidad_fiscalizable, search_phrase):
 
 def buscar_elemento_por_palabra(driver, palabra):
     """Busca un elemento en la página que contenga solo la frase especificada
-        en la variable 'documento'."""
+        en la variable 'documento', excluyendo aquellos que contengan 'ANEXO'."""
     try:
-        elemento = WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.XPATH, f"//*[text()='{palabra}']"))
+        elementos = WebDriverWait(driver, 10).until(
+            EC.presence_of_all_elements_located((By.XPATH, f"//*[contains(text(), '{palabra}')]"))
         )
-        log_activity(f"Elemento encontrado con la palabra: {palabra}")
-        return elemento
+        for elemento in elementos:
+            if "ANEXO" not in elemento.text:
+                log_activity(f"Elemento encontrado con la palabra: {palabra}")
+                return elemento
+        log_activity(f"No se encontró ningún elemento con la palabra: {palabra} que no contenga 'ANEXO'")
+        return None
     except TimeoutException:
         log_activity(f"No se encontró ningún elemento con la palabra: {palabra}")
         return None
