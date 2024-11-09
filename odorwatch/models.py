@@ -14,7 +14,6 @@ class Palabras(models.Model):
         return self.palabras
 
 
-
 class Estado(models.Model):
     nombre = models.CharField(max_length=100)
 
