@@ -1,4 +1,4 @@
-#!C:\Users\José\OneDrive - Fundacion Instituto Profesional Duoc UC\Escritorio\PY-Inventario-CAPSTONE\capstone-JoseMedina-2\venv\Scripts\python.exe
+#!C:\Users\José\OneDrive - Fundacion Instituto Profesional Duoc UC\Escritorio\PY-Inventario-CAPSTONE\capstone-JoseMedina-4\venv\Scripts\python.exe
 """A command line tool for extracting text and images from PDF and
 output it to plain text, html, xml or tags."""
 import argparse

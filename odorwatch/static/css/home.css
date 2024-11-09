@@ -1,7 +1,11 @@
+body{
+  background-color: #faf7f4;
+}
 
 .container-modulos-home{
   display: flex;
   justify-content: space-evenly;
+  box-shadow: -5px 0 5px -5px #484848, 5px 0 5px -5px #484848;
 }
 
 .lista {

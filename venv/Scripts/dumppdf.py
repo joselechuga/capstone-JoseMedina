@@ -1,4 +1,4 @@
-#!C:\Users\José\OneDrive - Fundacion Instituto Profesional Duoc UC\Escritorio\PY-Inventario-CAPSTONE\capstone-JoseMedina-2\venv\Scripts\python.exe
+#!C:\Users\José\OneDrive - Fundacion Instituto Profesional Duoc UC\Escritorio\PY-Inventario-CAPSTONE\capstone-JoseMedina-4\venv\Scripts\python.exe
 """Extract pdf structure in XML format"""
 import logging
 import os.path

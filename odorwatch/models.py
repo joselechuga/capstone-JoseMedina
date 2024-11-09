@@ -27,6 +27,7 @@ class UnidadFiscalizable(models.Model):
     ubicacion = models.CharField(max_length=150)
     url = models.URLField(max_length=255)
     cliente = models.ForeignKey(Cliente, on_delete=models.CASCADE, related_name="unidades_fiscalizables")
+    año_fecha = models.CharField(max_length=4)
 
     def __str__(self):
         return self.nombre
@@ -47,4 +48,3 @@ class Coincidencias(models.Model):
 
     def __str__(self):
         return f"Coincidencias en {self.documento} - {self.cantidad}"
-

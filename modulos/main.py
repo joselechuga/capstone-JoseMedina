@@ -167,7 +167,7 @@ def get_nombre_u_fiscalizable(driver):
     log_activity("""Extrayendo el nombre de la unidad fiscalizable...""")
     try:
         nombre_element = WebDriverWait(driver, 10).until( # esperando al modal para luego buscar en la ruta
-            EC.presence_of_element_located((By.XPATH, "/html/body/div[6]/div[3]/div/div[2]/div/div/div/div[1]/div/ul/li/a"))
+            EC.presence_of_element_located((By.XPATH, "/html/body/div[6]/div[4]/div/div/div/div/div[2]/div[3]/table/tbody/tr[1]/td[3]/ul/li/text()"))
         )
         nombre_u_fiscalizable = nombre_element.text.strip()
         log_activity(f"Nombre de unidad fiscalizable extraído: {nombre_u_fiscalizable}")
@@ -194,6 +194,24 @@ def save_unidad_fiscalizable(driver, ID_unidad_fiscalizable):
         log_activity(f"Unidad Fiscalizable '{nombre}' guardada en la base de datos.")
     else:
         log_activity("No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.")
+
+# guardar año de ejecucion del informe
+def get_año_ejecucion(driver):
+    """Extrae el año de ejecución del informe."""
+    try:
+        año_element = WebDriverWait(driver, 10).until(
+            EC.presence_of_element_located((By.XPATH, "/html/body/div[6]/div[3]/div/div[1]/div/div/h4[3]/text()"))
+        )
+        año_ejecucion = año_element.text.strip()
+        log_activity(f"Año de ejecución extraído: {año_ejecucion}")
+        return año_ejecucion
+    except TimeoutException:
+        log_activity("No se pudo encontrar el año de ejecución.")
+        return None
+    except Exception as e:
+        log_activity(f"Error inesperado al intentar extraer el año de ejecución: {e}")
+        return None
+
 
 # clic en drop de documentos
 def click_documentos_tab(driver):
