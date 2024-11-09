@@ -4,10 +4,6 @@
       "src": "manage.py",
       "use": "@vercel/python",
       "config": { "maxLambdaSize": "15mb" }
-    },
-    {
-      "src": "/staticfiles/(.*)",
-      "dest": "/staticfiles/$1"
     }
   ],
   "routes": [
