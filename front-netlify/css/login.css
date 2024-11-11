@@ -1,4 +1,13 @@
-/* From Uiverse.io by Rohankumar620 */ 
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/48/940/26/smoke-digital-art-abstract-textured-wallpaper-preview.jpg'); /* Aquí va la ruta de tu imagen */
+    background-size: cover; /* Asegura que la imagen cubra todo el body */
+    background-position: center; /* Centra la imagen en el body */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100vh; /* Hace que el body ocupe el 100% de la altura de la ventana */
+}
+
 .container-fluid {
     display: flex;
     justify-content: center;
