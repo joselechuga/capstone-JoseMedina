@@ -3,6 +3,6 @@
     "@azure/msal-browser": "^3.27.0"
   },
   "engines": {
-    "node": "16.20.0"
+    "node": "14.16.0"
   }
 }
