@@ -4,4 +4,4 @@
   status = 404
 
 [build]
-  node_version = "18.9.0" 
+  node_version = "16.20.0" 
