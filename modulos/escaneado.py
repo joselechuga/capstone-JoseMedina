@@ -1,7 +1,7 @@
 import PyPDF2
 import os
 import docx
-
+from odorwatch.models import Palabras
 
 def procesar_documentos(directorio):
     contenido = ""
@@ -25,10 +25,11 @@ def procesar_documentos(directorio):
                 print(f"Error al procesar el archivo {nombre_archivo}: {e}")
     return contenido
 
-def buscar_palabras(contenido, palabras, nombre_archivo):
+def buscar_palabras(contenido, nombre_archivo):
     if nombre_archivo == '.gitkeep':
         return {}  # Ignorar el archivo .gitkeep
     resultados = {}
+    palabras = Palabras.objects.all().values_list('palabras', flat=True)
     for palabra in palabras:
         if palabra in contenido:
             resultados[palabra] = True
@@ -70,11 +71,11 @@ def main():
     try:
         directorio = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'Descargas')
         contenido = procesar_documentos(directorio)
-        palabras_buscadas = ['Olor', 'olor', 'Olores', 'olores']
+        palabras_buscadas = Palabras.objects.all().values_list('palabras', flat=True)
         
         # Buscar palabras en cada archivo
         for nombre_archivo in os.listdir(directorio):
-            buscar_palabras(contenido, palabras_buscadas, nombre_archivo)
+            buscar_palabras(contenido, nombre_archivo)
         
         # Eliminar archivos que no contienen las palabras buscadas
         eliminar_archivos_sin_palabras(directorio, palabras_buscadas)

@@ -7,6 +7,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException, TimeoutException, StaleElementReferenceException, ElementClickInterceptedException, ElementNotInteractableException, NoSuchWindowException
+import subprocess
 
 # Añade el directorio raíz del proyecto al PYTHONPATH
 project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -320,9 +321,10 @@ def download_document(driver, download_url, document_name, ID_unidad_fiscalizabl
             os.remove(file_path)
             return
 
-        # Escanear el documento en busca de palabras clave
-        if scan_palabras(file_path, ['olor', 'olores']):
-            log_activity(f"El documento {file_name} contiene palabras clave relacionadas con 'olor' o 'olores'.")
+        # Iniciar funciones del documento escaneado.py para el archivo recién descargado
+        from modulos.escaneado import buscar_palabras, procesar_documentos
+        contenido = procesar_documentos(download_dir)
+        buscar_palabras(contenido, file_name)
 
     except Exception as e:
         log_activity(f"Error al descargar el documento: {e}")
