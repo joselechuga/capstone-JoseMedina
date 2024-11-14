@@ -58,18 +58,21 @@ def process_first_category(driver):
     wait_for_modal_to_disappear(driver)
     wait = WebDriverWait(driver, 10)
     # filas que recorrerá de la tabla principal
-    for i in range(1, 50):
+    i = 1
+    while True:
         try:
             row_xpath = f"//table/tbody/tr[{i}]"
             row = wait.until(EC.presence_of_element_located((By.XPATH, row_xpath)))
             log_activity(f"""Procesando fila {i}...""")
             process_row(driver, row, i)
+            i += 1
         except TimeoutException:
             log_activity(f"No se pudo encontrar la fila {i}, terminando proceso.")
             break
         except NoSuchWindowException:
             log_activity("La ventana del navegador se cerró inesperadamente durante el procesamiento de filas.")
             break
+
 # SELECCION DE CATEGORIA Y CLIC EN BUSCAR
 def select_category(driver):
     """Selecciona la categoría 'Agroindustrias' y hace clic en el botón de buscar."""
@@ -90,6 +93,20 @@ def select_category(driver):
         log_activity("Error al seleccionar la categoría o hacer clic en buscar.")
     except Exception as e:
         log_activity(f"Error inesperado: {e}")
+
+def click_next_button(driver):
+    """Da clic en el siguiente botón después de que desaparezca el modal inicial."""
+    try:
+        wait = WebDriverWait(driver, 30)
+        wait_for_modal_to_disappear(driver)
+        next_button = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[6]/div[4]/div/div/div/div/div[2]/div[3]/div[4]/select/option[7]")))
+        next_button.click()
+        log_activity("Clic en el siguiente botón.")
+    except TimeoutException:
+        log_activity("Error al intentar hacer clic en el siguiente botón.")
+    except Exception as e:
+        log_activity(f"Error inesperado: {e}")
+
 
 ####################################################################
 ####################################################################
@@ -247,33 +264,27 @@ def process_document_table(driver, ID_unidad_fiscalizable, search_phrase):
         expand_document_section(driver)
     except:
         log_activity("No se encontró acordeon")
-    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, "//table[contains(@class, 'tabla-resultado-busqueda')]/tbody/tr")))
-    try:
-        elemento = buscar_elemento_por_palabra(driver, "Informe de Fiscalización Ambiental")
-        if elemento:
-            try:
-                fila = elemento.find_element(By.XPATH, "./ancestor::tr")
-                link_element = fila.find_element(By.XPATH, ".//td[4]/a")
-                
-                # Intentar hacer clic en el enlace
-                try:
-                    link_element.click()
-                    log_activity("Clic en el enlace del 'Informe de Fiscalización Ambiental'.")
-                except ElementNotInteractableException:
-                    log_activity("El elemento no es interactuable, intentando con JavaScript.")
-                    driver.execute_script("arguments[0].click();", link_element)
-                    log_activity("Clic en el enlace usando JavaScript.")
-                
-                # Descargar el documento
+    
+    WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.XPATH, "//table[contains(@class, 'tabla-resultado-busqueda')]/tbody/tr"))
+    )
+    
+    # Recorre las filas de la tabla
+    rows = driver.find_elements(By.XPATH, "//table[contains(@class, 'tabla-resultado-busqueda')]/tbody/tr")
+    for row in rows:
+        try:
+            # Verificar si la fila contiene el texto "Informe de Fiscalización Ambiental"
+            cell_text = row.find_element(By.XPATH, "./td[3]").text
+            if "Informe de Fiscalización Ambiental" in cell_text:
+                # Obtener el enlace de descarga
+                link_element = row.find_element(By.XPATH, "./td[4]/a")
                 download_url = link_element.get_attribute('href')
                 document_name = "Informe de Fiscalización Ambiental"
                 if "Anexo" not in document_name and "ANEXO" not in document_name and not download_url.endswith('.zip'):
                     download_document(driver, download_url, document_name, ID_unidad_fiscalizable)
-                
-            except NoSuchElementException as e:
-                log_activity(f"Error al procesar la tabla de documentos: {e}")
-    except NoSuchElementException as e:
-        log_activity(f"Error al procesar la tabla de documentos: {e}")
+                    log_activity(f"Documento '{document_name}' descargado y procesado.")
+        except NoSuchElementException as e:
+            log_activity(f"Error al procesar la fila de la tabla: {e}")
 
 def buscar_elemento_por_palabra(driver, palabra):
     """Busca un elemento en la página que contenga exactamente la frase 'Informe de Fiscalización Ambiental'."""
@@ -343,15 +354,20 @@ def is_pdf_complete(file_path):
         return False
 
 def scan_palabras(file_path):
-    """Abre el documento PDF y analiza su contenido en busca de palabras 'olor' y 'olores'. Elimina el documento si no contiene ninguna."""
-    log_activity('Escaneando archivos en busca de palabras...')
+    """Abre el documento PDF y analiza su contenido en busca de palabras clave desde el modelo 'Palabras'. Elimina el documento si no contiene ninguna."""
+    log_activity('Escaneando archivos en busca de palabras clave...')
     try:
         from PyPDF2 import PdfReader
+        from odorwatch.models import Palabras
+
+        # Obtener todas las palabras clave desde el modelo Palabras
+        palabras_clave = Palabras.objects.all().values_list('palabras', flat=True)
+
         with open(file_path, 'rb') as file:
             reader = PdfReader(file)
             for page in reader.pages:
                 text = page.extract_text()
-                if 'olor' in text or 'olores' in text:
+                if any(palabra in text for palabra in palabras_clave):
                     return True
         # Si no se encuentran palabras clave, eliminar el archivo
         os.remove(file_path)
@@ -417,11 +433,26 @@ def process_row(driver, row, i):
         resultado = add_unidad(nombre_unidad, ubicacion_unidad, url_unidad, nombre_cliente)
         log_activity(resultado)
     # Extraer ID para unidad fiscalizable
-    ID_unidad_fiscalizable = extract_expediente_id(driver)
+    try:
+        id_element = WebDriverWait(driver, 10).until(
+            EC.presence_of_element_located((By.XPATH, "/html/body/div[6]/div[3]/div/div[1]/div/div/h3"))
+        )
+        ID_unidad_fiscalizable = id_element.text.strip()[12:]
+        log_activity(f"ID de unidad fiscalizable extraído: {ID_unidad_fiscalizable}")
+    except TimeoutException:
+        log_activity("No se pudo encontrar el ID de la unidad fiscalizable.")
+        ID_unidad_fiscalizable = None
+    except NoSuchElementException:
+        log_activity("No se encontró el elemento del ID de la unidad fiscalizable.")
+        ID_unidad_fiscalizable = None
+    except Exception as e:
+        log_activity(f"Error inesperado al extraer el ID de la unidad fiscalizable: {e}")
+        ID_unidad_fiscalizable = None
+
     save_unidad_fiscalizable(driver, ID_unidad_fiscalizable)
     click_documentos_tab(driver)
     documento = "Informe de Fiscalización Ambiental"
-    process_document_table(driver, ID_unidad_fiscalizable,documento)
+    process_document_table(driver, ID_unidad_fiscalizable, documento)
     driver.back()
     log_activity("Volviendo a la página de resultados.")
     if ID_unidad_fiscalizable:
@@ -432,12 +463,14 @@ def process_row(driver, row, i):
 def get_unidad(driver):
     """Extrae el nombre, la ubicación y la URL de la unidad fiscalizable."""
     try:
-        # Extraer el nombre
+        # Extraer el nombre y la URL
         nombre_element = WebDriverWait(driver, 10).until(
             EC.presence_of_element_located((By.XPATH, "/html/body/div[6]/div[3]/div/div[2]/div/div/div/div[1]/div/ul/li/a"))
         )
         nombre = nombre_element.text.strip()
+        url = nombre_element.get_attribute('href')
         log_activity(f"Nombre extraído: {nombre}")
+        log_activity(f"URL extraída: {url}")
 
         # Extraer la ubicación
         ubicacion_element = WebDriverWait(driver, 10).until(
@@ -446,10 +479,6 @@ def get_unidad(driver):
         ubicacion_text = ubicacion_element.text.strip()
         ubicacion = ubicacion_text.split('-')[-1].strip() if '-' in ubicacion_text else ubicacion_text
         log_activity(f"Ubicación extraída: {ubicacion}")
-
-        # Extraer la URL
-        url = nombre_element.get_attribute('href')
-        log_activity(f"URL extraída: {url}")
 
         return nombre, ubicacion, url
 
@@ -462,6 +491,7 @@ def get_unidad(driver):
     except Exception as e:
         log_activity(f"Error inesperado al extraer los datos de la unidad: {e}")
         return None, None, None
+
 
 def close_driver(driver):
     """Cierra el WebDriver."""
