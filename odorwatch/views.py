@@ -2,6 +2,7 @@ import os
 import requests
 import subprocess
 import logging
+import time
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth import authenticate, login, logout
@@ -94,45 +95,51 @@ def panel(request):
 
 # Leer archivo de logs de ejecuciones en scraping
 def get_logs(request):
-    """Lee el archivo logs_scraping.txt y devuelve su contenido como JSON."""
+    """Lee el archivo de logs basado en la fecha actual y devuelve su contenido como JSON."""
     try:
-        log_file_path = "logs_scraping.txt"
+        fecha = time.strftime("%Y-%m-%d")
+        log_file_path = f"modulos/logs/{fecha}.lst"
+        
+        # Verifica si el archivo de log existe, si no, lo crea
+        if not os.path.exists(log_file_path):
+            with open(log_file_path, "w") as log_file:
+                log_file.write("")
+
         with open(log_file_path, "r") as log_file:
             logs = log_file.readlines()
         return JsonResponse({'logs': logs})
     except Exception as e:
         return JsonResponse({'error': f'Error al leer el archivo: {str(e)}'})
-    
 # datos de 'logs_scraping.txt' enviados a API mockapi
 
-def enviar_logs_a_api():
-    url = "https://671d555c09103098807cd937.mockapi.io/api/odorwatch/logs_scraping"
+# def enviar_logs_a_api():
+#     url = "https://671d555c09103098807cd937.mockapi.io/api/odorwatch/logs_scraping"
     
-    # Leer el contenido completo del archivo de logs
-    with open('logs_scraping.txt', 'r') as file:
-        logs = file.read()
+#     # Leer el contenido completo del archivo de logs
+#     with open('logs_scraping.txt', 'r') as file:
+#         logs = file.read()
     
-    # Crear el payload con el contenido de logs
-    data = {
-        "logs": logs
-    }
+#     # Crear el payload con el contenido de logs
+#     data = {
+#         "logs": logs
+#     }
     
-    try:
-        # Enviar el contenido a la API mediante una solicitud POST
-        response = requests.post(url, json=data)
+#     try:
+#         # Enviar el contenido a la API mediante una solicitud POST
+#         response = requests.post(url, json=data)
         
-        # Verificar si la solicitud fue exitosa
-        if response.status_code == 201:
-            print("Logs enviados con éxito a la API.")
-        else:
-            print(f"Error al enviar los logs. Código de respuesta: {response.status_code}")
-            print("Respuesta:", response.text)
+#         # Verificar si la solicitud fue exitosa
+#         if response.status_code == 201:
+#             print("Logs enviados con éxito a la API.")
+#         else:
+#             print(f"Error al enviar los logs. Código de respuesta: {response.status_code}")
+#             print("Respuesta:", response.text)
             
-    except Exception as e:
-        print(f"Ocurrió un error al intentar enviar los logs: {e}")
+#     except Exception as e:
+#         print(f"Ocurrió un error al intentar enviar los logs: {e}")
 
-# Llamada a la función para enviar los logs
-enviar_logs_a_api()
+# # Llamada a la función para enviar los logs
+# enviar_logs_a_api()
 
 
 def snifa(request):

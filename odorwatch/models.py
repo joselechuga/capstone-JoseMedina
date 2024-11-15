@@ -33,6 +33,7 @@ class UnidadFiscalizable(models.Model):
 
 
 class Documento(models.Model):
+    nombre_documento = models.CharField(max_length=255, null=True, blank=True)
     url = models.URLField(max_length=255)
     unidad_fiscalizable = models.ForeignKey(UnidadFiscalizable, on_delete=models.CASCADE, related_name="documentos")
 

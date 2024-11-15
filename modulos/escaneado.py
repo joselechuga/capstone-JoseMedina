@@ -2,7 +2,7 @@ import PyPDF2
 import os
 import docx
 from odorwatch.models import Palabras
-from main import log_activity
+from main import logging
 
 def procesar_documentos(directorio):
     contenido = ""

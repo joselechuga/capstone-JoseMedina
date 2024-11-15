@@ -11,10 +11,25 @@
     height: 100vh;
 }
 
-.col-3,
-.ul {
+.col-2, .accordion, .accordion-item, .accordion-header,
+.accordion-button, .ul {
     background-color: #212D3E;
+    color: #ffffff;
 }
+
+.accordion .accordion-button:not(.collapsed)::after {
+  color: #ffffff !important; /* Flecha en blanco cuando el acordeón está abierto */
+}
+
+.accordion .accordion-button.collapsed::after {
+  color: #ffffff !important; /* Flecha en blanco cuando el acordeón está cerrado */
+}
+
+
+.inicio-collapsed::after {
+    display: none;
+}
+
 
 /* Estilo base para la lista */
 .lista {
@@ -137,33 +152,107 @@ li, .subopcion-item, .card-body, .card {
     height: 60vh;
 }
 
-/*Estilos de boton SALIR*/
+/* Estilos para el acordeón */
+.accordion, .accordion-item, .accordion-header, .accordion-button {
+    background-color: #212D3E;
+    color: #ffffff;
+}
 
-.url-salir {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+/* Flecha en blanco cuando el acordeón está abierto o cerrado */
+.accordion .accordion-button::after {
+    color: #ffffff !important;
+}
+
+/* Eliminar la flecha de animación del primer acordeón */
+.accordion .inicio-collapsed::after {
+    display: none;
+}
+
+/* Estilo para el contenido del acordeón */
+.accordion-body {
+    background-color: #212D3E;
+    color: #ffffff;
+}
+
+/* Estilo para los enlaces dentro del acordeón */
+.accordion-body a {
+    color: #ffffff;
     text-decoration: none;
-    /* Quitar el subrayado del enlace */
 }
 
-.salir-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* Centrar icono y texto verticalmente */
+/* Estilo para los elementos de la lista dentro del acordeón */
+.list-group-item {
+    background-color: #212D3E;
+    color: #ffffff;
+    border: none;
 }
 
-.url-salir i {
-    font-size: 24px;
-    margin-bottom: 5px;
-}
 
-.texto-salir {
-    font-size: 12px;
-    color: rgb(233, 234, 235);
-}
 
-.fa-solid {
-    color: rgb(233, 234, 235);
-}
+
+/* Acordion Faq */
+.tab {
+    position: relative;
+    margin-bottom: 1px;
+    width: 100%;
+    color: #fff;
+    overflow: hidden;
+  }
+  input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+  }
+  label {
+    position: relative;
+    display: block;
+    padding: 0 0 0 1em;
+    background: #000;
+    font-weight: bold;
+    line-height: 3;
+    cursor: pointer;
+    background-color: rgba(1,84,160,1);
+  }
+  
+  .tab-content {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height .35s;
+    -o-transition: max-height .35s;
+    transition: max-height .35s;
+    color: #000;
+  }
+  
+  .tab-content p {
+    margin: 1em;
+  }
+  /* :checked */
+  input:checked ~ .tab-content {
+    max-height: 100%;
+  }
+  /* Icon */
+  label::after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    width: 3em;
+    height: 3em;
+    line-height: 3;
+    text-align: center;
+    -webkit-transition: all .35s;
+    -o-transition: all .35s;
+    transition: all .35s;
+  }
+  input[type=checkbox] + label::after {
+    content: "+";
+  }
+  input[type=radio] + label::after {
+    content: "\25BC";
+  }
+  input[type=checkbox]:checked + label::after {
+    transform: rotate(315deg);
+  }
+  input[type=radio]:checked + label::after {
+    transform: rotateX(180deg);
+  }

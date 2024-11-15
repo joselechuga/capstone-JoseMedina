@@ -9170,3 +9170,1883 @@
 2024-11-14 00:53:30 - No se pudo encontrar el nombre de la unidad fiscalizable.
 2024-11-14 00:53:30 - No se pudo guardar la Unidad Fiscalizable debido a datos incompletos.
 2024-11-14 00:53:31 - La ventana del navegador se cerró inesperadamente durante el procesamiento de filas.
+2024-11-14 12:47:15 - Iniciando Scraping...
+2024-11-14 12:47:16 - Categoría 'Agroindustrias' seleccionada.
+2024-11-14 12:48:03 - Clic en el botón 'Buscar'.
+2024-11-14 12:48:04 - El modal de carga ha desaparecido.
+2024-11-14 12:48:04 - Procesando fila 1...
+2024-11-14 12:48:04 - FILAS: 1
+2024-11-14 12:48:04 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-11-14 12:48:04 - 1- Añadiendo Cliente a BD
+2024-11-14 12:48:04 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-11-14 12:48:05 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 12:48:05 - El modal de carga ha desaparecido.
+2024-11-14 12:48:06 - Clic en el enlace 'Ver detalle'.
+2024-11-14 12:48:06 - El modal de carga ha desaparecido.
+2024-11-14 12:48:06 - Nombre extraído: PLANTA FAENADORA DE AVES ARICA
+2024-11-14 12:48:06 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2593
+2024-11-14 12:48:06 - Ubicación extraída: Región de Arica y Parinacota
+2024-11-14 12:48:06 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 12:48:06 - Unidad Fiscalizable 'PLANTA FAENADORA DE AVES ARICA' ya existe en la base de datos.
+2024-11-14 12:48:06 - ID de unidad fiscalizable extraído: DFZ-2014-78-XV-RCA-IA
+2024-11-14 12:48:09 - Terminando scraping.
+2024-11-14 12:48:09 - ***************************************
+2024-11-14 14:40:38 - Iniciando Scraping...
+2024-11-14 14:40:40 - Categoría 'Agroindustrias' seleccionada.
+2024-11-14 14:41:33 - Clic en el botón 'Buscar'.
+2024-11-14 14:41:33 - El modal de carga ha desaparecido.
+2024-11-14 14:41:33 - Procesando fila 1...
+2024-11-14 14:41:33 - FILAS: 1
+2024-11-14 14:41:34 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-11-14 14:41:34 - 1- Añadiendo Cliente a BD
+2024-11-14 14:41:34 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-11-14 14:41:34 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 14:41:34 - El modal de carga ha desaparecido.
+2024-11-14 14:41:35 - Clic en el enlace 'Ver detalle'.
+2024-11-14 14:41:36 - El modal de carga ha desaparecido.
+2024-11-14 14:41:36 - Nombre extraído: PLANTA FAENADORA DE AVES ARICA
+2024-11-14 14:41:36 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2593
+2024-11-14 14:41:36 - Ubicación extraída: Región de Arica y Parinacota
+2024-11-14 14:41:36 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 14:41:36 - Unidad Fiscalizable 'PLANTA FAENADORA DE AVES ARICA' ya existe en la base de datos.
+2024-11-14 14:41:36 - ID de unidad fiscalizable extraído: DFZ-2014-78-XV-RCA-IA
+2024-11-14 14:41:36 - Clic en la pestaña 'Documentos'.
+2024-11-14 14:41:36 - Sección 'Documentos' expandida.
+2024-11-14 14:41:36 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+2024-11-14 14:41:46 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+2024-11-14 14:41:46 - 1- Añadiendo Documento a BD
+2024-11-14 14:41:57 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 14:41:57 - El documento Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 14:41:57 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 14:41:57 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+2024-11-14 14:42:05 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+2024-11-14 14:42:05 - 1- Añadiendo Documento a BD
+2024-11-14 14:42:18 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 14:42:18 - El documento Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 14:42:18 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 14:42:18 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+2024-11-14 14:42:21 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+2024-11-14 14:42:21 - 1- Añadiendo Documento a BD
+2024-11-14 14:42:25 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 14:42:25 - El documento Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 14:42:25 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 14:42:49 - Volviendo a la página de resultados.
+2024-11-14 14:42:49 - Procesando fila 2...
+2024-11-14 14:42:50 - FILAS: 2
+2024-11-14 14:42:50 - Nombre del cliente extraído: AGRICOLA ARIZTIA
+2024-11-14 14:42:50 - 1- Añadiendo Cliente a BD
+2024-11-14 14:42:50 - Cliente 'AGRICOLA ARIZTIA' ya existe en la base de datos.
+2024-11-14 14:42:50 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 14:42:50 - El modal de carga ha desaparecido.
+2024-11-14 14:42:51 - Clic en el enlace 'Ver detalle'.
+2024-11-14 14:42:52 - El modal de carga ha desaparecido.
+2024-11-14 14:42:52 - Nombre extraído: PLANTEL DE AVES DE LEYDA
+2024-11-14 14:42:52 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/1840
+2024-11-14 14:42:53 - Ubicación extraída: Región de Valparaíso
+2024-11-14 14:42:53 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 14:42:53 - Unidad Fiscalizable 'PLANTEL DE AVES DE LEYDA' ya existe en la base de datos.
+2024-11-14 14:42:53 - ID de unidad fiscalizable extraído: DFZ-2014-2297-V-RCA-IA
+2024-11-14 14:42:53 - Clic en la pestaña 'Documentos'.
+2024-11-14 14:42:53 - Sección 'Documentos' expandida.
+2024-11-14 14:42:54 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001101
+2024-11-14 14:43:24 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf
+2024-11-14 14:43:24 - 1- Añadiendo Documento a BD
+2024-11-14 14:44:01 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 14:44:01 - El documento Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 14:44:01 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 14:44:01 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001101
+2024-11-14 14:44:07 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf
+2024-11-14 14:44:07 - 1- Añadiendo Documento a BD
+2024-11-14 14:44:11 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 14:44:11 - El documento Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 14:44:11 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 14:44:32 - Volviendo a la página de resultados.
+2024-11-14 14:44:32 - Procesando fila 3...
+2024-11-14 14:44:32 - FILAS: 3
+2024-11-14 14:44:32 - Nombre del cliente extraído: AGRICOLA EL MONTE S.A.
+2024-11-14 14:44:32 - 1- Añadiendo Cliente a BD
+2024-11-14 14:44:32 - Cliente 'AGRICOLA EL MONTE S.A.' ya existe en la base de datos.
+2024-11-14 14:44:32 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 14:44:33 - El modal de carga ha desaparecido.
+2024-11-14 14:44:34 - Clic en el enlace 'Ver detalle'.
+2024-11-14 14:44:35 - El modal de carga ha desaparecido.
+2024-11-14 14:44:35 - Nombre extraído: CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A.
+2024-11-14 14:44:35 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/4495
+2024-11-14 14:44:35 - Ubicación extraída: Región Metropolitana
+2024-11-14 14:44:35 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 14:44:35 - Unidad Fiscalizable 'CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A.' ya existe en la base de datos.
+2024-11-14 14:44:35 - ID de unidad fiscalizable extraído: DFZ-2014-347-XIII-RCA-IA
+2024-11-14 14:44:36 - Clic en la pestaña 'Documentos'.
+2024-11-14 14:44:36 - Sección 'Documentos' expandida.
+2024-11-14 14:44:36 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001114
+2024-11-14 14:44:39 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-347-XIII-RCA-IA.pdf
+2024-11-14 14:44:39 - 1- Añadiendo Documento a BD
+2024-11-14 14:44:42 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 14:44:42 - El documento Informe de Fiscalización Ambiental_DFZ-2014-347-XIII-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 14:44:42 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 14:44:42 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001114
+2024-11-14 14:44:53 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-347-XIII-RCA-IA.pdf
+2024-11-14 14:44:53 - 1- Añadiendo Documento a BD
+2024-11-14 14:45:04 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 14:45:04 - El documento Informe de Fiscalización Ambiental_DFZ-2014-347-XIII-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 14:45:04 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 14:45:21 - Volviendo a la página de resultados.
+2024-11-14 14:45:21 - Procesando fila 4...
+2024-11-14 14:45:21 - FILAS: 4
+2024-11-14 14:45:21 - Nombre del cliente extraído: AGRICOLA SUPER LIMITADA
+2024-11-14 14:45:21 - 1- Añadiendo Cliente a BD
+2024-11-14 14:45:21 - Cliente 'AGRICOLA SUPER LIMITADA' ya existe en la base de datos.
+2024-11-14 14:45:21 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 14:45:23 - El modal de carga ha desaparecido.
+2024-11-14 14:45:23 - Clic en el enlace 'Ver detalle'.
+2024-11-14 14:45:24 - El modal de carga ha desaparecido.
+2024-11-14 14:45:25 - Nombre extraído: CERDOS LA MANGA - AGROSUPER
+2024-11-14 14:45:25 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/4494
+2024-11-14 14:45:25 - Ubicación extraída: Región Metropolitana
+2024-11-14 14:45:25 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 14:45:25 - Unidad Fiscalizable 'CERDOS LA MANGA - AGROSUPER' ya existe en la base de datos.
+2024-11-14 14:45:25 - ID de unidad fiscalizable extraído: DFZ-2014-179-XIII-RCA-IA
+2024-11-14 14:45:25 - Clic en la pestaña 'Documentos'.
+2024-11-14 14:45:25 - Sección 'Documentos' expandida.
+2024-11-14 14:45:25 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001124
+2024-11-14 14:45:25 - Archivo Informe de Fiscalización Ambiental_DFZ-2014-179-XIII-RCA-IA.pdf ya existe y será reemplazado.
+2024-11-14 14:45:28 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-179-XIII-RCA-IA.pdf
+2024-11-14 14:45:28 - 1- Añadiendo Documento a BD
+2024-11-14 14:45:31 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 14:45:31 - El documento Informe de Fiscalización Ambiental_DFZ-2014-179-XIII-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 14:45:31 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 14:45:31 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001124
+2024-11-14 14:45:32 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-179-XIII-RCA-IA.pdf
+2024-11-14 14:45:32 - 1- Añadiendo Documento a BD
+2024-11-14 14:45:33 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 14:45:33 - El documento Informe de Fiscalización Ambiental_DFZ-2014-179-XIII-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 14:45:33 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 14:45:33 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001124
+2024-11-14 14:45:34 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-179-XIII-RCA-IA.pdf
+2024-11-14 14:45:34 - 1- Añadiendo Documento a BD
+2024-11-14 14:45:34 - Error al descargar el documento: No module named 'docx'
+2024-11-14 14:45:34 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 14:45:56 - Volviendo a la página de resultados.
+2024-11-14 14:45:56 - Procesando fila 5...
+2024-11-14 14:45:56 - FILAS: 5
+2024-11-14 14:45:56 - Nombre del cliente extraído: AGRICOLA SUPER LIMITADA
+2024-11-14 14:45:56 - 1- Añadiendo Cliente a BD
+2024-11-14 14:45:56 - Cliente 'AGRICOLA SUPER LIMITADA' ya existe en la base de datos.
+2024-11-14 14:45:56 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 14:45:57 - El modal de carga ha desaparecido.
+2024-11-14 14:45:58 - Clic en el enlace 'Ver detalle'.
+2024-11-14 14:45:59 - El modal de carga ha desaparecido.
+2024-11-14 14:45:59 - Nombre extraído: AGROSUPER - CERDOS LA ESTRELLA
+2024-11-14 14:45:59 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2180
+2024-11-14 14:45:59 - Ubicación extraída: Región del Libertador General Bernardo O'Higgins
+2024-11-14 14:45:59 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 14:45:59 - Unidad Fiscalizable 'AGROSUPER - CERDOS LA ESTRELLA' ya existe en la base de datos.
+2024-11-14 14:45:59 - ID de unidad fiscalizable extraído: DFZ-2014-245-VI-RCA-IA
+2024-11-14 14:45:59 - Clic en la pestaña 'Documentos'.
+2024-11-14 14:45:59 - Sección 'Documentos' expandida.
+2024-11-14 14:45:59 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001132
+2024-11-14 14:46:01 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-245-VI-RCA-IA.pdf
+2024-11-14 14:46:01 - 1- Añadiendo Documento a BD
+2024-11-14 14:46:03 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 14:46:03 - El documento Informe de Fiscalización Ambiental_DFZ-2014-245-VI-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 14:46:03 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 14:46:03 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001132
+2024-11-14 14:46:04 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-245-VI-RCA-IA.pdf
+2024-11-14 14:46:04 - 1- Añadiendo Documento a BD
+2024-11-14 14:46:06 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 14:46:06 - El documento Informe de Fiscalización Ambiental_DFZ-2014-245-VI-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 14:46:06 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 14:46:33 - Volviendo a la página de resultados.
+2024-11-14 14:46:34 - Procesando fila 6...
+2024-11-14 14:46:34 - FILAS: 6
+2024-11-14 14:46:34 - Nombre del cliente extraído: AGRICOLA SUPER LIMITADA
+2024-11-14 14:46:34 - 1- Añadiendo Cliente a BD
+2024-11-14 14:46:34 - Cliente 'AGRICOLA SUPER LIMITADA' ya existe en la base de datos.
+2024-11-14 14:46:34 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 14:46:34 - El modal de carga ha desaparecido.
+2024-11-14 14:46:35 - Clic en el enlace 'Ver detalle'.
+2024-11-14 14:46:37 - El modal de carga ha desaparecido.
+2024-11-14 14:46:37 - Nombre extraído: AGROSUPER - PLANTA LO MIRANDA
+2024-11-14 14:46:37 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2061
+2024-11-14 14:46:37 - Ubicación extraída: Región del Libertador General Bernardo O'Higgins
+2024-11-14 14:46:37 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 14:46:37 - Unidad Fiscalizable 'AGROSUPER - PLANTA LO MIRANDA' ya existe en la base de datos.
+2024-11-14 14:46:37 - ID de unidad fiscalizable extraído: DFZ-2014-2273-VI-RCA-IA
+2024-11-14 14:46:37 - Clic en la pestaña 'Documentos'.
+2024-11-14 14:46:37 - Sección 'Documentos' expandida.
+2024-11-14 14:46:37 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001137
+2024-11-14 14:46:38 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-2273-VI-RCA-IA.pdf
+2024-11-14 14:46:38 - 1- Añadiendo Documento a BD
+2024-11-14 14:46:39 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 14:46:39 - El documento Informe de Fiscalización Ambiental_DFZ-2014-2273-VI-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 14:46:39 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 14:46:39 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001137
+2024-11-14 14:46:40 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-2273-VI-RCA-IA.pdf
+2024-11-14 14:46:40 - 1- Añadiendo Documento a BD
+2024-11-14 14:46:41 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 14:46:41 - El documento Informe de Fiscalización Ambiental_DFZ-2014-2273-VI-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 14:46:41 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 14:47:03 - Volviendo a la página de resultados.
+2024-11-14 14:47:03 - Procesando fila 7...
+2024-11-14 14:47:03 - FILAS: 7
+2024-11-14 14:47:03 - Nombre del cliente extraído: INVERTEC FOODS S.A.
+2024-11-14 14:47:03 - 1- Añadiendo Cliente a BD
+2024-11-14 14:47:03 - Cliente 'INVERTEC FOODS S.A.' ya existe en la base de datos.
+2024-11-14 14:47:03 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 14:47:03 - El modal de carga ha desaparecido.
+2024-11-14 14:47:04 - Clic en el enlace 'Ver detalle'.
+2024-11-14 14:47:07 - El modal de carga ha desaparecido.
+2024-11-14 14:47:07 - Nombre extraído: INVERTEC FOOD - PLANTA RENGO
+2024-11-14 14:47:07 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2096
+2024-11-14 14:47:07 - Ubicación extraída: Región del Libertador General Bernardo O'Higgins
+2024-11-14 14:47:07 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 14:47:07 - Unidad Fiscalizable 'INVERTEC FOOD - PLANTA RENGO' ya existe en la base de datos.
+2024-11-14 14:47:07 - ID de unidad fiscalizable extraído: DFZ-2014-103-VI-RCA-IA
+2024-11-14 14:47:07 - Clic en la pestaña 'Documentos'.
+2024-11-14 14:47:07 - Sección 'Documentos' expandida.
+2024-11-14 14:47:07 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001140
+2024-11-14 14:47:08 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-103-VI-RCA-IA.pdf
+2024-11-14 14:47:08 - 1- Añadiendo Documento a BD
+2024-11-14 14:47:09 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 14:47:09 - El documento Informe de Fiscalización Ambiental_DFZ-2014-103-VI-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 14:47:09 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 14:47:09 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001140
+2024-11-14 14:47:11 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-103-VI-RCA-IA.pdf
+2024-11-14 14:47:11 - 1- Añadiendo Documento a BD
+2024-11-14 14:47:11 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 14:47:11 - El documento Informe de Fiscalización Ambiental_DFZ-2014-103-VI-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 14:47:11 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 14:47:31 - Volviendo a la página de resultados.
+2024-11-14 14:47:31 - Procesando fila 8...
+2024-11-14 14:47:31 - FILAS: 8
+2024-11-14 14:47:31 - Nombre del cliente extraído: MIGUEL FUENZALIDA FERNANDEZ
+2024-11-14 14:47:31 - 1- Añadiendo Cliente a BD
+2024-11-14 14:47:31 - Cliente 'MIGUEL FUENZALIDA FERNANDEZ' ya existe en la base de datos.
+2024-11-14 14:47:31 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 14:47:32 - El modal de carga ha desaparecido.
+2024-11-14 14:47:33 - Clic en el enlace 'Ver detalle'.
+2024-11-14 14:47:34 - El modal de carga ha desaparecido.
+2024-11-14 14:47:34 - Nombre extraído: AVICOLA LAS RASTRAS
+2024-11-14 14:47:34 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2879
+2024-11-14 14:47:34 - Ubicación extraída: Región del Maule
+2024-11-14 14:47:34 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 14:47:34 - Unidad Fiscalizable 'AVICOLA LAS RASTRAS' ya existe en la base de datos.
+2024-11-14 14:47:35 - ID de unidad fiscalizable extraído: DFZ-2014-314-VII-RCA-IA
+2024-11-14 14:47:35 - Clic en la pestaña 'Documentos'.
+2024-11-14 14:47:35 - Sección 'Documentos' expandida.
+2024-11-14 14:47:35 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001148
+2024-11-14 14:47:37 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-314-VII-RCA-IA.pdf
+2024-11-14 14:47:37 - 1- Añadiendo Documento a BD
+2024-11-14 14:47:39 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 14:47:39 - El documento Informe de Fiscalización Ambiental_DFZ-2014-314-VII-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 14:47:39 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 14:47:39 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001148
+2024-11-14 14:47:40 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-314-VII-RCA-IA.pdf
+2024-11-14 14:47:40 - 1- Añadiendo Documento a BD
+2024-11-14 14:47:41 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 14:47:41 - El documento Informe de Fiscalización Ambiental_DFZ-2014-314-VII-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 14:47:41 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 14:47:58 - Volviendo a la página de resultados.
+2024-11-14 14:47:58 - Procesando fila 9...
+2024-11-14 14:47:58 - FILAS: 9
+2024-11-14 14:47:58 - Nombre del cliente extraído: AGRICOLA SAN CLEMENTE LIMITADA
+2024-11-14 14:47:58 - 1- Añadiendo Cliente a BD
+2024-11-14 14:47:58 - Cliente 'AGRICOLA SAN CLEMENTE LIMITADA' ya existe en la base de datos.
+2024-11-14 14:47:58 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 14:48:00 - El modal de carga ha desaparecido.
+2024-11-14 14:48:00 - Clic en el enlace 'Ver detalle'.
+2024-11-14 14:48:02 - El modal de carga ha desaparecido.
+2024-11-14 14:48:02 - Nombre extraído: AGRICOLA SAN CLEMENTE
+2024-11-14 14:48:02 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2328
+2024-11-14 14:48:02 - Ubicación extraída: Región del Maule
+2024-11-14 14:48:02 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 14:48:02 - Unidad Fiscalizable 'AGRICOLA SAN CLEMENTE' ya existe en la base de datos.
+2024-11-14 14:48:02 - ID de unidad fiscalizable extraído: DFZ-2014-47-VII-RCA-IA
+2024-11-14 14:48:02 - Clic en la pestaña 'Documentos'.
+2024-11-14 14:48:02 - Sección 'Documentos' expandida.
+2024-11-14 14:48:02 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001151
+2024-11-14 14:48:02 - Archivo Informe de Fiscalización Ambiental_DFZ-2014-47-VII-RCA-IA.pdf ya existe y será reemplazado.
+2024-11-14 14:48:05 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-47-VII-RCA-IA.pdf
+2024-11-14 14:48:05 - 1- Añadiendo Documento a BD
+2024-11-14 14:48:07 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 14:48:07 - El documento Informe de Fiscalización Ambiental_DFZ-2014-47-VII-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 14:48:07 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 14:48:07 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001151
+2024-11-14 14:48:12 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-47-VII-RCA-IA.pdf
+2024-11-14 14:48:12 - 1- Añadiendo Documento a BD
+2024-11-14 14:48:17 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 14:48:17 - El documento Informe de Fiscalización Ambiental_DFZ-2014-47-VII-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 14:48:17 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 14:48:17 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001151
+2024-11-14 14:48:18 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-47-VII-RCA-IA.pdf
+2024-11-14 14:48:18 - 1- Añadiendo Documento a BD
+2024-11-14 14:48:18 - Error al descargar el documento: No module named 'docx'
+2024-11-14 14:48:18 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 14:48:36 - Volviendo a la página de resultados.
+2024-11-14 14:48:36 - Procesando fila 10...
+2024-11-14 14:48:36 - FILAS: 10
+2024-11-14 14:48:36 - Nombre del cliente extraído: ALMAZARA DEL PACIFICO S.A
+2024-11-14 14:48:36 - 1- Añadiendo Cliente a BD
+2024-11-14 14:48:36 - Cliente 'ALMAZARA DEL PACIFICO S.A' ya existe en la base de datos.
+2024-11-14 14:48:36 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 14:48:37 - El modal de carga ha desaparecido.
+2024-11-14 14:48:37 - Clic en el enlace 'Ver detalle'.
+2024-11-14 14:48:38 - El modal de carga ha desaparecido.
+2024-11-14 14:48:38 - Nombre extraído: PLANTA DE ACEITE DE OLIVA HUILLIBORGOA
+2024-11-14 14:48:38 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/8553
+2024-11-14 14:48:38 - Ubicación extraída: Región del Maule
+2024-11-14 14:48:38 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 14:48:38 - Unidad Fiscalizable 'PLANTA DE ACEITE DE OLIVA HUILLIBORGOA' ya existe en la base de datos.
+2024-11-14 14:48:38 - ID de unidad fiscalizable extraído: DFZ-2014-487-VII-RCA-IA
+2024-11-14 14:48:39 - Clic en la pestaña 'Documentos'.
+2024-11-14 14:48:39 - Sección 'Documentos' expandida.
+2024-11-14 14:48:39 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001159
+2024-11-14 14:48:41 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-487-VII-RCA-IA.pdf
+2024-11-14 14:48:41 - 1- Añadiendo Documento a BD
+2024-11-14 14:48:41 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 14:48:41 - El documento Informe de Fiscalización Ambiental_DFZ-2014-487-VII-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 14:48:41 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 14:48:41 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001159
+2024-11-14 14:48:43 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-487-VII-RCA-IA.pdf
+2024-11-14 14:48:43 - 1- Añadiendo Documento a BD
+2024-11-14 14:48:43 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 14:48:43 - El documento Informe de Fiscalización Ambiental_DFZ-2014-487-VII-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 14:48:43 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 14:49:03 - Volviendo a la página de resultados.
+2024-11-14 14:49:03 - Procesando fila 11...
+2024-11-14 14:49:03 - FILAS: 11
+2024-11-14 14:49:03 - Nombre del cliente extraído: PATAGONIAFRESH S.A.
+2024-11-14 14:49:03 - 1- Añadiendo Cliente a BD
+2024-11-14 14:49:03 - Cliente 'PATAGONIAFRESH S.A.' ya existe en la base de datos.
+2024-11-14 14:49:03 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 14:49:03 - El modal de carga ha desaparecido.
+2024-11-14 14:49:04 - Clic en el enlace 'Ver detalle'.
+2024-11-14 14:49:05 - El modal de carga ha desaparecido.
+2024-11-14 14:49:05 - Nombre extraído: PATAGONIAFRESH - PLANTA MOLINA (JUGOS)
+2024-11-14 14:49:05 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/10503
+2024-11-14 14:49:05 - Ubicación extraída: Región del Maule
+2024-11-14 14:49:05 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 14:49:05 - Unidad Fiscalizable 'PATAGONIAFRESH - PLANTA MOLINA (JUGOS)' ya existe en la base de datos.
+2024-11-14 14:49:05 - ID de unidad fiscalizable extraído: DFZ-2014-76-VII-RCA-IA
+2024-11-14 14:49:05 - Clic en la pestaña 'Documentos'.
+2024-11-14 14:49:05 - Sección 'Documentos' expandida.
+2024-11-14 14:49:05 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001160
+2024-11-14 14:49:05 - Archivo Informe de Fiscalización Ambiental_DFZ-2014-76-VII-RCA-IA.pdf ya existe y será reemplazado.
+2024-11-14 14:49:06 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-76-VII-RCA-IA.pdf
+2024-11-14 14:49:06 - 1- Añadiendo Documento a BD
+2024-11-14 14:49:07 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 14:49:07 - El documento Informe de Fiscalización Ambiental_DFZ-2014-76-VII-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 14:49:07 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 14:49:07 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001160
+2024-11-14 14:49:08 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-76-VII-RCA-IA.pdf
+2024-11-14 14:49:08 - 1- Añadiendo Documento a BD
+2024-11-14 14:49:08 - Error al descargar el documento: No module named 'docx'
+2024-11-14 14:49:08 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 14:49:27 - Volviendo a la página de resultados.
+2024-11-14 14:49:27 - Procesando fila 12...
+2024-11-14 14:49:27 - FILAS: 12
+2024-11-14 14:49:27 - Nombre del cliente extraído: EMPRESAS CAROZZI S.A.
+2024-11-14 14:49:27 - 1- Añadiendo Cliente a BD
+2024-11-14 14:49:27 - Cliente 'EMPRESAS CAROZZI S.A.' ya existe en la base de datos.
+2024-11-14 14:49:27 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 14:49:28 - El modal de carga ha desaparecido.
+2024-11-14 14:49:29 - Clic en el enlace 'Ver detalle'.
+2024-11-14 14:49:30 - El modal de carga ha desaparecido.
+2024-11-14 14:49:30 - Nombre extraído: CAROZZI PLANTA TENO
+2024-11-14 14:49:30 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2612
+2024-11-14 14:49:30 - Ubicación extraída: Región del Maule
+2024-11-14 14:49:30 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 14:49:30 - Unidad Fiscalizable 'CAROZZI PLANTA TENO' ya existe en la base de datos.
+2024-11-14 14:49:30 - ID de unidad fiscalizable extraído: DFZ-2014-188-VII-RCA-IA
+2024-11-14 14:49:30 - Clic en la pestaña 'Documentos'.
+2024-11-14 14:49:30 - Sección 'Documentos' expandida.
+2024-11-14 14:49:30 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001162
+2024-11-14 14:49:36 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-188-VII-RCA-IA.pdf
+2024-11-14 14:49:36 - 1- Añadiendo Documento a BD
+2024-11-14 14:49:41 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 14:49:41 - El documento Informe de Fiscalización Ambiental_DFZ-2014-188-VII-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 14:49:41 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 14:49:41 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001162
+2024-11-14 14:49:43 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-188-VII-RCA-IA.pdf
+2024-11-14 14:49:43 - 1- Añadiendo Documento a BD
+2024-11-14 14:49:43 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 14:49:43 - El documento Informe de Fiscalización Ambiental_DFZ-2014-188-VII-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 14:49:43 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 14:50:03 - Volviendo a la página de resultados.
+2024-11-14 14:50:03 - Procesando fila 13...
+2024-11-14 14:50:03 - FILAS: 13
+2024-11-14 14:50:03 - Nombre del cliente extraído: AGRICOLA Y GANADERA CHILLAN VIEJO S.A.
+2024-11-14 14:50:03 - 1- Añadiendo Cliente a BD
+2024-11-14 14:50:03 - Cliente 'AGRICOLA Y GANADERA CHILLAN VIEJO S.A.' ya existe en la base de datos.
+2024-11-14 14:50:04 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 14:50:04 - El modal de carga ha desaparecido.
+2024-11-14 14:50:06 - Clic en el enlace 'Ver detalle'.
+2024-11-14 14:50:07 - El modal de carga ha desaparecido.
+2024-11-14 14:50:07 - Nombre extraído: PLANTEL SITIO DESTETE-SECTOR RUCAPEQUEN
+2024-11-14 14:50:07 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/8776
+2024-11-14 14:50:07 - Ubicación extraída: Región de Ñuble
+2024-11-14 14:50:07 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 14:50:07 - Unidad Fiscalizable 'PLANTEL SITIO DESTETE-SECTOR RUCAPEQUEN' ya existe en la base de datos.
+2024-11-14 14:50:07 - ID de unidad fiscalizable extraído: DFZ-2014-114-VIII-RCA-IA
+2024-11-14 14:50:07 - Clic en la pestaña 'Documentos'.
+2024-11-14 14:50:07 - Sección 'Documentos' expandida.
+2024-11-14 14:50:07 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001166
+2024-11-14 14:50:08 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-114-VIII-RCA-IA.pdf
+2024-11-14 14:50:08 - 1- Añadiendo Documento a BD
+2024-11-14 14:50:08 - Error al descargar el documento: No module named 'docx'
+2024-11-14 14:50:08 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 14:50:08 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001166
+2024-11-14 14:50:08 - Archivo Informe de Fiscalización Ambiental_DFZ-2014-114-VIII-RCA-IA.pdf ya existe y será reemplazado.
+2024-11-14 14:50:09 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-114-VIII-RCA-IA.pdf
+2024-11-14 14:50:09 - 1- Añadiendo Documento a BD
+2024-11-14 14:50:09 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 14:50:09 - El documento Informe de Fiscalización Ambiental_DFZ-2014-114-VIII-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 14:50:09 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 14:50:31 - Volviendo a la página de resultados.
+2024-11-14 14:50:31 - Procesando fila 14...
+2024-11-14 14:50:31 - FILAS: 14
+2024-11-14 14:50:31 - Nombre del cliente extraído: LACTEOS TINGUIRIRICA S.A.
+2024-11-14 14:50:31 - 1- Añadiendo Cliente a BD
+2024-11-14 14:50:31 - Cliente 'LACTEOS TINGUIRIRICA S.A.' ya existe en la base de datos.
+2024-11-14 14:50:31 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 14:50:32 - El modal de carga ha desaparecido.
+2024-11-14 14:50:32 - Clic en el enlace 'Ver detalle'.
+2024-11-14 14:50:33 - El modal de carga ha desaparecido.
+2024-11-14 14:50:34 - Nombre extraído: LACTEOS TINGUIRIRICA
+2024-11-14 14:50:34 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/7514
+2024-11-14 14:50:34 - Ubicación extraída: Región del Libertador General Bernardo O'Higgins
+2024-11-14 14:50:34 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 14:50:34 - Unidad Fiscalizable 'LACTEOS TINGUIRIRICA' ya existe en la base de datos.
+2024-11-14 14:50:34 - ID de unidad fiscalizable extraído: DFZ-2014-191-VI-NE-IA
+2024-11-14 14:50:34 - Clic en la pestaña 'Documentos'.
+2024-11-14 14:50:34 - Sección 'Documentos' expandida.
+2024-11-14 14:50:34 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001417
+2024-11-14 14:50:59 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-191-VI-NE-IA.pdf
+2024-11-14 14:50:59 - 1- Añadiendo Documento a BD
+2024-11-14 14:51:23 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 14:51:23 - El documento Informe de Fiscalización Ambiental_DFZ-2014-191-VI-NE-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 14:51:23 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 14:51:23 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001417
+2024-11-14 14:51:24 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-191-VI-NE-IA.pdf
+2024-11-14 14:51:24 - 1- Añadiendo Documento a BD
+2024-11-14 14:51:25 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 14:51:25 - El documento Informe de Fiscalización Ambiental_DFZ-2014-191-VI-NE-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 14:51:25 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 14:51:45 - Volviendo a la página de resultados.
+2024-11-14 14:51:46 - Procesando fila 15...
+2024-11-14 14:51:46 - FILAS: 15
+2024-11-14 14:51:46 - Nombre del cliente extraído: EXPORTADORA UNIFRUTTI TRADERS SPA
+2024-11-14 14:51:46 - 1- Añadiendo Cliente a BD
+2024-11-14 14:51:46 - Cliente 'EXPORTADORA UNIFRUTTI TRADERS SPA' ya existe en la base de datos.
+2024-11-14 14:51:46 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 14:51:46 - El modal de carga ha desaparecido.
+2024-11-14 14:51:47 - Clic en el enlace 'Ver detalle'.
+2024-11-14 14:51:48 - El modal de carga ha desaparecido.
+2024-11-14 14:51:48 - Nombre extraído: EXPORTADORA UNIFRUTTI
+2024-11-14 14:51:48 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/10346
+2024-11-14 14:51:48 - Ubicación extraída: Región de Atacama
+2024-11-14 14:51:48 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 14:51:48 - Unidad Fiscalizable 'EXPORTADORA UNIFRUTTI' ya existe en la base de datos.
+2024-11-14 14:51:48 - ID de unidad fiscalizable extraído: DFZ-2014-123-III-NE-IA
+2024-11-14 14:51:48 - Clic en la pestaña 'Documentos'.
+2024-11-14 14:51:48 - Sección 'Documentos' expandida.
+2024-11-14 14:51:48 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001429
+2024-11-14 14:54:20 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-123-III-NE-IA.pdf
+2024-11-14 14:54:20 - 1- Añadiendo Documento a BD
+2024-11-14 14:57:20 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 14:57:20 - El documento Informe de Fiscalización Ambiental_DFZ-2014-123-III-NE-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 14:57:20 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 14:57:20 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001429
+2024-11-14 14:57:23 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-123-III-NE-IA.pdf
+2024-11-14 14:57:23 - 1- Añadiendo Documento a BD
+2024-11-14 14:57:25 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 14:57:25 - El documento Informe de Fiscalización Ambiental_DFZ-2014-123-III-NE-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 14:57:25 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 14:57:48 - Volviendo a la página de resultados.
+2024-11-14 14:57:48 - Procesando fila 16...
+2024-11-14 14:57:59 - No se pudo encontrar el nombre del cliente.
+2024-11-14 14:57:59 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 14:57:59 - El modal de carga ha desaparecido.
+2024-11-14 14:58:00 - Clic en el enlace 'Ver detalle'.
+2024-11-14 14:58:01 - El modal de carga ha desaparecido.
+2024-11-14 14:58:01 - Nombre extraído: AGRICOLA IBATAO
+2024-11-14 14:58:01 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/10475
+2024-11-14 14:58:01 - Ubicación extraída: Región Metropolitana
+2024-11-14 14:58:01 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 14:58:01 - Los datos son requeridos.
+2024-11-14 14:58:01 - ID de unidad fiscalizable extraído: DFZ-2014-211-XIII-SRCA-IA
+2024-11-14 14:58:01 - Clic en la pestaña 'Documentos'.
+2024-11-14 14:58:02 - Sección 'Documentos' expandida.
+2024-11-14 14:58:02 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001442
+2024-11-14 14:58:04 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-211-XIII-SRCA-IA.pdf
+2024-11-14 14:58:04 - 1- Añadiendo Documento a BD
+2024-11-14 14:58:06 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 14:58:06 - El documento Informe de Fiscalización Ambiental_DFZ-2014-211-XIII-SRCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 14:58:06 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 14:58:06 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001442
+2024-11-14 14:58:08 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-211-XIII-SRCA-IA.pdf
+2024-11-14 14:58:08 - 1- Añadiendo Documento a BD
+2024-11-14 14:58:11 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 14:58:11 - El documento Informe de Fiscalización Ambiental_DFZ-2014-211-XIII-SRCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 14:58:11 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 14:58:11 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001442
+2024-11-14 14:58:12 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-211-XIII-SRCA-IA.pdf
+2024-11-14 14:58:12 - 1- Añadiendo Documento a BD
+2024-11-14 14:58:14 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 14:58:14 - El documento Informe de Fiscalización Ambiental_DFZ-2014-211-XIII-SRCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 14:58:14 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 14:58:37 - Volviendo a la página de resultados.
+2024-11-14 14:58:37 - Procesando fila 17...
+2024-11-14 14:58:37 - FILAS: 17
+2024-11-14 14:58:37 - Nombre del cliente extraído: FRIGORIFICO TEMUCO S.A.
+2024-11-14 14:58:37 - 1- Añadiendo Cliente a BD
+2024-11-14 14:58:37 - Cliente 'FRIGORIFICO TEMUCO S.A.' ya existe en la base de datos.
+2024-11-14 14:58:37 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 14:58:37 - El modal de carga ha desaparecido.
+2024-11-14 14:58:38 - Clic en el enlace 'Ver detalle'.
+2024-11-14 14:58:40 - El modal de carga ha desaparecido.
+2024-11-14 14:58:40 - Nombre extraído: FRIGORIFICO TEMUCO
+2024-11-14 14:58:40 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2457
+2024-11-14 14:58:40 - Ubicación extraída: Región de la Araucanía
+2024-11-14 14:58:40 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 14:58:40 - Unidad Fiscalizable 'FRIGORIFICO TEMUCO' ya existe en la base de datos.
+2024-11-14 14:58:40 - ID de unidad fiscalizable extraído: DFZ-2014-221-IX-RCA-IA
+2024-11-14 14:58:40 - Clic en la pestaña 'Documentos'.
+2024-11-14 14:58:40 - Sección 'Documentos' expandida.
+2024-11-14 14:58:41 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001493
+2024-11-14 14:58:45 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-221-IX-RCA-IA.pdf
+2024-11-14 14:58:45 - 1- Añadiendo Documento a BD
+2024-11-14 14:58:49 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 14:58:49 - El documento Informe de Fiscalización Ambiental_DFZ-2014-221-IX-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 14:58:49 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 14:58:49 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001493
+2024-11-14 14:58:50 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-221-IX-RCA-IA.pdf
+2024-11-14 14:58:50 - 1- Añadiendo Documento a BD
+2024-11-14 14:58:51 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 14:58:51 - El documento Informe de Fiscalización Ambiental_DFZ-2014-221-IX-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 14:58:51 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 14:59:11 - Volviendo a la página de resultados.
+2024-11-14 14:59:11 - Procesando fila 18...
+2024-11-14 14:59:11 - FILAS: 18
+2024-11-14 14:59:11 - Nombre del cliente extraído: VINICOLA PATACON SPA
+2024-11-14 14:59:11 - 1- Añadiendo Cliente a BD
+2024-11-14 14:59:11 - Cliente 'VINICOLA PATACON SPA' ya existe en la base de datos.
+2024-11-14 14:59:11 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 14:59:12 - El modal de carga ha desaparecido.
+2024-11-14 14:59:12 - Clic en el enlace 'Ver detalle'.
+2024-11-14 14:59:13 - El modal de carga ha desaparecido.
+2024-11-14 14:59:13 - Nombre extraído: PATACON
+2024-11-14 14:59:13 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/8204
+2024-11-14 14:59:13 - Ubicación extraída: Región del Maule
+2024-11-14 14:59:13 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 14:59:13 - Unidad Fiscalizable 'PATACON' ya existe en la base de datos.
+2024-11-14 14:59:14 - ID de unidad fiscalizable extraído: DFZ-2014-257-VII-RCA-IA
+2024-11-14 14:59:14 - Clic en la pestaña 'Documentos'.
+2024-11-14 14:59:14 - Error inesperado al intentar expandir la sección 'Documentos': Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00007FF66F8C38A5+3004357]
+	(No symbol) [0x00007FF66F559970]
+	(No symbol) [0x00007FF66F40582A]
+	(No symbol) [0x00007FF66F3DFA75]
+	(No symbol) [0x00007FF66F482C77]
+	(No symbol) [0x00007FF66F49B351]
+	(No symbol) [0x00007FF66F47B983]
+	(No symbol) [0x00007FF66F447628]
+	(No symbol) [0x00007FF66F448791]
+	GetHandleVerifier [0x00007FF66F8EA00D+3161901]
+	GetHandleVerifier [0x00007FF66F93E060+3506048]
+	GetHandleVerifier [0x00007FF66F93400D+3465005]
+	GetHandleVerifier [0x00007FF66F6B0EEB+830987]
+	(No symbol) [0x00007FF66F56467F]
+	(No symbol) [0x00007FF66F5609D4]
+	(No symbol) [0x00007FF66F560B6D]
+	(No symbol) [0x00007FF66F550149]
+	BaseThreadInitThunk [0x00007FFAF6FF7374+20]
+	RtlUserThreadStart [0x00007FFAF7AFCC91+33]
+
+2024-11-14 14:59:14 - La ventana del navegador se cerró inesperadamente durante el procesamiento de filas.
+2024-11-14 14:59:18 - Terminando scraping.
+2024-11-14 14:59:18 - ***************************************
+2024-11-14 15:02:17 - Iniciando Scraping...
+2024-11-14 15:02:19 - Categoría 'Agroindustrias' seleccionada.
+2024-11-14 15:03:03 - Clic en el botón 'Buscar'.
+2024-11-14 15:03:03 - El modal de carga ha desaparecido.
+2024-11-14 15:03:03 - Procesando fila 1...
+2024-11-14 15:03:04 - FILAS: 1
+2024-11-14 15:03:04 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-11-14 15:03:04 - 1- Añadiendo Cliente a BD
+2024-11-14 15:03:04 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-11-14 15:03:04 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 15:03:04 - El modal de carga ha desaparecido.
+2024-11-14 15:03:05 - Clic en el enlace 'Ver detalle'.
+2024-11-14 15:03:06 - El modal de carga ha desaparecido.
+2024-11-14 15:03:06 - Nombre extraído: PLANTA FAENADORA DE AVES ARICA
+2024-11-14 15:03:06 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2593
+2024-11-14 15:03:06 - Ubicación extraída: Región de Arica y Parinacota
+2024-11-14 15:03:06 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 15:03:06 - Unidad Fiscalizable 'PLANTA FAENADORA DE AVES ARICA' ya existe en la base de datos.
+2024-11-14 15:03:06 - ID de unidad fiscalizable extraído: DFZ-2014-78-XV-RCA-IA
+2024-11-14 15:03:06 - Clic en la pestaña 'Documentos'.
+2024-11-14 15:03:06 - Sección 'Documentos' expandida.
+2024-11-14 15:03:07 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+2024-11-14 15:03:16 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+2024-11-14 15:03:16 - Añadiendo Documento a BD
+2024-11-14 15:03:27 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 15:03:27 - El documento Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 15:03:27 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 15:03:27 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+2024-11-14 15:03:35 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+2024-11-14 15:03:35 - Añadiendo Documento a BD
+2024-11-14 15:03:46 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 15:03:46 - El documento Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 15:03:46 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 15:03:46 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+2024-11-14 15:03:50 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+2024-11-14 15:03:50 - Añadiendo Documento a BD
+2024-11-14 15:03:54 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 15:03:54 - El documento Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 15:03:54 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 15:04:16 - Volviendo a la página de resultados.
+2024-11-14 15:04:16 - Procesando fila 2...
+2024-11-14 15:04:16 - FILAS: 2
+2024-11-14 15:04:16 - Nombre del cliente extraído: AGRICOLA ARIZTIA
+2024-11-14 15:04:16 - 1- Añadiendo Cliente a BD
+2024-11-14 15:04:16 - Cliente 'AGRICOLA ARIZTIA' ya existe en la base de datos.
+2024-11-14 15:04:16 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 15:04:17 - El modal de carga ha desaparecido.
+2024-11-14 15:04:18 - Clic en el enlace 'Ver detalle'.
+2024-11-14 15:04:19 - El modal de carga ha desaparecido.
+2024-11-14 15:04:19 - Nombre extraído: PLANTEL DE AVES DE LEYDA
+2024-11-14 15:04:19 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/1840
+2024-11-14 15:04:19 - Ubicación extraída: Región de Valparaíso
+2024-11-14 15:04:19 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 15:04:19 - Unidad Fiscalizable 'PLANTEL DE AVES DE LEYDA' ya existe en la base de datos.
+2024-11-14 15:04:19 - ID de unidad fiscalizable extraído: DFZ-2014-2297-V-RCA-IA
+2024-11-14 15:04:19 - Clic en la pestaña 'Documentos'.
+2024-11-14 15:04:19 - Sección 'Documentos' expandida.
+2024-11-14 15:04:20 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001101
+2024-11-14 15:04:51 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf
+2024-11-14 15:04:51 - Añadiendo Documento a BD
+2024-11-14 15:05:32 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 15:05:32 - El documento Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 15:05:32 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 15:05:32 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001101
+2024-11-14 15:05:36 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf
+2024-11-14 15:05:36 - Añadiendo Documento a BD
+2024-11-14 15:05:41 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 15:05:41 - El documento Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 15:05:41 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 15:06:05 - Volviendo a la página de resultados.
+2024-11-14 15:06:05 - Procesando fila 3...
+2024-11-14 15:06:05 - FILAS: 3
+2024-11-14 15:06:06 - Nombre del cliente extraído: AGRICOLA EL MONTE S.A.
+2024-11-14 15:06:06 - 1- Añadiendo Cliente a BD
+2024-11-14 15:06:06 - Cliente 'AGRICOLA EL MONTE S.A.' ya existe en la base de datos.
+2024-11-14 15:06:06 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 15:06:06 - El modal de carga ha desaparecido.
+2024-11-14 15:06:06 - Clic en el enlace 'Ver detalle'.
+2024-11-14 15:06:08 - El modal de carga ha desaparecido.
+2024-11-14 15:06:08 - Nombre extraído: CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A.
+2024-11-14 15:06:08 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/4495
+2024-11-14 15:06:08 - Ubicación extraída: Región Metropolitana
+2024-11-14 15:06:08 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 15:06:08 - Unidad Fiscalizable 'CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A.' ya existe en la base de datos.
+2024-11-14 15:06:08 - ID de unidad fiscalizable extraído: DFZ-2014-347-XIII-RCA-IA
+2024-11-14 15:06:08 - Clic en la pestaña 'Documentos'.
+2024-11-14 15:06:08 - Sección 'Documentos' expandida.
+2024-11-14 15:06:08 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001114
+2024-11-14 15:06:12 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-347-XIII-RCA-IA.pdf
+2024-11-14 15:06:12 - Añadiendo Documento a BD
+2024-11-14 15:06:15 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 15:06:15 - El documento Informe de Fiscalización Ambiental_DFZ-2014-347-XIII-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 15:06:15 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 15:06:15 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001114
+2024-11-14 15:06:27 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-347-XIII-RCA-IA.pdf
+2024-11-14 15:06:27 - Añadiendo Documento a BD
+2024-11-14 15:06:36 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 15:06:36 - El documento Informe de Fiscalización Ambiental_DFZ-2014-347-XIII-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 15:06:36 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 15:06:54 - Volviendo a la página de resultados.
+2024-11-14 15:06:54 - Procesando fila 4...
+2024-11-14 15:06:54 - FILAS: 4
+2024-11-14 15:06:54 - Nombre del cliente extraído: AGRICOLA SUPER LIMITADA
+2024-11-14 15:06:54 - 1- Añadiendo Cliente a BD
+2024-11-14 15:06:54 - Cliente 'AGRICOLA SUPER LIMITADA' ya existe en la base de datos.
+2024-11-14 15:06:54 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 15:06:55 - El modal de carga ha desaparecido.
+2024-11-14 15:06:56 - Clic en el enlace 'Ver detalle'.
+2024-11-14 15:06:57 - El modal de carga ha desaparecido.
+2024-11-14 15:06:57 - Nombre extraído: CERDOS LA MANGA - AGROSUPER
+2024-11-14 15:06:57 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/4494
+2024-11-14 15:06:57 - Ubicación extraída: Región Metropolitana
+2024-11-14 15:06:57 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 15:06:57 - Unidad Fiscalizable 'CERDOS LA MANGA - AGROSUPER' ya existe en la base de datos.
+2024-11-14 15:06:57 - ID de unidad fiscalizable extraído: DFZ-2014-179-XIII-RCA-IA
+2024-11-14 15:06:57 - Clic en la pestaña 'Documentos'.
+2024-11-14 15:06:57 - Sección 'Documentos' expandida.
+2024-11-14 15:06:57 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001124
+2024-11-14 15:06:57 - Archivo Informe de Fiscalización Ambiental_DFZ-2014-179-XIII-RCA-IA.pdf ya existe y será reemplazado.
+2024-11-14 15:07:00 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-179-XIII-RCA-IA.pdf
+2024-11-14 15:07:00 - Añadiendo Documento a BD
+2024-11-14 15:07:04 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 15:07:04 - El documento Informe de Fiscalización Ambiental_DFZ-2014-179-XIII-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 15:07:04 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 15:07:04 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001124
+2024-11-14 15:07:05 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-179-XIII-RCA-IA.pdf
+2024-11-14 15:07:05 - Añadiendo Documento a BD
+2024-11-14 15:07:06 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 15:07:06 - El documento Informe de Fiscalización Ambiental_DFZ-2014-179-XIII-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 15:07:06 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 15:07:06 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001124
+2024-11-14 15:07:07 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-179-XIII-RCA-IA.pdf
+2024-11-14 15:07:07 - Añadiendo Documento a BD
+2024-11-14 15:07:07 - Error al descargar el documento: No module named 'docx'
+2024-11-14 15:07:07 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 15:07:27 - Volviendo a la página de resultados.
+2024-11-14 15:07:28 - Procesando fila 5...
+2024-11-14 15:07:28 - FILAS: 5
+2024-11-14 15:07:28 - Nombre del cliente extraído: AGRICOLA SUPER LIMITADA
+2024-11-14 15:07:28 - 1- Añadiendo Cliente a BD
+2024-11-14 15:07:28 - Cliente 'AGRICOLA SUPER LIMITADA' ya existe en la base de datos.
+2024-11-14 15:07:28 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 15:07:28 - El modal de carga ha desaparecido.
+2024-11-14 15:07:29 - Clic en el enlace 'Ver detalle'.
+2024-11-14 15:07:30 - El modal de carga ha desaparecido.
+2024-11-14 15:07:30 - Nombre extraído: AGROSUPER - CERDOS LA ESTRELLA
+2024-11-14 15:07:30 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2180
+2024-11-14 15:07:30 - Ubicación extraída: Región del Libertador General Bernardo O'Higgins
+2024-11-14 15:07:30 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 15:07:30 - Unidad Fiscalizable 'AGROSUPER - CERDOS LA ESTRELLA' ya existe en la base de datos.
+2024-11-14 15:07:30 - ID de unidad fiscalizable extraído: DFZ-2014-245-VI-RCA-IA
+2024-11-14 15:07:30 - Clic en la pestaña 'Documentos'.
+2024-11-14 15:07:30 - Sección 'Documentos' expandida.
+2024-11-14 15:07:30 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001132
+2024-11-14 15:07:33 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-245-VI-RCA-IA.pdf
+2024-11-14 15:07:33 - Añadiendo Documento a BD
+2024-11-14 15:07:35 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 15:07:35 - El documento Informe de Fiscalización Ambiental_DFZ-2014-245-VI-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 15:07:35 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 15:07:35 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001132
+2024-11-14 15:07:37 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-245-VI-RCA-IA.pdf
+2024-11-14 15:07:37 - Añadiendo Documento a BD
+2024-11-14 15:07:38 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 15:07:38 - El documento Informe de Fiscalización Ambiental_DFZ-2014-245-VI-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 15:07:38 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 15:07:55 - Volviendo a la página de resultados.
+2024-11-14 15:07:55 - Procesando fila 6...
+2024-11-14 15:07:55 - FILAS: 6
+2024-11-14 15:07:55 - Nombre del cliente extraído: AGRICOLA SUPER LIMITADA
+2024-11-14 15:07:55 - 1- Añadiendo Cliente a BD
+2024-11-14 15:07:55 - Cliente 'AGRICOLA SUPER LIMITADA' ya existe en la base de datos.
+2024-11-14 15:07:55 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 15:07:56 - El modal de carga ha desaparecido.
+2024-11-14 15:07:57 - Clic en el enlace 'Ver detalle'.
+2024-11-14 15:07:58 - El modal de carga ha desaparecido.
+2024-11-14 15:07:58 - Nombre extraído: AGROSUPER - PLANTA LO MIRANDA
+2024-11-14 15:07:58 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2061
+2024-11-14 15:07:58 - Ubicación extraída: Región del Libertador General Bernardo O'Higgins
+2024-11-14 15:07:58 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 15:07:58 - Unidad Fiscalizable 'AGROSUPER - PLANTA LO MIRANDA' ya existe en la base de datos.
+2024-11-14 15:07:58 - ID de unidad fiscalizable extraído: DFZ-2014-2273-VI-RCA-IA
+2024-11-14 15:07:58 - Clic en la pestaña 'Documentos'.
+2024-11-14 15:07:58 - Sección 'Documentos' expandida.
+2024-11-14 15:07:58 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001137
+2024-11-14 15:07:59 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-2273-VI-RCA-IA.pdf
+2024-11-14 15:07:59 - Añadiendo Documento a BD
+2024-11-14 15:08:00 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 15:08:00 - El documento Informe de Fiscalización Ambiental_DFZ-2014-2273-VI-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 15:08:00 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 15:08:00 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001137
+2024-11-14 15:08:01 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-2273-VI-RCA-IA.pdf
+2024-11-14 15:08:01 - Añadiendo Documento a BD
+2024-11-14 15:08:02 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 15:08:02 - El documento Informe de Fiscalización Ambiental_DFZ-2014-2273-VI-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 15:08:02 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 15:08:22 - Volviendo a la página de resultados.
+2024-11-14 15:08:22 - Procesando fila 7...
+2024-11-14 15:08:22 - FILAS: 7
+2024-11-14 15:08:22 - Nombre del cliente extraído: INVERTEC FOODS S.A.
+2024-11-14 15:08:22 - 1- Añadiendo Cliente a BD
+2024-11-14 15:08:22 - Cliente 'INVERTEC FOODS S.A.' ya existe en la base de datos.
+2024-11-14 15:08:22 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 15:08:22 - El modal de carga ha desaparecido.
+2024-11-14 15:08:23 - Clic en el enlace 'Ver detalle'.
+2024-11-14 15:08:25 - El modal de carga ha desaparecido.
+2024-11-14 15:08:25 - Nombre extraído: INVERTEC FOOD - PLANTA RENGO
+2024-11-14 15:08:25 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2096
+2024-11-14 15:08:25 - Ubicación extraída: Región del Libertador General Bernardo O'Higgins
+2024-11-14 15:08:25 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 15:08:25 - Unidad Fiscalizable 'INVERTEC FOOD - PLANTA RENGO' ya existe en la base de datos.
+2024-11-14 15:08:25 - ID de unidad fiscalizable extraído: DFZ-2014-103-VI-RCA-IA
+2024-11-14 15:08:25 - Clic en la pestaña 'Documentos'.
+2024-11-14 15:08:25 - Sección 'Documentos' expandida.
+2024-11-14 15:08:25 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001140
+2024-11-14 15:08:26 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-103-VI-RCA-IA.pdf
+2024-11-14 15:08:26 - Añadiendo Documento a BD
+2024-11-14 15:08:27 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 15:08:27 - El documento Informe de Fiscalización Ambiental_DFZ-2014-103-VI-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 15:08:27 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 15:08:27 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001140
+2024-11-14 15:08:28 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-103-VI-RCA-IA.pdf
+2024-11-14 15:08:28 - Añadiendo Documento a BD
+2024-11-14 15:08:29 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 15:08:29 - El documento Informe de Fiscalización Ambiental_DFZ-2014-103-VI-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 15:08:29 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 15:08:47 - Volviendo a la página de resultados.
+2024-11-14 15:08:47 - Procesando fila 8...
+2024-11-14 15:08:47 - FILAS: 8
+2024-11-14 15:08:47 - Nombre del cliente extraído: MIGUEL FUENZALIDA FERNANDEZ
+2024-11-14 15:08:47 - 1- Añadiendo Cliente a BD
+2024-11-14 15:08:47 - Cliente 'MIGUEL FUENZALIDA FERNANDEZ' ya existe en la base de datos.
+2024-11-14 15:08:47 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 15:08:48 - El modal de carga ha desaparecido.
+2024-11-14 15:08:49 - Clic en el enlace 'Ver detalle'.
+2024-11-14 15:08:50 - El modal de carga ha desaparecido.
+2024-11-14 15:08:50 - Nombre extraído: AVICOLA LAS RASTRAS
+2024-11-14 15:08:50 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2879
+2024-11-14 15:08:50 - Ubicación extraída: Región del Maule
+2024-11-14 15:08:50 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 15:08:50 - Unidad Fiscalizable 'AVICOLA LAS RASTRAS' ya existe en la base de datos.
+2024-11-14 15:08:50 - ID de unidad fiscalizable extraído: DFZ-2014-314-VII-RCA-IA
+2024-11-14 15:08:51 - Clic en la pestaña 'Documentos'.
+2024-11-14 15:08:51 - Sección 'Documentos' expandida.
+2024-11-14 15:08:51 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001148
+2024-11-14 15:08:54 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-314-VII-RCA-IA.pdf
+2024-11-14 15:08:54 - Añadiendo Documento a BD
+2024-11-14 15:08:56 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 15:08:56 - El documento Informe de Fiscalización Ambiental_DFZ-2014-314-VII-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 15:08:56 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 15:08:56 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001148
+2024-11-14 15:08:57 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-314-VII-RCA-IA.pdf
+2024-11-14 15:08:57 - Añadiendo Documento a BD
+2024-11-14 15:08:58 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 15:08:58 - El documento Informe de Fiscalización Ambiental_DFZ-2014-314-VII-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 15:08:58 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 15:09:16 - Volviendo a la página de resultados.
+2024-11-14 15:09:16 - Procesando fila 9...
+2024-11-14 15:09:16 - FILAS: 9
+2024-11-14 15:09:16 - Nombre del cliente extraído: AGRICOLA SAN CLEMENTE LIMITADA
+2024-11-14 15:09:16 - 1- Añadiendo Cliente a BD
+2024-11-14 15:09:16 - Cliente 'AGRICOLA SAN CLEMENTE LIMITADA' ya existe en la base de datos.
+2024-11-14 15:09:16 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 15:09:17 - El modal de carga ha desaparecido.
+2024-11-14 15:09:18 - Clic en el enlace 'Ver detalle'.
+2024-11-14 15:09:19 - El modal de carga ha desaparecido.
+2024-11-14 15:09:19 - Nombre extraído: AGRICOLA SAN CLEMENTE
+2024-11-14 15:09:19 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2328
+2024-11-14 15:09:19 - Ubicación extraída: Región del Maule
+2024-11-14 15:09:19 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 15:09:19 - Unidad Fiscalizable 'AGRICOLA SAN CLEMENTE' ya existe en la base de datos.
+2024-11-14 15:09:19 - ID de unidad fiscalizable extraído: DFZ-2014-47-VII-RCA-IA
+2024-11-14 15:09:19 - Clic en la pestaña 'Documentos'.
+2024-11-14 15:09:19 - Sección 'Documentos' expandida.
+2024-11-14 15:09:19 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001151
+2024-11-14 15:09:19 - Archivo Informe de Fiscalización Ambiental_DFZ-2014-47-VII-RCA-IA.pdf ya existe y será reemplazado.
+2024-11-14 15:09:22 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-47-VII-RCA-IA.pdf
+2024-11-14 15:09:22 - Añadiendo Documento a BD
+2024-11-14 15:09:24 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 15:09:24 - El documento Informe de Fiscalización Ambiental_DFZ-2014-47-VII-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 15:09:24 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 15:09:24 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001151
+2024-11-14 15:09:30 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-47-VII-RCA-IA.pdf
+2024-11-14 15:09:30 - Añadiendo Documento a BD
+2024-11-14 15:09:35 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 15:09:35 - El documento Informe de Fiscalización Ambiental_DFZ-2014-47-VII-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 15:09:35 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 15:09:35 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001151
+2024-11-14 15:09:36 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-47-VII-RCA-IA.pdf
+2024-11-14 15:09:36 - Añadiendo Documento a BD
+2024-11-14 15:09:36 - Error al descargar el documento: No module named 'docx'
+2024-11-14 15:09:36 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 15:09:53 - Volviendo a la página de resultados.
+2024-11-14 15:09:53 - Procesando fila 10...
+2024-11-14 15:09:53 - FILAS: 10
+2024-11-14 15:09:53 - Nombre del cliente extraído: ALMAZARA DEL PACIFICO S.A
+2024-11-14 15:09:53 - 1- Añadiendo Cliente a BD
+2024-11-14 15:09:53 - Cliente 'ALMAZARA DEL PACIFICO S.A' ya existe en la base de datos.
+2024-11-14 15:09:53 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 15:09:54 - El modal de carga ha desaparecido.
+2024-11-14 15:09:55 - Clic en el enlace 'Ver detalle'.
+2024-11-14 15:09:56 - El modal de carga ha desaparecido.
+2024-11-14 15:09:56 - Nombre extraído: PLANTA DE ACEITE DE OLIVA HUILLIBORGOA
+2024-11-14 15:09:56 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/8553
+2024-11-14 15:09:56 - Ubicación extraída: Región del Maule
+2024-11-14 15:09:56 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 15:09:56 - Unidad Fiscalizable 'PLANTA DE ACEITE DE OLIVA HUILLIBORGOA' ya existe en la base de datos.
+2024-11-14 15:09:56 - ID de unidad fiscalizable extraído: DFZ-2014-487-VII-RCA-IA
+2024-11-14 15:09:56 - Clic en la pestaña 'Documentos'.
+2024-11-14 15:09:56 - Sección 'Documentos' expandida.
+2024-11-14 15:09:57 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001159
+2024-11-14 15:09:58 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-487-VII-RCA-IA.pdf
+2024-11-14 15:09:58 - Añadiendo Documento a BD
+2024-11-14 15:09:58 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 15:09:58 - El documento Informe de Fiscalización Ambiental_DFZ-2014-487-VII-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 15:09:58 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 15:09:58 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001159
+2024-11-14 15:09:59 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-487-VII-RCA-IA.pdf
+2024-11-14 15:09:59 - Añadiendo Documento a BD
+2024-11-14 15:10:00 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 15:10:00 - El documento Informe de Fiscalización Ambiental_DFZ-2014-487-VII-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 15:10:00 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 15:10:19 - Volviendo a la página de resultados.
+2024-11-14 15:10:19 - Procesando fila 11...
+2024-11-14 15:10:19 - FILAS: 11
+2024-11-14 15:10:19 - Nombre del cliente extraído: PATAGONIAFRESH S.A.
+2024-11-14 15:10:19 - 1- Añadiendo Cliente a BD
+2024-11-14 15:10:19 - Cliente 'PATAGONIAFRESH S.A.' ya existe en la base de datos.
+2024-11-14 15:10:19 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 15:10:19 - El modal de carga ha desaparecido.
+2024-11-14 15:10:20 - Clic en el enlace 'Ver detalle'.
+2024-11-14 15:10:21 - El modal de carga ha desaparecido.
+2024-11-14 15:10:21 - Nombre extraído: PATAGONIAFRESH - PLANTA MOLINA (JUGOS)
+2024-11-14 15:10:21 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/10503
+2024-11-14 15:10:21 - Ubicación extraída: Región del Maule
+2024-11-14 15:10:21 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 15:10:21 - Unidad Fiscalizable 'PATAGONIAFRESH - PLANTA MOLINA (JUGOS)' ya existe en la base de datos.
+2024-11-14 15:10:21 - ID de unidad fiscalizable extraído: DFZ-2014-76-VII-RCA-IA
+2024-11-14 15:10:21 - Clic en la pestaña 'Documentos'.
+2024-11-14 15:10:21 - Sección 'Documentos' expandida.
+2024-11-14 15:10:21 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001160
+2024-11-14 15:10:21 - Archivo Informe de Fiscalización Ambiental_DFZ-2014-76-VII-RCA-IA.pdf ya existe y será reemplazado.
+2024-11-14 15:10:23 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-76-VII-RCA-IA.pdf
+2024-11-14 15:10:23 - Añadiendo Documento a BD
+2024-11-14 15:10:23 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 15:10:23 - El documento Informe de Fiscalización Ambiental_DFZ-2014-76-VII-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 15:10:23 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 15:10:23 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001160
+2024-11-14 15:10:24 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-76-VII-RCA-IA.pdf
+2024-11-14 15:10:24 - Añadiendo Documento a BD
+2024-11-14 15:10:24 - Error al descargar el documento: No module named 'docx'
+2024-11-14 15:10:24 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 15:10:28 - Volviendo a la página de resultados.
+2024-11-14 15:10:28 - La ventana del navegador se cerró inesperadamente durante el procesamiento de filas.
+2024-11-14 15:10:35 - Terminando scraping.
+2024-11-14 15:10:35 - ***************************************
+2024-11-14 15:12:53 - Iniciando Scraping...
+2024-11-14 15:12:55 - Categoría 'Agroindustrias' seleccionada.
+2024-11-14 15:13:44 - Clic en el botón 'Buscar'.
+2024-11-14 15:13:45 - El modal de carga ha desaparecido.
+2024-11-14 15:13:45 - Procesando fila 1...
+2024-11-14 15:13:45 - FILAS: 1
+2024-11-14 15:13:45 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-11-14 15:13:45 - 1- Añadiendo Cliente a BD
+2024-11-14 15:13:45 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-11-14 15:13:45 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 15:13:45 - El modal de carga ha desaparecido.
+2024-11-14 15:13:46 - Clic en el enlace 'Ver detalle'.
+2024-11-14 15:13:47 - El modal de carga ha desaparecido.
+2024-11-14 15:13:47 - Nombre extraído: PLANTA FAENADORA DE AVES ARICA
+2024-11-14 15:13:47 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2593
+2024-11-14 15:13:48 - Ubicación extraída: Región de Arica y Parinacota
+2024-11-14 15:13:48 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 15:13:48 - Unidad Fiscalizable 'PLANTA FAENADORA DE AVES ARICA' ya existe en la base de datos.
+2024-11-14 15:13:48 - ID de unidad fiscalizable extraído: DFZ-2014-78-XV-RCA-IA
+2024-11-14 15:13:48 - Clic en la pestaña 'Documentos'.
+2024-11-14 15:13:48 - Sección 'Documentos' expandida.
+2024-11-14 15:14:04 - Volviendo a la página de resultados.
+2024-11-14 15:14:04 - Procesando fila 2...
+2024-11-14 15:14:04 - FILAS: 2
+2024-11-14 15:14:04 - Nombre del cliente extraído: AGRICOLA ARIZTIA
+2024-11-14 15:14:04 - 1- Añadiendo Cliente a BD
+2024-11-14 15:14:04 - Cliente 'AGRICOLA ARIZTIA' ya existe en la base de datos.
+2024-11-14 15:14:04 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 15:14:05 - El modal de carga ha desaparecido.
+2024-11-14 15:14:06 - Clic en el enlace 'Ver detalle'.
+2024-11-14 15:14:07 - El modal de carga ha desaparecido.
+2024-11-14 15:14:07 - Nombre extraído: PLANTEL DE AVES DE LEYDA
+2024-11-14 15:14:07 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/1840
+2024-11-14 15:14:07 - Ubicación extraída: Región de Valparaíso
+2024-11-14 15:14:07 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 15:14:07 - Unidad Fiscalizable 'PLANTEL DE AVES DE LEYDA' ya existe en la base de datos.
+2024-11-14 15:14:08 - ID de unidad fiscalizable extraído: DFZ-2014-2297-V-RCA-IA
+2024-11-14 15:14:08 - Clic en la pestaña 'Documentos'.
+2024-11-14 15:14:08 - Sección 'Documentos' expandida.
+2024-11-14 15:14:25 - Volviendo a la página de resultados.
+2024-11-14 15:14:25 - Procesando fila 3...
+2024-11-14 15:14:25 - FILAS: 3
+2024-11-14 15:14:25 - Nombre del cliente extraído: AGRICOLA EL MONTE S.A.
+2024-11-14 15:14:25 - 1- Añadiendo Cliente a BD
+2024-11-14 15:14:25 - Cliente 'AGRICOLA EL MONTE S.A.' ya existe en la base de datos.
+2024-11-14 15:14:25 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 15:14:26 - El modal de carga ha desaparecido.
+2024-11-14 15:14:27 - Clic en el enlace 'Ver detalle'.
+2024-11-14 15:14:28 - El modal de carga ha desaparecido.
+2024-11-14 15:14:28 - Nombre extraído: CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A.
+2024-11-14 15:14:28 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/4495
+2024-11-14 15:14:28 - Ubicación extraída: Región Metropolitana
+2024-11-14 15:14:28 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 15:14:28 - Unidad Fiscalizable 'CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A.' ya existe en la base de datos.
+2024-11-14 15:14:28 - ID de unidad fiscalizable extraído: DFZ-2014-347-XIII-RCA-IA
+2024-11-14 15:14:28 - Clic en la pestaña 'Documentos'.
+2024-11-14 15:14:29 - Sección 'Documentos' expandida.
+2024-11-14 15:14:47 - Volviendo a la página de resultados.
+2024-11-14 15:14:47 - Procesando fila 4...
+2024-11-14 15:14:47 - FILAS: 4
+2024-11-14 15:14:47 - Nombre del cliente extraído: AGRICOLA SUPER LIMITADA
+2024-11-14 15:14:47 - 1- Añadiendo Cliente a BD
+2024-11-14 15:14:47 - Cliente 'AGRICOLA SUPER LIMITADA' ya existe en la base de datos.
+2024-11-14 15:14:47 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 15:14:48 - El modal de carga ha desaparecido.
+2024-11-14 15:14:49 - Clic en el enlace 'Ver detalle'.
+2024-11-14 15:14:51 - El modal de carga ha desaparecido.
+2024-11-14 15:14:51 - Nombre extraído: CERDOS LA MANGA - AGROSUPER
+2024-11-14 15:14:51 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/4494
+2024-11-14 15:14:51 - Ubicación extraída: Región Metropolitana
+2024-11-14 15:14:51 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 15:14:51 - Unidad Fiscalizable 'CERDOS LA MANGA - AGROSUPER' ya existe en la base de datos.
+2024-11-14 15:14:51 - ID de unidad fiscalizable extraído: DFZ-2014-179-XIII-RCA-IA
+2024-11-14 15:14:51 - Clic en la pestaña 'Documentos'.
+2024-11-14 15:14:51 - Sección 'Documentos' expandida.
+2024-11-14 15:15:08 - Volviendo a la página de resultados.
+2024-11-14 15:15:08 - Procesando fila 5...
+2024-11-14 15:15:08 - FILAS: 5
+2024-11-14 15:15:08 - Nombre del cliente extraído: AGRICOLA SUPER LIMITADA
+2024-11-14 15:15:08 - 1- Añadiendo Cliente a BD
+2024-11-14 15:15:08 - Cliente 'AGRICOLA SUPER LIMITADA' ya existe en la base de datos.
+2024-11-14 15:15:08 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 15:15:09 - El modal de carga ha desaparecido.
+2024-11-14 15:15:10 - Clic en el enlace 'Ver detalle'.
+2024-11-14 15:15:11 - El modal de carga ha desaparecido.
+2024-11-14 15:15:11 - Nombre extraído: AGROSUPER - CERDOS LA ESTRELLA
+2024-11-14 15:15:11 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2180
+2024-11-14 15:15:12 - Ubicación extraída: Región del Libertador General Bernardo O'Higgins
+2024-11-14 15:15:12 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 15:15:12 - Unidad Fiscalizable 'AGROSUPER - CERDOS LA ESTRELLA' ya existe en la base de datos.
+2024-11-14 15:15:12 - ID de unidad fiscalizable extraído: DFZ-2014-245-VI-RCA-IA
+2024-11-14 15:15:12 - Clic en la pestaña 'Documentos'.
+2024-11-14 15:15:12 - Sección 'Documentos' expandida.
+2024-11-14 15:15:30 - Volviendo a la página de resultados.
+2024-11-14 15:15:30 - Procesando fila 6...
+2024-11-14 15:15:31 - FILAS: 6
+2024-11-14 15:15:31 - Nombre del cliente extraído: AGRICOLA SUPER LIMITADA
+2024-11-14 15:15:31 - 1- Añadiendo Cliente a BD
+2024-11-14 15:15:31 - Cliente 'AGRICOLA SUPER LIMITADA' ya existe en la base de datos.
+2024-11-14 15:15:31 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 15:15:31 - El modal de carga ha desaparecido.
+2024-11-14 15:15:31 - Clic en el enlace 'Ver detalle'.
+2024-11-14 15:15:33 - El modal de carga ha desaparecido.
+2024-11-14 15:15:33 - Nombre extraído: AGROSUPER - PLANTA LO MIRANDA
+2024-11-14 15:15:33 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2061
+2024-11-14 15:15:33 - Ubicación extraída: Región del Libertador General Bernardo O'Higgins
+2024-11-14 15:15:33 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 15:15:33 - Unidad Fiscalizable 'AGROSUPER - PLANTA LO MIRANDA' ya existe en la base de datos.
+2024-11-14 15:15:34 - ID de unidad fiscalizable extraído: DFZ-2014-2273-VI-RCA-IA
+2024-11-14 15:15:34 - Clic en la pestaña 'Documentos'.
+2024-11-14 15:15:34 - Sección 'Documentos' expandida.
+2024-11-14 15:15:54 - Volviendo a la página de resultados.
+2024-11-14 15:15:54 - Procesando fila 7...
+2024-11-14 15:15:54 - FILAS: 7
+2024-11-14 15:15:54 - Nombre del cliente extraído: INVERTEC FOODS S.A.
+2024-11-14 15:15:54 - 1- Añadiendo Cliente a BD
+2024-11-14 15:15:54 - Cliente 'INVERTEC FOODS S.A.' ya existe en la base de datos.
+2024-11-14 15:15:55 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 15:15:56 - El modal de carga ha desaparecido.
+2024-11-14 15:15:56 - Clic en el enlace 'Ver detalle'.
+2024-11-14 15:15:58 - El modal de carga ha desaparecido.
+2024-11-14 15:15:58 - Nombre extraído: INVERTEC FOOD - PLANTA RENGO
+2024-11-14 15:15:58 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2096
+2024-11-14 15:15:58 - Ubicación extraída: Región del Libertador General Bernardo O'Higgins
+2024-11-14 15:15:58 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 15:15:58 - Unidad Fiscalizable 'INVERTEC FOOD - PLANTA RENGO' ya existe en la base de datos.
+2024-11-14 15:15:58 - ID de unidad fiscalizable extraído: DFZ-2014-103-VI-RCA-IA
+2024-11-14 15:15:58 - Clic en la pestaña 'Documentos'.
+2024-11-14 15:15:58 - Sección 'Documentos' expandida.
+2024-11-14 15:16:19 - Volviendo a la página de resultados.
+2024-11-14 15:16:19 - Procesando fila 8...
+2024-11-14 15:16:19 - FILAS: 8
+2024-11-14 15:16:19 - Nombre del cliente extraído: MIGUEL FUENZALIDA FERNANDEZ
+2024-11-14 15:16:19 - 1- Añadiendo Cliente a BD
+2024-11-14 15:16:19 - Cliente 'MIGUEL FUENZALIDA FERNANDEZ' ya existe en la base de datos.
+2024-11-14 15:16:19 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 15:16:20 - El modal de carga ha desaparecido.
+2024-11-14 15:16:21 - Clic en el enlace 'Ver detalle'.
+2024-11-14 15:16:22 - El modal de carga ha desaparecido.
+2024-11-14 15:16:22 - Nombre extraído: AVICOLA LAS RASTRAS
+2024-11-14 15:16:22 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2879
+2024-11-14 15:16:23 - Ubicación extraída: Región del Maule
+2024-11-14 15:16:23 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 15:16:23 - Unidad Fiscalizable 'AVICOLA LAS RASTRAS' ya existe en la base de datos.
+2024-11-14 15:16:23 - ID de unidad fiscalizable extraído: DFZ-2014-314-VII-RCA-IA
+2024-11-14 15:16:23 - Clic en la pestaña 'Documentos'.
+2024-11-14 15:16:23 - Sección 'Documentos' expandida.
+2024-11-14 15:16:40 - Volviendo a la página de resultados.
+2024-11-14 15:16:40 - Procesando fila 9...
+2024-11-14 15:16:40 - FILAS: 9
+2024-11-14 15:16:40 - Nombre del cliente extraído: AGRICOLA SAN CLEMENTE LIMITADA
+2024-11-14 15:16:40 - 1- Añadiendo Cliente a BD
+2024-11-14 15:16:40 - Cliente 'AGRICOLA SAN CLEMENTE LIMITADA' ya existe en la base de datos.
+2024-11-14 15:16:40 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 15:16:41 - El modal de carga ha desaparecido.
+2024-11-14 15:16:42 - Clic en el enlace 'Ver detalle'.
+2024-11-14 15:16:43 - El modal de carga ha desaparecido.
+2024-11-14 15:16:43 - Nombre extraído: AGRICOLA SAN CLEMENTE
+2024-11-14 15:16:43 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2328
+2024-11-14 15:16:43 - Ubicación extraída: Región del Maule
+2024-11-14 15:16:43 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 15:16:43 - Unidad Fiscalizable 'AGRICOLA SAN CLEMENTE' ya existe en la base de datos.
+2024-11-14 15:16:43 - ID de unidad fiscalizable extraído: DFZ-2014-47-VII-RCA-IA
+2024-11-14 15:16:44 - Clic en la pestaña 'Documentos'.
+2024-11-14 15:16:44 - Sección 'Documentos' expandida.
+2024-11-14 15:17:08 - Volviendo a la página de resultados.
+2024-11-14 15:17:08 - Procesando fila 10...
+2024-11-14 15:17:08 - FILAS: 10
+2024-11-14 15:17:08 - Nombre del cliente extraído: ALMAZARA DEL PACIFICO S.A
+2024-11-14 15:17:08 - 1- Añadiendo Cliente a BD
+2024-11-14 15:17:08 - Cliente 'ALMAZARA DEL PACIFICO S.A' ya existe en la base de datos.
+2024-11-14 15:17:08 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 15:17:09 - El modal de carga ha desaparecido.
+2024-11-14 15:17:11 - Clic en el enlace 'Ver detalle'.
+2024-11-14 15:17:13 - El modal de carga ha desaparecido.
+2024-11-14 15:17:13 - Nombre extraído: PLANTA DE ACEITE DE OLIVA HUILLIBORGOA
+2024-11-14 15:17:13 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/8553
+2024-11-14 15:17:13 - Ubicación extraída: Región del Maule
+2024-11-14 15:17:13 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 15:17:13 - Unidad Fiscalizable 'PLANTA DE ACEITE DE OLIVA HUILLIBORGOA' ya existe en la base de datos.
+2024-11-14 15:17:13 - ID de unidad fiscalizable extraído: DFZ-2014-487-VII-RCA-IA
+2024-11-14 15:17:14 - Clic en la pestaña 'Documentos'.
+2024-11-14 15:17:14 - Sección 'Documentos' expandida.
+2024-11-14 15:17:39 - Volviendo a la página de resultados.
+2024-11-14 15:17:39 - Procesando fila 11...
+2024-11-14 15:17:39 - FILAS: 11
+2024-11-14 15:17:39 - Nombre del cliente extraído: PATAGONIAFRESH S.A.
+2024-11-14 15:17:39 - 1- Añadiendo Cliente a BD
+2024-11-14 15:17:39 - Cliente 'PATAGONIAFRESH S.A.' ya existe en la base de datos.
+2024-11-14 15:17:39 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 15:17:40 - El modal de carga ha desaparecido.
+2024-11-14 15:17:41 - Clic en el enlace 'Ver detalle'.
+2024-11-14 15:17:43 - El modal de carga ha desaparecido.
+2024-11-14 15:17:43 - Nombre extraído: PATAGONIAFRESH - PLANTA MOLINA (JUGOS)
+2024-11-14 15:17:43 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/10503
+2024-11-14 15:17:43 - Ubicación extraída: Región del Maule
+2024-11-14 15:17:43 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 15:17:43 - Unidad Fiscalizable 'PATAGONIAFRESH - PLANTA MOLINA (JUGOS)' ya existe en la base de datos.
+2024-11-14 15:17:43 - ID de unidad fiscalizable extraído: DFZ-2014-76-VII-RCA-IA
+2024-11-14 15:17:43 - Clic en la pestaña 'Documentos'.
+2024-11-14 15:17:43 - Sección 'Documentos' expandida.
+2024-11-14 15:17:59 - Iniciando Scraping...
+2024-11-14 15:18:01 - Categoría 'Agroindustrias' seleccionada.
+2024-11-14 15:18:10 - Clic en el botón 'Buscar'.
+2024-11-14 15:18:11 - Volviendo a la página de resultados.
+2024-11-14 15:18:11 - Procesando fila 12...
+2024-11-14 15:18:11 - FILAS: 12
+2024-11-14 15:18:11 - Nombre del cliente extraído: EMPRESAS CAROZZI S.A.
+2024-11-14 15:18:11 - 1- Añadiendo Cliente a BD
+2024-11-14 15:18:11 - Cliente 'EMPRESAS CAROZZI S.A.' ya existe en la base de datos.
+2024-11-14 15:18:12 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 15:18:12 - El modal de carga ha desaparecido.
+2024-11-14 15:18:12 - Clic en el enlace 'Ver detalle'.
+2024-11-14 15:18:12 - La ventana del navegador se cerró inesperadamente durante el procesamiento de filas.
+2024-11-14 15:18:13 - Terminando scraping.
+2024-11-14 15:18:13 - ***************************************
+2024-11-14 15:18:16 - Terminando scraping.
+2024-11-14 15:18:16 - ***************************************
+2024-11-14 15:18:21 - Iniciando Scraping...
+2024-11-14 15:18:22 - Categoría 'Agroindustrias' seleccionada.
+2024-11-14 15:19:04 - Clic en el botón 'Buscar'.
+2024-11-14 15:19:05 - El modal de carga ha desaparecido.
+2024-11-14 15:19:05 - Procesando fila 1...
+2024-11-14 15:19:05 - FILAS: 1
+2024-11-14 15:19:05 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-11-14 15:19:05 - 1- Añadiendo Cliente a BD
+2024-11-14 15:19:05 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-11-14 15:19:05 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 15:19:05 - El modal de carga ha desaparecido.
+2024-11-14 15:19:07 - Clic en el enlace 'Ver detalle'.
+2024-11-14 15:19:08 - El modal de carga ha desaparecido.
+2024-11-14 15:19:08 - Nombre extraído: PLANTA FAENADORA DE AVES ARICA
+2024-11-14 15:19:08 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2593
+2024-11-14 15:19:08 - Ubicación extraída: Región de Arica y Parinacota
+2024-11-14 15:19:08 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 15:19:08 - Unidad Fiscalizable 'PLANTA FAENADORA DE AVES ARICA' ya existe en la base de datos.
+2024-11-14 15:19:08 - ID de unidad fiscalizable extraído: DFZ-2014-78-XV-RCA-IA
+2024-11-14 15:19:08 - Clic en la pestaña 'Documentos'.
+2024-11-14 15:19:08 - Sección 'Documentos' expandida.
+2024-11-14 15:19:08 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+2024-11-14 15:19:21 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+2024-11-14 15:19:31 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 15:19:31 - El documento Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 15:19:32 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 15:19:33 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+2024-11-14 15:19:42 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+2024-11-14 15:19:51 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 15:19:51 - El documento Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 15:19:51 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 15:19:51 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+2024-11-14 15:19:54 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+2024-11-14 15:19:58 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 15:19:58 - El documento Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 15:19:58 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 15:20:16 - Volviendo a la página de resultados.
+2024-11-14 15:20:16 - Procesando fila 2...
+2024-11-14 15:20:17 - FILAS: 2
+2024-11-14 15:20:17 - Nombre del cliente extraído: AGRICOLA ARIZTIA
+2024-11-14 15:20:17 - 1- Añadiendo Cliente a BD
+2024-11-14 15:20:17 - Cliente 'AGRICOLA ARIZTIA' ya existe en la base de datos.
+2024-11-14 15:20:17 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 15:20:17 - El modal de carga ha desaparecido.
+2024-11-14 15:20:18 - Clic en el enlace 'Ver detalle'.
+2024-11-14 15:20:19 - El modal de carga ha desaparecido.
+2024-11-14 15:20:19 - Nombre extraído: PLANTEL DE AVES DE LEYDA
+2024-11-14 15:20:19 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/1840
+2024-11-14 15:20:19 - Ubicación extraída: Región de Valparaíso
+2024-11-14 15:20:19 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 15:20:19 - Unidad Fiscalizable 'PLANTEL DE AVES DE LEYDA' ya existe en la base de datos.
+2024-11-14 15:20:19 - ID de unidad fiscalizable extraído: DFZ-2014-2297-V-RCA-IA
+2024-11-14 15:20:19 - Clic en la pestaña 'Documentos'.
+2024-11-14 15:20:19 - Sección 'Documentos' expandida.
+2024-11-14 15:20:36 - Volviendo a la página de resultados.
+2024-11-14 15:20:36 - Procesando fila 3...
+2024-11-14 15:20:36 - FILAS: 3
+2024-11-14 15:20:36 - Nombre del cliente extraído: AGRICOLA EL MONTE S.A.
+2024-11-14 15:20:36 - 1- Añadiendo Cliente a BD
+2024-11-14 15:20:36 - Cliente 'AGRICOLA EL MONTE S.A.' ya existe en la base de datos.
+2024-11-14 15:20:36 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 15:20:38 - El modal de carga ha desaparecido.
+2024-11-14 15:20:38 - Clic en el enlace 'Ver detalle'.
+2024-11-14 15:20:40 - El modal de carga ha desaparecido.
+2024-11-14 15:20:40 - Nombre extraído: CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A.
+2024-11-14 15:20:40 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/4495
+2024-11-14 15:20:40 - Ubicación extraída: Región Metropolitana
+2024-11-14 15:20:40 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 15:20:40 - Unidad Fiscalizable 'CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A.' ya existe en la base de datos.
+2024-11-14 15:20:40 - ID de unidad fiscalizable extraído: DFZ-2014-347-XIII-RCA-IA
+2024-11-14 15:20:40 - Clic en la pestaña 'Documentos'.
+2024-11-14 15:20:40 - Sección 'Documentos' expandida.
+2024-11-14 15:20:58 - Volviendo a la página de resultados.
+2024-11-14 15:20:58 - Procesando fila 4...
+2024-11-14 15:20:58 - FILAS: 4
+2024-11-14 15:20:58 - Nombre del cliente extraído: AGRICOLA SUPER LIMITADA
+2024-11-14 15:20:58 - 1- Añadiendo Cliente a BD
+2024-11-14 15:20:58 - Cliente 'AGRICOLA SUPER LIMITADA' ya existe en la base de datos.
+2024-11-14 15:20:58 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 15:21:00 - El modal de carga ha desaparecido.
+2024-11-14 15:21:00 - Clic en el enlace 'Ver detalle'.
+2024-11-14 15:21:01 - El modal de carga ha desaparecido.
+2024-11-14 15:21:01 - Nombre extraído: CERDOS LA MANGA - AGROSUPER
+2024-11-14 15:21:01 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/4494
+2024-11-14 15:21:01 - Ubicación extraída: Región Metropolitana
+2024-11-14 15:21:01 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 15:21:01 - Unidad Fiscalizable 'CERDOS LA MANGA - AGROSUPER' ya existe en la base de datos.
+2024-11-14 15:21:01 - ID de unidad fiscalizable extraído: DFZ-2014-179-XIII-RCA-IA
+2024-11-14 15:21:01 - Clic en la pestaña 'Documentos'.
+2024-11-14 15:21:02 - Sección 'Documentos' expandida.
+2024-11-14 15:21:19 - Volviendo a la página de resultados.
+2024-11-14 15:21:19 - Procesando fila 5...
+2024-11-14 15:21:19 - FILAS: 5
+2024-11-14 15:21:19 - Nombre del cliente extraído: AGRICOLA SUPER LIMITADA
+2024-11-14 15:21:19 - 1- Añadiendo Cliente a BD
+2024-11-14 15:21:19 - Cliente 'AGRICOLA SUPER LIMITADA' ya existe en la base de datos.
+2024-11-14 15:21:19 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 15:21:22 - El modal de carga ha desaparecido.
+2024-11-14 15:21:22 - Clic en el enlace 'Ver detalle'.
+2024-11-14 15:21:24 - El modal de carga ha desaparecido.
+2024-11-14 15:21:24 - Nombre extraído: AGROSUPER - CERDOS LA ESTRELLA
+2024-11-14 15:21:24 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2180
+2024-11-14 15:21:24 - Ubicación extraída: Región del Libertador General Bernardo O'Higgins
+2024-11-14 15:21:24 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 15:21:24 - Unidad Fiscalizable 'AGROSUPER - CERDOS LA ESTRELLA' ya existe en la base de datos.
+2024-11-14 15:21:24 - ID de unidad fiscalizable extraído: DFZ-2014-245-VI-RCA-IA
+2024-11-14 15:21:24 - Clic en la pestaña 'Documentos'.
+2024-11-14 15:21:25 - Sección 'Documentos' expandida.
+2024-11-14 15:21:43 - Volviendo a la página de resultados.
+2024-11-14 15:21:43 - Procesando fila 6...
+2024-11-14 15:21:43 - FILAS: 6
+2024-11-14 15:21:43 - Nombre del cliente extraído: AGRICOLA SUPER LIMITADA
+2024-11-14 15:21:43 - 1- Añadiendo Cliente a BD
+2024-11-14 15:21:43 - Cliente 'AGRICOLA SUPER LIMITADA' ya existe en la base de datos.
+2024-11-14 15:21:43 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 15:21:46 - El modal de carga ha desaparecido.
+2024-11-14 15:21:46 - Clic en el enlace 'Ver detalle'.
+2024-11-14 15:21:49 - El modal de carga ha desaparecido.
+2024-11-14 15:21:49 - Nombre extraído: AGROSUPER - PLANTA LO MIRANDA
+2024-11-14 15:21:49 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2061
+2024-11-14 15:21:49 - Ubicación extraída: Región del Libertador General Bernardo O'Higgins
+2024-11-14 15:21:49 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 15:21:49 - Unidad Fiscalizable 'AGROSUPER - PLANTA LO MIRANDA' ya existe en la base de datos.
+2024-11-14 15:21:49 - ID de unidad fiscalizable extraído: DFZ-2014-2273-VI-RCA-IA
+2024-11-14 15:21:49 - Clic en la pestaña 'Documentos'.
+2024-11-14 15:21:49 - Sección 'Documentos' expandida.
+2024-11-14 15:22:08 - Volviendo a la página de resultados.
+2024-11-14 15:22:08 - Procesando fila 7...
+2024-11-14 15:22:08 - FILAS: 7
+2024-11-14 15:22:08 - Nombre del cliente extraído: INVERTEC FOODS S.A.
+2024-11-14 15:22:08 - 1- Añadiendo Cliente a BD
+2024-11-14 15:22:08 - Cliente 'INVERTEC FOODS S.A.' ya existe en la base de datos.
+2024-11-14 15:22:08 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 15:22:09 - El modal de carga ha desaparecido.
+2024-11-14 15:22:10 - Clic en el enlace 'Ver detalle'.
+2024-11-14 15:22:12 - El modal de carga ha desaparecido.
+2024-11-14 15:22:12 - Nombre extraído: INVERTEC FOOD - PLANTA RENGO
+2024-11-14 15:22:12 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2096
+2024-11-14 15:22:12 - Ubicación extraída: Región del Libertador General Bernardo O'Higgins
+2024-11-14 15:22:12 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 15:22:12 - Unidad Fiscalizable 'INVERTEC FOOD - PLANTA RENGO' ya existe en la base de datos.
+2024-11-14 15:22:12 - ID de unidad fiscalizable extraído: DFZ-2014-103-VI-RCA-IA
+2024-11-14 15:22:12 - Clic en la pestaña 'Documentos'.
+2024-11-14 15:22:12 - Sección 'Documentos' expandida.
+2024-11-14 15:22:30 - Volviendo a la página de resultados.
+2024-11-14 15:22:30 - Procesando fila 8...
+2024-11-14 15:22:30 - FILAS: 8
+2024-11-14 15:22:30 - Nombre del cliente extraído: MIGUEL FUENZALIDA FERNANDEZ
+2024-11-14 15:22:30 - 1- Añadiendo Cliente a BD
+2024-11-14 15:22:30 - Cliente 'MIGUEL FUENZALIDA FERNANDEZ' ya existe en la base de datos.
+2024-11-14 15:22:30 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 15:22:31 - El modal de carga ha desaparecido.
+2024-11-14 15:22:32 - Clic en el enlace 'Ver detalle'.
+2024-11-14 15:22:33 - El modal de carga ha desaparecido.
+2024-11-14 15:22:33 - Nombre extraído: AVICOLA LAS RASTRAS
+2024-11-14 15:22:33 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2879
+2024-11-14 15:22:33 - Ubicación extraída: Región del Maule
+2024-11-14 15:22:33 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 15:22:33 - Unidad Fiscalizable 'AVICOLA LAS RASTRAS' ya existe en la base de datos.
+2024-11-14 15:22:33 - ID de unidad fiscalizable extraído: DFZ-2014-314-VII-RCA-IA
+2024-11-14 15:22:34 - Clic en la pestaña 'Documentos'.
+2024-11-14 15:22:34 - Sección 'Documentos' expandida.
+2024-11-14 15:22:52 - Volviendo a la página de resultados.
+2024-11-14 15:22:54 - Procesando fila 9...
+2024-11-14 15:22:54 - FILAS: 9
+2024-11-14 15:22:54 - Nombre del cliente extraído: AGRICOLA SAN CLEMENTE LIMITADA
+2024-11-14 15:22:54 - 1- Añadiendo Cliente a BD
+2024-11-14 15:22:54 - Cliente 'AGRICOLA SAN CLEMENTE LIMITADA' ya existe en la base de datos.
+2024-11-14 15:22:54 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 15:22:54 - El modal de carga ha desaparecido.
+2024-11-14 15:22:55 - Clic en el enlace 'Ver detalle'.
+2024-11-14 15:22:56 - El modal de carga ha desaparecido.
+2024-11-14 15:22:56 - Nombre extraído: AGRICOLA SAN CLEMENTE
+2024-11-14 15:22:56 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2328
+2024-11-14 15:22:56 - Ubicación extraída: Región del Maule
+2024-11-14 15:22:56 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 15:22:56 - Unidad Fiscalizable 'AGRICOLA SAN CLEMENTE' ya existe en la base de datos.
+2024-11-14 15:22:57 - ID de unidad fiscalizable extraído: DFZ-2014-47-VII-RCA-IA
+2024-11-14 15:22:57 - Clic en la pestaña 'Documentos'.
+2024-11-14 15:22:57 - Sección 'Documentos' expandida.
+2024-11-14 15:23:14 - Volviendo a la página de resultados.
+2024-11-14 15:23:14 - Procesando fila 10...
+2024-11-14 15:23:14 - FILAS: 10
+2024-11-14 15:23:14 - Nombre del cliente extraído: ALMAZARA DEL PACIFICO S.A
+2024-11-14 15:23:14 - 1- Añadiendo Cliente a BD
+2024-11-14 15:23:14 - Cliente 'ALMAZARA DEL PACIFICO S.A' ya existe en la base de datos.
+2024-11-14 15:23:14 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 15:23:15 - El modal de carga ha desaparecido.
+2024-11-14 15:23:16 - Clic en el enlace 'Ver detalle'.
+2024-11-14 15:23:17 - El modal de carga ha desaparecido.
+2024-11-14 15:23:17 - Nombre extraído: PLANTA DE ACEITE DE OLIVA HUILLIBORGOA
+2024-11-14 15:23:17 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/8553
+2024-11-14 15:23:17 - Ubicación extraída: Región del Maule
+2024-11-14 15:23:17 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 15:23:17 - Unidad Fiscalizable 'PLANTA DE ACEITE DE OLIVA HUILLIBORGOA' ya existe en la base de datos.
+2024-11-14 15:23:17 - ID de unidad fiscalizable extraído: DFZ-2014-487-VII-RCA-IA
+2024-11-14 15:23:17 - Clic en la pestaña 'Documentos'.
+2024-11-14 15:23:17 - Sección 'Documentos' expandida.
+2024-11-14 15:23:55 - Volviendo a la página de resultados.
+2024-11-14 15:23:55 - Procesando fila 11...
+2024-11-14 15:23:55 - FILAS: 11
+2024-11-14 15:23:55 - Nombre del cliente extraído: PATAGONIAFRESH S.A.
+2024-11-14 15:23:55 - 1- Añadiendo Cliente a BD
+2024-11-14 15:23:55 - Cliente 'PATAGONIAFRESH S.A.' ya existe en la base de datos.
+2024-11-14 15:23:55 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 15:23:56 - El modal de carga ha desaparecido.
+2024-11-14 15:23:58 - Clic en el enlace 'Ver detalle'.
+2024-11-14 15:23:59 - El modal de carga ha desaparecido.
+2024-11-14 15:24:00 - Nombre extraído: PATAGONIAFRESH - PLANTA MOLINA (JUGOS)
+2024-11-14 15:24:00 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/10503
+2024-11-14 15:24:00 - Ubicación extraída: Región del Maule
+2024-11-14 15:24:00 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 15:24:00 - Unidad Fiscalizable 'PATAGONIAFRESH - PLANTA MOLINA (JUGOS)' ya existe en la base de datos.
+2024-11-14 15:24:00 - ID de unidad fiscalizable extraído: DFZ-2014-76-VII-RCA-IA
+2024-11-14 15:24:00 - Clic en la pestaña 'Documentos'.
+2024-11-14 15:24:00 - Sección 'Documentos' expandida.
+2024-11-14 15:24:24 - Terminando scraping.
+2024-11-14 15:24:24 - ***************************************
+2024-11-14 15:40:14 - Iniciando Scraping...
+2024-11-14 15:40:16 - Categoría 'Agroindustrias' seleccionada.
+2024-11-14 15:40:58 - Clic en el botón 'Buscar'.
+2024-11-14 15:40:59 - El modal de carga ha desaparecido.
+2024-11-14 15:40:59 - Procesando fila 1...
+2024-11-14 15:40:59 - FILAS: 1
+2024-11-14 15:40:59 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-11-14 15:40:59 - 1- Añadiendo Cliente a BD
+2024-11-14 15:40:59 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-11-14 15:40:59 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 15:40:59 - El modal de carga ha desaparecido.
+2024-11-14 15:41:00 - Clic en el enlace 'Ver detalle'.
+2024-11-14 15:41:01 - El modal de carga ha desaparecido.
+2024-11-14 15:41:02 - Nombre extraído: PLANTA FAENADORA DE AVES ARICA
+2024-11-14 15:41:02 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2593
+2024-11-14 15:41:02 - Ubicación extraída: Región de Arica y Parinacota
+2024-11-14 15:41:02 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 15:41:02 - Unidad Fiscalizable 'PLANTA FAENADORA DE AVES ARICA' ya existe en la base de datos.
+2024-11-14 15:41:02 - ID de unidad fiscalizable extraído: DFZ-2014-78-XV-RCA-IA
+2024-11-14 15:41:02 - Clic en la pestaña 'Documentos'.
+2024-11-14 15:41:02 - Sección 'Documentos' expandida.
+2024-11-14 15:41:02 - CELDA Anexo Informe de Fiscalización Ambiental
+2024-11-14 15:41:02 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+2024-11-14 15:41:13 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+2024-11-14 15:41:24 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 15:41:24 - El documento Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 15:41:24 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 15:41:24 - CELDA Anexo Informe de Fiscalización Ambiental
+2024-11-14 15:41:24 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+2024-11-14 15:41:34 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+2024-11-14 15:41:45 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 15:41:45 - El documento Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 15:41:45 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 15:41:45 - CELDA Informe de Fiscalización Ambiental
+2024-11-14 15:41:45 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+2024-11-14 15:41:48 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+2024-11-14 15:41:51 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 15:41:51 - El documento Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 15:41:51 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 15:41:51 - La ventana del navegador se cerró inesperadamente durante el procesamiento de filas.
+2024-11-14 15:41:54 - Terminando scraping.
+2024-11-14 15:41:54 - ***************************************
+2024-11-14 15:53:25 - Iniciando Scraping...
+2024-11-14 15:53:27 - Categoría 'Agroindustrias' seleccionada.
+2024-11-14 15:54:14 - Clic en el botón 'Buscar'.
+2024-11-14 15:54:15 - El modal de carga ha desaparecido.
+2024-11-14 15:54:15 - Procesando fila 1...
+2024-11-14 15:54:15 - FILAS: 1
+2024-11-14 15:54:15 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-11-14 15:54:15 - 1- Añadiendo Cliente a BD
+2024-11-14 15:54:15 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-11-14 15:54:15 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 15:54:15 - El modal de carga ha desaparecido.
+2024-11-14 15:54:16 - Clic en el enlace 'Ver detalle'.
+2024-11-14 15:54:17 - El modal de carga ha desaparecido.
+2024-11-14 15:54:18 - Nombre extraído: PLANTA FAENADORA DE AVES ARICA
+2024-11-14 15:54:18 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2593
+2024-11-14 15:54:18 - Ubicación extraída: Región de Arica y Parinacota
+2024-11-14 15:54:18 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 15:54:18 - Unidad Fiscalizable 'PLANTA FAENADORA DE AVES ARICA' ya existe en la base de datos.
+2024-11-14 15:54:18 - ID de unidad fiscalizable extraído: DFZ-2014-78-XV-RCA-IA
+2024-11-14 15:54:19 - Clic en la pestaña 'Documentos'.
+2024-11-14 15:54:19 - Sección 'Documentos' expandida.
+2024-11-14 15:54:19 - Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+2024-11-14 15:54:19 - CELDA Informe de Fiscalización Ambiental
+2024-11-14 15:54:19 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+2024-11-14 15:54:31 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+2024-11-14 15:54:42 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 15:54:42 - El documento Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 15:54:42 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 15:54:42 - Error inesperado al buscar el elemento con la palabra exacta 'Informe de Fiscalización Ambiental': Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6120238A5+3004357]
+	(No symbol) [0x00007FF611CB9970]
+	(No symbol) [0x00007FF611B6582A]
+	(No symbol) [0x00007FF611B3FA75]
+	(No symbol) [0x00007FF611BE2C77]
+	(No symbol) [0x00007FF611BFB351]
+	(No symbol) [0x00007FF611BDB983]
+	(No symbol) [0x00007FF611BA7628]
+	(No symbol) [0x00007FF611BA8791]
+	GetHandleVerifier [0x00007FF61204A00D+3161901]
+	GetHandleVerifier [0x00007FF61209E060+3506048]
+	GetHandleVerifier [0x00007FF61209400D+3465005]
+	GetHandleVerifier [0x00007FF611E10EEB+830987]
+	(No symbol) [0x00007FF611CC467F]
+	(No symbol) [0x00007FF611CC09D4]
+	(No symbol) [0x00007FF611CC0B6D]
+	(No symbol) [0x00007FF611CB0149]
+	BaseThreadInitThunk [0x00007FFAF6FF7374+20]
+	RtlUserThreadStart [0x00007FFAF7AFCC91+33]
+
+2024-11-14 15:54:42 - CELDA 
+2024-11-14 15:54:42 - Error inesperado al buscar el elemento con la palabra exacta 'Informe de Fiscalización Ambiental': Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6120238A5+3004357]
+	(No symbol) [0x00007FF611CB9970]
+	(No symbol) [0x00007FF611B6582A]
+	(No symbol) [0x00007FF611B3FA75]
+	(No symbol) [0x00007FF611BE2C77]
+	(No symbol) [0x00007FF611BFB351]
+	(No symbol) [0x00007FF611BDB983]
+	(No symbol) [0x00007FF611BA7628]
+	(No symbol) [0x00007FF611BA8791]
+	GetHandleVerifier [0x00007FF61204A00D+3161901]
+	GetHandleVerifier [0x00007FF61209E060+3506048]
+	GetHandleVerifier [0x00007FF61209400D+3465005]
+	GetHandleVerifier [0x00007FF611E10EEB+830987]
+	(No symbol) [0x00007FF611CC467F]
+	(No symbol) [0x00007FF611CC09D4]
+	(No symbol) [0x00007FF611CC0B6D]
+	(No symbol) [0x00007FF611CB0149]
+	BaseThreadInitThunk [0x00007FFAF6FF7374+20]
+	RtlUserThreadStart [0x00007FFAF7AFCC91+33]
+
+2024-11-14 15:54:42 - CELDA 
+2024-11-14 15:54:42 - Error inesperado al buscar el elemento con la palabra exacta 'Informe de Fiscalización Ambiental': Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6120238A5+3004357]
+	(No symbol) [0x00007FF611CB9970]
+	(No symbol) [0x00007FF611B6582A]
+	(No symbol) [0x00007FF611B3FA75]
+	(No symbol) [0x00007FF611BE2C77]
+	(No symbol) [0x00007FF611BFB351]
+	(No symbol) [0x00007FF611BDB983]
+	(No symbol) [0x00007FF611BA7628]
+	(No symbol) [0x00007FF611BA8791]
+	GetHandleVerifier [0x00007FF61204A00D+3161901]
+	GetHandleVerifier [0x00007FF61209E060+3506048]
+	GetHandleVerifier [0x00007FF61209400D+3465005]
+	GetHandleVerifier [0x00007FF611E10EEB+830987]
+	(No symbol) [0x00007FF611CC467F]
+	(No symbol) [0x00007FF611CC09D4]
+	(No symbol) [0x00007FF611CC0B6D]
+	(No symbol) [0x00007FF611CB0149]
+	BaseThreadInitThunk [0x00007FFAF6FF7374+20]
+	RtlUserThreadStart [0x00007FFAF7AFCC91+33]
+
+2024-11-14 15:54:42 - CELDA 
+2024-11-14 15:54:42 - Error inesperado al buscar el elemento con la palabra exacta 'Informe de Fiscalización Ambiental': Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6120238A5+3004357]
+	(No symbol) [0x00007FF611CB9970]
+	(No symbol) [0x00007FF611B6582A]
+	(No symbol) [0x00007FF611B3FA75]
+	(No symbol) [0x00007FF611BE2C77]
+	(No symbol) [0x00007FF611BFB351]
+	(No symbol) [0x00007FF611BDB983]
+	(No symbol) [0x00007FF611BA7628]
+	(No symbol) [0x00007FF611BA8791]
+	GetHandleVerifier [0x00007FF61204A00D+3161901]
+	GetHandleVerifier [0x00007FF61209E060+3506048]
+	GetHandleVerifier [0x00007FF61209400D+3465005]
+	GetHandleVerifier [0x00007FF611E10EEB+830987]
+	(No symbol) [0x00007FF611CC467F]
+	(No symbol) [0x00007FF611CC09D4]
+	(No symbol) [0x00007FF611CC0B6D]
+	(No symbol) [0x00007FF611CB0149]
+	BaseThreadInitThunk [0x00007FFAF6FF7374+20]
+	RtlUserThreadStart [0x00007FFAF7AFCC91+33]
+
+2024-11-14 15:54:42 - CELDA 
+2024-11-14 15:54:42 - La ventana del navegador se cerró inesperadamente durante el procesamiento de filas.
+2024-11-14 15:54:44 - Terminando scraping.
+2024-11-14 15:54:44 - ***************************************
+2024-11-14 15:57:51 - Iniciando Scraping...
+2024-11-14 15:57:52 - Categoría 'Agroindustrias' seleccionada.
+2024-11-14 15:58:36 - Clic en el botón 'Buscar'.
+2024-11-14 15:58:38 - El modal de carga ha desaparecido.
+2024-11-14 15:58:38 - Procesando fila 1...
+2024-11-14 15:58:38 - FILAS: 1
+2024-11-14 15:58:38 - Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+2024-11-14 15:58:38 - 1- Añadiendo Cliente a BD
+2024-11-14 15:58:38 - Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+2024-11-14 15:58:38 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 15:58:38 - El modal de carga ha desaparecido.
+2024-11-14 15:58:39 - Clic en el enlace 'Ver detalle'.
+2024-11-14 15:58:40 - El modal de carga ha desaparecido.
+2024-11-14 15:58:40 - Nombre extraído: PLANTA FAENADORA DE AVES ARICA
+2024-11-14 15:58:40 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2593
+2024-11-14 15:58:40 - Ubicación extraída: Región de Arica y Parinacota
+2024-11-14 15:58:40 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 15:58:40 - Unidad Fiscalizable 'PLANTA FAENADORA DE AVES ARICA' ya existe en la base de datos.
+2024-11-14 15:58:40 - ID de unidad fiscalizable extraído: DFZ-2014-78-XV-RCA-IA
+2024-11-14 15:58:40 - Clic en la pestaña 'Documentos'.
+2024-11-14 15:58:41 - Sección 'Documentos' expandida.
+2024-11-14 15:58:41 - Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+2024-11-14 15:58:41 - CELDA Informe de Fiscalización Ambiental
+2024-11-14 15:58:41 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+2024-11-14 15:58:50 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+2024-11-14 15:59:02 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 15:59:02 - El documento Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 15:59:02 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 15:59:02 - Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+2024-11-14 15:59:02 - CELDA Informe de Fiscalización Ambiental
+2024-11-14 15:59:02 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+2024-11-14 15:59:12 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+2024-11-14 15:59:23 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 15:59:23 - El documento Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 15:59:23 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 15:59:23 - Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+2024-11-14 15:59:23 - CELDA Informe de Fiscalización Ambiental
+2024-11-14 15:59:23 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+2024-11-14 15:59:27 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+2024-11-14 15:59:31 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 15:59:31 - El documento Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 15:59:31 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 15:59:31 - Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+2024-11-14 15:59:31 - CELDA Informe de Fiscalización Ambiental
+2024-11-14 15:59:31 - Error al procesar la fila de la tabla: Message: no such element: Unable to locate element: {"method":"xpath","selector":"./td[4]/a"}
+  (Session info: chrome=130.0.6723.117); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6120238A5+3004357]
+	(No symbol) [0x00007FF611CB9970]
+	(No symbol) [0x00007FF611B6582A]
+	(No symbol) [0x00007FF611BB5B8E]
+	(No symbol) [0x00007FF611BB5E7C]
+	(No symbol) [0x00007FF611BA93DC]
+	(No symbol) [0x00007FF611BDBC1F]
+	(No symbol) [0x00007FF611BA92A6]
+	(No symbol) [0x00007FF611BDBDF0]
+	(No symbol) [0x00007FF611BFBA4C]
+	(No symbol) [0x00007FF611BDB983]
+	(No symbol) [0x00007FF611BA7628]
+	(No symbol) [0x00007FF611BA8791]
+	GetHandleVerifier [0x00007FF61204A00D+3161901]
+	GetHandleVerifier [0x00007FF61209E060+3506048]
+	GetHandleVerifier [0x00007FF61209400D+3465005]
+	GetHandleVerifier [0x00007FF611E10EEB+830987]
+	(No symbol) [0x00007FF611CC467F]
+	(No symbol) [0x00007FF611CC09D4]
+	(No symbol) [0x00007FF611CC0B6D]
+	(No symbol) [0x00007FF611CB0149]
+	BaseThreadInitThunk [0x00007FFAF6FF7374+20]
+	RtlUserThreadStart [0x00007FFAF7AFCC91+33]
+
+2024-11-14 15:59:31 - Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+2024-11-14 15:59:31 - CELDA Informe de Fiscalización Ambiental
+2024-11-14 15:59:31 - Error al procesar la fila de la tabla: Message: no such element: Unable to locate element: {"method":"xpath","selector":"./td[4]/a"}
+  (Session info: chrome=130.0.6723.117); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6120238A5+3004357]
+	(No symbol) [0x00007FF611CB9970]
+	(No symbol) [0x00007FF611B6582A]
+	(No symbol) [0x00007FF611BB5B8E]
+	(No symbol) [0x00007FF611BB5E7C]
+	(No symbol) [0x00007FF611BA93DC]
+	(No symbol) [0x00007FF611BDBC1F]
+	(No symbol) [0x00007FF611BA92A6]
+	(No symbol) [0x00007FF611BDBDF0]
+	(No symbol) [0x00007FF611BFBA4C]
+	(No symbol) [0x00007FF611BDB983]
+	(No symbol) [0x00007FF611BA7628]
+	(No symbol) [0x00007FF611BA8791]
+	GetHandleVerifier [0x00007FF61204A00D+3161901]
+	GetHandleVerifier [0x00007FF61209E060+3506048]
+	GetHandleVerifier [0x00007FF61209400D+3465005]
+	GetHandleVerifier [0x00007FF611E10EEB+830987]
+	(No symbol) [0x00007FF611CC467F]
+	(No symbol) [0x00007FF611CC09D4]
+	(No symbol) [0x00007FF611CC0B6D]
+	(No symbol) [0x00007FF611CB0149]
+	BaseThreadInitThunk [0x00007FFAF6FF7374+20]
+	RtlUserThreadStart [0x00007FFAF7AFCC91+33]
+
+2024-11-14 15:59:54 - Volviendo a la página de resultados.
+2024-11-14 15:59:54 - Procesando fila 2...
+2024-11-14 15:59:54 - FILAS: 2
+2024-11-14 15:59:54 - Nombre del cliente extraído: AGRICOLA ARIZTIA
+2024-11-14 15:59:54 - 1- Añadiendo Cliente a BD
+2024-11-14 15:59:54 - Cliente 'AGRICOLA ARIZTIA' ya existe en la base de datos.
+2024-11-14 15:59:54 - Scroll hacia el enlace 'Ver detalle'.
+2024-11-14 15:59:54 - El modal de carga ha desaparecido.
+2024-11-14 15:59:55 - Clic en el enlace 'Ver detalle'.
+2024-11-14 15:59:56 - El modal de carga ha desaparecido.
+2024-11-14 15:59:56 - Nombre extraído: PLANTEL DE AVES DE LEYDA
+2024-11-14 15:59:56 - URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/1840
+2024-11-14 15:59:57 - Ubicación extraída: Región de Valparaíso
+2024-11-14 15:59:57 - 1- Añadiendo Unidad Fiscalizable a BD
+2024-11-14 15:59:57 - Unidad Fiscalizable 'PLANTEL DE AVES DE LEYDA' ya existe en la base de datos.
+2024-11-14 15:59:57 - ID de unidad fiscalizable extraído: DFZ-2014-2297-V-RCA-IA
+2024-11-14 15:59:57 - Clic en la pestaña 'Documentos'.
+2024-11-14 15:59:57 - Sección 'Documentos' expandida.
+2024-11-14 15:59:57 - Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+2024-11-14 15:59:57 - CELDA Informe de Fiscalización Ambiental
+2024-11-14 15:59:57 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001101
+2024-11-14 16:00:37 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf
+2024-11-14 16:01:21 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 16:01:21 - El documento Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 16:01:21 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 16:01:21 - Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+2024-11-14 16:01:21 - CELDA Informe de Fiscalización Ambiental
+2024-11-14 16:01:21 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001101
+2024-11-14 16:01:24 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf
+2024-11-14 16:01:30 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 16:01:30 - El documento Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 16:01:30 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 16:01:30 - Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+2024-11-14 16:01:30 - CELDA Informe de Fiscalización Ambiental
+2024-11-14 16:01:30 - Error al procesar la fila de la tabla: Message: no such element: Unable to locate element: {"method":"xpath","selector":"./td[4]/a"}
+  (Session info: chrome=130.0.6723.117); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6120238A5+3004357]
+	(No symbol) [0x00007FF611CB9970]
+	(No symbol) [0x00007FF611B6582A]
+	(No symbol) [0x00007FF611BB5B8E]
+	(No symbol) [0x00007FF611BB5E7C]
+	(No symbol) [0x00007FF611BA93DC]
+	(No symbol) [0x00007FF611BDBC1F]
+	(No symbol) [0x00007FF611BA92A6]
+	(No symbol) [0x00007FF611BDBDF0]
+	(No symbol) [0x00007FF611BFBA4C]
+	(No symbol) [0x00007FF611BDB983]
+	(No symbol) [0x00007FF611BA7628]
+	(No symbol) [0x00007FF611BA8791]
+	GetHandleVerifier [0x00007FF61204A00D+3161901]
+	GetHandleVerifier [0x00007FF61209E060+3506048]
+	GetHandleVerifier [0x00007FF61209400D+3465005]
+	GetHandleVerifier [0x00007FF611E10EEB+830987]
+	(No symbol) [0x00007FF611CC467F]
+	(No symbol) [0x00007FF611CC09D4]
+	(No symbol) [0x00007FF611CC0B6D]
+	(No symbol) [0x00007FF611CB0149]
+	BaseThreadInitThunk [0x00007FFAF6FF7374+20]
+	RtlUserThreadStart [0x00007FFAF7AFCC91+33]
+
+2024-11-14 16:01:30 - Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+2024-11-14 16:01:30 - CELDA Informe de Fiscalización Ambiental
+2024-11-14 16:01:30 - Error al procesar la fila de la tabla: Message: no such element: Unable to locate element: {"method":"xpath","selector":"./td[4]/a"}
+  (Session info: chrome=130.0.6723.117); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6120238A5+3004357]
+	(No symbol) [0x00007FF611CB9970]
+	(No symbol) [0x00007FF611B6582A]
+	(No symbol) [0x00007FF611BB5B8E]
+	(No symbol) [0x00007FF611BB5E7C]
+	(No symbol) [0x00007FF611BA93DC]
+	(No symbol) [0x00007FF611BDBC1F]
+	(No symbol) [0x00007FF611BA92A6]
+	(No symbol) [0x00007FF611BDBDF0]
+	(No symbol) [0x00007FF611BFBA4C]
+	(No symbol) [0x00007FF611BDB983]
+	(No symbol) [0x00007FF611BA7628]
+	(No symbol) [0x00007FF611BA8791]
+	GetHandleVerifier [0x00007FF61204A00D+3161901]
+	GetHandleVerifier [0x00007FF61209E060+3506048]
+	GetHandleVerifier [0x00007FF61209400D+3465005]
+	GetHandleVerifier [0x00007FF611E10EEB+830987]
+	(No symbol) [0x00007FF611CC467F]
+	(No symbol) [0x00007FF611CC09D4]
+	(No symbol) [0x00007FF611CC0B6D]
+	(No symbol) [0x00007FF611CB0149]
+	BaseThreadInitThunk [0x00007FFAF6FF7374+20]
+	RtlUserThreadStart [0x00007FFAF7AFCC91+33]
+
+2024-11-14 16:01:30 - Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+2024-11-14 16:01:30 - CELDA Informe de Fiscalización Ambiental
+2024-11-14 16:01:30 - Error al procesar la fila de la tabla: Message: no such element: Unable to locate element: {"method":"xpath","selector":"./td[4]/a"}
+  (Session info: chrome=130.0.6723.117); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6120238A5+3004357]
+	(No symbol) [0x00007FF611CB9970]
+	(No symbol) [0x00007FF611B6582A]
+	(No symbol) [0x00007FF611BB5B8E]
+	(No symbol) [0x00007FF611BB5E7C]
+	(No symbol) [0x00007FF611BA93DC]
+	(No symbol) [0x00007FF611BDBC1F]
+	(No symbol) [0x00007FF611BA92A6]
+	(No symbol) [0x00007FF611BDBDF0]
+	(No symbol) [0x00007FF611BFBA4C]
+	(No symbol) [0x00007FF611BDB983]
+	(No symbol) [0x00007FF611BA7628]
+	(No symbol) [0x00007FF611BA8791]
+	GetHandleVerifier [0x00007FF61204A00D+3161901]
+	GetHandleVerifier [0x00007FF61209E060+3506048]
+	GetHandleVerifier [0x00007FF61209400D+3465005]
+	GetHandleVerifier [0x00007FF611E10EEB+830987]
+	(No symbol) [0x00007FF611CC467F]
+	(No symbol) [0x00007FF611CC09D4]
+	(No symbol) [0x00007FF611CC0B6D]
+	(No symbol) [0x00007FF611CB0149]
+	BaseThreadInitThunk [0x00007FFAF6FF7374+20]
+	RtlUserThreadStart [0x00007FFAF7AFCC91+33]
+
+2024-11-14 16:01:30 - Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+2024-11-14 16:01:30 - CELDA Informe de Fiscalización Ambiental
+2024-11-14 16:01:30 - Error al procesar la fila de la tabla: Message: no such element: Unable to locate element: {"method":"xpath","selector":"./td[4]/a"}
+  (Session info: chrome=130.0.6723.117); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6120238A5+3004357]
+	(No symbol) [0x00007FF611CB9970]
+	(No symbol) [0x00007FF611B6582A]
+	(No symbol) [0x00007FF611BB5B8E]
+	(No symbol) [0x00007FF611BB5E7C]
+	(No symbol) [0x00007FF611BA93DC]
+	(No symbol) [0x00007FF611BDBC1F]
+	(No symbol) [0x00007FF611BA92A6]
+	(No symbol) [0x00007FF611BDBDF0]
+	(No symbol) [0x00007FF611BFBA4C]
+	(No symbol) [0x00007FF611BDB983]
+	(No symbol) [0x00007FF611BA7628]
+	(No symbol) [0x00007FF611BA8791]
+	GetHandleVerifier [0x00007FF61204A00D+3161901]
+	GetHandleVerifier [0x00007FF61209E060+3506048]
+	GetHandleVerifier [0x00007FF61209400D+3465005]
+	GetHandleVerifier [0x00007FF611E10EEB+830987]
+	(No symbol) [0x00007FF611CC467F]
+	(No symbol) [0x00007FF611CC09D4]
+	(No symbol) [0x00007FF611CC0B6D]
+	(No symbol) [0x00007FF611CB0149]
+	BaseThreadInitThunk [0x00007FFAF6FF7374+20]
+	RtlUserThreadStart [0x00007FFAF7AFCC91+33]
+
+2024-11-14 16:01:30 - Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+2024-11-14 16:01:30 - CELDA Informe de Fiscalización Ambiental
+2024-11-14 16:01:30 - Error al procesar la fila de la tabla: Message: no such element: Unable to locate element: {"method":"xpath","selector":"./td[4]/a"}
+  (Session info: chrome=130.0.6723.117); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6120238A5+3004357]
+	(No symbol) [0x00007FF611CB9970]
+	(No symbol) [0x00007FF611B6582A]
+	(No symbol) [0x00007FF611BB5B8E]
+	(No symbol) [0x00007FF611BB5E7C]
+	(No symbol) [0x00007FF611BA93DC]
+	(No symbol) [0x00007FF611BDBC1F]
+	(No symbol) [0x00007FF611BA92A6]
+	(No symbol) [0x00007FF611BDBDF0]
+	(No symbol) [0x00007FF611BFBA4C]
+	(No symbol) [0x00007FF611BDB983]
+	(No symbol) [0x00007FF611BA7628]
+	(No symbol) [0x00007FF611BA8791]
+	GetHandleVerifier [0x00007FF61204A00D+3161901]
+	GetHandleVerifier [0x00007FF61209E060+3506048]
+	GetHandleVerifier [0x00007FF61209400D+3465005]
+	GetHandleVerifier [0x00007FF611E10EEB+830987]
+	(No symbol) [0x00007FF611CC467F]
+	(No symbol) [0x00007FF611CC09D4]
+	(No symbol) [0x00007FF611CC0B6D]
+	(No symbol) [0x00007FF611CB0149]
+	BaseThreadInitThunk [0x00007FFAF6FF7374+20]
+	RtlUserThreadStart [0x00007FFAF7AFCC91+33]
+
+2024-11-14 16:01:30 - Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+2024-11-14 16:01:30 - CELDA Informe de Fiscalización Ambiental
+2024-11-14 16:01:30 - Error al procesar la fila de la tabla: Message: no such element: Unable to locate element: {"method":"xpath","selector":"./td[4]/a"}
+  (Session info: chrome=130.0.6723.117); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6120238A5+3004357]
+	(No symbol) [0x00007FF611CB9970]
+	(No symbol) [0x00007FF611B6582A]
+	(No symbol) [0x00007FF611BB5B8E]
+	(No symbol) [0x00007FF611BB5E7C]
+	(No symbol) [0x00007FF611BA93DC]
+	(No symbol) [0x00007FF611BDBC1F]
+	(No symbol) [0x00007FF611BA92A6]
+	(No symbol) [0x00007FF611BDBDF0]
+	(No symbol) [0x00007FF611BFBA4C]
+	(No symbol) [0x00007FF611BDB983]
+	(No symbol) [0x00007FF611BA7628]
+	(No symbol) [0x00007FF611BA8791]
+	GetHandleVerifier [0x00007FF61204A00D+3161901]
+	GetHandleVerifier [0x00007FF61209E060+3506048]
+	GetHandleVerifier [0x00007FF61209400D+3465005]
+	GetHandleVerifier [0x00007FF611E10EEB+830987]
+	(No symbol) [0x00007FF611CC467F]
+	(No symbol) [0x00007FF611CC09D4]
+	(No symbol) [0x00007FF611CC0B6D]
+	(No symbol) [0x00007FF611CB0149]
+	BaseThreadInitThunk [0x00007FFAF6FF7374+20]
+	RtlUserThreadStart [0x00007FFAF7AFCC91+33]
+
+2024-11-14 16:01:30 - Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+2024-11-14 16:01:30 - CELDA Informe de Fiscalización Ambiental
+2024-11-14 16:01:30 - URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001101
+2024-11-14 16:01:31 - Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf
+2024-11-14 16:01:32 - Error al verificar el documento PDF: EOF marker not found
+2024-11-14 16:01:32 - El documento Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+2024-11-14 16:01:32 - Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+2024-11-14 16:02:04 - Volviendo a la página de resultados.
+2024-11-14 16:02:07 - La ventana del navegador se cerró inesperadamente durante el procesamiento de filas.
+2024-11-14 16:02:11 - Terminando scraping.
+2024-11-14 16:02:11 - ***************************************

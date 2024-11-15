@@ -44,7 +44,7 @@
       </li>
     </ul>
     <!-- Div donde se mostrará el contenido de logs_scraping.txt -->
-    <div id="log-output" class="outputlogs" style="white-space: pre-wrap; border: 1px solid black; padding: 10px; height: 300px; overflow-y: scroll;">Cargando logs...</div>
+    <div id="log-output" class="outputlogs" style="white-space: pre-wrap; overflow-y: scroll;">Cargando logs...</div>
   </div>
 
 
@@ -96,10 +96,13 @@
             }
           } else if (data.error) {
             logOutput.textContent = 'Error: ' + data.error
+            console.error('Error al leer el archivo:', data.error)
           }
         })
         .catch((error) => {
-          document.getElementById('log-output').textContent = 'Error al obtener los logs: ' + error
+          const errorMessage = 'Error al obtener los logs: ' + error
+          document.getElementById('log-output').textContent = errorMessage
+          console.error(errorMessage)
         })
     }
     // Llama a la función fetchLogs para obtener los logs al cargar la página

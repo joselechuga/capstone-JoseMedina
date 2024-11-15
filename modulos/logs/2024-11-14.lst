@@ -1,0 +1,1180 @@
+INFO:root:Iniciando Scraping...
+INFO:root:Categoría 'Agroindustrias' seleccionada.
+INFO:root:Clic en el botón 'Buscar'.
+INFO:root:El modal de carga ha desaparecido.
+INFO:root:Procesando fila 1...
+INFO:root:FILAS: 1
+INFO:root:Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+INFO:root:Scroll hacia el enlace 'Ver detalle'.
+INFO:root:El modal de carga ha desaparecido.
+INFO:root:Clic en el enlace 'Ver detalle'.
+INFO:root:El modal de carga ha desaparecido.
+INFO:root:Nombre extraído: PLANTA FAENADORA DE AVES ARICA
+INFO:root:URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2593
+INFO:root:Ubicación extraída: Región de Arica y Parinacota
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:Unidad Fiscalizable 'PLANTA FAENADORA DE AVES ARICA' ya existe en la base de datos.
+INFO:root:ID de unidad fiscalizable extraído: DFZ-2014-78-XV-RCA-IA
+INFO:root:Clic en la pestaña 'Documentos'.
+INFO:root:Sección 'Documentos' expandida.
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA Informe de Fiscalización Ambiental
+INFO:root:URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+INFO:root:Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+INFO:root:Error al verificar el documento PDF: EOF marker not found
+INFO:root:El documento Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+INFO:root:Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA Informe de Fiscalización Ambiental
+INFO:root:URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+INFO:root:Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+INFO:root:Error al verificar el documento PDF: EOF marker not found
+INFO:root:El documento Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+INFO:root:Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+INFO:root:Error inesperado al buscar el elemento con la palabra exacta 'Informe de Fiscalización Ambiental': Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7847738A5+3004357]
+	(No symbol) [0x00007FF784409970]
+	(No symbol) [0x00007FF7842B582A]
+	(No symbol) [0x00007FF78428FA75]
+	(No symbol) [0x00007FF784332C77]
+	(No symbol) [0x00007FF78434B351]
+	(No symbol) [0x00007FF78432B983]
+	(No symbol) [0x00007FF7842F7628]
+	(No symbol) [0x00007FF7842F8791]
+	GetHandleVerifier [0x00007FF78479A00D+3161901]
+	GetHandleVerifier [0x00007FF7847EE060+3506048]
+	GetHandleVerifier [0x00007FF7847E400D+3465005]
+	GetHandleVerifier [0x00007FF784560EEB+830987]
+	(No symbol) [0x00007FF78441467F]
+	(No symbol) [0x00007FF7844109D4]
+	(No symbol) [0x00007FF784410B6D]
+	(No symbol) [0x00007FF784400149]
+	BaseThreadInitThunk [0x00007FFAF6FF7374+20]
+	RtlUserThreadStart [0x00007FFAF7AFCC91+33]
+
+INFO:root:CELDA 
+INFO:root:Error inesperado al buscar el elemento con la palabra exacta 'Informe de Fiscalización Ambiental': Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7847738A5+3004357]
+	(No symbol) [0x00007FF784409970]
+	(No symbol) [0x00007FF7842B582A]
+	(No symbol) [0x00007FF78428FA75]
+	(No symbol) [0x00007FF784332C77]
+	(No symbol) [0x00007FF78434B351]
+	(No symbol) [0x00007FF78432B983]
+	(No symbol) [0x00007FF7842F7628]
+	(No symbol) [0x00007FF7842F8791]
+	GetHandleVerifier [0x00007FF78479A00D+3161901]
+	GetHandleVerifier [0x00007FF7847EE060+3506048]
+	GetHandleVerifier [0x00007FF7847E400D+3465005]
+	GetHandleVerifier [0x00007FF784560EEB+830987]
+	(No symbol) [0x00007FF78441467F]
+	(No symbol) [0x00007FF7844109D4]
+	(No symbol) [0x00007FF784410B6D]
+	(No symbol) [0x00007FF784400149]
+	BaseThreadInitThunk [0x00007FFAF6FF7374+20]
+	RtlUserThreadStart [0x00007FFAF7AFCC91+33]
+
+INFO:root:CELDA 
+INFO:root:Error inesperado al buscar el elemento con la palabra exacta 'Informe de Fiscalización Ambiental': Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7847738A5+3004357]
+	(No symbol) [0x00007FF784409970]
+	(No symbol) [0x00007FF7842B582A]
+	(No symbol) [0x00007FF78428FA75]
+	(No symbol) [0x00007FF784332C77]
+	(No symbol) [0x00007FF78434B351]
+	(No symbol) [0x00007FF78432B983]
+	(No symbol) [0x00007FF7842F7628]
+	(No symbol) [0x00007FF7842F8791]
+	GetHandleVerifier [0x00007FF78479A00D+3161901]
+	GetHandleVerifier [0x00007FF7847EE060+3506048]
+	GetHandleVerifier [0x00007FF7847E400D+3465005]
+	GetHandleVerifier [0x00007FF784560EEB+830987]
+	(No symbol) [0x00007FF78441467F]
+	(No symbol) [0x00007FF7844109D4]
+	(No symbol) [0x00007FF784410B6D]
+	(No symbol) [0x00007FF784400149]
+	BaseThreadInitThunk [0x00007FFAF6FF7374+20]
+	RtlUserThreadStart [0x00007FFAF7AFCC91+33]
+
+INFO:root:CELDA 
+INFO:root:La ventana del navegador se cerró inesperadamente durante el procesamiento de filas.
+INFO:root:Terminando scraping.
+INFO:root:***************************************
+INFO:root:Iniciando Scraping...
+INFO:root:Categoría 'Agroindustrias' seleccionada.
+INFO:root:Clic en el botón 'Buscar'.
+INFO:root:El modal de carga ha desaparecido.
+INFO:root:Procesando fila 1...
+INFO:root:FILAS: 1
+INFO:root:Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+INFO:root:Scroll hacia el enlace 'Ver detalle'.
+INFO:root:El modal de carga ha desaparecido.
+INFO:root:Clic en el enlace 'Ver detalle'.
+INFO:root:El modal de carga ha desaparecido.
+INFO:root:Nombre extraído: PLANTA FAENADORA DE AVES ARICA
+INFO:root:URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2593
+INFO:root:Ubicación extraída: Región de Arica y Parinacota
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:Unidad Fiscalizable 'PLANTA FAENADORA DE AVES ARICA' ya existe en la base de datos.
+INFO:root:ID de unidad fiscalizable extraído: DFZ-2014-78-XV-RCA-IA
+INFO:root:Clic en la pestaña 'Documentos'.
+INFO:root:Sección 'Documentos' expandida.
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA Informe de Fiscalización Ambiental
+INFO:root:URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+INFO:root:Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+INFO:root:Error al verificar el documento PDF: EOF marker not found
+INFO:root:El documento Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+INFO:root:Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA Informe de Fiscalización Ambiental
+INFO:root:URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+INFO:root:Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+INFO:root:Error al verificar el documento PDF: EOF marker not found
+INFO:root:El documento Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+INFO:root:Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA Informe de Fiscalización Ambiental
+INFO:root:URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+INFO:root:Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+INFO:root:Error al verificar el documento PDF: EOF marker not found
+INFO:root:El documento Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+INFO:root:Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA Informe de Fiscalización Ambiental
+INFO:root:Error al procesar la fila de la tabla: Message: no such element: Unable to locate element: {"method":"xpath","selector":"./td[4]/a"}
+  (Session info: chrome=130.0.6723.117); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7847738A5+3004357]
+	(No symbol) [0x00007FF784409970]
+	(No symbol) [0x00007FF7842B582A]
+	(No symbol) [0x00007FF784305B8E]
+	(No symbol) [0x00007FF784305E7C]
+	(No symbol) [0x00007FF7842F93DC]
+	(No symbol) [0x00007FF78432BC1F]
+	(No symbol) [0x00007FF7842F92A6]
+	(No symbol) [0x00007FF78432BDF0]
+	(No symbol) [0x00007FF78434BA4C]
+	(No symbol) [0x00007FF78432B983]
+	(No symbol) [0x00007FF7842F7628]
+	(No symbol) [0x00007FF7842F8791]
+	GetHandleVerifier [0x00007FF78479A00D+3161901]
+	GetHandleVerifier [0x00007FF7847EE060+3506048]
+	GetHandleVerifier [0x00007FF7847E400D+3465005]
+	GetHandleVerifier [0x00007FF784560EEB+830987]
+	(No symbol) [0x00007FF78441467F]
+	(No symbol) [0x00007FF7844109D4]
+	(No symbol) [0x00007FF784410B6D]
+	(No symbol) [0x00007FF784400149]
+	BaseThreadInitThunk [0x00007FFAF6FF7374+20]
+	RtlUserThreadStart [0x00007FFAF7AFCC91+33]
+
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA Informe de Fiscalización Ambiental
+INFO:root:Error al procesar la fila de la tabla: Message: no such element: Unable to locate element: {"method":"xpath","selector":"./td[4]/a"}
+  (Session info: chrome=130.0.6723.117); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7847738A5+3004357]
+	(No symbol) [0x00007FF784409970]
+	(No symbol) [0x00007FF7842B582A]
+	(No symbol) [0x00007FF784305B8E]
+	(No symbol) [0x00007FF784305E7C]
+	(No symbol) [0x00007FF7842F93DC]
+	(No symbol) [0x00007FF78432BC1F]
+	(No symbol) [0x00007FF7842F92A6]
+	(No symbol) [0x00007FF78432BDF0]
+	(No symbol) [0x00007FF78434BA4C]
+	(No symbol) [0x00007FF78432B983]
+	(No symbol) [0x00007FF7842F7628]
+	(No symbol) [0x00007FF7842F8791]
+	GetHandleVerifier [0x00007FF78479A00D+3161901]
+	GetHandleVerifier [0x00007FF7847EE060+3506048]
+	GetHandleVerifier [0x00007FF7847E400D+3465005]
+	GetHandleVerifier [0x00007FF784560EEB+830987]
+	(No symbol) [0x00007FF78441467F]
+	(No symbol) [0x00007FF7844109D4]
+	(No symbol) [0x00007FF784410B6D]
+	(No symbol) [0x00007FF784400149]
+	BaseThreadInitThunk [0x00007FFAF6FF7374+20]
+	RtlUserThreadStart [0x00007FFAF7AFCC91+33]
+
+INFO:root:Volviendo a la página de resultados.
+INFO:root:La ventana del navegador se cerró inesperadamente durante el procesamiento de filas.
+INFO:root:Terminando scraping.
+INFO:root:***************************************
+INFO:root:Iniciando Scraping...
+INFO:root:Categoría 'Agroindustrias' seleccionada.
+INFO:root:Clic en el botón 'Buscar'.
+INFO:root:Terminando scraping.
+INFO:root:***************************************
+INFO:root:Iniciando Scraping...
+INFO:root:Categoría 'Agroindustrias' seleccionada.
+INFO:root:Clic en el botón 'Buscar'.
+INFO:root:El modal de carga ha desaparecido.
+INFO:root:Procesando fila 1...
+INFO:root:FILAS: 1
+INFO:root:Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+INFO:root:Scroll hacia el enlace 'Ver detalle'.
+INFO:root:El modal de carga ha desaparecido.
+INFO:root:Clic en el enlace 'Ver detalle'.
+INFO:root:El modal de carga ha desaparecido.
+INFO:root:Nombre extraído: PLANTA FAENADORA DE AVES ARICA
+INFO:root:URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2593
+INFO:root:Ubicación extraída: Región de Arica y Parinacota
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:Unidad Fiscalizable 'PLANTA FAENADORA DE AVES ARICA' ya existe en la base de datos.
+INFO:root:ID de unidad fiscalizable extraído: DFZ-2014-78-XV-RCA-IA
+INFO:root:Clic en la pestaña 'Documentos'.
+INFO:root:Sección 'Documentos' expandida.
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA Informe de Fiscalización Ambiental
+INFO:root:No se pudo encontrar el enlace de descarga, reintentando con cell_element...
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA Informe de Fiscalización Ambiental
+INFO:root:No se pudo encontrar el enlace de descarga, reintentando con cell_element...
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA Informe de Fiscalización Ambiental
+INFO:root:No se pudo encontrar el enlace de descarga, reintentando con cell_element...
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA Informe de Fiscalización Ambiental
+INFO:root:No se pudo encontrar el enlace de descarga, reintentando con cell_element...
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA Informe de Fiscalización Ambiental
+INFO:root:No se pudo encontrar el enlace de descarga, reintentando con cell_element...
+INFO:root:Volviendo a la página de resultados.
+INFO:root:La ventana del navegador se cerró inesperadamente durante el procesamiento de filas.
+INFO:root:Terminando scraping.
+INFO:root:***************************************
+INFO:root:Iniciando Scraping...
+INFO:root:Categoría 'Agroindustrias' seleccionada.
+INFO:root:Clic en el botón 'Buscar'.
+INFO:root:El modal de carga ha desaparecido.
+INFO:root:Procesando fila 1...
+INFO:root:FILAS: 1
+INFO:root:Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+INFO:root:Scroll hacia el enlace 'Ver detalle'.
+INFO:root:El modal de carga ha desaparecido.
+INFO:root:Clic en el enlace 'Ver detalle'.
+INFO:root:El modal de carga ha desaparecido.
+INFO:root:Nombre extraído: PLANTA FAENADORA DE AVES ARICA
+INFO:root:URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2593
+INFO:root:Ubicación extraída: Región de Arica y Parinacota
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:Unidad Fiscalizable 'PLANTA FAENADORA DE AVES ARICA' ya existe en la base de datos.
+INFO:root:ID de unidad fiscalizable extraído: DFZ-2014-78-XV-RCA-IA
+INFO:root:Clic en la pestaña 'Documentos'.
+INFO:root:Sección 'Documentos' expandida.
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA Informe de Fiscalización Ambiental
+INFO:root:URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+INFO:root:Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+INFO:root:Error al verificar el documento PDF: EOF marker not found
+INFO:root:El documento Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+INFO:root:Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA Informe de Fiscalización Ambiental
+INFO:root:URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+INFO:root:Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+INFO:root:Error al verificar el documento PDF: EOF marker not found
+INFO:root:El documento Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+INFO:root:Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA Informe de Fiscalización Ambiental
+INFO:root:URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+INFO:root:Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+INFO:root:Error al verificar el documento PDF: EOF marker not found
+INFO:root:El documento Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+INFO:root:Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA Informe de Fiscalización Ambiental
+INFO:root:URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+INFO:root:Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+INFO:root:Error al verificar el documento PDF: EOF marker not found
+INFO:root:El documento Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+INFO:root:Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA Informe de Fiscalización Ambiental
+INFO:root:URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+INFO:root:Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+INFO:root:Error al verificar el documento PDF: EOF marker not found
+INFO:root:El documento Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+INFO:root:Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+INFO:root:Volviendo a la página de resultados.
+INFO:root:Procesando fila 2...
+INFO:root:FILAS: 2
+INFO:root:Nombre del cliente extraído: AGRICOLA ARIZTIA
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:Cliente 'AGRICOLA ARIZTIA' ya existe en la base de datos.
+INFO:root:Scroll hacia el enlace 'Ver detalle'.
+INFO:root:El modal de carga ha desaparecido.
+INFO:root:Clic en el enlace 'Ver detalle'.
+INFO:root:El modal de carga ha desaparecido.
+INFO:root:Nombre extraído: PLANTEL DE AVES DE LEYDA
+INFO:root:URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/1840
+INFO:root:Ubicación extraída: Región de Valparaíso
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:Unidad Fiscalizable 'PLANTEL DE AVES DE LEYDA' ya existe en la base de datos.
+INFO:root:ID de unidad fiscalizable extraído: DFZ-2014-2297-V-RCA-IA
+INFO:root:Clic en la pestaña 'Documentos'.
+INFO:root:Sección 'Documentos' expandida.
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA Informe de Fiscalización Ambiental
+INFO:root:URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001101
+INFO:root:Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf
+INFO:root:Error al verificar el documento PDF: EOF marker not found
+INFO:root:El documento Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+INFO:root:Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA Informe de Fiscalización Ambiental
+INFO:root:URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001101
+INFO:root:Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf
+INFO:root:Error al verificar el documento PDF: EOF marker not found
+INFO:root:El documento Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+INFO:root:Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA Informe de Fiscalización Ambiental
+INFO:root:URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001101
+INFO:root:Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf
+INFO:root:Error al verificar el documento PDF: EOF marker not found
+INFO:root:El documento Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+INFO:root:Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA Informe de Fiscalización Ambiental
+INFO:root:URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001101
+INFO:root:Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf
+INFO:root:Error al verificar el documento PDF: EOF marker not found
+INFO:root:El documento Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+INFO:root:Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA Informe de Fiscalización Ambiental
+INFO:root:URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001101
+INFO:root:Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf
+INFO:root:Error al verificar el documento PDF: EOF marker not found
+INFO:root:El documento Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+INFO:root:Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA Informe de Fiscalización Ambiental
+INFO:root:URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001101
+INFO:root:Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf
+INFO:root:Error al verificar el documento PDF: EOF marker not found
+INFO:root:El documento Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+INFO:root:Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA Informe de Fiscalización Ambiental
+INFO:root:URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001101
+INFO:root:Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf
+INFO:root:Error al verificar el documento PDF: EOF marker not found
+INFO:root:El documento Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+INFO:root:Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA Informe de Fiscalización Ambiental
+INFO:root:URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001101
+INFO:root:Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf
+INFO:root:Error al verificar el documento PDF: EOF marker not found
+INFO:root:El documento Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+INFO:root:Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA Informe de Fiscalización Ambiental
+INFO:root:URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001101
+INFO:root:Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf
+INFO:root:Error al verificar el documento PDF: EOF marker not found
+INFO:root:El documento Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+INFO:root:Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+INFO:root:Volviendo a la página de resultados.
+INFO:root:Procesando fila 3...
+INFO:root:FILAS: 3
+INFO:root:Nombre del cliente extraído: AGRICOLA EL MONTE S.A.
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:Cliente 'AGRICOLA EL MONTE S.A.' ya existe en la base de datos.
+INFO:root:Scroll hacia el enlace 'Ver detalle'.
+INFO:root:El modal de carga ha desaparecido.
+INFO:root:Clic en el enlace 'Ver detalle'.
+INFO:root:El modal de carga ha desaparecido.
+INFO:root:Nombre extraído: CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A.
+INFO:root:URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/4495
+INFO:root:Ubicación extraída: Región Metropolitana
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:Unidad Fiscalizable 'CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A.' ya existe en la base de datos.
+INFO:root:ID de unidad fiscalizable extraído: DFZ-2014-347-XIII-RCA-IA
+INFO:root:Clic en la pestaña 'Documentos'.
+INFO:root:Sección 'Documentos' expandida.
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA Informe de Fiscalización Ambiental
+INFO:root:URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001114
+INFO:root:Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-347-XIII-RCA-IA.pdf
+INFO:root:Error al verificar el documento PDF: EOF marker not found
+INFO:root:El documento Informe de Fiscalización Ambiental_DFZ-2014-347-XIII-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+INFO:root:Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA Informe de Fiscalización Ambiental
+INFO:root:URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001114
+INFO:root:Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-347-XIII-RCA-IA.pdf
+INFO:root:Error al verificar el documento PDF: EOF marker not found
+INFO:root:El documento Informe de Fiscalización Ambiental_DFZ-2014-347-XIII-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+INFO:root:Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+INFO:root:Error inesperado al buscar el elemento con la palabra exacta 'Informe de Fiscalización Ambiental': Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F31638A5+3004357]
+	(No symbol) [0x00007FF6F2DF9970]
+	(No symbol) [0x00007FF6F2CA582A]
+	(No symbol) [0x00007FF6F2C7FA75]
+	(No symbol) [0x00007FF6F2D22C77]
+	(No symbol) [0x00007FF6F2D3B351]
+	(No symbol) [0x00007FF6F2D1B983]
+	(No symbol) [0x00007FF6F2CE7628]
+	(No symbol) [0x00007FF6F2CE8791]
+	GetHandleVerifier [0x00007FF6F318A00D+3161901]
+	GetHandleVerifier [0x00007FF6F31DE060+3506048]
+	GetHandleVerifier [0x00007FF6F31D400D+3465005]
+	GetHandleVerifier [0x00007FF6F2F50EEB+830987]
+	(No symbol) [0x00007FF6F2E0467F]
+	(No symbol) [0x00007FF6F2E009D4]
+	(No symbol) [0x00007FF6F2E00B6D]
+	(No symbol) [0x00007FF6F2DF0149]
+	BaseThreadInitThunk [0x00007FFAF6FF7374+20]
+	RtlUserThreadStart [0x00007FFAF7AFCC91+33]
+
+INFO:root:CELDA 
+INFO:root:Error inesperado al buscar el elemento con la palabra exacta 'Informe de Fiscalización Ambiental': Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F31638A5+3004357]
+	(No symbol) [0x00007FF6F2DF9970]
+	(No symbol) [0x00007FF6F2CA582A]
+	(No symbol) [0x00007FF6F2C7FA75]
+	(No symbol) [0x00007FF6F2D22C77]
+	(No symbol) [0x00007FF6F2D3B351]
+	(No symbol) [0x00007FF6F2D1B983]
+	(No symbol) [0x00007FF6F2CE7628]
+	(No symbol) [0x00007FF6F2CE8791]
+	GetHandleVerifier [0x00007FF6F318A00D+3161901]
+	GetHandleVerifier [0x00007FF6F31DE060+3506048]
+	GetHandleVerifier [0x00007FF6F31D400D+3465005]
+	GetHandleVerifier [0x00007FF6F2F50EEB+830987]
+	(No symbol) [0x00007FF6F2E0467F]
+	(No symbol) [0x00007FF6F2E009D4]
+	(No symbol) [0x00007FF6F2E00B6D]
+	(No symbol) [0x00007FF6F2DF0149]
+	BaseThreadInitThunk [0x00007FFAF6FF7374+20]
+	RtlUserThreadStart [0x00007FFAF7AFCC91+33]
+
+INFO:root:CELDA 
+INFO:root:Error inesperado al buscar el elemento con la palabra exacta 'Informe de Fiscalización Ambiental': Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F31638A5+3004357]
+	(No symbol) [0x00007FF6F2DF9970]
+	(No symbol) [0x00007FF6F2CA582A]
+	(No symbol) [0x00007FF6F2C7FA75]
+	(No symbol) [0x00007FF6F2D22C77]
+	(No symbol) [0x00007FF6F2D3B351]
+	(No symbol) [0x00007FF6F2D1B983]
+	(No symbol) [0x00007FF6F2CE7628]
+	(No symbol) [0x00007FF6F2CE8791]
+	GetHandleVerifier [0x00007FF6F318A00D+3161901]
+	GetHandleVerifier [0x00007FF6F31DE060+3506048]
+	GetHandleVerifier [0x00007FF6F31D400D+3465005]
+	GetHandleVerifier [0x00007FF6F2F50EEB+830987]
+	(No symbol) [0x00007FF6F2E0467F]
+	(No symbol) [0x00007FF6F2E009D4]
+	(No symbol) [0x00007FF6F2E00B6D]
+	(No symbol) [0x00007FF6F2DF0149]
+	BaseThreadInitThunk [0x00007FFAF6FF7374+20]
+	RtlUserThreadStart [0x00007FFAF7AFCC91+33]
+
+INFO:root:CELDA 
+INFO:root:Error inesperado al buscar el elemento con la palabra exacta 'Informe de Fiscalización Ambiental': Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F31638A5+3004357]
+	(No symbol) [0x00007FF6F2DF9970]
+	(No symbol) [0x00007FF6F2CA582A]
+	(No symbol) [0x00007FF6F2C7FA75]
+	(No symbol) [0x00007FF6F2D22C77]
+	(No symbol) [0x00007FF6F2D3B351]
+	(No symbol) [0x00007FF6F2D1B983]
+	(No symbol) [0x00007FF6F2CE7628]
+	(No symbol) [0x00007FF6F2CE8791]
+	GetHandleVerifier [0x00007FF6F318A00D+3161901]
+	GetHandleVerifier [0x00007FF6F31DE060+3506048]
+	GetHandleVerifier [0x00007FF6F31D400D+3465005]
+	GetHandleVerifier [0x00007FF6F2F50EEB+830987]
+	(No symbol) [0x00007FF6F2E0467F]
+	(No symbol) [0x00007FF6F2E009D4]
+	(No symbol) [0x00007FF6F2E00B6D]
+	(No symbol) [0x00007FF6F2DF0149]
+	BaseThreadInitThunk [0x00007FFAF6FF7374+20]
+	RtlUserThreadStart [0x00007FFAF7AFCC91+33]
+
+INFO:root:CELDA 
+INFO:root:Error inesperado al buscar el elemento con la palabra exacta 'Informe de Fiscalización Ambiental': Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F31638A5+3004357]
+	(No symbol) [0x00007FF6F2DF9970]
+	(No symbol) [0x00007FF6F2CA582A]
+	(No symbol) [0x00007FF6F2C7FA75]
+	(No symbol) [0x00007FF6F2D22C77]
+	(No symbol) [0x00007FF6F2D3B351]
+	(No symbol) [0x00007FF6F2D1B983]
+	(No symbol) [0x00007FF6F2CE7628]
+	(No symbol) [0x00007FF6F2CE8791]
+	GetHandleVerifier [0x00007FF6F318A00D+3161901]
+	GetHandleVerifier [0x00007FF6F31DE060+3506048]
+	GetHandleVerifier [0x00007FF6F31D400D+3465005]
+	GetHandleVerifier [0x00007FF6F2F50EEB+830987]
+	(No symbol) [0x00007FF6F2E0467F]
+	(No symbol) [0x00007FF6F2E009D4]
+	(No symbol) [0x00007FF6F2E00B6D]
+	(No symbol) [0x00007FF6F2DF0149]
+	BaseThreadInitThunk [0x00007FFAF6FF7374+20]
+	RtlUserThreadStart [0x00007FFAF7AFCC91+33]
+
+INFO:root:CELDA 
+INFO:root:La ventana del navegador se cerró inesperadamente durante el procesamiento de filas.
+INFO:root:Terminando scraping.
+INFO:root:***************************************
+INFO:root:Iniciando Scraping...
+INFO:root:Categoría 'Agroindustrias' seleccionada.
+INFO:root:Clic en el botón 'Buscar'.
+INFO:root:El modal de carga ha desaparecido.
+INFO:root:Procesando fila 1...
+INFO:root:FILAS: 1
+INFO:root:Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+INFO:root:Scroll hacia el enlace 'Ver detalle'.
+INFO:root:El modal de carga ha desaparecido.
+INFO:root:Clic en el enlace 'Ver detalle'.
+INFO:root:El modal de carga ha desaparecido.
+INFO:root:Nombre extraído: PLANTA FAENADORA DE AVES ARICA
+INFO:root:URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2593
+INFO:root:Ubicación extraída: Región de Arica y Parinacota
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:Unidad Fiscalizable 'PLANTA FAENADORA DE AVES ARICA' ya existe en la base de datos.
+INFO:root:ID de unidad fiscalizable extraído: DFZ-2014-78-XV-RCA-IA
+INFO:root:Clic en la pestaña 'Documentos'.
+INFO:root:Sección 'Documentos' expandida.
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA Informe de Fiscalización Ambiental
+INFO:root:URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+INFO:root:Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+INFO:root:Informe de Fiscalización Ambiental
+INFO:root:Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+INFO:root:--------------------------
+INFO:root:Error al verificar el documento PDF: EOF marker not found
+INFO:root:El documento Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+INFO:root:Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA 
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA 
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA 
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA 
+INFO:root:Volviendo a la página de resultados.
+INFO:root:Procesando fila 2...
+INFO:root:FILAS: 2
+INFO:root:Nombre del cliente extraído: AGRICOLA ARIZTIA
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:Cliente 'AGRICOLA ARIZTIA' ya existe en la base de datos.
+INFO:root:Scroll hacia el enlace 'Ver detalle'.
+INFO:root:El modal de carga ha desaparecido.
+INFO:root:Clic en el enlace 'Ver detalle'.
+INFO:root:El modal de carga ha desaparecido.
+INFO:root:Nombre extraído: PLANTEL DE AVES DE LEYDA
+INFO:root:URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/1840
+INFO:root:Ubicación extraída: Región de Valparaíso
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:Unidad Fiscalizable 'PLANTEL DE AVES DE LEYDA' ya existe en la base de datos.
+INFO:root:ID de unidad fiscalizable extraído: DFZ-2014-2297-V-RCA-IA
+INFO:root:Clic en la pestaña 'Documentos'.
+INFO:root:Sección 'Documentos' expandida.
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA Informe de Fiscalización Ambiental
+INFO:root:URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001101
+INFO:root:Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001101
+INFO:root:Informe de Fiscalización Ambiental
+INFO:root:Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf
+INFO:root:--------------------------
+INFO:root:Error al verificar el documento PDF: EOF marker not found
+INFO:root:El documento Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+INFO:root:Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA Informe de Fiscalización Ambiental
+INFO:root:URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001101
+INFO:root:Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001101
+INFO:root:Informe de Fiscalización Ambiental
+INFO:root:Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf
+INFO:root:--------------------------
+INFO:root:Error al verificar el documento PDF: EOF marker not found
+INFO:root:El documento Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+INFO:root:Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA Informe de Fiscalización Ambiental
+INFO:root:URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001101
+INFO:root:Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001101
+INFO:root:Informe de Fiscalización Ambiental
+INFO:root:Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf
+INFO:root:--------------------------
+INFO:root:Error al verificar el documento PDF: EOF marker not found
+INFO:root:El documento Informe de Fiscalización Ambiental_DFZ-2014-2297-V-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+INFO:root:Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+INFO:root:Error inesperado al buscar el elemento con la palabra exacta 'Informe de Fiscalización Ambiental': Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F31638A5+3004357]
+	(No symbol) [0x00007FF6F2DF9970]
+	(No symbol) [0x00007FF6F2CA582A]
+	(No symbol) [0x00007FF6F2C7FA75]
+	(No symbol) [0x00007FF6F2D22C77]
+	(No symbol) [0x00007FF6F2D3B351]
+	(No symbol) [0x00007FF6F2D1B983]
+	(No symbol) [0x00007FF6F2CE7628]
+	(No symbol) [0x00007FF6F2CE8791]
+	GetHandleVerifier [0x00007FF6F318A00D+3161901]
+	GetHandleVerifier [0x00007FF6F31DE060+3506048]
+	GetHandleVerifier [0x00007FF6F31D400D+3465005]
+	GetHandleVerifier [0x00007FF6F2F50EEB+830987]
+	(No symbol) [0x00007FF6F2E0467F]
+	(No symbol) [0x00007FF6F2E009D4]
+	(No symbol) [0x00007FF6F2E00B6D]
+	(No symbol) [0x00007FF6F2DF0149]
+	BaseThreadInitThunk [0x00007FFAF6FF7374+20]
+	RtlUserThreadStart [0x00007FFAF7AFCC91+33]
+
+INFO:root:CELDA 
+INFO:root:Error inesperado al buscar el elemento con la palabra exacta 'Informe de Fiscalización Ambiental': Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F31638A5+3004357]
+	(No symbol) [0x00007FF6F2DF9970]
+	(No symbol) [0x00007FF6F2CA582A]
+	(No symbol) [0x00007FF6F2C7FA75]
+	(No symbol) [0x00007FF6F2D22C77]
+	(No symbol) [0x00007FF6F2D3B351]
+	(No symbol) [0x00007FF6F2D1B983]
+	(No symbol) [0x00007FF6F2CE7628]
+	(No symbol) [0x00007FF6F2CE8791]
+	GetHandleVerifier [0x00007FF6F318A00D+3161901]
+	GetHandleVerifier [0x00007FF6F31DE060+3506048]
+	GetHandleVerifier [0x00007FF6F31D400D+3465005]
+	GetHandleVerifier [0x00007FF6F2F50EEB+830987]
+	(No symbol) [0x00007FF6F2E0467F]
+	(No symbol) [0x00007FF6F2E009D4]
+	(No symbol) [0x00007FF6F2E00B6D]
+	(No symbol) [0x00007FF6F2DF0149]
+	BaseThreadInitThunk [0x00007FFAF6FF7374+20]
+	RtlUserThreadStart [0x00007FFAF7AFCC91+33]
+
+INFO:root:CELDA 
+INFO:root:Error inesperado al buscar el elemento con la palabra exacta 'Informe de Fiscalización Ambiental': Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F31638A5+3004357]
+	(No symbol) [0x00007FF6F2DF9970]
+	(No symbol) [0x00007FF6F2CA582A]
+	(No symbol) [0x00007FF6F2C7FA75]
+	(No symbol) [0x00007FF6F2D22C77]
+	(No symbol) [0x00007FF6F2D3B351]
+	(No symbol) [0x00007FF6F2D1B983]
+	(No symbol) [0x00007FF6F2CE7628]
+	(No symbol) [0x00007FF6F2CE8791]
+	GetHandleVerifier [0x00007FF6F318A00D+3161901]
+	GetHandleVerifier [0x00007FF6F31DE060+3506048]
+	GetHandleVerifier [0x00007FF6F31D400D+3465005]
+	GetHandleVerifier [0x00007FF6F2F50EEB+830987]
+	(No symbol) [0x00007FF6F2E0467F]
+	(No symbol) [0x00007FF6F2E009D4]
+	(No symbol) [0x00007FF6F2E00B6D]
+	(No symbol) [0x00007FF6F2DF0149]
+	BaseThreadInitThunk [0x00007FFAF6FF7374+20]
+	RtlUserThreadStart [0x00007FFAF7AFCC91+33]
+
+INFO:root:CELDA 
+INFO:root:Error inesperado al buscar el elemento con la palabra exacta 'Informe de Fiscalización Ambiental': Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F31638A5+3004357]
+	(No symbol) [0x00007FF6F2DF9970]
+	(No symbol) [0x00007FF6F2CA582A]
+	(No symbol) [0x00007FF6F2C7FA75]
+	(No symbol) [0x00007FF6F2D22C77]
+	(No symbol) [0x00007FF6F2D3B351]
+	(No symbol) [0x00007FF6F2D1B983]
+	(No symbol) [0x00007FF6F2CE7628]
+	(No symbol) [0x00007FF6F2CE8791]
+	GetHandleVerifier [0x00007FF6F318A00D+3161901]
+	GetHandleVerifier [0x00007FF6F31DE060+3506048]
+	GetHandleVerifier [0x00007FF6F31D400D+3465005]
+	GetHandleVerifier [0x00007FF6F2F50EEB+830987]
+	(No symbol) [0x00007FF6F2E0467F]
+	(No symbol) [0x00007FF6F2E009D4]
+	(No symbol) [0x00007FF6F2E00B6D]
+	(No symbol) [0x00007FF6F2DF0149]
+	BaseThreadInitThunk [0x00007FFAF6FF7374+20]
+	RtlUserThreadStart [0x00007FFAF7AFCC91+33]
+
+INFO:root:CELDA 
+INFO:root:Error inesperado al buscar el elemento con la palabra exacta 'Informe de Fiscalización Ambiental': Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F31638A5+3004357]
+	(No symbol) [0x00007FF6F2DF9970]
+	(No symbol) [0x00007FF6F2CA582A]
+	(No symbol) [0x00007FF6F2C7FA75]
+	(No symbol) [0x00007FF6F2D22C77]
+	(No symbol) [0x00007FF6F2D3B351]
+	(No symbol) [0x00007FF6F2D1B983]
+	(No symbol) [0x00007FF6F2CE7628]
+	(No symbol) [0x00007FF6F2CE8791]
+	GetHandleVerifier [0x00007FF6F318A00D+3161901]
+	GetHandleVerifier [0x00007FF6F31DE060+3506048]
+	GetHandleVerifier [0x00007FF6F31D400D+3465005]
+	GetHandleVerifier [0x00007FF6F2F50EEB+830987]
+	(No symbol) [0x00007FF6F2E0467F]
+	(No symbol) [0x00007FF6F2E009D4]
+	(No symbol) [0x00007FF6F2E00B6D]
+	(No symbol) [0x00007FF6F2DF0149]
+	BaseThreadInitThunk [0x00007FFAF6FF7374+20]
+	RtlUserThreadStart [0x00007FFAF7AFCC91+33]
+
+INFO:root:CELDA 
+INFO:root:Error inesperado al buscar el elemento con la palabra exacta 'Informe de Fiscalización Ambiental': Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F31638A5+3004357]
+	(No symbol) [0x00007FF6F2DF9970]
+	(No symbol) [0x00007FF6F2CA582A]
+	(No symbol) [0x00007FF6F2C7FA75]
+	(No symbol) [0x00007FF6F2D22C77]
+	(No symbol) [0x00007FF6F2D3B351]
+	(No symbol) [0x00007FF6F2D1B983]
+	(No symbol) [0x00007FF6F2CE7628]
+	(No symbol) [0x00007FF6F2CE8791]
+	GetHandleVerifier [0x00007FF6F318A00D+3161901]
+	GetHandleVerifier [0x00007FF6F31DE060+3506048]
+	GetHandleVerifier [0x00007FF6F31D400D+3465005]
+	GetHandleVerifier [0x00007FF6F2F50EEB+830987]
+	(No symbol) [0x00007FF6F2E0467F]
+	(No symbol) [0x00007FF6F2E009D4]
+	(No symbol) [0x00007FF6F2E00B6D]
+	(No symbol) [0x00007FF6F2DF0149]
+	BaseThreadInitThunk [0x00007FFAF6FF7374+20]
+	RtlUserThreadStart [0x00007FFAF7AFCC91+33]
+
+INFO:root:CELDA 
+INFO:root:La ventana del navegador se cerró inesperadamente durante el procesamiento de filas.
+INFO:root:Terminando scraping.
+INFO:root:***************************************
+INFO:root:Iniciando Scraping...
+INFO:root:Categoría 'Agroindustrias' seleccionada.
+INFO:root:Clic en el botón 'Buscar'.
+INFO:root:El modal de carga ha desaparecido.
+INFO:root:Procesando fila 1...
+INFO:root:FILAS: 1
+INFO:root:Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:2- El usuario ha sido recibido
+INFO:root:Cliente 'AGROINDUSTRIAL ARICA' añadido a la base de datos.
+INFO:root:Scroll hacia el enlace 'Ver detalle'.
+INFO:root:El modal de carga ha desaparecido.
+INFO:root:Clic en el enlace 'Ver detalle'.
+INFO:root:El modal de carga ha desaparecido.
+INFO:root:Nombre extraído: PLANTA FAENADORA DE AVES ARICA
+INFO:root:URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2593
+INFO:root:Ubicación extraída: Región de Arica y Parinacota
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:2- La unidad fiscalizable ha sido añadida
+INFO:root:Unidad Fiscalizable 'PLANTA FAENADORA DE AVES ARICA' añadida a la base de datos.
+INFO:root:ID de unidad fiscalizable extraído: DFZ-2014-78-XV-RCA-IA
+INFO:root:Clic en la pestaña 'Documentos'.
+INFO:root:Sección 'Documentos' expandida.
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA Informe de Fiscalización Ambiental
+INFO:root:URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+INFO:root:Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+INFO:root:Informe de Fiscalización Ambiental
+INFO:root:Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+INFO:root:--------------------------
+INFO:root:Error al verificar el documento PDF: EOF marker not found
+INFO:root:El documento Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+INFO:root:Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA Informe de Fiscalización Ambiental
+INFO:root:URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+INFO:root:Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+INFO:root:Informe de Fiscalización Ambiental
+INFO:root:Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+INFO:root:--------------------------
+INFO:root:Error al verificar el documento PDF: EOF marker not found
+INFO:root:El documento Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+INFO:root:Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA Informe de Fiscalización Ambiental
+INFO:root:URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+INFO:root:Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+INFO:root:Informe de Fiscalización Ambiental
+INFO:root:Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+INFO:root:--------------------------
+INFO:root:Error al verificar el documento PDF: EOF marker not found
+INFO:root:El documento Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+INFO:root:Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA Informe de Fiscalización Ambiental
+INFO:root:URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+INFO:root:Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+INFO:root:Informe de Fiscalización Ambiental
+INFO:root:Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+INFO:root:--------------------------
+INFO:root:Error al verificar el documento PDF: EOF marker not found
+INFO:root:El documento Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+INFO:root:Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA Informe de Fiscalización Ambiental
+INFO:root:URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+INFO:root:Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+INFO:root:Informe de Fiscalización Ambiental
+INFO:root:Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+INFO:root:--------------------------
+INFO:root:Error al verificar el documento PDF: EOF marker not found
+INFO:root:El documento Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+INFO:root:Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+INFO:root:Volviendo a la página de resultados.
+INFO:root:La ventana del navegador se cerró inesperadamente durante el procesamiento de filas.
+INFO:root:Terminando scraping.
+INFO:root:***************************************
+INFO:root:Iniciando Scraping...
+INFO:root:Categoría 'Agroindustrias' seleccionada.
+INFO:root:Clic en el botón 'Buscar'.
+INFO:root:El modal de carga ha desaparecido.
+INFO:root:Procesando fila 1...
+INFO:root:FILAS: 1
+INFO:root:Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+INFO:root:Scroll hacia el enlace 'Ver detalle'.
+INFO:root:El modal de carga ha desaparecido.
+INFO:root:Clic en el enlace 'Ver detalle'.
+INFO:root:El modal de carga ha desaparecido.
+INFO:root:Nombre extraído: PLANTA FAENADORA DE AVES ARICA
+INFO:root:URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2593
+INFO:root:Ubicación extraída: Región de Arica y Parinacota
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:Unidad Fiscalizable 'PLANTA FAENADORA DE AVES ARICA' ya existe en la base de datos.
+INFO:root:NOMBRE U F: PLANTA FAENADORA DE AVES ARICA
+INFO:root:ID de unidad fiscalizable extraído: DFZ-2014-78-XV-RCA-IA
+INFO:root:Clic en la pestaña 'Documentos'.
+INFO:root:Sección 'Documentos' expandida.
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA Informe de Fiscalización Ambiental
+INFO:root:URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+INFO:root:Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+INFO:root:Informe de Fiscalización Ambiental
+INFO:root:Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+INFO:root:--------------------------
+INFO:root:Error al verificar el documento PDF: EOF marker not found
+INFO:root:El documento Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+INFO:root:Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA Informe de Fiscalización Ambiental
+INFO:root:URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+INFO:root:Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+INFO:root:Informe de Fiscalización Ambiental
+INFO:root:Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+INFO:root:--------------------------
+INFO:root:Error al verificar el documento PDF: EOF marker not found
+INFO:root:El documento Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+INFO:root:Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA Informe de Fiscalización Ambiental
+INFO:root:URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+INFO:root:Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+INFO:root:Informe de Fiscalización Ambiental
+INFO:root:Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf
+INFO:root:--------------------------
+INFO:root:Error al verificar el documento PDF: EOF marker not found
+INFO:root:El documento Informe de Fiscalización Ambiental_DFZ-2014-78-XV-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+INFO:root:Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+INFO:root:Error inesperado al buscar el elemento con la palabra exacta 'Informe de Fiscalización Ambiental': Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00007FF685E938A5+3004357]
+	(No symbol) [0x00007FF685B29970]
+	(No symbol) [0x00007FF6859D582A]
+	(No symbol) [0x00007FF6859AFA75]
+	(No symbol) [0x00007FF685A52C77]
+	(No symbol) [0x00007FF685A6B351]
+	(No symbol) [0x00007FF685A4B983]
+	(No symbol) [0x00007FF685A17628]
+	(No symbol) [0x00007FF685A18791]
+	GetHandleVerifier [0x00007FF685EBA00D+3161901]
+	GetHandleVerifier [0x00007FF685F0E060+3506048]
+	GetHandleVerifier [0x00007FF685F0400D+3465005]
+	GetHandleVerifier [0x00007FF685C80EEB+830987]
+	(No symbol) [0x00007FF685B3467F]
+	(No symbol) [0x00007FF685B309D4]
+	(No symbol) [0x00007FF685B30B6D]
+	(No symbol) [0x00007FF685B20149]
+	BaseThreadInitThunk [0x00007FFAF6FF7374+20]
+	RtlUserThreadStart [0x00007FFAF7AFCC91+33]
+
+INFO:root:CELDA 
+INFO:root:Error inesperado al buscar el elemento con la palabra exacta 'Informe de Fiscalización Ambiental': Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00007FF685E938A5+3004357]
+	(No symbol) [0x00007FF685B29970]
+	(No symbol) [0x00007FF6859D582A]
+	(No symbol) [0x00007FF6859AFA75]
+	(No symbol) [0x00007FF685A52C77]
+	(No symbol) [0x00007FF685A6B351]
+	(No symbol) [0x00007FF685A4B983]
+	(No symbol) [0x00007FF685A17628]
+	(No symbol) [0x00007FF685A18791]
+	GetHandleVerifier [0x00007FF685EBA00D+3161901]
+	GetHandleVerifier [0x00007FF685F0E060+3506048]
+	GetHandleVerifier [0x00007FF685F0400D+3465005]
+	GetHandleVerifier [0x00007FF685C80EEB+830987]
+	(No symbol) [0x00007FF685B3467F]
+	(No symbol) [0x00007FF685B309D4]
+	(No symbol) [0x00007FF685B30B6D]
+	(No symbol) [0x00007FF685B20149]
+	BaseThreadInitThunk [0x00007FFAF6FF7374+20]
+	RtlUserThreadStart [0x00007FFAF7AFCC91+33]
+
+INFO:root:CELDA 
+INFO:root:La ventana del navegador se cerró inesperadamente durante el procesamiento de filas.
+INFO:root:Terminando scraping.
+INFO:root:***************************************
+INFO:root:Iniciando Scraping...
+INFO:root:Categoría 'Agroindustrias' seleccionada.
+INFO:root:Clic en el botón 'Buscar'.
+INFO:root:El modal de carga ha desaparecido.
+INFO:root:Procesando fila 1...
+INFO:root:FILAS: 1
+INFO:root:Nombre del cliente extraído: AGROINDUSTRIAL ARICA
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:Cliente 'AGROINDUSTRIAL ARICA' ya existe en la base de datos.
+INFO:root:Scroll hacia el enlace 'Ver detalle'.
+INFO:root:El modal de carga ha desaparecido.
+INFO:root:Clic en el enlace 'Ver detalle'.
+INFO:root:El modal de carga ha desaparecido.
+INFO:root:Nombre extraído: PLANTA FAENADORA DE AVES ARICA
+INFO:root:URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2593
+INFO:root:Ubicación extraída: Región de Arica y Parinacota
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:Unidad Fiscalizable 'PLANTA FAENADORA DE AVES ARICA' ya existe en la base de datos.
+INFO:root:NOMBRE U F: PLANTA FAENADORA DE AVES ARICA
+INFO:root:ID de unidad fiscalizable extraído: DFZ-2014-78-XV-RCA-IA
+INFO:root:Clic en la pestaña 'Documentos'.
+INFO:root:PLANTA FAENADORA DE AVES ARICA
+INFO:root:Sección 'Documentos' expandida.
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA 
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA 
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA 
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA 
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA 
+INFO:root:Volviendo a la página de resultados.
+INFO:root:Procesando fila 2...
+INFO:root:FILAS: 2
+INFO:root:Nombre del cliente extraído: AGRICOLA ARIZTIA
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:2- El usuario ha sido recibido
+INFO:root:Cliente 'AGRICOLA ARIZTIA' añadido a la base de datos.
+INFO:root:Scroll hacia el enlace 'Ver detalle'.
+INFO:root:El modal de carga ha desaparecido.
+INFO:root:Clic en el enlace 'Ver detalle'.
+INFO:root:El modal de carga ha desaparecido.
+INFO:root:Nombre extraído: PLANTEL DE AVES DE LEYDA
+INFO:root:URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/1840
+INFO:root:Ubicación extraída: Región de Valparaíso
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:2- La unidad fiscalizable ha sido añadida
+INFO:root:Unidad Fiscalizable 'PLANTEL DE AVES DE LEYDA' añadida a la base de datos.
+INFO:root:NOMBRE U F: PLANTEL DE AVES DE LEYDA
+INFO:root:ID de unidad fiscalizable extraído: DFZ-2014-2297-V-RCA-IA
+INFO:root:Clic en la pestaña 'Documentos'.
+INFO:root:PLANTEL DE AVES DE LEYDA
+INFO:root:Sección 'Documentos' expandida.
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA 
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA 
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA 
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA 
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA 
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA 
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA 
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA 
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA 
+INFO:root:Volviendo a la página de resultados.
+INFO:root:Procesando fila 3...
+INFO:root:FILAS: 3
+INFO:root:Nombre del cliente extraído: AGRICOLA EL MONTE S.A.
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:2- El usuario ha sido recibido
+INFO:root:Cliente 'AGRICOLA EL MONTE S.A.' añadido a la base de datos.
+INFO:root:Scroll hacia el enlace 'Ver detalle'.
+INFO:root:El modal de carga ha desaparecido.
+INFO:root:Clic en el enlace 'Ver detalle'.
+INFO:root:El modal de carga ha desaparecido.
+INFO:root:Nombre extraído: CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A.
+INFO:root:URL extraída: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/4495
+INFO:root:Ubicación extraída: Región Metropolitana
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:2- La unidad fiscalizable ha sido añadida
+INFO:root:Unidad Fiscalizable 'CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A.' añadida a la base de datos.
+INFO:root:NOMBRE U F: CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A.
+INFO:root:ID de unidad fiscalizable extraído: DFZ-2014-347-XIII-RCA-IA
+INFO:root:Clic en la pestaña 'Documentos'.
+INFO:root:CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A.
+INFO:root:Sección 'Documentos' expandida.
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA 
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA 
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA 
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA Informe de Fiscalización Ambiental
+INFO:root:Informe de Fiscalización Ambiental
+INFO:root:URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001114
+INFO:root:Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-347-XIII-RCA-IA.pdf
+INFO:root:Informe de Fiscalización Ambiental
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001114
+INFO:root:Informe de Fiscalización Ambiental
+INFO:root:Informe de Fiscalización Ambiental_DFZ-2014-347-XIII-RCA-IA.pdf
+INFO:root:--------------------------
+INFO:root:Error al verificar el documento PDF: EOF marker not found
+INFO:root:El documento Informe de Fiscalización Ambiental_DFZ-2014-347-XIII-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+INFO:root:Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA Informe de Fiscalización Ambiental
+INFO:root:Informe de Fiscalización Ambiental
+INFO:root:URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001114
+INFO:root:Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-347-XIII-RCA-IA.pdf
+INFO:root:Informe de Fiscalización Ambiental
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001114
+INFO:root:Informe de Fiscalización Ambiental
+INFO:root:Informe de Fiscalización Ambiental_DFZ-2014-347-XIII-RCA-IA.pdf
+INFO:root:--------------------------
+INFO:root:Error al verificar el documento PDF: EOF marker not found
+INFO:root:El documento Informe de Fiscalización Ambiental_DFZ-2014-347-XIII-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+INFO:root:Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA Informe de Fiscalización Ambiental
+INFO:root:Informe de Fiscalización Ambiental
+INFO:root:URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001114
+INFO:root:Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-347-XIII-RCA-IA.pdf
+INFO:root:Informe de Fiscalización Ambiental
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001114
+INFO:root:Informe de Fiscalización Ambiental
+INFO:root:Informe de Fiscalización Ambiental_DFZ-2014-347-XIII-RCA-IA.pdf
+INFO:root:--------------------------
+INFO:root:Error al verificar el documento PDF: EOF marker not found
+INFO:root:El documento Informe de Fiscalización Ambiental_DFZ-2014-347-XIII-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+INFO:root:Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:CELDA Informe de Fiscalización Ambiental
+INFO:root:Informe de Fiscalización Ambiental
+INFO:root:URL de la página donde se encuentra el documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001114
+INFO:root:Documento descargado como: Informe de Fiscalización Ambiental_DFZ-2014-347-XIII-RCA-IA.pdf
+INFO:root:Informe de Fiscalización Ambiental
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001114
+INFO:root:Informe de Fiscalización Ambiental
+INFO:root:Informe de Fiscalización Ambiental_DFZ-2014-347-XIII-RCA-IA.pdf
+INFO:root:--------------------------
+INFO:root:Error al verificar el documento PDF: EOF marker not found
+INFO:root:El documento Informe de Fiscalización Ambiental_DFZ-2014-347-XIII-RCA-IA.pdf está incompleto o corrupto. Intentando descargar de nuevo...
+INFO:root:Documento 'Informe de Fiscalización Ambiental' descargado y procesado.
+INFO:root:Terminando scraping.
+INFO:root:***************************************
