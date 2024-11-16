@@ -196,8 +196,8 @@ def get_ubicacion(driver):
 def get_nombre_u_fiscalizable(driver):
     logging.info("""Extrayendo el nombre de la unidad fiscalizable...""")
     try:
-        nombre_element = WebDriverWait(driver, 10).until( # esperando al modal para luego buscar en la ruta
-            EC.presence_of_element_located((By.XPATH, "/html/body/div[6]/div[4]/div/div/div/div/div[2]/div[3]/table/tbody/tr[1]/td[3]/ul/li/text()"))
+        nombre_element = WebDriverWait(driver, 10).until(
+            EC.presence_of_element_located((By.XPATH, "/html/body/div[6]/div[3]/div/div[2]/div/div/div/div[1]/div/ul/li/a"))
         )
         nombre_u_fiscalizable = nombre_element.text.strip()
         logging.info(f"Nombre de unidad fiscalizable extraído: {nombre_u_fiscalizable}")
@@ -270,7 +270,7 @@ def expand_document_section(driver):
         logging.info(f"Error inesperado al intentar expandir la sección 'Documentos': {e}")
 
 # Recorrer las filas de la tabla de documentos
-def process_document_table(driver, ID_unidad_fiscalizable,nombre_unidad, search_phrase):
+def process_document_table(driver, ID_unidad_fiscalizable, search_phrase):
     """Recorre las filas de la tabla y descarga los documentos que correspondan."""
     try:
         expand_document_section(driver)
@@ -295,10 +295,14 @@ def process_document_table(driver, ID_unidad_fiscalizable,nombre_unidad, search_
                     link_element = cell_element.find_element(By.XPATH, "../td[4]/a")
                     download_url = link_element.get_attribute('href')
                     document_name = "Informe de Fiscalización Ambiental"
-                    logging.info(nombre_unidad)
-                    download_document(driver, download_url, document_name, ID_unidad_fiscalizable, nombre_unidad)
-                    if "Anexo" not in document_name and "ANEXO" not in document_name and not download_url.endswith('.zip'):
-                        logging.info(f"Documento '{document_name}' descargado y procesado.")
+                    
+                    # Extraer el nombre de la unidad fiscalizable
+                    nombre_unidad = get_nombre_u_fiscalizable(driver)
+                    
+                    if nombre_unidad:
+                        download_document(driver, download_url, document_name, ID_unidad_fiscalizable, nombre_unidad)
+                        if "Anexo" not in document_name and "ANEXO" not in document_name and not download_url.endswith('.zip'):
+                            logging.info(f"Documento '{document_name}' descargado y procesado.")
                 except NoSuchElementException:
                     logging.info("No se pudo encontrar el enlace de descarga, reintentando con cell_element...")
                     continue  # Volver a intentar encontrar el enlace
@@ -481,7 +485,7 @@ def process_row(driver, row, i):
     click_documentos_tab(driver)
     documento = "Informe de Fiscalización Ambiental"
     logging.info(nombre_unidad)
-    process_document_table(driver, ID_unidad_fiscalizable, documento, nombre_unidad)
+    process_document_table(driver, ID_unidad_fiscalizable, documento)
     driver.back()
     logging.info("Volviendo a la página de resultados.")
     if ID_unidad_fiscalizable:

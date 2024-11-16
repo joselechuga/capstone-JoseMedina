@@ -15,15 +15,9 @@
 .accordion-button, .ul {
     background-color: #212D3E;
     color: #ffffff;
+    border: none;
 }
 
-.accordion .accordion-button:not(.collapsed)::after {
-  color: #ffffff !important; /* Flecha en blanco cuando el acordeón está abierto */
-}
-
-.accordion .accordion-button.collapsed::after {
-  color: #ffffff !important; /* Flecha en blanco cuando el acordeón está cerrado */
-}
 
 
 .inicio-collapsed::after {
@@ -185,6 +179,9 @@ li, .subopcion-item, .card-body, .card {
     background-color: #212D3E;
     color: #ffffff;
     border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -211,7 +208,8 @@ li, .subopcion-item, .card-body, .card {
     font-weight: bold;
     line-height: 3;
     cursor: pointer;
-    background-color: rgba(1,84,160,1);
+    background-color: #212D3E;
+    /*background-color: rgba(1,84,160,1);*/
   }
   
   .tab-content {
