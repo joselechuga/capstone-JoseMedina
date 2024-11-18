@@ -35,7 +35,13 @@
               {% endif %}
             {% endfor %}
           </td>
-          <td>@documento</td> <!-- Reemplaza con el campo correspondiente -->
+          <td>
+            {% for documento in documentos %}
+              {% if documento.unidad_fiscalizable.cliente == cliente %}
+                {{ documento.nombre_documento }}<br>
+              {% endif %}
+            {% endfor %}
+          </td>
         </tr>
         {% endfor %}
       </tbody>

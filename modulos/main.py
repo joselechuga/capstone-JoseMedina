@@ -9,6 +9,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException, TimeoutException, StaleElementReferenceException, ElementClickInterceptedException, ElementNotInteractableException, NoSuchWindowException
 import subprocess
 import logging  # Importa el módulo logging para registrar información en un archivo de registro
+from PyPDF2 import PdfReader  # Asegúrate de importar PdfReader aquí
 
 # Suponiendo que 'fecha' es una variable que contiene la fecha actual en el formato deseado
 fecha = time.strftime("%Y-%m-%d")
@@ -330,56 +331,60 @@ def buscar_elemento_por_palabra(driver, palabra):
 # descargar documento en formato PDF con ID de U.Fiscalizable
 def download_document(driver, download_url, document_name, ID_unidad_fiscalizable, nombre_unidad):
     """Descarga el documento en formato PDF con un nombre personalizado y sobrescribe si existe. Luego, escanea el documento en busca de palabras clave."""
-    try:
-        # Obtener la URL de la página actual
-        current_page_url = driver.current_url
-        logging.info(f"URL de la página donde se encuentra el documento: {current_page_url}")
+    max_retries = 3
+    retries = 0
+    while retries < max_retries:
+        try:
+            # Obtener la URL de la página actual
+            current_page_url = driver.current_url
+            logging.info(f"URL de la página donde se encuentra el documento: {current_page_url}")
 
-        # Asegurarse de que todos los documentos contengan el ID de unidad fiscalizable en el nombre
-        if not document_name.endswith(f"_{ID_unidad_fiscalizable}"):
-            document_name = f"{document_name}_{ID_unidad_fiscalizable}"
-        
-        file_name = f"{document_name}.pdf"
-        file_path = os.path.join(download_dir, file_name)
+            # Asegurarse de que todos los documentos contengan el ID de unidad fiscalizable en el nombre
+            if not document_name.endswith(f"_{ID_unidad_fiscalizable}"):
+                document_name = f"{document_name}_{ID_unidad_fiscalizable}"
+            
+            file_name = f"{document_name}.pdf"
+            file_path = os.path.join(download_dir, file_name)
 
-        # Si el archivo existe se sobrescribe
-        if os.path.exists(file_path):
-            os.remove(file_path)
-            logging.info(f"Archivo {file_name} ya existe y será reemplazado.")
+            # Si el archivo existe se sobrescribe
+            if os.path.exists(file_path):
+                os.remove(file_path)
+                logging.info(f"Archivo {file_name} ya existe y será reemplazado.")
 
-        response = requests.get(download_url, stream=True)
-        with open(file_path, 'wb') as file:
-            file.write(response.content)
+            response = requests.get(download_url, stream=True)
+            with open(file_path, 'wb') as file:
+                file.write(response.content)
 
-        logging.info(f"Documento descargado como: {file_name}")
-        logging.info(nombre_unidad)
-        
-        # Guardar el documento en la base de datos
-        add_documento(current_page_url, nombre_unidad, file_name)
-        
-        # Verificar si el archivo está completo
-        if not is_pdf_complete(file_path):
-            logging.info(f"El documento {file_name} está incompleto o corrupto. Intentando descargar de nuevo...")
-            os.remove(file_path)
-            return
+            logging.info(f"Documento descargado como: {file_name}")
+            logging.info(nombre_unidad)
+            
+            # Guardar el documento en la base de datos
+            add_documento(current_page_url, nombre_unidad, file_name)
+            
+            # Verificar si el archivo está completo
+            if is_pdf_complete(file_path):
+                logging.info(f"Documento '{document_name}' descargado y procesado.")
+                break
+            else:
+                logging.info(f"El documento {file_name} está incompleto o corrupto. Intentando descargar de nuevo...")
+                os.remove(file_path)
+                retries += 1
 
-        # Iniciar funciones del documento escaneado.py para el archivo recién descargado
-        from modulos.escaneado import buscar_palabras, procesar_documentos
-        contenido = procesar_documentos(download_dir)
-        buscar_palabras(contenido, file_name)
+        except Exception as e:
+            logging.info(f"Error al descargar el documento: {e}")
+            retries += 1
 
-    except Exception as e:
-        logging.info(f"Error al descargar el documento: {e}")
+    if retries == max_retries:
+        logging.info(f"Falló la descarga del documento {document_name} después de {max_retries} intentos.")
 
 def is_pdf_complete(file_path):
     """Verifica si el archivo PDF está completo."""
     try:
-        from PyPDF2 import PdfReader
-        with open(file_path, 'rb') as file:
-            reader = PdfReader(file)
-            # Intentar leer el documento para verificar su integridad
-            reader.pages
-        return True
+        with open(file_path, 'rb') as f:
+            reader = PdfReader(f)
+            # Intenta leer el número de páginas para verificar la integridad
+            num_pages = len(reader.pages)
+            return num_pages > 0
     except Exception as e:
         logging.info(f"Error al verificar el documento PDF: {e}")
         return False

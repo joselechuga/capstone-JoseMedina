@@ -145,4 +145,5 @@ def get_logs(request):
 def snifa(request):
     clientes = Cliente.objects.all()
     unidades = UnidadFiscalizable.objects.all()
-    return render(request, 'snifa.html',  {'clientes': clientes, 'unidades': unidades})
+    documentos = Documento.objects.all()
+    return render(request, 'snifa.html', {'clientes': clientes, 'unidades': unidades, 'documentos': documentos})
