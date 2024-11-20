@@ -14,5 +14,6 @@ urlpatterns = [
     path('run-script/', views.run_script, name='run_script'),
     path('get-logs/', views.get_logs, name='get_logs'),
     path('snifa/', views.snifa, name='snifa'),
+    path('get-progress/', views.get_progress, name='get_progress'),
 
 ]

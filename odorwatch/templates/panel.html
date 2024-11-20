@@ -32,11 +32,16 @@
 
   <div class="container">
     <!-- Botón para ejecutar el script -->
-
-    <!-- Button trigger modal -->
     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Iniciar Scraping</button>
 
     <br><br><br>
+
+    <!-- Barra de progreso -->
+    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+      <div id="progress-bar" class="progress-bar" style="width: 0%"></div>
+    </div>
+
+    <br><br>
 
     <ul class="nav nav-tabs">
       <li class="nav-item">
@@ -52,65 +57,74 @@
 
 <!-- SCRIPTS -->
 {% block scripts %}
-  <!-- Ejecutar archivo main.py desde boton -->
   <script>
     document.getElementById('runScriptBtn').addEventListener('click', function () {
+      // Iniciar la barra de progreso
+      updateProgressBar(0);
+
       // Hacer la solicitud AJAX
       fetch("{% url 'run_script' %}")
         .then((response) => response.json())
         .then((data) => {
-          // Mostrar la salida del script en el elemento <pre>
           if (data.output) {
-            //document.getElementById('scriptOutput').textContent = data.output;
-            console.log('Ejecutado correctamente, logs en logs_scraping.txt')
+            console.log('Ejecutado correctamente');
+            updateProgressBar(100); // Completa la barra de progreso al finalizar
           } else if (data.error) {
-            //document.getElementById('scriptOutput').textContent = data.error;
-            console.log('ERROR: ', data.error)
+            console.log('ERROR: ', data.error);
           }
         })
-        .catch((error) => console.error('Error al ejecutar el script:', error))
-    })
-  </script>
+        .catch((error) => console.error('Error al ejecutar el script:', error));
+    });
 
-  
-  <!-- Lectura y prints de logs en pantalla del html -->
-  <script>
+    function updateProgressBar(percentage) {
+      const progressBar = document.getElementById('progress-bar');
+      progressBar.style.width = percentage + '%';
+      progressBar.setAttribute('aria-valuenow', percentage);
+      progressBar.textContent = percentage + '%'; // Mostrar el porcentaje en la barra
+    }
+
     function fetchLogs() {
-      // Realiza una solicitud al backend para obtener los logs
       fetch('/get-logs/')
         .then((response) => response.json())
         .then((data) => {
-          const logOutput = document.getElementById('log-output')
-          const isScrolledToBottom = logOutput.scrollHeight - logOutput.clientHeight <= logOutput.scrollTop + 1
+          const logOutput = document.getElementById('log-output');
+          const isScrolledToBottom = logOutput.scrollHeight - logOutput.clientHeight <= logOutput.scrollTop + 1;
           if (data.logs) {
-            // Limpia el contenido del div antes de añadir los logs
-            logOutput.textContent = ''
-            // Añade las últimas 100 líneas del log al div
-            const last100Logs = data.logs.slice(-100)
+            logOutput.textContent = '';
+            const last100Logs = data.logs.slice(-100);
             last100Logs.forEach((log) => {
-              logOutput.textContent += log + '\n'
-            })
-            // Si el usuario estaba al final, mantenerlo al final
+              logOutput.textContent += log + '\n';
+            });
             if (isScrolledToBottom) {
-              logOutput.scrollTop = logOutput.scrollHeight
+              logOutput.scrollTop = logOutput.scrollHeight;
             }
           } else if (data.error) {
-            logOutput.textContent = 'Error: ' + data.error
-            console.error('Error al leer el archivo:', data.error)
+            logOutput.textContent = 'Error: ' + data.error;
+            console.error('Error al leer el archivo:', data.error);
           }
         })
         .catch((error) => {
-          const errorMessage = 'Error al obtener los logs: ' + error
-          document.getElementById('log-output').textContent = errorMessage
-          console.error(errorMessage)
-        })
+          const errorMessage = 'Error al obtener los logs: ' + error;
+          document.getElementById('log-output').textContent = errorMessage;
+          console.error(errorMessage);
+        });
     }
-    // Llama a la función fetchLogs para obtener los logs al cargar la página
-    fetchLogs()
-    // Si deseas actualizar los logs periódicamente cada 5 segundos:
-    setInterval(fetchLogs, 2000) // Actualiza cada 5 segundos
-  </script>
 
-  <script src="{% static 'js/recargapanel.js' %}"></script>
-  <script src="https://kit.fontawesome.com/97e73bf1af.js" crossorigin="anonymous"></script>
+    fetchLogs();
+    setInterval(fetchLogs, 2000);
+
+    function checkProgress() {
+      fetch('/get-progress/')
+        .then((response) => response.json())
+        .then((data) => {
+          if (data.progress !== undefined) {
+            updateProgressBar(data.progress);
+          }
+        })
+        .catch((error) => console.error('Error al obtener el progreso:', error));
+    }
+
+    // Llama a checkProgress periódicamente
+    setInterval(checkProgress, 1000);
+  </script>
 {% endblock %}

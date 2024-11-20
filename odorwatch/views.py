@@ -147,3 +147,13 @@ def snifa(request):
     unidades = UnidadFiscalizable.objects.all()
     documentos = Documento.objects.all()
     return render(request, 'snifa.html', {'clientes': clientes, 'unidades': unidades, 'documentos': documentos})
+
+def get_progress(request):
+    try:
+        with open('progreso.txt', 'r') as f:
+            progress = f.read().strip()
+        print(f"Progreso leído: {progress}")
+        return JsonResponse({'progress': int(progress)})
+    except Exception as e:
+        print(f"Error al obtener el progreso: {str(e)}")
+        return JsonResponse({'error': f'Error al obtener el progreso: {str(e)}'})
