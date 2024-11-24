@@ -1,0 +1,544 @@
+INFO:root:****************************************
+INFO:root:Iniciando Scraping . . .
+INFO:root:Esperando a que desaparezca el modal
+INFO:root:El modal ha desaparecido
+INFO:root:--------------------
+INFO:root:Fila 1:
+INFO:root:  Id_fiscalizable: DFZ-2014-78-XV-RCA-IA
+INFO:root:  Clientes: AGROINDUSTRIAL ARICA
+INFO:root:  Unidad_fiscalizable: PLANTA FAENADORA DE AVES ARICA
+INFO:root:  Ubicacion: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2593
+INFO:root:URL actual de la página del documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004526
+INFO:root:Tiempo de espera agotado al intentar hacer clic en el enlace.
+INFO:root:Tabla de búsqueda desplegada.
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004526
+INFO:root:Archivo renombrado a: C:\Users\José\OneDrive - Fundacion Instituto Profesional Duoc UC\Escritorio\PY-Inventario-CAPSTONE\capstone-JoseMedina-4\modulos\Descargas\IFA_PLANTA FAENADORA DE AVES ARICA.pdf
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+INFO:root:PLANTA FAENADORA DE AVES ARICA
+INFO:root:IFA_PLANTA FAENADORA DE AVES ARICA
+INFO:root:--------------------------
+INFO:root:Esperando a que desaparezca el modal
+INFO:root:El modal ha desaparecido
+INFO:root:--------------------
+INFO:root:Fila 2:
+INFO:root:  Id_fiscalizable: DFZ-2014-2297-V-RCA-IA
+INFO:root:  Clientes: AGRICOLA ARIZTIA, AVICOLA ANDINA SPA
+INFO:root:  Unidad_fiscalizable: PLANTEL DE AVES DE LEYDA
+INFO:root:  Ubicacion: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/1840
+INFO:root:URL actual de la página del documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001101
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004786
+INFO:root:Tiempo de espera agotado al intentar hacer clic en el enlace.
+INFO:root:Tabla de búsqueda desplegada.
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004786
+INFO:root:Archivo renombrado a: C:\Users\José\OneDrive - Fundacion Instituto Profesional Duoc UC\Escritorio\PY-Inventario-CAPSTONE\capstone-JoseMedina-4\modulos\Descargas\IFA_PLANTEL DE AVES DE LEYDA.pdf
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001101
+INFO:root:PLANTEL DE AVES DE LEYDA
+INFO:root:IFA_PLANTEL DE AVES DE LEYDA
+INFO:root:--------------------------
+INFO:root:Esperando a que desaparezca el modal
+INFO:root:El modal ha desaparecido
+INFO:root:--------------------
+INFO:root:Fila 3:
+INFO:root:  Id_fiscalizable: DFZ-2014-347-XIII-RCA-IA
+INFO:root:  Clientes: AGRICOLA EL MONTE S.A.
+INFO:root:  Unidad_fiscalizable: CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A.
+INFO:root:  Ubicacion: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/4495
+INFO:root:URL actual de la página del documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001114
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004630
+INFO:root:Tiempo de espera agotado al intentar hacer clic en el enlace.
+INFO:root:Tabla de búsqueda desplegada.
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004630
+INFO:root:Archivo renombrado a: C:\Users\José\OneDrive - Fundacion Instituto Profesional Duoc UC\Escritorio\PY-Inventario-CAPSTONE\capstone-JoseMedina-4\modulos\Descargas\IFA_CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A..pdf
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001114
+INFO:root:CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A.
+INFO:root:IFA_CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A.
+INFO:root:--------------------------
+INFO:root:Esperando a que desaparezca el modal
+INFO:root:El modal ha desaparecido
+INFO:root:--------------------
+INFO:root:Fila 4:
+INFO:root:  Id_fiscalizable: DFZ-2014-179-XIII-RCA-IA
+INFO:root:  Clientes: AGRICOLA SUPER LIMITADA
+INFO:root:  Unidad_fiscalizable: CERDOS LA MANGA - AGROSUPER
+INFO:root:  Ubicacion: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/4494
+INFO:root:URL actual de la página del documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001124
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104005427
+INFO:root:Tiempo de espera agotado al intentar hacer clic en el enlace.
+INFO:root:Tabla de búsqueda desplegada.
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104005427
+INFO:root:Archivo renombrado a: C:\Users\José\OneDrive - Fundacion Instituto Profesional Duoc UC\Escritorio\PY-Inventario-CAPSTONE\capstone-JoseMedina-4\modulos\Descargas\IFA_CERDOS LA MANGA - AGROSUPER.pdf
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001124
+INFO:root:CERDOS LA MANGA - AGROSUPER
+INFO:root:IFA_CERDOS LA MANGA - AGROSUPER
+INFO:root:--------------------------
+INFO:root:Esperando a que desaparezca el modal
+INFO:root:El modal ha desaparecido
+INFO:root:--------------------
+INFO:root:Fila 5:
+INFO:root:  Id_fiscalizable: DFZ-2014-245-VI-RCA-IA
+INFO:root:  Clientes: AGRICOLA SUPER LIMITADA
+INFO:root:  Unidad_fiscalizable: AGROSUPER - CERDOS LA ESTRELLA
+INFO:root:  Ubicacion: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2180
+INFO:root:URL actual de la página del documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001132
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104006561
+INFO:root:Tiempo de espera agotado al intentar hacer clic en el enlace.
+INFO:root:Tabla de búsqueda desplegada.
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104006561
+INFO:root:Archivo renombrado a: C:\Users\José\OneDrive - Fundacion Instituto Profesional Duoc UC\Escritorio\PY-Inventario-CAPSTONE\capstone-JoseMedina-4\modulos\Descargas\IFA_AGROSUPER - CERDOS LA ESTRELLA.pdf
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001132
+INFO:root:AGROSUPER - CERDOS LA ESTRELLA
+INFO:root:IFA_AGROSUPER - CERDOS LA ESTRELLA
+INFO:root:--------------------------
+INFO:root:Esperando a que desaparezca el modal
+INFO:root:Error al esperar que el modal desaparezca: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF67ABE6CB5+28821]
+	(No symbol) [0x00007FF67AB53840]
+	(No symbol) [0x00007FF67A9F578A]
+	(No symbol) [0x00007FF67A9CF4F5]
+	(No symbol) [0x00007FF67AA76247]
+	(No symbol) [0x00007FF67AA8ECE2]
+	(No symbol) [0x00007FF67AA6F0A3]
+	(No symbol) [0x00007FF67AA3A778]
+	(No symbol) [0x00007FF67AA3B8E1]
+	GetHandleVerifier [0x00007FF67AF1FCAD+3408013]
+	GetHandleVerifier [0x00007FF67AF3741F+3504127]
+	GetHandleVerifier [0x00007FF67AF2B5FD+3455453]
+	GetHandleVerifier [0x00007FF67ACABDBB+835995]
+	(No symbol) [0x00007FF67AB5EB5F]
+	(No symbol) [0x00007FF67AB5A814]
+	(No symbol) [0x00007FF67AB5A9AD]
+	(No symbol) [0x00007FF67AB4A199]
+	BaseThreadInitThunk [0x00007FFEAFCB7374+20]
+	RtlUserThreadStart [0x00007FFEB037CC91+33]
+
+INFO:root:****************************************
+INFO:root:La ventana del navegador fue cerrada manualmente.
+INFO:root:Navegador cerrado exitosamente.
+INFO:root:**********************************
+INFO:root:****************************************
+INFO:root:Iniciando Scraping . . .
+INFO:root:Esperando a que desaparezca el modal
+INFO:root:El modal ha desaparecido
+INFO:root:--------------------
+INFO:root:Fila 1:
+INFO:root:  Id_fiscalizable: DFZ-2014-78-XV-RCA-IA
+INFO:root:  Clientes: AGROINDUSTRIAL ARICA
+INFO:root:  Unidad_fiscalizable: PLANTA FAENADORA DE AVES ARICA
+INFO:root:  Ubicacion: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2593
+INFO:root:URL actual de la página del documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004526
+INFO:root:Tiempo de espera agotado al intentar hacer clic en el enlace.
+INFO:root:Tabla de búsqueda desplegada.
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004526
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+INFO:root:PLANTA FAENADORA DE AVES ARICA
+INFO:root:IFA_PLANTA FAENADORA DE AVES ARICA
+INFO:root:--------------------------
+INFO:root:Esperando a que desaparezca el modal
+INFO:root:El modal ha desaparecido
+INFO:root:--------------------
+INFO:root:Fila 2:
+INFO:root:  Id_fiscalizable: DFZ-2014-2297-V-RCA-IA
+INFO:root:  Clientes: AGRICOLA ARIZTIA, AVICOLA ANDINA SPA
+INFO:root:  Unidad_fiscalizable: PLANTEL DE AVES DE LEYDA
+INFO:root:  Ubicacion: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/1840
+INFO:root:URL actual de la página del documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001101
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004786
+INFO:root:Tiempo de espera agotado al intentar hacer clic en el enlace.
+INFO:root:Tabla de búsqueda desplegada.
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004786
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001101
+INFO:root:PLANTEL DE AVES DE LEYDA
+INFO:root:IFA_PLANTEL DE AVES DE LEYDA
+INFO:root:--------------------------
+INFO:root:Esperando a que desaparezca el modal
+INFO:root:El modal ha desaparecido
+INFO:root:--------------------
+INFO:root:Fila 3:
+INFO:root:  Id_fiscalizable: DFZ-2014-347-XIII-RCA-IA
+INFO:root:  Clientes: AGRICOLA EL MONTE S.A.
+INFO:root:  Unidad_fiscalizable: CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A.
+INFO:root:  Ubicacion: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/4495
+INFO:root:URL actual de la página del documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001114
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004630
+INFO:root:Tiempo de espera agotado al intentar hacer clic en el enlace.
+INFO:root:Tabla de búsqueda desplegada.
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004630
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001114
+INFO:root:CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A.
+INFO:root:IFA_CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A.
+INFO:root:--------------------------
+INFO:root:Esperando a que desaparezca el modal
+INFO:root:El modal ha desaparecido
+INFO:root:--------------------
+INFO:root:Fila 4:
+INFO:root:  Id_fiscalizable: DFZ-2014-179-XIII-RCA-IA
+INFO:root:  Clientes: AGRICOLA SUPER LIMITADA
+INFO:root:  Unidad_fiscalizable: CERDOS LA MANGA - AGROSUPER
+INFO:root:  Ubicacion: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/4494
+INFO:root:URL actual de la página del documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001124
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104005427
+INFO:root:Tiempo de espera agotado al intentar hacer clic en el enlace.
+INFO:root:Tabla de búsqueda desplegada.
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104005427
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001124
+INFO:root:CERDOS LA MANGA - AGROSUPER
+INFO:root:IFA_CERDOS LA MANGA - AGROSUPER
+INFO:root:--------------------------
+INFO:root:Esperando a que desaparezca el modal
+INFO:root:El modal ha desaparecido
+INFO:root:--------------------
+INFO:root:Fila 5:
+INFO:root:  Id_fiscalizable: DFZ-2014-245-VI-RCA-IA
+INFO:root:  Clientes: AGRICOLA SUPER LIMITADA
+INFO:root:  Unidad_fiscalizable: AGROSUPER - CERDOS LA ESTRELLA
+INFO:root:  Ubicacion: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2180
+INFO:root:URL actual de la página del documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001132
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104006561
+INFO:root:Tiempo de espera agotado al intentar hacer clic en el enlace.
+INFO:root:Tabla de búsqueda desplegada.
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104006561
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001132
+INFO:root:AGROSUPER - CERDOS LA ESTRELLA
+INFO:root:IFA_AGROSUPER - CERDOS LA ESTRELLA
+INFO:root:--------------------------
+INFO:root:Esperando a que desaparezca el modal
+INFO:root:El modal ha desaparecido
+INFO:root:--------------------
+INFO:root:Fila 6:
+INFO:root:  Id_fiscalizable: DFZ-2014-2273-VI-RCA-IA
+INFO:root:  Clientes: AGRICOLA SUPER LIMITADA, FAENADORA LO MIRANDA LTDA
+INFO:root:  Unidad_fiscalizable: AGROSUPER - PLANTA LO MIRANDA
+INFO:root:  Ubicacion: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2061
+INFO:root:URL actual de la página del documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001137
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104005015
+INFO:root:La ventana del navegador fue cerrada inesperadamente.
+INFO:root:Error inesperado al intentar desplegar la tabla de búsqueda: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7311B6CB5+28821]
+	(No symbol) [0x00007FF731123840]
+	(No symbol) [0x00007FF730FC578A]
+	(No symbol) [0x00007FF730F9F4F5]
+	(No symbol) [0x00007FF731046247]
+	(No symbol) [0x00007FF73105ECE2]
+	(No symbol) [0x00007FF73103F0A3]
+	(No symbol) [0x00007FF73100A778]
+	(No symbol) [0x00007FF73100B8E1]
+	GetHandleVerifier [0x00007FF7314EFCAD+3408013]
+	GetHandleVerifier [0x00007FF73150741F+3504127]
+	GetHandleVerifier [0x00007FF7314FB5FD+3455453]
+	GetHandleVerifier [0x00007FF73127BDBB+835995]
+	(No symbol) [0x00007FF73112EB5F]
+	(No symbol) [0x00007FF73112A814]
+	(No symbol) [0x00007FF73112A9AD]
+	(No symbol) [0x00007FF73111A199]
+	BaseThreadInitThunk [0x00007FFEAFCB7374+20]
+	RtlUserThreadStart [0x00007FFEB037CC91+33]
+
+INFO:root:La ventana del navegador fue cerrada inesperadamente.
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001137
+INFO:root:AGROSUPER - PLANTA LO MIRANDA
+INFO:root:IFA_AGROSUPER - PLANTA LO MIRANDA
+INFO:root:--------------------------
+INFO:root:****************************************
+INFO:root:La ventana del navegador fue cerrada manualmente.
+INFO:root:Navegador cerrado exitosamente.
+INFO:root:**********************************
+INFO:root:****************************************
+INFO:root:Iniciando Scraping . . .
+INFO:root:Esperando a que desaparezca el modal
+INFO:root:El modal ha desaparecido
+INFO:root:--------------------
+INFO:root:Fila 1:
+INFO:root:  Id_fiscalizable: DFZ-2014-78-XV-RCA-IA
+INFO:root:  Clientes: AGROINDUSTRIAL ARICA
+INFO:root:  Unidad_fiscalizable: PLANTA FAENADORA DE AVES ARICA
+INFO:root:  Ubicacion: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2593
+INFO:root:URL actual de la página del documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004526
+INFO:root:Tiempo de espera agotado al intentar hacer clic en el enlace.
+INFO:root:Tabla de búsqueda desplegada.
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004526
+INFO:root:Archivo renombrado a: C:\Users\José\OneDrive - Fundacion Instituto Profesional Duoc UC\Escritorio\PY-Inventario-CAPSTONE\capstone-JoseMedina-4\modulos\Descargas\IFA_PLANTA FAENADORA DE AVES ARICA.pdf
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+INFO:root:PLANTA FAENADORA DE AVES ARICA
+INFO:root:IFA_PLANTA FAENADORA DE AVES ARICA
+INFO:root:--------------------------
+INFO:root:Esperando a que desaparezca el modal
+INFO:root:El modal ha desaparecido
+INFO:root:--------------------
+INFO:root:Fila 2:
+INFO:root:  Id_fiscalizable: DFZ-2014-2297-V-RCA-IA
+INFO:root:  Clientes: AGRICOLA ARIZTIA, AVICOLA ANDINA SPA
+INFO:root:  Unidad_fiscalizable: PLANTEL DE AVES DE LEYDA
+INFO:root:  Ubicacion: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/1840
+INFO:root:URL actual de la página del documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001101
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004786
+INFO:root:Tiempo de espera agotado al intentar hacer clic en el enlace.
+INFO:root:Tabla de búsqueda desplegada.
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004786
+INFO:root:Archivo renombrado a: C:\Users\José\OneDrive - Fundacion Instituto Profesional Duoc UC\Escritorio\PY-Inventario-CAPSTONE\capstone-JoseMedina-4\modulos\Descargas\IFA_PLANTEL DE AVES DE LEYDA.pdf
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001101
+INFO:root:PLANTEL DE AVES DE LEYDA
+INFO:root:IFA_PLANTEL DE AVES DE LEYDA
+INFO:root:--------------------------
+INFO:root:Esperando a que desaparezca el modal
+INFO:root:El modal ha desaparecido
+INFO:root:--------------------
+INFO:root:Fila 3:
+INFO:root:  Id_fiscalizable: DFZ-2014-347-XIII-RCA-IA
+INFO:root:  Clientes: AGRICOLA EL MONTE S.A.
+INFO:root:  Unidad_fiscalizable: CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A.
+INFO:root:  Ubicacion: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/4495
+INFO:root:URL actual de la página del documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001114
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004630
+INFO:root:La ventana del navegador fue cerrada inesperadamente.
+INFO:root:Error inesperado al intentar desplegar la tabla de búsqueda: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7311B6CB5+28821]
+	(No symbol) [0x00007FF731123840]
+	(No symbol) [0x00007FF730FC578A]
+	(No symbol) [0x00007FF730F9F4F5]
+	(No symbol) [0x00007FF731046247]
+	(No symbol) [0x00007FF73105ECE2]
+	(No symbol) [0x00007FF73103F0A3]
+	(No symbol) [0x00007FF73100A778]
+	(No symbol) [0x00007FF73100B8E1]
+	GetHandleVerifier [0x00007FF7314EFCAD+3408013]
+	GetHandleVerifier [0x00007FF73150741F+3504127]
+	GetHandleVerifier [0x00007FF7314FB5FD+3455453]
+	GetHandleVerifier [0x00007FF73127BDBB+835995]
+	(No symbol) [0x00007FF73112EB5F]
+	(No symbol) [0x00007FF73112A814]
+	(No symbol) [0x00007FF73112A9AD]
+	(No symbol) [0x00007FF73111A199]
+	BaseThreadInitThunk [0x00007FFEAFCB7374+20]
+	RtlUserThreadStart [0x00007FFEB037CC91+33]
+
+INFO:root:La ventana del navegador fue cerrada inesperadamente.
+INFO:root:Archivo renombrado a: C:\Users\José\OneDrive - Fundacion Instituto Profesional Duoc UC\Escritorio\PY-Inventario-CAPSTONE\capstone-JoseMedina-4\modulos\Descargas\IFA_CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A..pdf
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001114
+INFO:root:CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A.
+INFO:root:IFA_CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A.
+INFO:root:--------------------------
+INFO:root:****************************************
+INFO:root:La ventana del navegador fue cerrada manualmente.
+INFO:root:**************************
+INFO:root:Iniciando Scraping . . .
+INFO:root:Esperando a que desaparezca el modal
+INFO:root:El modal ha desaparecido
+INFO:root:--------------------
+INFO:root:Fila 1:
+INFO:root:  Id_fiscalizable: DFZ-2014-78-XV-RCA-IA
+INFO:root:  Clientes: AGROINDUSTRIAL ARICA
+INFO:root:  Unidad_fiscalizable: PLANTA FAENADORA DE AVES ARICA
+INFO:root:  Ubicacion: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2593
+INFO:root:URL actual de la página del documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004526
+INFO:root:Tiempo de espera agotado al intentar hacer clic en el enlace.
+INFO:root:Tabla de búsqueda desplegada.
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004526
+INFO:root:Archivo renombrado a: C:\Users\José\OneDrive - Fundacion Instituto Profesional Duoc UC\Escritorio\PY-Inventario-CAPSTONE\capstone-JoseMedina-4\modulos\Descargas\IFA_PLANTA FAENADORA DE AVES ARICA.pdf
+INFO:root:Error al escanear el documento IFA_PLANTA FAENADORA DE AVES ARICA: Cannot resolve keyword 'nombre' into field. Choices are: coincidencias, id, nombre_documento, unidad_fiscalizable, unidad_fiscalizable_id, url
+INFO:root:Documento IFA_PLANTA FAENADORA DE AVES ARICA eliminado.
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+INFO:root:PLANTA FAENADORA DE AVES ARICA
+INFO:root:IFA_PLANTA FAENADORA DE AVES ARICA
+INFO:root:--------------------------
+INFO:root:Esperando a que desaparezca el modal
+INFO:root:El modal ha desaparecido
+INFO:root:--------------------
+INFO:root:Fila 2:
+INFO:root:  Id_fiscalizable: DFZ-2014-2297-V-RCA-IA
+INFO:root:  Clientes: AGRICOLA ARIZTIA, AVICOLA ANDINA SPA
+INFO:root:  Unidad_fiscalizable: PLANTEL DE AVES DE LEYDA
+INFO:root:  Ubicacion: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/1840
+INFO:root:URL actual de la página del documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001101
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004786
+INFO:root:Tiempo de espera agotado al intentar hacer clic en el enlace.
+INFO:root:Tabla de búsqueda desplegada.
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004786
+INFO:root:Archivo renombrado a: C:\Users\José\OneDrive - Fundacion Instituto Profesional Duoc UC\Escritorio\PY-Inventario-CAPSTONE\capstone-JoseMedina-4\modulos\Descargas\IFA_PLANTEL DE AVES DE LEYDA.pdf
+INFO:root:Error al escanear el documento IFA_PLANTEL DE AVES DE LEYDA: 'charmap' codec can't decode byte 0x8f in position 503: character maps to <undefined>
+INFO:root:Documento IFA_PLANTEL DE AVES DE LEYDA eliminado.
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001101
+INFO:root:PLANTEL DE AVES DE LEYDA
+INFO:root:IFA_PLANTEL DE AVES DE LEYDA
+INFO:root:--------------------------
+INFO:root:Esperando a que desaparezca el modal
+INFO:root:Error al esperar que el modal desaparezca: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.71)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C2EE6CB5+28821]
+	(No symbol) [0x00007FF6C2E53840]
+	(No symbol) [0x00007FF6C2CF578A]
+	(No symbol) [0x00007FF6C2CCF4F5]
+	(No symbol) [0x00007FF6C2D76247]
+	(No symbol) [0x00007FF6C2D8ECE2]
+	(No symbol) [0x00007FF6C2D6F0A3]
+	(No symbol) [0x00007FF6C2D3A778]
+	(No symbol) [0x00007FF6C2D3B8E1]
+	GetHandleVerifier [0x00007FF6C321FCAD+3408013]
+	GetHandleVerifier [0x00007FF6C323741F+3504127]
+	GetHandleVerifier [0x00007FF6C322B5FD+3455453]
+	GetHandleVerifier [0x00007FF6C2FABDBB+835995]
+	(No symbol) [0x00007FF6C2E5EB5F]
+	(No symbol) [0x00007FF6C2E5A814]
+	(No symbol) [0x00007FF6C2E5A9AD]
+	(No symbol) [0x00007FF6C2E4A199]
+	BaseThreadInitThunk [0x00007FFEAFCB7374+20]
+	RtlUserThreadStart [0x00007FFEB037CC91+33]
+
+INFO:root:La ventana del navegador fue cerrada manualmente.
+INFO:root:**************************
+INFO:root:Navegador cerrado exitosamente.
+INFO:root:**************************
+ERROR:root:El módulo 'docx' no está instalado. Por favor, instálalo usando 'pip install python-docx'.
+INFO:root:**************************
+INFO:root:Iniciando Scraping . . .
+INFO:root:Esperando a que desaparezca el modal
+INFO:root:El modal ha desaparecido
+INFO:root:--------------------
+INFO:root:Fila 1:
+INFO:root:  Id_fiscalizable: DFZ-2014-78-XV-RCA-IA
+INFO:root:  Clientes: AGROINDUSTRIAL ARICA
+INFO:root:  Unidad_fiscalizable: PLANTA FAENADORA DE AVES ARICA
+INFO:root:  Ubicacion: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2593
+INFO:root:URL actual de la página del documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+ERROR:root:El módulo 'docx' no está instalado. Por favor, instálalo usando 'pip install python-docx'.
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004526
+INFO:root:Tiempo de espera agotado al intentar hacer clic en el enlace.
+INFO:root:Tabla de búsqueda desplegada.
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004526
+INFO:root:Archivo renombrado a: C:\Users\José\OneDrive - Fundacion Instituto Profesional Duoc UC\Escritorio\PY-Inventario-CAPSTONE\capstone-JoseMedina-4\modulos\Descargas\IFA_PLANTA FAENADORA DE AVES ARICA.pdf
+INFO:root:-------------------------------
+INFO:root:Leyendo contenido del documento
+ERROR:root:Error al leer el archivo PDF IFA_PLANTA FAENADORA DE AVES ARICA.pdf: PdfFileReader is deprecated and was removed in PyPDF2 3.0.0. Use PdfReader instead.
+ERROR:root:Error al leer el archivo DOCX Informe de Fiscalizació1.docx: name 'docx' is not defined
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+INFO:root:PLANTA FAENADORA DE AVES ARICA
+INFO:root:IFA_PLANTA FAENADORA DE AVES ARICA
+INFO:root:--------------------------
+INFO:root:Esperando a que desaparezca el modal
+INFO:root:Error al esperar que el modal desaparezca: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7EDFA6CB5+28821]
+	(No symbol) [0x00007FF7EDF13840]
+	(No symbol) [0x00007FF7EDDB578A]
+	(No symbol) [0x00007FF7EDD8F4F5]
+	(No symbol) [0x00007FF7EDE36247]
+	(No symbol) [0x00007FF7EDE4ECE2]
+	(No symbol) [0x00007FF7EDE2F0A3]
+	(No symbol) [0x00007FF7EDDFA778]
+	(No symbol) [0x00007FF7EDDFB8E1]
+	GetHandleVerifier [0x00007FF7EE2DFCAD+3408013]
+	GetHandleVerifier [0x00007FF7EE2F741F+3504127]
+	GetHandleVerifier [0x00007FF7EE2EB5FD+3455453]
+	GetHandleVerifier [0x00007FF7EE06BDBB+835995]
+	(No symbol) [0x00007FF7EDF1EB5F]
+	(No symbol) [0x00007FF7EDF1A814]
+	(No symbol) [0x00007FF7EDF1A9AD]
+	(No symbol) [0x00007FF7EDF0A199]
+	BaseThreadInitThunk [0x00007FFEAFCB7374+20]
+	RtlUserThreadStart [0x00007FFEB037CC91+33]
+
+INFO:root:La ventana del navegador fue cerrada manualmente.
+INFO:root:**************************
+INFO:root:Navegador cerrado exitosamente.
+INFO:root:**************************

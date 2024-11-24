@@ -45,8 +45,8 @@ def buscar_en_tabla(driver, palabra):
                 # Buscar el elemento en la fila actual
                 elemento = buscar_elemento_por_palabra(driver, palabra)
                 if elemento:
-                    print(f"Elemento encontrado en la fila: {fila.text}")
-                    logging.info(f"Elemento encontrado en la fila: {fila.text}")
+                    #print(f"Elemento encontrado en la fila: {fila.text}")
+                    #logging.info(f"Elemento encontrado en la fila: {fila.text}")
                     
                     # Intentar hacer clic en el enlace de la misma fila
                     if buscar_y_hacer_clic_enlace(driver, elemento):

@@ -1,0 +1,481 @@
+INFO:root:**************************
+INFO:root:Iniciando Scraping . . .
+INFO:root:Seleccionando categoria
+INFO:root:Buscando . . .
+INFO:root:Error al interactuar con la página: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00007FF62F786CB5+28821]
+	(No symbol) [0x00007FF62F6F3840]
+	(No symbol) [0x00007FF62F59578A]
+	(No symbol) [0x00007FF62F583992]
+	(No symbol) [0x00007FF62F58365A]
+	(No symbol) [0x00007FF62F581274]
+	(No symbol) [0x00007FF62F581D1F]
+	(No symbol) [0x00007FF62F59084E]
+	(No symbol) [0x00007FF62F5A492D]
+	(No symbol) [0x00007FF62F5AB10A]
+	(No symbol) [0x00007FF62F582484]
+	(No symbol) [0x00007FF62F5A4753]
+	(No symbol) [0x00007FF62F62F75A]
+	(No symbol) [0x00007FF62F60F0A3]
+	(No symbol) [0x00007FF62F5DA778]
+	(No symbol) [0x00007FF62F5DB8E1]
+	GetHandleVerifier [0x00007FF62FABFCAD+3408013]
+	GetHandleVerifier [0x00007FF62FAD741F+3504127]
+	GetHandleVerifier [0x00007FF62FACB5FD+3455453]
+	GetHandleVerifier [0x00007FF62F84BDBB+835995]
+	(No symbol) [0x00007FF62F6FEB5F]
+	(No symbol) [0x00007FF62F6FA814]
+	(No symbol) [0x00007FF62F6FA9AD]
+	(No symbol) [0x00007FF62F6EA199]
+	BaseThreadInitThunk [0x00007FFEAFCB7374+20]
+	RtlUserThreadStart [0x00007FFEB037CC91+33]
+
+INFO:root:Navegador cerrado exitosamente.
+INFO:root:**************************
+INFO:root:**************************
+INFO:root:Iniciando Scraping . . .
+INFO:root:Seleccionando categoria
+INFO:root:Buscando . . .
+INFO:root:Error al interactuar con la página: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00007FF62F786CB5+28821]
+	(No symbol) [0x00007FF62F6F3840]
+	(No symbol) [0x00007FF62F59578A]
+	(No symbol) [0x00007FF62F583992]
+	(No symbol) [0x00007FF62F58365A]
+	(No symbol) [0x00007FF62F581274]
+	(No symbol) [0x00007FF62F581D1F]
+	(No symbol) [0x00007FF62F59084E]
+	(No symbol) [0x00007FF62F5A492D]
+	(No symbol) [0x00007FF62F5AB10A]
+	(No symbol) [0x00007FF62F582484]
+	(No symbol) [0x00007FF62F5A4753]
+	(No symbol) [0x00007FF62F62F75A]
+	(No symbol) [0x00007FF62F60F0A3]
+	(No symbol) [0x00007FF62F5DA778]
+	(No symbol) [0x00007FF62F5DB8E1]
+	GetHandleVerifier [0x00007FF62FABFCAD+3408013]
+	GetHandleVerifier [0x00007FF62FAD741F+3504127]
+	GetHandleVerifier [0x00007FF62FACB5FD+3455453]
+	GetHandleVerifier [0x00007FF62F84BDBB+835995]
+	(No symbol) [0x00007FF62F6FEB5F]
+	(No symbol) [0x00007FF62F6FA814]
+	(No symbol) [0x00007FF62F6FA9AD]
+	(No symbol) [0x00007FF62F6EA199]
+	BaseThreadInitThunk [0x00007FFEAFCB7374+20]
+	RtlUserThreadStart [0x00007FFEB037CC91+33]
+
+INFO:root:Navegador cerrado exitosamente.
+INFO:root:**************************
+INFO:root:**************************
+INFO:root:Iniciando Scraping . . .
+INFO:root:Seleccionando categoria
+INFO:root:Buscando . . .
+INFO:root:Error al interactuar con la página: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00007FF62F786CB5+28821]
+	(No symbol) [0x00007FF62F6F3840]
+	(No symbol) [0x00007FF62F59578A]
+	(No symbol) [0x00007FF62F583992]
+	(No symbol) [0x00007FF62F58365A]
+	(No symbol) [0x00007FF62F581274]
+	(No symbol) [0x00007FF62F581D1F]
+	(No symbol) [0x00007FF62F59084E]
+	(No symbol) [0x00007FF62F5A492D]
+	(No symbol) [0x00007FF62F5AB10A]
+	(No symbol) [0x00007FF62F582484]
+	(No symbol) [0x00007FF62F5A4753]
+	(No symbol) [0x00007FF62F62F75A]
+	(No symbol) [0x00007FF62F60F0A3]
+	(No symbol) [0x00007FF62F5DA778]
+	(No symbol) [0x00007FF62F5DB8E1]
+	GetHandleVerifier [0x00007FF62FABFCAD+3408013]
+	GetHandleVerifier [0x00007FF62FAD741F+3504127]
+	GetHandleVerifier [0x00007FF62FACB5FD+3455453]
+	GetHandleVerifier [0x00007FF62F84BDBB+835995]
+	(No symbol) [0x00007FF62F6FEB5F]
+	(No symbol) [0x00007FF62F6FA814]
+	(No symbol) [0x00007FF62F6FA9AD]
+	(No symbol) [0x00007FF62F6EA199]
+	BaseThreadInitThunk [0x00007FFEAFCB7374+20]
+	RtlUserThreadStart [0x00007FFEB037CC91+33]
+
+INFO:root:Navegador cerrado exitosamente.
+INFO:root:**************************
+INFO:root:**************************
+INFO:root:Iniciando Scraping . . .
+INFO:root:Seleccionando categoria
+INFO:root:Buscando . . .
+INFO:root:Esperando a que desaparezca el modal
+INFO:root:Error al esperar que el modal desaparezca: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6DF6F6CB5+28821]
+	(No symbol) [0x00007FF6DF663840]
+	(No symbol) [0x00007FF6DF50578A]
+	(No symbol) [0x00007FF6DF4DF4F5]
+	(No symbol) [0x00007FF6DF586247]
+	(No symbol) [0x00007FF6DF59ECE2]
+	(No symbol) [0x00007FF6DF57F0A3]
+	(No symbol) [0x00007FF6DF54A778]
+	(No symbol) [0x00007FF6DF54B8E1]
+	GetHandleVerifier [0x00007FF6DFA2FCAD+3408013]
+	GetHandleVerifier [0x00007FF6DFA4741F+3504127]
+	GetHandleVerifier [0x00007FF6DFA3B5FD+3455453]
+	GetHandleVerifier [0x00007FF6DF7BBDBB+835995]
+	(No symbol) [0x00007FF6DF66EB5F]
+	(No symbol) [0x00007FF6DF66A814]
+	(No symbol) [0x00007FF6DF66A9AD]
+	(No symbol) [0x00007FF6DF65A199]
+	BaseThreadInitThunk [0x00007FFEAFCB7374+20]
+	RtlUserThreadStart [0x00007FFEB037CC91+33]
+
+INFO:root:Error al interactuar con la página: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6DF6F6CB5+28821]
+	(No symbol) [0x00007FF6DF663840]
+	(No symbol) [0x00007FF6DF50578A]
+	(No symbol) [0x00007FF6DF4DF4F5]
+	(No symbol) [0x00007FF6DF586247]
+	(No symbol) [0x00007FF6DF59ECE2]
+	(No symbol) [0x00007FF6DF57F0A3]
+	(No symbol) [0x00007FF6DF54A778]
+	(No symbol) [0x00007FF6DF54B8E1]
+	GetHandleVerifier [0x00007FF6DFA2FCAD+3408013]
+	GetHandleVerifier [0x00007FF6DFA4741F+3504127]
+	GetHandleVerifier [0x00007FF6DFA3B5FD+3455453]
+	GetHandleVerifier [0x00007FF6DF7BBDBB+835995]
+	(No symbol) [0x00007FF6DF66EB5F]
+	(No symbol) [0x00007FF6DF66A814]
+	(No symbol) [0x00007FF6DF66A9AD]
+	(No symbol) [0x00007FF6DF65A199]
+	BaseThreadInitThunk [0x00007FFEAFCB7374+20]
+	RtlUserThreadStart [0x00007FFEB037CC91+33]
+
+INFO:root:Navegador cerrado exitosamente.
+INFO:root:**************************
+INFO:root:**************************
+INFO:root:Iniciando Scraping . . .
+INFO:root:Seleccionando categoria
+INFO:root:Buscando . . .
+INFO:root:Error al interactuar con la página: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6DF6F6CB5+28821]
+	(No symbol) [0x00007FF6DF663840]
+	(No symbol) [0x00007FF6DF50578A]
+	(No symbol) [0x00007FF6DF4F3992]
+	(No symbol) [0x00007FF6DF4F365A]
+	(No symbol) [0x00007FF6DF4F1274]
+	(No symbol) [0x00007FF6DF4F1D1F]
+	(No symbol) [0x00007FF6DF50084E]
+	(No symbol) [0x00007FF6DF51492D]
+	(No symbol) [0x00007FF6DF51B10A]
+	(No symbol) [0x00007FF6DF4F2484]
+	(No symbol) [0x00007FF6DF514753]
+	(No symbol) [0x00007FF6DF59F75A]
+	(No symbol) [0x00007FF6DF57F0A3]
+	(No symbol) [0x00007FF6DF54A778]
+	(No symbol) [0x00007FF6DF54B8E1]
+	GetHandleVerifier [0x00007FF6DFA2FCAD+3408013]
+	GetHandleVerifier [0x00007FF6DFA4741F+3504127]
+	GetHandleVerifier [0x00007FF6DFA3B5FD+3455453]
+	GetHandleVerifier [0x00007FF6DF7BBDBB+835995]
+	(No symbol) [0x00007FF6DF66EB5F]
+	(No symbol) [0x00007FF6DF66A814]
+	(No symbol) [0x00007FF6DF66A9AD]
+	(No symbol) [0x00007FF6DF65A199]
+	BaseThreadInitThunk [0x00007FFEAFCB7374+20]
+	RtlUserThreadStart [0x00007FFEB037CC91+33]
+
+INFO:root:Navegador cerrado exitosamente.
+INFO:root:**************************
+INFO:root:**************************
+INFO:root:Iniciando Scraping . . .
+INFO:root:Seleccionando categoria
+INFO:root:Buscando . . .
+INFO:root:Error al interactuar con la página: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6DF6F6CB5+28821]
+	(No symbol) [0x00007FF6DF663840]
+	(No symbol) [0x00007FF6DF50578A]
+	(No symbol) [0x00007FF6DF4F3992]
+	(No symbol) [0x00007FF6DF4F365A]
+	(No symbol) [0x00007FF6DF4F1274]
+	(No symbol) [0x00007FF6DF4F1D1F]
+	(No symbol) [0x00007FF6DF50084E]
+	(No symbol) [0x00007FF6DF51492D]
+	(No symbol) [0x00007FF6DF51B10A]
+	(No symbol) [0x00007FF6DF4F2484]
+	(No symbol) [0x00007FF6DF514753]
+	(No symbol) [0x00007FF6DF59F75A]
+	(No symbol) [0x00007FF6DF57F0A3]
+	(No symbol) [0x00007FF6DF54A778]
+	(No symbol) [0x00007FF6DF54B8E1]
+	GetHandleVerifier [0x00007FF6DFA2FCAD+3408013]
+	GetHandleVerifier [0x00007FF6DFA4741F+3504127]
+	GetHandleVerifier [0x00007FF6DFA3B5FD+3455453]
+	GetHandleVerifier [0x00007FF6DF7BBDBB+835995]
+	(No symbol) [0x00007FF6DF66EB5F]
+	(No symbol) [0x00007FF6DF66A814]
+	(No symbol) [0x00007FF6DF66A9AD]
+	(No symbol) [0x00007FF6DF65A199]
+	BaseThreadInitThunk [0x00007FFEAFCB7374+20]
+	RtlUserThreadStart [0x00007FFEB037CC91+33]
+
+INFO:root:Navegador cerrado exitosamente.
+INFO:root:**************************
+INFO:root:**************************
+INFO:root:Iniciando Scraping . . .
+INFO:root:Seleccionando categoria
+INFO:root:Buscando . . .
+INFO:root:Error al interactuar con la página: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6DF6F6CB5+28821]
+	(No symbol) [0x00007FF6DF663840]
+	(No symbol) [0x00007FF6DF50578A]
+	(No symbol) [0x00007FF6DF4F3992]
+	(No symbol) [0x00007FF6DF4F365A]
+	(No symbol) [0x00007FF6DF4F1274]
+	(No symbol) [0x00007FF6DF4F1D1F]
+	(No symbol) [0x00007FF6DF50084E]
+	(No symbol) [0x00007FF6DF51492D]
+	(No symbol) [0x00007FF6DF51B10A]
+	(No symbol) [0x00007FF6DF4F2484]
+	(No symbol) [0x00007FF6DF514753]
+	(No symbol) [0x00007FF6DF59F75A]
+	(No symbol) [0x00007FF6DF57F0A3]
+	(No symbol) [0x00007FF6DF54A778]
+	(No symbol) [0x00007FF6DF54B8E1]
+	GetHandleVerifier [0x00007FF6DFA2FCAD+3408013]
+	GetHandleVerifier [0x00007FF6DFA4741F+3504127]
+	GetHandleVerifier [0x00007FF6DFA3B5FD+3455453]
+	GetHandleVerifier [0x00007FF6DF7BBDBB+835995]
+	(No symbol) [0x00007FF6DF66EB5F]
+	(No symbol) [0x00007FF6DF66A814]
+	(No symbol) [0x00007FF6DF66A9AD]
+	(No symbol) [0x00007FF6DF65A199]
+	BaseThreadInitThunk [0x00007FFEAFCB7374+20]
+	RtlUserThreadStart [0x00007FFEB037CC91+33]
+
+INFO:root:Navegador cerrado exitosamente.
+INFO:root:**************************
+INFO:root:**************************
+INFO:root:Iniciando Scraping . . .
+INFO:root:Seleccionando categoria
+INFO:root:Buscando . . .
+INFO:root:Esperando a que desaparezca el modal
+INFO:root:El modal ha desaparecido
+INFO:root:--------------------
+INFO:root:Fila 1:
+INFO:root:  Id_fiscalizable: DFZ-2014-78-XV-RCA-IA
+INFO:root:  Clientes: AGROINDUSTRIAL ARICA
+INFO:root:  Unidad_fiscalizable: PLANTA FAENADORA DE AVES ARICA
+INFO:root:  Ubicacion: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2593
+INFO:root:URL actual de la página del documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+INFO:root:Error al procesar la fila 1: No module named 'docx'
+INFO:root:Error al procesar la fila 2: list index out of range
+INFO:root:Error al procesar la fila 3: list index out of range
+INFO:root:Error al procesar la fila 4: list index out of range
+INFO:root:Error al procesar la fila 5: list index out of range
+INFO:root:Error al procesar la fila 6: list index out of range
+INFO:root:Error al procesar la fila 7: list index out of range
+INFO:root:La ventana del navegador fue cerrada manualmente.
+INFO:root:**************************
+INFO:root:Navegador cerrado exitosamente.
+INFO:root:**************************
+INFO:root:**************************
+INFO:root:Iniciando Scraping . . .
+INFO:root:Seleccionando categoria
+INFO:root:Buscando . . .
+INFO:root:Esperando a que desaparezca el modal
+INFO:root:El modal ha desaparecido
+INFO:root:--------------------
+INFO:root:Fila 1:
+INFO:root:  Id_fiscalizable: DFZ-2014-78-XV-RCA-IA
+INFO:root:  Clientes: AGROINDUSTRIAL ARICA
+INFO:root:  Unidad_fiscalizable: PLANTA FAENADORA DE AVES ARICA
+INFO:root:  Ubicacion: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2593
+INFO:root:URL actual de la página del documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004526
+INFO:root:Tiempo de espera agotado al intentar hacer clic en el enlace.
+INFO:root:Tabla de búsqueda desplegada.
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004526
+INFO:root:Archivo descargado: C:\Users\José\OneDrive - Fundacion Instituto Profesional Duoc UC\Escritorio\PY-Inventario-CAPSTONE\capstone-JoseMedina-4\modulos\Descargas\Informe de Fiscalizació1.docx
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:2- El usuario ha sido recibido
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:2- La unidad fiscalizable ha sido añadida
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+INFO:root:PLANTA FAENADORA DE AVES ARICA
+INFO:root:IFA_PLANTA FAENADORA DE AVES ARICA
+INFO:root:--------------------------
+INFO:root:El documento ha sido añadido a la BD
+INFO:root:Esperando a que desaparezca el modal
+INFO:root:El modal ha desaparecido
+INFO:root:--------------------
+INFO:root:Fila 2:
+INFO:root:  Id_fiscalizable: DFZ-2014-2297-V-RCA-IA
+INFO:root:  Clientes: AGRICOLA ARIZTIA, AVICOLA ANDINA SPA
+INFO:root:  Unidad_fiscalizable: PLANTEL DE AVES DE LEYDA
+INFO:root:  Ubicacion: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/1840
+INFO:root:URL actual de la página del documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001101
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004786
+INFO:root:La ventana del navegador fue cerrada inesperadamente.
+INFO:root:Error inesperado al intentar desplegar la tabla de búsqueda: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7DB816CB5+28821]
+	(No symbol) [0x00007FF7DB783840]
+	(No symbol) [0x00007FF7DB62578A]
+	(No symbol) [0x00007FF7DB5FF4F5]
+	(No symbol) [0x00007FF7DB6A6247]
+	(No symbol) [0x00007FF7DB6BECE2]
+	(No symbol) [0x00007FF7DB69F0A3]
+	(No symbol) [0x00007FF7DB66A778]
+	(No symbol) [0x00007FF7DB66B8E1]
+	GetHandleVerifier [0x00007FF7DBB4FCAD+3408013]
+	GetHandleVerifier [0x00007FF7DBB6741F+3504127]
+	GetHandleVerifier [0x00007FF7DBB5B5FD+3455453]
+	GetHandleVerifier [0x00007FF7DB8DBDBB+835995]
+	(No symbol) [0x00007FF7DB78EB5F]
+	(No symbol) [0x00007FF7DB78A814]
+	(No symbol) [0x00007FF7DB78A9AD]
+	(No symbol) [0x00007FF7DB77A199]
+	BaseThreadInitThunk [0x00007FFEAFCB7374+20]
+	RtlUserThreadStart [0x00007FFEB037CC91+33]
+
+INFO:root:La ventana del navegador fue cerrada inesperadamente.
+INFO:root:Archivo descargado: C:\Users\José\OneDrive - Fundacion Instituto Profesional Duoc UC\Escritorio\PY-Inventario-CAPSTONE\capstone-JoseMedina-4\modulos\Descargas\Informe de Fiscalizació1.docx
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:2- El usuario ha sido recibido
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:2- La unidad fiscalizable ha sido añadida
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001101
+INFO:root:PLANTEL DE AVES DE LEYDA
+INFO:root:IFA_PLANTEL DE AVES DE LEYDA
+INFO:root:--------------------------
+INFO:root:El documento ha sido añadido a la BD
+INFO:root:La ventana del navegador fue cerrada manualmente.
+INFO:root:**************************
+INFO:root:Navegador cerrado exitosamente.
+INFO:root:**************************
+INFO:root:**************************
+INFO:root:Iniciando Scraping . . .
+INFO:root:Seleccionando categoria
+INFO:root:Buscando . . .
+INFO:root:Esperando a que desaparezca el modal
+INFO:root:El modal ha desaparecido
+INFO:root:--------------------
+INFO:root:Fila 1:
+INFO:root:  Id_fiscalizable: DFZ-2014-78-XV-RCA-IA
+INFO:root:  Clientes: AGROINDUSTRIAL ARICA
+INFO:root:  Unidad_fiscalizable: PLANTA FAENADORA DE AVES ARICA
+INFO:root:  Ubicacion: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2593
+INFO:root:URL actual de la página del documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004526
+INFO:root:Tiempo de espera agotado al intentar hacer clic en el enlace.
+INFO:root:Tabla de búsqueda desplegada.
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004526
+INFO:root:Archivo descargado: Informe de Fiscalizació1 (1).docx
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+INFO:root:PLANTA FAENADORA DE AVES ARICA
+INFO:root:IFA_PLANTA FAENADORA DE AVES ARICA
+INFO:root:--------------------------
+INFO:root:Esperando a que desaparezca el modal
+INFO:root:El modal ha desaparecido
+INFO:root:--------------------
+INFO:root:Fila 2:
+INFO:root:  Id_fiscalizable: DFZ-2014-2297-V-RCA-IA
+INFO:root:  Clientes: AGRICOLA ARIZTIA, AVICOLA ANDINA SPA
+INFO:root:  Unidad_fiscalizable: PLANTEL DE AVES DE LEYDA
+INFO:root:  Ubicacion: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/1840
+INFO:root:URL actual de la página del documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001101
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004786
+INFO:root:Tiempo de espera agotado al intentar hacer clic en el enlace.
+INFO:root:Tabla de búsqueda desplegada.
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004786
+INFO:root:Archivo descargado: Informe de Fiscalizacion Ambiental.docx
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001101
+INFO:root:PLANTEL DE AVES DE LEYDA
+INFO:root:IFA_PLANTEL DE AVES DE LEYDA
+INFO:root:--------------------------
+INFO:root:Esperando a que desaparezca el modal
+INFO:root:El modal ha desaparecido
+INFO:root:--------------------
+INFO:root:Fila 3:
+INFO:root:  Id_fiscalizable: DFZ-2014-347-XIII-RCA-IA
+INFO:root:  Clientes: AGRICOLA EL MONTE S.A.
+INFO:root:  Unidad_fiscalizable: CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A.
+INFO:root:  Ubicacion: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/4495
+INFO:root:URL actual de la página del documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001114
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004630
+INFO:root:La ventana del navegador fue cerrada inesperadamente.
+INFO:root:Error inesperado al intentar desplegar la tabla de búsqueda: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7DB816CB5+28821]
+	(No symbol) [0x00007FF7DB783840]
+	(No symbol) [0x00007FF7DB62578A]
+	(No symbol) [0x00007FF7DB5FF4F5]
+	(No symbol) [0x00007FF7DB6A6247]
+	(No symbol) [0x00007FF7DB6BECE2]
+	(No symbol) [0x00007FF7DB69F0A3]
+	(No symbol) [0x00007FF7DB66A778]
+	(No symbol) [0x00007FF7DB66B8E1]
+	GetHandleVerifier [0x00007FF7DBB4FCAD+3408013]
+	GetHandleVerifier [0x00007FF7DBB6741F+3504127]
+	GetHandleVerifier [0x00007FF7DBB5B5FD+3455453]
+	GetHandleVerifier [0x00007FF7DB8DBDBB+835995]
+	(No symbol) [0x00007FF7DB78EB5F]
+	(No symbol) [0x00007FF7DB78A814]
+	(No symbol) [0x00007FF7DB78A9AD]
+	(No symbol) [0x00007FF7DB77A199]
+	BaseThreadInitThunk [0x00007FFEAFCB7374+20]
+	RtlUserThreadStart [0x00007FFEB037CC91+33]
+
+INFO:root:La ventana del navegador fue cerrada inesperadamente.
+INFO:root:Archivo descargado: Informe de Fiscalizacion Ambiental.docx
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:2- El usuario ha sido recibido
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:2- La unidad fiscalizable ha sido añadida
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001114
+INFO:root:CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A.
+INFO:root:IFA_CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A.
+INFO:root:--------------------------
+INFO:root:El documento ha sido añadido a la BD
+INFO:root:La ventana del navegador fue cerrada manualmente.
+INFO:root:**************************
+INFO:root:Navegador cerrado exitosamente.
+INFO:root:**************************

@@ -11,7 +11,7 @@
     height: 100vh;
 }
 
-.col-2, .accordion, .accordion-item, .accordion-header,
+.col-navbar, .accordion, .accordion-item, .accordion-header,
 .accordion-button, .ul {
     background-color: #212D3E;
     color: #ffffff;

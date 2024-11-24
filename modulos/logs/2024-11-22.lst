@@ -1,0 +1,250 @@
+INFO:root:**************************
+INFO:root:Iniciando Scraping . . .
+INFO:root:Esperando a que desaparezca el modal
+INFO:root:El modal ha desaparecido
+INFO:root:--------------------
+INFO:root:Fila 1:
+INFO:root:  Id_fiscalizable: DFZ-2014-78-XV-RCA-IA
+INFO:root:  Clientes: AGROINDUSTRIAL ARICA
+INFO:root:  Unidad_fiscalizable: PLANTA FAENADORA DE AVES ARICA
+INFO:root:  Ubicacion: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2593
+INFO:root:URL actual de la página del documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+ERROR:root:El módulo 'docx' no está instalado. Por favor, instálalo usando 'pip install python-docx'.
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004526
+INFO:root:Tiempo de espera agotado al intentar hacer clic en el enlace.
+INFO:root:Tabla de búsqueda desplegada.
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004526
+INFO:root:Archivo renombrado a: C:\Users\José\OneDrive - Fundacion Instituto Profesional Duoc UC\Escritorio\PY-Inventario-CAPSTONE\capstone-JoseMedina-4\modulos\Descargas\IFA_PLANTA FAENADORA DE AVES ARICA.pdf
+INFO:root:-------------------------------
+INFO:root:Leyendo contenido del documento
+ERROR:root:Error al leer el archivo PDF IFA_PLANTA FAENADORA DE AVES ARICA.pdf: EOF marker not found
+ERROR:root:Error al leer el archivo DOCX Informe de Fiscalizació1 (1).docx: name 'docx' is not defined
+ERROR:root:Error al leer el archivo DOCX Informe de Fiscalizació1.docx: name 'docx' is not defined
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+INFO:root:PLANTA FAENADORA DE AVES ARICA
+INFO:root:IFA_PLANTA FAENADORA DE AVES ARICA
+INFO:root:--------------------------
+INFO:root:Esperando a que desaparezca el modal
+INFO:root:El modal ha desaparecido
+INFO:root:--------------------
+INFO:root:Fila 2:
+INFO:root:  Id_fiscalizable: DFZ-2014-2297-V-RCA-IA
+INFO:root:  Clientes: AGRICOLA ARIZTIA, AVICOLA ANDINA SPA
+INFO:root:  Unidad_fiscalizable: PLANTEL DE AVES DE LEYDA
+INFO:root:  Ubicacion: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/1840
+INFO:root:URL actual de la página del documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001101
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004786
+INFO:root:Tiempo de espera agotado al intentar hacer clic en el enlace.
+INFO:root:Tabla de búsqueda desplegada.
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004786
+INFO:root:Archivo renombrado a: C:\Users\José\OneDrive - Fundacion Instituto Profesional Duoc UC\Escritorio\PY-Inventario-CAPSTONE\capstone-JoseMedina-4\modulos\Descargas\IFA_PLANTEL DE AVES DE LEYDA.pdf
+INFO:root:-------------------------------
+INFO:root:Leyendo contenido del documento
+ERROR:root:Error al leer el archivo PDF IFA_PLANTEL DE AVES DE LEYDA.pdf: EOF marker not found
+ERROR:root:Error al leer el archivo DOCX Informe de Fiscalizacion Ambiental.docx: name 'docx' is not defined
+ERROR:root:Error al leer el archivo DOCX Informe de Fiscalizació1 (1).docx: name 'docx' is not defined
+ERROR:root:Error al leer el archivo DOCX Informe de Fiscalizació1.docx: name 'docx' is not defined
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001101
+INFO:root:PLANTEL DE AVES DE LEYDA
+INFO:root:IFA_PLANTEL DE AVES DE LEYDA
+INFO:root:--------------------------
+INFO:root:Esperando a que desaparezca el modal
+INFO:root:El modal ha desaparecido
+INFO:root:--------------------
+INFO:root:Fila 3:
+INFO:root:  Id_fiscalizable: DFZ-2014-347-XIII-RCA-IA
+INFO:root:  Clientes: AGRICOLA EL MONTE S.A.
+INFO:root:  Unidad_fiscalizable: CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A.
+INFO:root:  Ubicacion: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/4495
+INFO:root:URL actual de la página del documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001114
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004630
+INFO:root:Tiempo de espera agotado al intentar hacer clic en el enlace.
+INFO:root:Tabla de búsqueda desplegada.
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004630
+INFO:root:Archivo renombrado a: C:\Users\José\OneDrive - Fundacion Instituto Profesional Duoc UC\Escritorio\PY-Inventario-CAPSTONE\capstone-JoseMedina-4\modulos\Descargas\IFA_CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A..pdf
+INFO:root:-------------------------------
+INFO:root:Leyendo contenido del documento
+ERROR:root:Error al leer el archivo PDF IFA_CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A..pdf: EOF marker not found
+ERROR:root:Error al leer el archivo DOCX Informe de Fiscalizacion Ambiental.docx: name 'docx' is not defined
+ERROR:root:Error al leer el archivo DOCX Informe de Fiscalizació1 (1).docx: name 'docx' is not defined
+ERROR:root:Error al leer el archivo DOCX Informe de Fiscalizació1.docx: name 'docx' is not defined
+ERROR:root:Error al leer el archivo DOCX Informe Inspeccion Ambiental.docx: name 'docx' is not defined
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001114
+INFO:root:CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A.
+INFO:root:IFA_CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A.
+INFO:root:--------------------------
+INFO:root:Esperando a que desaparezca el modal
+INFO:root:El modal ha desaparecido
+INFO:root:--------------------
+INFO:root:Fila 4:
+INFO:root:  Id_fiscalizable: DFZ-2014-179-XIII-RCA-IA
+INFO:root:  Clientes: AGRICOLA SUPER LIMITADA
+INFO:root:  Unidad_fiscalizable: CERDOS LA MANGA - AGROSUPER
+INFO:root:  Ubicacion: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/4494
+INFO:root:URL actual de la página del documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001124
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104005427
+INFO:root:Tiempo de espera agotado al intentar hacer clic en el enlace.
+INFO:root:Tabla de búsqueda desplegada.
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104005427
+INFO:root:Archivo renombrado a: C:\Users\José\OneDrive - Fundacion Instituto Profesional Duoc UC\Escritorio\PY-Inventario-CAPSTONE\capstone-JoseMedina-4\modulos\Descargas\IFA_CERDOS LA MANGA - AGROSUPER.pdf
+INFO:root:-------------------------------
+INFO:root:Leyendo contenido del documento
+ERROR:root:Error al leer el archivo PDF IFA_CERDOS LA MANGA - AGROSUPER.pdf: EOF marker not found
+ERROR:root:Error al leer el archivo DOCX Informe de Fiscalizacion Ambiental.docx: name 'docx' is not defined
+ERROR:root:Error al leer el archivo DOCX Informe de Fiscalizació1 (1).docx: name 'docx' is not defined
+ERROR:root:Error al leer el archivo DOCX Informe de Fiscalizació1.docx: name 'docx' is not defined
+ERROR:root:Error al leer el archivo DOCX Informe Fiscalización Ambiental.docx: name 'docx' is not defined
+ERROR:root:Error al leer el archivo DOCX Informe Inspeccion Ambiental.docx: name 'docx' is not defined
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001124
+INFO:root:CERDOS LA MANGA - AGROSUPER
+INFO:root:IFA_CERDOS LA MANGA - AGROSUPER
+INFO:root:--------------------------
+INFO:root:Esperando a que desaparezca el modal
+INFO:root:El modal ha desaparecido
+INFO:root:--------------------
+INFO:root:Fila 5:
+INFO:root:  Id_fiscalizable: DFZ-2014-245-VI-RCA-IA
+INFO:root:  Clientes: AGRICOLA SUPER LIMITADA
+INFO:root:  Unidad_fiscalizable: AGROSUPER - CERDOS LA ESTRELLA
+INFO:root:  Ubicacion: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2180
+INFO:root:URL actual de la página del documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001132
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104006561
+INFO:root:Tiempo de espera agotado al intentar hacer clic en el enlace.
+INFO:root:Tabla de búsqueda desplegada.
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104006561
+INFO:root:Archivo renombrado a: C:\Users\José\OneDrive - Fundacion Instituto Profesional Duoc UC\Escritorio\PY-Inventario-CAPSTONE\capstone-JoseMedina-4\modulos\Descargas\IFA_AGROSUPER - CERDOS LA ESTRELLA.pdf
+INFO:root:-------------------------------
+INFO:root:Leyendo contenido del documento
+ERROR:root:Error al leer el archivo PDF IFA_AGROSUPER - CERDOS LA ESTRELLA.pdf: EOF marker not found
+ERROR:root:Error al leer el archivo DOCX Informe de Fiscalizacion Ambiental.docx: name 'docx' is not defined
+ERROR:root:Error al leer el archivo DOCX Informe de Fiscalizació1 (1).docx: name 'docx' is not defined
+ERROR:root:Error al leer el archivo DOCX Informe de Fiscalizació1.docx: name 'docx' is not defined
+ERROR:root:Error al leer el archivo DOCX Informe Fiscalización Ambiental.docx: name 'docx' is not defined
+ERROR:root:Error al leer el archivo DOCX Informe Inspeccion Ambiental.docx: name 'docx' is not defined
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001132
+INFO:root:AGROSUPER - CERDOS LA ESTRELLA
+INFO:root:IFA_AGROSUPER - CERDOS LA ESTRELLA
+INFO:root:--------------------------
+INFO:root:La ventana del navegador fue cerrada manualmente.
+INFO:root:**************************
+INFO:root:Navegador cerrado exitosamente.
+INFO:root:**************************
+INFO:root:**************************
+INFO:root:Iniciando Scraping . . .
+INFO:root:Error al interactuar con la página: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00007FF668476CB5+28821]
+	(No symbol) [0x00007FF6683E3840]
+	(No symbol) [0x00007FF66828578A]
+	(No symbol) [0x00007FF668273992]
+	(No symbol) [0x00007FF66827365A]
+	(No symbol) [0x00007FF668271274]
+	(No symbol) [0x00007FF668271D1F]
+	(No symbol) [0x00007FF66828084E]
+	(No symbol) [0x00007FF66829492D]
+	(No symbol) [0x00007FF66829B10A]
+	(No symbol) [0x00007FF668272484]
+	(No symbol) [0x00007FF668294753]
+	(No symbol) [0x00007FF66831F75A]
+	(No symbol) [0x00007FF6682FF0A3]
+	(No symbol) [0x00007FF6682CA778]
+	(No symbol) [0x00007FF6682CB8E1]
+	GetHandleVerifier [0x00007FF6687AFCAD+3408013]
+	GetHandleVerifier [0x00007FF6687C741F+3504127]
+	GetHandleVerifier [0x00007FF6687BB5FD+3455453]
+	GetHandleVerifier [0x00007FF66853BDBB+835995]
+	(No symbol) [0x00007FF6683EEB5F]
+	(No symbol) [0x00007FF6683EA814]
+	(No symbol) [0x00007FF6683EA9AD]
+	(No symbol) [0x00007FF6683DA199]
+	BaseThreadInitThunk [0x00007FFEAFCB7374+20]
+	RtlUserThreadStart [0x00007FFEB037CC91+33]
+
+INFO:root:Navegador cerrado exitosamente.
+INFO:root:**************************
+INFO:root:**************************
+INFO:root:Iniciando Scraping . . .
+INFO:root:Esperando a que desaparezca el modal
+INFO:root:Error al esperar que el modal desaparezca: 'NoneType' object has no attribute 'is_displayed'
+INFO:root:Error al interactuar con la página: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00007FF668476CB5+28821]
+	(No symbol) [0x00007FF6683E3840]
+	(No symbol) [0x00007FF66828578A]
+	(No symbol) [0x00007FF66825F4F5]
+	(No symbol) [0x00007FF668306247]
+	(No symbol) [0x00007FF66831ECE2]
+	(No symbol) [0x00007FF6682FF0A3]
+	(No symbol) [0x00007FF6682CA778]
+	(No symbol) [0x00007FF6682CB8E1]
+	GetHandleVerifier [0x00007FF6687AFCAD+3408013]
+	GetHandleVerifier [0x00007FF6687C741F+3504127]
+	GetHandleVerifier [0x00007FF6687BB5FD+3455453]
+	GetHandleVerifier [0x00007FF66853BDBB+835995]
+	(No symbol) [0x00007FF6683EEB5F]
+	(No symbol) [0x00007FF6683EA814]
+	(No symbol) [0x00007FF6683EA9AD]
+	(No symbol) [0x00007FF6683DA199]
+	BaseThreadInitThunk [0x00007FFEAFCB7374+20]
+	RtlUserThreadStart [0x00007FFEB037CC91+33]
+
+INFO:root:Navegador cerrado exitosamente.
+INFO:root:**************************
+INFO:root:**************************
+INFO:root:Iniciando Scraping . . .
+INFO:root:Esperando a que desaparezca el modal
+INFO:root:Error al esperar que el modal desaparezca: 'NoneType' object has no attribute 'is_displayed'
+INFO:root:Error al interactuar con la página: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00007FF668476CB5+28821]
+	(No symbol) [0x00007FF6683E3840]
+	(No symbol) [0x00007FF66828578A]
+	(No symbol) [0x00007FF66825F4F5]
+	(No symbol) [0x00007FF668306247]
+	(No symbol) [0x00007FF66831ECE2]
+	(No symbol) [0x00007FF6682FF0A3]
+	(No symbol) [0x00007FF6682CA778]
+	(No symbol) [0x00007FF6682CB8E1]
+	GetHandleVerifier [0x00007FF6687AFCAD+3408013]
+	GetHandleVerifier [0x00007FF6687C741F+3504127]
+	GetHandleVerifier [0x00007FF6687BB5FD+3455453]
+	GetHandleVerifier [0x00007FF66853BDBB+835995]
+	(No symbol) [0x00007FF6683EEB5F]
+	(No symbol) [0x00007FF6683EA814]
+	(No symbol) [0x00007FF6683EA9AD]
+	(No symbol) [0x00007FF6683DA199]
+	BaseThreadInitThunk [0x00007FFEAFCB7374+20]
+	RtlUserThreadStart [0x00007FFEB037CC91+33]
+
+INFO:root:Navegador cerrado exitosamente.
+INFO:root:**************************
