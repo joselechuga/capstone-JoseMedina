@@ -67,7 +67,7 @@ def iniciar_driver():
     driver.implicitly_wait(180)
     return driver
     
-def renombrar_archivo_descargado(download_dir, nombre_documento):
+def renombrar_archivo_descargado(download_dir, id_fiscalizable):
     # Esperar a que el archivo se descargue completamente
     time.sleep(5)  # Ajusta el tiempo según sea necesario
 
@@ -77,13 +77,29 @@ def renombrar_archivo_descargado(download_dir, nombre_documento):
             continue
         file_path = os.path.join(download_dir, filename)
 
-        # Obtener solo el nombre del archivo
-        nombre_archivo = os.path.basename(file_path)
+        # Verificar si el archivo es el esperado
+        if id_fiscalizable in filename:
+            # Obtener solo el nombre del archivo
+            nombre_archivo = os.path.basename(file_path)
 
-        # Registrar el nombre del archivo sin cambiarlo
-        print(f"Archivo descargado: {nombre_archivo}")
-        logging.info(f"Archivo descargado: {nombre_archivo}")
-        break
+            # Registrar el nombre del archivo sin cambiarlo
+            print(f"Archivo descargado: {nombre_archivo}")
+            logging.info(f"Archivo descargado: {nombre_archivo}")
+
+            # Renombrar el archivo
+            nuevo_nombre = f"{id_fiscalizable}.pdf"
+            nuevo_path = os.path.join(download_dir, nuevo_nombre)
+            os.rename(file_path, nuevo_path)
+            print(f"Archivo renombrado a: {nuevo_nombre}")
+            logging.info(f"Archivo renombrado a: {nuevo_nombre}")
+
+        # Leer el archivo descargado
+        #leer_archivo_descargado(download_dir)
+
+            break
+        else:
+            print(f"Archivo {filename} no coincide con el patrón esperado y será ignorado.")
+            logging.info(f"Archivo {filename} no coincide con el patrón esperado y será ignorado.")
 
 def interactuar_con_pagina(driver):
     try:
@@ -118,11 +134,12 @@ def interactuar_con_pagina(driver):
         WebDriverWait(driver, 120).until(
             EC.presence_of_element_located((By.XPATH, "/html/body/div[6]/div[4]/div/div/div/div/div[2]/div[3]/table/tbody/tr"))
         )
-
+        logging.info(f"Cargando resultados")
         esperar_modal_desaparecer(driver)
 
         url_resultados = driver.current_url
 
+        logging.info(f"Desplegando todos los resultados")
         WebDriverWait(driver, 120).until(
             EC.element_to_be_clickable((By.XPATH, "/html/body/div[6]/div[4]/div/div/div/div/div[2]/div[3]/div[4]/select/option[7]"))
         ).click()
@@ -171,7 +188,7 @@ def interactuar_con_pagina(driver):
                     url_pagina_actual = recolectar_url_pagina(driver)
                     
                     # from escaneado import monitorear_ruta_descargas
-
+                    #from escaneado import leer_archivo_descargado
                     
                     elemento = buscar_en_tabla(driver, "Informe de Fiscalización Ambiental")
                     desplegar_tabla(driver)
@@ -181,8 +198,9 @@ def interactuar_con_pagina(driver):
                         # Renombrar el archivo descargado
                         download_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'Descargas')
                         nombre_documento = "IFA_" + unidad_fiscalizable
-                        renombrar_archivo_descargado(download_dir, nombre_documento)
-                        #monitorear_ruta_descargas(driver)
+                        renombrar_archivo_descargado(download_dir, id_fiscalizable)
+                        
+
                     # Añadir datos a las tablas
                     
                     # TABLA CLIENTES
@@ -193,6 +211,10 @@ def interactuar_con_pagina(driver):
                     
                     # TABLA DOCUMENTO
                     add_documento(url_pagina_actual, unidad_fiscalizable, nombre_documento)
+                    
+                    #monitorear_ruta_descargas(driver)
+                    # Leer el archivo descargado
+                    #leer_archivo_descargado(download_dir)
                     
                     # Volver a la pagina de tabla de resultados
                     regresar_a_pagina_anterior(driver)
