@@ -29,7 +29,7 @@ def loginPage(request):
             # Almacenar el correo en la sesión (para usuarios autenticados)
             request.session['user_email'] = user.email
             login(request, user)
-            return render(request, 'home.html', {'user_email': user.email})
+            return redirect('home')
         elif 'correo' in request.POST and 'firma' in request.POST and 'certificado' in request.POST:
             correo = request.POST.get('correo')
             firma = request.POST.get('firma')
@@ -45,7 +45,7 @@ def loginPage(request):
             user = authenticate(request, username='jose', password='Capstonejose')
             if user is not None:
                 login(request, user)
-                return render(request, 'home.html', data)
+                return redirect('home')
             else:
                 return render(request, 'login.html', {'error_message': 'Credenciales incorrectas'})
         else:
@@ -60,9 +60,7 @@ def logoutUser(request):
 
 def home(request):
     # Obtener el correo de la sesión
-    user_email = request.session.get('user_email', 'Correo no disponible')
-    
-    # Aquí puedes usar 'user_email' como lo desees, por ejemplo, mostrarlo en el template
+    user_email = request.session.get('user_email', 'Correo no disponible')    
     return render(request, 'home.html', {'user_email': user_email})
 
 
@@ -74,15 +72,15 @@ def run_script(request):
             ['python', 'modulos\main.py'],
             capture_output=True,
             text=True,
-            check=True  # Esto lanzará una excepción si el script falla
+            check=True  #excepción si el script falla
         )
-        # Retorna el resultado en formato JSON
+        # Retorna JSON
         return JsonResponse({'output': result.stdout})
     except subprocess.CalledProcessError as e:
         # Captura errores de ejecución del script
         return JsonResponse({'error': f'Error al ejecutar el script: {e.stderr}'})
     except Exception as e:
-        # Captura cualquier otro tipo de error
+        # Captura cualquier otro error
         return JsonResponse({'error': f'Error inesperado: {str(e)}'})
 
 
@@ -110,36 +108,6 @@ def get_logs(request):
         return JsonResponse({'logs': logs})
     except Exception as e:
         return JsonResponse({'error': f'Error al leer el archivo: {str(e)}'})
-# datos de 'logs_scraping.txt' enviados a API mockapi
-
-# def enviar_logs_a_api():
-#     url = "https://671d555c09103098807cd937.mockapi.io/api/odorwatch/logs_scraping"
-    
-#     # Leer el contenido completo del archivo de logs
-#     with open('logs_scraping.txt', 'r') as file:
-#         logs = file.read()
-    
-#     # Crear el payload con el contenido de logs
-#     data = {
-#         "logs": logs
-#     }
-    
-#     try:
-#         # Enviar el contenido a la API mediante una solicitud POST
-#         response = requests.post(url, json=data)
-        
-#         # Verificar si la solicitud fue exitosa
-#         if response.status_code == 201:
-#             print("Logs enviados con éxito a la API.")
-#         else:
-#             print(f"Error al enviar los logs. Código de respuesta: {response.status_code}")
-#             print("Respuesta:", response.text)
-            
-#     except Exception as e:
-#         print(f"Ocurrió un error al intentar enviar los logs: {e}")
-
-# # Llamada a la función para enviar los logs
-# enviar_logs_a_api()
 
 
 def snifa(request):
@@ -157,3 +125,4 @@ def get_progress(request):
     except Exception as e:
         print(f"Error al obtener el progreso: {str(e)}")
         return JsonResponse({'error': f'Error al obtener el progreso: {str(e)}'})
+
