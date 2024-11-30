@@ -20,7 +20,5 @@
     "expediente": "/html/body/div[6]/div[4]/div/div/div/div/div[2]/div[3]/table/tbody/tr[{}]/td[2]",
     "descargar": "/html/body/div[6]/div[4]/div/div/div/div/div/div/div[1]/div[1]/table/tbody/tr[2]/td[5]/a",
     "cambiar_pagina": "//*[@id=\"main\"]/div[3]/div[4]/div/select",
-    "modal": "//*[@id='cargandoInformacion']",
-    "correos_ti":"jmedina@tsgenviro.com",
-    "correos_diagnostico":"jmedina@envirometrika.com"
+    "modal": "//*[@id='cargandoInformacion']"
 }

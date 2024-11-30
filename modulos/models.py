@@ -29,3 +29,6 @@ class LogsError(models.Model):
 
     def __str__(self):
         return self.nombre_error
+    
+    
+

@@ -1,11 +1,11 @@
 import logging
 from django.shortcuts import render
-from odorwatch.models import Cliente, UnidadFiscalizable, Documento, Coincidencias, Estado
+from odorwatch.models import Cliente, UnidadFiscalizable, Documento, Coincidencias, Palabras
 
 # Enviar datos a Cliente 
 def add_cliente(nombre_cliente):
     """Añade un nuevo cliente a la base de datos."""
-    logging.info("1- Añadiendo Cliente a BD")
+    logging.info("Añadiendo Cliente a BD")
     try:
         if not nombre_cliente:
             return "El nombre del cliente es requerido."
@@ -25,7 +25,7 @@ def add_cliente(nombre_cliente):
 # Enviar datos a Unidad Fiscalizable
 def add_unidad(nombre_unidad, ubicacion_unidad, url_unidad, nombre_cliente):
     """Añade una nueva unidad fiscalizable a la base de datos."""
-    logging.info("1- Añadiendo Unidad Fiscalizable a BD")
+    logging.info("Añadiendo Unidad Fiscalizable a BD")
     try:
         if not nombre_unidad or not nombre_cliente or not ubicacion_unidad or not url_unidad:
             return "Los datos son requeridos."
@@ -87,3 +87,38 @@ def add_documento(url, unidad_fiscalizable, nombre_documento):
         return f"Error al añadir documento: {str(e)}"
 
 
+def add_coincidencias(cantidad, url_documento, palabras):
+    logging.info("--------------------------")
+    logging.info("Añadiendo Coincidencias a BD")
+    logging.info(f"Cantidad: {cantidad}, URL: {url_documento}, Palabras: {palabras}")
+    logging.info("--------------------------")
+    try:
+        if not cantidad or not url_documento or not palabras:
+            return "Los datos son requeridos."
+
+        # Obtiene el documento de la base de datos
+        documento = Documento.objects.get(url=url_documento)
+
+        # Obtiene las palabras de la base de datos
+        palabras_obj, created = Palabras.objects.get_or_create(palabras=palabras)
+
+        # Crea o obtiene la coincidencia en la base de datos
+        coincidencia, created = Coincidencias.objects.get_or_create(
+            cantidad=cantidad,
+            documento=documento,
+            palabras=palabras_obj
+        )
+
+        if created:
+            logging.info("La coincidencia ha sido añadida a la BD")
+            return f"Coincidencia añadida a la base de datos."
+        else:
+            return f"Coincidencia ya existe en la base de datos."
+
+    except Documento.DoesNotExist:
+        return f"Error: Documento '{url_documento}' no encontrado."
+    except Palabras.DoesNotExist:
+        return f"Error: Palabras '{palabras}' no encontradas."
+    except Exception as e:
+        logging.error(f"Error al añadir coincidencia: {str(e)}")
+        return f"Error al añadir coincidencia: {str(e)}"

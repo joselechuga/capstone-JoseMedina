@@ -1,0 +1,250 @@
+INFO:root:**************************
+INFO:root:Iniciando Scraping . . .
+INFO:root:Seleccionando categoria
+INFO:root:Buscando . . .
+INFO:root:Cargando resultados
+INFO:root:Esperando a que desaparezca el modal
+INFO:root:El modal ha desaparecido
+INFO:root:Desplegando todos los resultados
+INFO:root:--------------------
+INFO:root:Fila 1:
+INFO:root:  Id_fiscalizable: DFZ-2014-78-XV-RCA-IA
+INFO:root:  Clientes: AGROINDUSTRIAL ARICA
+INFO:root:  Unidad_fiscalizable: PLANTA FAENADORA DE AVES ARICA
+INFO:root:  Ubicacion: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2593
+INFO:root:URL actual de la página del documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004526
+INFO:root:Tiempo de espera agotado al intentar hacer clic en el enlace.
+INFO:root:Tabla de búsqueda desplegada.
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004526
+INFO:root:Archivo Informe de Fiscalizació1.docx no coincide con el patrón esperado y será ignorado.
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+INFO:root:PLANTA FAENADORA DE AVES ARICA
+INFO:root:IFA_PLANTA FAENADORA DE AVES ARICA
+INFO:root:--------------------------
+INFO:root:Esperando a que desaparezca el modal
+INFO:root:El modal ha desaparecido
+INFO:root:--------------------
+INFO:root:Fila 2:
+INFO:root:  Id_fiscalizable: DFZ-2014-2297-V-RCA-IA
+INFO:root:  Clientes: AGRICOLA ARIZTIA, AVICOLA ANDINA SPA
+INFO:root:  Unidad_fiscalizable: PLANTEL DE AVES DE LEYDA
+INFO:root:  Ubicacion: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/1840
+INFO:root:URL actual de la página del documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001101
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004786
+INFO:root:Tiempo de espera agotado al intentar hacer clic en el enlace.
+INFO:root:Tabla de búsqueda desplegada.
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004786
+INFO:root:Archivo Informe de Fiscalizació1.docx no coincide con el patrón esperado y será ignorado.
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001101
+INFO:root:PLANTEL DE AVES DE LEYDA
+INFO:root:IFA_PLANTEL DE AVES DE LEYDA
+INFO:root:--------------------------
+INFO:root:Esperando a que desaparezca el modal
+INFO:root:El modal ha desaparecido
+INFO:root:--------------------
+INFO:root:Fila 3:
+INFO:root:  Id_fiscalizable: DFZ-2014-347-XIII-RCA-IA
+INFO:root:  Clientes: AGRICOLA EL MONTE S.A.
+INFO:root:  Unidad_fiscalizable: CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A.
+INFO:root:  Ubicacion: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/4495
+INFO:root:URL actual de la página del documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001114
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004630
+INFO:root:Tiempo de espera agotado al intentar hacer clic en el enlace.
+INFO:root:Tabla de búsqueda desplegada.
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004630
+INFO:root:Archivo Informe de Fiscalizacion Ambiental.docx no coincide con el patrón esperado y será ignorado.
+INFO:root:Archivo Informe de Fiscalizació1.docx no coincide con el patrón esperado y será ignorado.
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001114
+INFO:root:CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A.
+INFO:root:IFA_CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A.
+INFO:root:--------------------------
+INFO:root:Esperando a que desaparezca el modal
+INFO:root:El modal ha desaparecido
+INFO:root:--------------------
+INFO:root:Fila 4:
+INFO:root:  Id_fiscalizable: DFZ-2014-179-XIII-RCA-IA
+INFO:root:  Clientes: AGRICOLA SUPER LIMITADA
+INFO:root:  Unidad_fiscalizable: CERDOS LA MANGA - AGROSUPER
+INFO:root:  Ubicacion: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/4494
+INFO:root:URL actual de la página del documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001124
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104005427
+INFO:root:Tiempo de espera agotado al intentar hacer clic en el enlace.
+INFO:root:Tabla de búsqueda desplegada.
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104005427
+INFO:root:Archivo Informe de Fiscalizacion Ambiental.docx no coincide con el patrón esperado y será ignorado.
+INFO:root:Archivo Informe de Fiscalizació1.docx no coincide con el patrón esperado y será ignorado.
+INFO:root:Archivo Informe Fiscalización Ambiental.docx no coincide con el patrón esperado y será ignorado.
+INFO:root:Archivo Informe Inspeccion Ambiental.docx no coincide con el patrón esperado y será ignorado.
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001124
+INFO:root:CERDOS LA MANGA - AGROSUPER
+INFO:root:IFA_CERDOS LA MANGA - AGROSUPER
+INFO:root:--------------------------
+INFO:root:Esperando a que desaparezca el modal
+INFO:root:El modal ha desaparecido
+INFO:root:--------------------
+INFO:root:Fila 5:
+INFO:root:  Id_fiscalizable: DFZ-2014-245-VI-RCA-IA
+INFO:root:  Clientes: AGRICOLA SUPER LIMITADA
+INFO:root:  Unidad_fiscalizable: AGROSUPER - CERDOS LA ESTRELLA
+INFO:root:  Ubicacion: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2180
+INFO:root:URL actual de la página del documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001132
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104006561
+INFO:root:Tiempo de espera agotado al intentar hacer clic en el enlace.
+INFO:root:Tabla de búsqueda desplegada.
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104006561
+INFO:root:Archivo Informe de Fiscalizacion Ambiental.docx no coincide con el patrón esperado y será ignorado.
+INFO:root:Archivo Informe de Fiscalizació1.docx no coincide con el patrón esperado y será ignorado.
+INFO:root:Archivo Informe Fiscalizacion Ambiental.docx no coincide con el patrón esperado y será ignorado.
+INFO:root:Archivo Informe Fiscalización Ambiental.docx no coincide con el patrón esperado y será ignorado.
+INFO:root:Archivo Informe Inspeccion Ambiental.docx no coincide con el patrón esperado y será ignorado.
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:2- La unidad fiscalizable ha sido añadida
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001132
+INFO:root:AGROSUPER - CERDOS LA ESTRELLA
+INFO:root:IFA_AGROSUPER - CERDOS LA ESTRELLA
+INFO:root:--------------------------
+INFO:root:El documento ha sido añadido a la BD
+INFO:root:Esperando a que desaparezca el modal
+INFO:root:El modal ha desaparecido
+INFO:root:--------------------
+INFO:root:Fila 6:
+INFO:root:  Id_fiscalizable: DFZ-2014-2273-VI-RCA-IA
+INFO:root:  Clientes: AGRICOLA SUPER LIMITADA, FAENADORA LO MIRANDA LTDA
+INFO:root:  Unidad_fiscalizable: AGROSUPER - PLANTA LO MIRANDA
+INFO:root:  Ubicacion: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2061
+INFO:root:URL actual de la página del documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001137
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104005015
+INFO:root:**************************
+INFO:root:Iniciando Scraping . . .
+INFO:root:Seleccionando categoria
+INFO:root:Buscando . . .
+INFO:root:Tiempo de espera agotado al intentar hacer clic en el enlace.
+INFO:root:Tabla de búsqueda desplegada.
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104005015
+INFO:root:Archivo Informe de Fiscalizacion Ambiental.docx no coincide con el patrón esperado y será ignorado.
+INFO:root:Archivo Informe de Fiscalizació1.docx no coincide con el patrón esperado y será ignorado.
+INFO:root:Archivo Informe Fiscalizacion Ambiental (2).docx no coincide con el patrón esperado y será ignorado.
+INFO:root:Archivo Informe Fiscalizacion Ambiental.docx no coincide con el patrón esperado y será ignorado.
+INFO:root:Archivo Informe Fiscalización Ambiental.docx no coincide con el patrón esperado y será ignorado.
+INFO:root:Archivo Informe Inspeccion Ambiental.docx no coincide con el patrón esperado y será ignorado.
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:2- El usuario ha sido recibido
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:2- La unidad fiscalizable ha sido añadida
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001137
+INFO:root:AGROSUPER - PLANTA LO MIRANDA
+INFO:root:IFA_AGROSUPER - PLANTA LO MIRANDA
+INFO:root:--------------------------
+INFO:root:El documento ha sido añadido a la BD
+INFO:root:Esperando a que desaparezca el modal
+INFO:root:El modal ha desaparecido
+INFO:root:--------------------
+INFO:root:Fila 7:
+INFO:root:  Id_fiscalizable: DFZ-2014-103-VI-RCA-IA
+INFO:root:  Clientes: INVERTEC FOODS S.A., INVERTEC NATURAL JUICE S.A., INVERTEC FOODS S.A.
+INFO:root:  Unidad_fiscalizable: INVERTEC FOOD - PLANTA RENGO
+INFO:root:  Ubicacion: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2096
+INFO:root:URL actual de la página del documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001140
+INFO:root:Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+INFO:root:Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104006385
+INFO:root:Error al interactuar con la página: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00007FF66A836CB5+28821]
+	(No symbol) [0x00007FF66A7A3840]
+	(No symbol) [0x00007FF66A64578A]
+	(No symbol) [0x00007FF66A61F4F5]
+	(No symbol) [0x00007FF66A6C6247]
+	(No symbol) [0x00007FF66A6DECE2]
+	(No symbol) [0x00007FF66A6BF0A3]
+	(No symbol) [0x00007FF66A68A778]
+	(No symbol) [0x00007FF66A68B8E1]
+	GetHandleVerifier [0x00007FF66AB6FCAD+3408013]
+	GetHandleVerifier [0x00007FF66AB8741F+3504127]
+	GetHandleVerifier [0x00007FF66AB7B5FD+3455453]
+	GetHandleVerifier [0x00007FF66A8FBDBB+835995]
+	(No symbol) [0x00007FF66A7AEB5F]
+	(No symbol) [0x00007FF66A7AA814]
+	(No symbol) [0x00007FF66A7AA9AD]
+	(No symbol) [0x00007FF66A79A199]
+	BaseThreadInitThunk [0x00007FFEAFCB7374+20]
+	RtlUserThreadStart [0x00007FFEB037CC91+33]
+
+INFO:root:Navegador cerrado exitosamente.
+INFO:root:**************************
+INFO:root:La ventana del navegador fue cerrada inesperadamente.
+INFO:root:Error inesperado al intentar desplegar la tabla de búsqueda: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00007FF66A836CB5+28821]
+	(No symbol) [0x00007FF66A7A3840]
+	(No symbol) [0x00007FF66A64578A]
+	(No symbol) [0x00007FF66A61F4F5]
+	(No symbol) [0x00007FF66A6C6247]
+	(No symbol) [0x00007FF66A6DECE2]
+	(No symbol) [0x00007FF66A6BF0A3]
+	(No symbol) [0x00007FF66A68A778]
+	(No symbol) [0x00007FF66A68B8E1]
+	GetHandleVerifier [0x00007FF66AB6FCAD+3408013]
+	GetHandleVerifier [0x00007FF66AB8741F+3504127]
+	GetHandleVerifier [0x00007FF66AB7B5FD+3455453]
+	GetHandleVerifier [0x00007FF66A8FBDBB+835995]
+	(No symbol) [0x00007FF66A7AEB5F]
+	(No symbol) [0x00007FF66A7AA814]
+	(No symbol) [0x00007FF66A7AA9AD]
+	(No symbol) [0x00007FF66A79A199]
+	BaseThreadInitThunk [0x00007FFEAFCB7374+20]
+	RtlUserThreadStart [0x00007FFEB037CC91+33]
+
+INFO:root:La ventana del navegador fue cerrada inesperadamente.
+INFO:root:Archivo Informe de Fiscalizacion Ambiental.docx no coincide con el patrón esperado y será ignorado.
+INFO:root:Archivo Informe de Fiscalizació1.docx no coincide con el patrón esperado y será ignorado.
+INFO:root:Archivo Informe Fiscalizacion Ambiental (2).docx no coincide con el patrón esperado y será ignorado.
+INFO:root:Archivo Informe Fiscalizacion Ambiental.docx no coincide con el patrón esperado y será ignorado.
+INFO:root:Archivo Informe Fiscalización Ambiental.docx no coincide con el patrón esperado y será ignorado.
+INFO:root:Archivo Informe Inspeccion Ambiental.docx no coincide con el patrón esperado y será ignorado.
+INFO:root:1- Añadiendo Cliente a BD
+INFO:root:2- El usuario ha sido recibido
+INFO:root:1- Añadiendo Unidad Fiscalizable a BD
+INFO:root:2- La unidad fiscalizable ha sido añadida
+INFO:root:--------------------------
+INFO:root:Añadiendo Documento a BD
+INFO:root:https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001140
+INFO:root:INVERTEC FOOD - PLANTA RENGO
+INFO:root:IFA_INVERTEC FOOD - PLANTA RENGO
+INFO:root:--------------------------
+INFO:root:El documento ha sido añadido a la BD
+INFO:root:La ventana del navegador fue cerrada manualmente.
+INFO:root:**************************
+INFO:root:Navegador cerrado exitosamente.
+INFO:root:**************************

@@ -19,17 +19,39 @@ logging.basicConfig(filename=os.path.join(log_dir, f'{fecha}.lst'), level=loggin
 def desplegar_tabla(driver):
     """Da clic en el path especificado para desplegar la tabla de búsqueda."""
     try:
-        WebDriverWait(driver, 10).until(
-            EC.element_to_be_clickable((By.XPATH, "/html/body/div[6]/div[4]/div/div/div/div/div/div/div[2]/div[1]/div[1]/h4/a"))
-        ).click()
-        print("Tabla de búsqueda desplegada.")
-        logging.info("Tabla de búsqueda desplegada.")
+        # Intentar hacer clic varias veces hasta que el modal desaparezca
+        for _ in range(5):
+            try:
+                esperar_modal_desaparecer(driver)
+                WebDriverWait(driver, 10).until(
+                    EC.element_to_be_clickable((By.XPATH, "/html/body/div[6]/div[4]/div/div/div/div/div/div/div[2]/div[1]/div[1]/h4/a"))
+                ).click()
+                print("Tabla de búsqueda desplegada.")
+                logging.info("Tabla de búsqueda desplegada.")
+                return
+            except ElementClickInterceptedException:
+                time.sleep(1)  # Esperar un segundo antes de reintentar
+        print("No se pudo desplegar la tabla de búsqueda después de varios intentos.")
+        logging.info("No se pudo desplegar la tabla de búsqueda después de varios intentos.")
     except TimeoutException:
         print("No se pudo encontrar el elemento para desplegar la tabla de búsqueda.")
         logging.info("No se pudo encontrar el elemento para desplegar la tabla de búsqueda.")
     except Exception as e:
         print(f"Error inesperado al intentar desplegar la tabla de búsqueda: {e}")
         logging.info(f"Error inesperado al intentar desplegar la tabla de búsqueda: {e}")
+
+def esperar_modal_desaparecer(driver):
+    """Espera a que el modal de carga desaparezca."""
+    try:
+        logging.info('Esperando a que desaparezca el modal')
+        WebDriverWait(driver, 20).until(
+            EC.invisibility_of_element_located((By.ID, "cargandoInformacion"))
+        )
+        print("El modal ha desaparecido")
+        logging.info("El modal ha desaparecido")
+    except Exception as e:
+        print(f"Error al esperar que el modal desaparezca: {e}")
+        logging.info(f"Error al esperar que el modal desaparezca: {e}")
 
 def buscar_en_tabla(driver, palabra):
     """Busca y recorre la tabla en el path especificado y busca un elemento mediante la función 'buscar_elemento_por_palabra'."""
@@ -94,25 +116,18 @@ def buscar_elemento_por_palabra(driver, palabra):
 def buscar_y_hacer_clic_enlace(driver, elemento):
     """Hace clic en el enlace en la misma fila del elemento encontrado previamente."""
     try:
-        # Encontrar el enlace en la misma fila del elemento
         link_element = elemento.find_element(By.XPATH, "../td[4]/a")
         download_url = link_element.get_attribute('href')
         print(f"Elemento encontrado previamente. URL del enlace: {download_url}")
         logging.info(f"Elemento encontrado previamente. URL del enlace: {download_url}")
 
-        # Aumentar el tiempo de espera para el clic
-        WebDriverWait(driver, 60).until(EC.element_to_be_clickable(link_element))
-
-        # Hacer clic en el enlace
-        link_element.click()
-        return True
-    except TimeoutException:
-        print("Tiempo de espera agotado al intentar hacer clic en el enlace.")
-        logging.info("Tiempo de espera agotado al intentar hacer clic en el enlace.")
-        return False
-    except NoSuchWindowException:
-        print("La ventana del navegador fue cerrada inesperadamente.")
-        logging.info("La ventana del navegador fue cerrada inesperadamente.")
+        # Intentar hacer clic varias veces
+        for _ in range(5):
+            try:
+                link_element.click()
+                return True
+            except ElementClickInterceptedException:
+                time.sleep(1)  # Esperar un segundo antes de reintentar
         return False
     except Exception as e:
         print(f"Error al intentar hacer clic en el enlace de la fila: {e}")

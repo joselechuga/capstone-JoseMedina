@@ -38,7 +38,7 @@
           <td>
             {% for documento in documentos %}
               {% if documento.unidad_fiscalizable.cliente == cliente %}
-                {{ documento.nombre_documento }}<br>
+                <a href="{{ documento.url }}">{{ documento.nombre_documento }}</a><br>
               {% endif %}
             {% endfor %}
           </td>

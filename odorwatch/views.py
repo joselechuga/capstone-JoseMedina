@@ -126,3 +126,13 @@ def get_progress(request):
         print(f"Error al obtener el progreso: {str(e)}")
         return JsonResponse({'error': f'Error al obtener el progreso: {str(e)}'})
 
+def mostrar_ejecuciones(request):
+    log_file_path = os.path.join('modulos', 'logs', f'{time.strftime("%Y-%m-%d")}.lst')
+    logs = []
+
+    if os.path.exists(log_file_path):
+        with open(log_file_path, 'r') as log_file:
+            logs = log_file.readlines()[-10:]  # Leer las últimas 10 líneas
+
+    return render(request, 'home.html', {'logs': logs})
+

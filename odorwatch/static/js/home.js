@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const container = document.getElementById('urls');
 
     // Construir el HTML de la lista
-    let listHTML = ``;
+    let listHTML = '';
     urls.forEach(url => {
         let iconClass = '';
         let cardTitle = '';
@@ -12,11 +12,11 @@ document.addEventListener('DOMContentLoaded', function() {
         if (url === 'snifa') {
             iconClass = 'fa-leaf';
             cardTitle = 'SNIFA';
-            cardText = 'Accede al módulo SNIFA para más información.';
+            cardText = 'Accede directamente al módulo SNIFA para más información.';
         } else if (url === '#') {
             iconClass = 'fa-stopwatch';
             cardTitle = 'Enlace no disponible';
-            cardText = 'Este enlace no está disponible actualmente.';
+            cardText = 'Este enlace no está disponible actualmente. Pronto se agregarán nuevos módulos.';
         } else {
             iconClass = 'fa-question';
             cardTitle = 'Desconocido';
@@ -51,7 +51,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>
             </div>`;
     });
-    listHTML += ``;
 
     // Insertar el HTML en el contenedor
     container.innerHTML = listHTML;

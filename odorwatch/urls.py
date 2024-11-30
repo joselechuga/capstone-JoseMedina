@@ -15,5 +15,6 @@ urlpatterns = [
     path('get-logs/', views.get_logs, name='get_logs'),
     path('snifa/', views.snifa, name='snifa'),
     path('get-progress/', views.get_progress, name='get_progress'),
+    path('ejecuciones/', views.mostrar_ejecuciones, name='mostrar_ejecuciones'),
 
 ]
