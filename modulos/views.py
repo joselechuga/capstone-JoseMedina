@@ -42,7 +42,7 @@ def add_unidad(nombre_unidad, ubicacion_unidad, url_unidad, nombre_cliente):
         )
 
         if created:
-            logging.info("2- La unidad fiscalizable ha sido añadida")
+            logging.info("La unidad fiscalizable ha sido añadida")
             return f"Unidad Fiscalizable '{nombre_unidad}' añadida a la base de datos."
         else:
             return f"Unidad Fiscalizable '{nombre_unidad}' ya existe en la base de datos."

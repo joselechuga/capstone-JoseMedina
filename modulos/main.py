@@ -135,6 +135,8 @@ def interactuar_con_pagina(driver):
 
         download_dir = os.path.join(current_dir, 'Descargas')
 
+        # Contador para el mensaje de no más filas
+        no_more_rows_count = 0
 
         # Actualiza barra de progreso en panel
         def actualizar_progreso(progreso):
@@ -182,6 +184,8 @@ def interactuar_con_pagina(driver):
 
                 filas = driver.find_elements(By.XPATH, "/html/body/div[6]/div[4]/div/div/div/div/div[2]/div[3]/table/tbody/tr")
                 if i < len(filas):
+                    no_more_rows_count = 0  # Reinicia el contador si se procesa una fila
+
                     fila = filas[i]
 
                     id_fiscalizable = fila.find_element(By.XPATH, f"./td[2]").text
@@ -257,13 +261,13 @@ def interactuar_con_pagina(driver):
                     
                     # TABLA COINCIDENCIAS
                     
-                    for i, palabra in enumerate(coincidencias):
-                        logging.info(f"Datos para coincidencias: cantidad={i}, url_documento={url_pagina_actual}, palabras={palabra}")
-                        add_coincidencias(i, url_pagina_actual, palabra)
+                    #for i, palabra in enumerate(coincidencias):
+                     #   logging.info(f"Datos para coincidencias: cantidad={i}, url_documento={url_pagina_actual}, palabras={palabra}")
+                      #  add_coincidencias(i, url_pagina_actual, palabra)
                     #monitorear_ruta_descargas(driver)
                     # Leer el archivo descargado
                     #leer_archivo_descargado(download_dir)
-                    
+                    add_coincidencias(coincidencias[1][0], url_pagina_actual, coincidencias[0][1])
 
                     # Volver a la pagina de tabla de resultados
                     regresar_a_pagina_anterior(driver)
@@ -277,6 +281,15 @@ def interactuar_con_pagina(driver):
 
                 else:
                     logging.info(f"No hay más filas para procesar en el índice {i}")
+                    no_more_rows_count += 1  # Incrementa el contador
+
+                    # Si el mensaje aparece 3 veces seguidas, cierra el proceso
+                    if no_more_rows_count >= 3:
+                        print("El proceso se cerrará automáticamente después de 3 intentos fallidos.")
+                        logging.info("El proceso se cerrará automáticamente después de 3 intentos fallidos.")
+                        cerrar_navegador(driver)
+                        return
+
                     regresar_a_pagina_anterior(driver)  # Intentar volver a la página anterior
 
             except Exception as e:
@@ -289,7 +302,6 @@ def interactuar_con_pagina(driver):
                     print(f"Error al procesar la fila {i + 1}: {e}")
                     logging.info(f"Error al procesar la fila {i + 1}: {e}")
                     regresar_a_pagina_anterior(driver)
-
 
     except Exception as e:
         print(f"Error al interactuar con la página: {e}")

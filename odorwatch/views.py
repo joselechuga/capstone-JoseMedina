@@ -13,7 +13,7 @@ from django.http import JsonResponse
 
 from django.views.decorators.csrf import csrf_exempt
 
-from .models import Cliente,UnidadFiscalizable,Documento
+from .models import Cliente,UnidadFiscalizable,Documento, Coincidencias
 
 def custom_404(request, exception):
     return render(request, '404.html',{})
@@ -114,7 +114,8 @@ def snifa(request):
     clientes = Cliente.objects.all()
     unidades = UnidadFiscalizable.objects.all()
     documentos = Documento.objects.all()
-    return render(request, 'snifa.html', {'clientes': clientes, 'unidades': unidades, 'documentos': documentos})
+    coincidencias = Coincidencias.objects.all()
+    return render(request, 'snifa.html', {'clientes': clientes, 'unidades': unidades, 'documentos': documentos, 'coincidencias':coincidencias})
 
 def get_progress(request):
     try:

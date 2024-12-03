@@ -24,24 +24,12 @@
         </tr>
       </thead>
       <tbody>
-        {% for cliente in clientes %}
+        {% for coincidencia in coincidencias %}
         <tr>
           <th scope="row">{{ forloop.counter }}</th>
-          <td>{{ cliente.nombre }}</td>
-          <td>
-            {% for unidad in unidades %}
-              {% if unidad.cliente == cliente %}
-                {{ unidad.nombre }}<br>
-              {% endif %}
-            {% endfor %}
-          </td>
-          <td>
-            {% for documento in documentos %}
-              {% if documento.unidad_fiscalizable.cliente == cliente %}
-                <a href="{{ documento.url }}">{{ documento.nombre_documento }}</a><br>
-              {% endif %}
-            {% endfor %}
-          </td>
+          <td>{{ coincidencia.documento.unidad_fiscalizable.cliente.nombre }}</td>
+          <td>{{ coincidencia.documento.unidad_fiscalizable.nombre }}</td>
+          <td><a href="{{ coincidencia.documento.url }}">{{ coincidencia.documento.nombre_documento }}</a></td>
         </tr>
         {% endfor %}
       </tbody>
