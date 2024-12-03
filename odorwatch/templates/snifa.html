@@ -5,7 +5,7 @@
 {% load static %}
 {# Hoja de estilos para este template #}
 {% block style %}
-  <link rel="stylesheet" href="{% static 'css/home_style.css' %}" />
+  <link rel="stylesheet" href="{% static 'css/snifa.css' %}" />
 {% endblock %}
 
 <!-- Contenido -->
@@ -13,10 +13,10 @@
 <h1>Modulo SNIFA</h1>
 
 <br><br><br>
-<div style="max-height: 50vh; overflow-y: auto;">
-  <table class="table table-hover">
-      <thead>
-        <tr>
+<div class="contenedor-tabla" style="">
+  <table class="table table-hover" >
+      <thead class="encabezados" >
+        <tr class="tr-encabezados">
           <th scope="col">#</th>
           <th scope="col">Cliente</th>
           <th scope="col">Unidad Fiscalizable</th>
@@ -25,11 +25,13 @@
       </thead>
       <tbody>
         {% for coincidencia in coincidencias %}
-        <tr>
+        <tr class="datos">
           <th scope="row">{{ forloop.counter }}</th>
           <td>{{ coincidencia.documento.unidad_fiscalizable.cliente.nombre }}</td>
           <td>{{ coincidencia.documento.unidad_fiscalizable.nombre }}</td>
-          <td><a href="{{ coincidencia.documento.url }}">{{ coincidencia.documento.nombre_documento }}</a></td>
+          <td><a href="{{ coincidencia.documento.url }}"><button class="button">
+            Ver Documento
+          </button></a></td>
         </tr>
         {% endfor %}
       </tbody>

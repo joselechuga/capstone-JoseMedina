@@ -1,0 +1,130 @@
+2024-12-03 00:13:01,764 - INFO - **************************
+2024-12-03 00:13:01,775 - INFO - Iniciando Scraping . . .
+2024-12-03 00:13:01,876 - INFO - Esperando a que desaparezca el modal
+2024-12-03 00:13:02,822 - INFO - El modal ha desaparecido
+2024-12-03 00:13:02,827 - INFO - Seleccionando categoria
+2024-12-03 00:13:02,983 - INFO - Buscando . . .
+2024-12-03 00:14:13,934 - INFO - Esperando a que desaparezca el modal
+2024-12-03 00:14:14,193 - INFO - El modal ha desaparecido
+2024-12-03 00:14:14,562 - INFO - Cargando resultados
+2024-12-03 00:14:14,562 - INFO - Esperando a que desaparezca el modal
+2024-12-03 00:14:15,034 - INFO - El modal ha desaparecido
+2024-12-03 00:14:15,091 - INFO - Desplegando todos los resultados
+2024-12-03 00:14:22,968 - INFO - Esperando a que desaparezca el modal
+2024-12-03 00:14:22,987 - INFO - El modal ha desaparecido
+2024-12-03 00:14:24,696 - INFO - --------------------
+2024-12-03 00:14:24,696 - INFO - Fila 1:
+2024-12-03 00:14:24,696 - INFO -   Id_fiscalizable: DFZ-2014-78-XV-RCA-IA
+2024-12-03 00:14:24,696 - INFO -   Clientes: AGROINDUSTRIAL ARICA
+2024-12-03 00:14:24,696 - INFO -   Unidad_fiscalizable: PLANTA FAENADORA DE AVES ARICA
+2024-12-03 00:14:24,697 - INFO -   Ubicacion: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2593
+2024-12-03 00:14:27,031 - INFO - URL actual de la página del documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+2024-12-03 00:14:27,031 - INFO - Esperando a que desaparezca el modal
+2024-12-03 00:14:28,206 - INFO - El modal ha desaparecido
+2024-12-03 00:14:28,624 - INFO - Tabla de búsqueda desplegada.
+2024-12-03 00:14:28,644 - INFO - Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+2024-12-03 00:14:28,673 - INFO - Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004526
+2024-12-03 00:17:09,215 - INFO - **************************
+2024-12-03 00:17:09,216 - INFO - Iniciando Scraping . . .
+2024-12-03 00:17:10,407 - INFO - Esperando a que desaparezca el modal
+2024-12-03 00:17:10,548 - INFO - El modal ha desaparecido
+2024-12-03 00:17:10,549 - INFO - Seleccionando categoria
+2024-12-03 00:17:10,739 - INFO - Buscando . . .
+2024-12-03 00:17:58,119 - INFO - Esperando a que desaparezca el modal
+2024-12-03 00:17:58,724 - INFO - El modal ha desaparecido
+2024-12-03 00:17:58,739 - INFO - Cargando resultados
+2024-12-03 00:17:58,739 - INFO - Esperando a que desaparezca el modal
+2024-12-03 00:17:58,751 - INFO - El modal ha desaparecido
+2024-12-03 00:17:58,755 - INFO - Desplegando todos los resultados
+2024-12-03 00:18:05,092 - INFO - Esperando a que desaparezca el modal
+2024-12-03 00:18:05,108 - INFO - El modal ha desaparecido
+2024-12-03 00:18:06,471 - INFO - --------------------
+2024-12-03 00:18:06,471 - INFO - Fila 1:
+2024-12-03 00:18:06,471 - INFO -   Id_fiscalizable: DFZ-2014-78-XV-RCA-IA
+2024-12-03 00:18:06,471 - INFO -   Clientes: AGROINDUSTRIAL ARICA
+2024-12-03 00:18:06,471 - INFO -   Unidad_fiscalizable: PLANTA FAENADORA DE AVES ARICA
+2024-12-03 00:18:06,471 - INFO -   Ubicacion: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2593
+2024-12-03 00:18:08,257 - INFO - URL actual de la página del documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+2024-12-03 00:18:08,258 - INFO - Esperando a que desaparezca el modal
+2024-12-03 00:18:09,450 - INFO - El modal ha desaparecido
+2024-12-03 00:18:10,353 - INFO - Tabla de búsqueda desplegada.
+2024-12-03 00:18:10,372 - INFO - Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+2024-12-03 00:18:10,394 - INFO - Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004526
+2024-12-03 00:18:11,325 - INFO - No se encontró el archivo IFA_PLANTA FAENADORA DE AVES ARICA en el directorio de descargas.
+2024-12-03 00:18:11,325 - INFO - La descarga del archivo falló.
+2024-12-03 00:18:14,638 - INFO - Añadiendo Cliente a BD
+2024-12-03 00:18:14,942 - INFO - Añadiendo Unidad Fiscalizable a BD
+2024-12-03 00:18:14,948 - INFO - --------------------------
+2024-12-03 00:18:14,949 - INFO - Añadiendo Documento a BD
+2024-12-03 00:18:14,949 - INFO - https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+2024-12-03 00:18:14,953 - INFO - PLANTA FAENADORA DE AVES ARICA
+2024-12-03 00:18:14,953 - INFO - IFA_PLANTA FAENADORA DE AVES ARICA
+2024-12-03 00:18:14,955 - INFO - --------------------------
+2024-12-03 00:18:14,959 - INFO - Error al procesar la fila 1: list index out of range
+2024-12-03 00:18:35,263 - INFO - Esperando a que desaparezca el modal
+2024-12-03 00:18:36,579 - INFO - El modal ha desaparecido
+2024-12-03 00:18:36,579 - INFO - Esperando a que desaparezca el modal
+2024-12-03 00:18:36,594 - INFO - El modal ha desaparecido
+2024-12-03 00:18:36,697 - INFO - --------------------
+2024-12-03 00:18:36,698 - INFO - Fila 2:
+2024-12-03 00:18:36,698 - INFO -   Id_fiscalizable: DFZ-2014-2297-V-RCA-IA
+2024-12-03 00:18:36,698 - INFO -   Clientes: AGRICOLA ARIZTIA, AVICOLA ANDINA SPA
+2024-12-03 00:18:36,698 - INFO -   Unidad_fiscalizable: PLANTEL DE AVES DE LEYDA
+2024-12-03 00:18:36,698 - INFO -   Ubicacion: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/1840
+2024-12-03 00:18:37,323 - INFO - URL actual de la página del documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001101
+2024-12-03 00:18:37,324 - INFO - Esperando a que desaparezca el modal
+2024-12-03 00:18:38,664 - INFO - El modal ha desaparecido
+2024-12-03 00:18:38,757 - INFO - Tabla de búsqueda desplegada.
+2024-12-03 00:18:38,769 - INFO - Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+2024-12-03 00:18:38,789 - INFO - Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004786
+2024-12-03 00:18:39,433 - INFO - No se encontró el archivo IFA_PLANTEL DE AVES DE LEYDA en el directorio de descargas.
+2024-12-03 00:18:39,434 - INFO - La descarga del archivo falló.
+2024-12-03 00:22:06,205 - INFO - **************************
+2024-12-03 00:22:06,236 - INFO - Iniciando Scraping . . .
+2024-12-03 00:22:06,509 - INFO - Esperando a que desaparezca el modal
+2024-12-03 00:22:07,863 - INFO - El modal ha desaparecido
+2024-12-03 00:22:07,864 - INFO - Seleccionando categoria
+2024-12-03 00:22:08,017 - INFO - Buscando . . .
+2024-12-03 00:26:04,712 - INFO - **************************
+2024-12-03 00:26:04,715 - INFO - Iniciando Scraping . . .
+2024-12-03 00:26:06,122 - INFO - Esperando a que desaparezca el modal
+2024-12-03 00:26:06,374 - INFO - El modal ha desaparecido
+2024-12-03 00:26:06,375 - INFO - Seleccionando categoria
+2024-12-03 00:26:06,746 - INFO - Buscando . . .
+2024-12-03 16:46:58,619 - INFO - **************************
+2024-12-03 16:46:58,621 - INFO - Iniciando Scraping . . .
+2024-12-03 16:46:59,645 - INFO - Esperando a que desaparezca el modal
+2024-12-03 16:46:59,771 - INFO - El modal ha desaparecido
+2024-12-03 16:46:59,772 - INFO - Seleccionando categoria
+2024-12-03 16:46:59,859 - INFO - Buscando . . .
+2024-12-03 16:48:25,480 - INFO - Esperando a que desaparezca el modal
+2024-12-03 16:48:26,540 - INFO - El modal ha desaparecido
+2024-12-03 16:48:26,556 - INFO - Cargando resultados
+2024-12-03 16:48:26,556 - INFO - Esperando a que desaparezca el modal
+2024-12-03 16:48:26,569 - INFO - El modal ha desaparecido
+2024-12-03 16:48:26,573 - INFO - Desplegando todos los resultados
+2024-12-03 16:48:36,120 - INFO - Esperando a que desaparezca el modal
+2024-12-03 16:48:36,149 - INFO - El modal ha desaparecido
+2024-12-03 16:48:38,453 - INFO - --------------------
+2024-12-03 16:48:38,453 - INFO - Fila 1:
+2024-12-03 16:48:38,454 - INFO -   Id_fiscalizable: DFZ-2014-78-XV-RCA-IA
+2024-12-03 16:48:38,454 - INFO -   Clientes: AGROINDUSTRIAL ARICA
+2024-12-03 16:48:38,455 - INFO -   Unidad_fiscalizable: PLANTA FAENADORA DE AVES ARICA
+2024-12-03 16:48:38,455 - INFO -   Ubicacion: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2593
+2024-12-03 16:48:42,459 - INFO - URL actual de la página del documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+2024-12-03 16:48:42,460 - INFO - Esperando a que desaparezca el modal
+2024-12-03 16:48:43,597 - INFO - El modal ha desaparecido
+2024-12-03 16:48:43,937 - INFO - Tabla de búsqueda desplegada.
+2024-12-03 16:48:43,949 - INFO - Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+2024-12-03 16:48:43,970 - INFO - Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004526
+2024-12-03 16:48:44,523 - INFO - No se encontró el archivo IFA_PLANTA FAENADORA DE AVES ARICA en el directorio de descargas.
+2024-12-03 16:48:44,524 - INFO - La descarga del archivo falló.
+2024-12-03 16:48:44,524 - INFO - Añadiendo Cliente a BD
+2024-12-03 16:48:44,591 - INFO - Añadiendo Unidad Fiscalizable a BD
+2024-12-03 16:48:44,596 - INFO - --------------------------
+2024-12-03 16:48:44,596 - INFO - Añadiendo Documento a BD
+2024-12-03 16:48:44,596 - INFO - https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+2024-12-03 16:48:44,596 - INFO - PLANTA FAENADORA DE AVES ARICA
+2024-12-03 16:48:44,596 - INFO - IFA_PLANTA FAENADORA DE AVES ARICA
+2024-12-03 16:48:44,597 - INFO - --------------------------
+2024-12-03 16:48:44,603 - INFO - Error al procesar la fila 1: list index out of range

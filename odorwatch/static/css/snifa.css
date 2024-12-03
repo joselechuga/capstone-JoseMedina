@@ -1,0 +1,63 @@
+.contenedor-tabla{
+    border: 1px solid #268391;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-height: 50vh; 
+    overflow-y: auto;
+}
+
+.table{
+    position: relative;
+}
+
+.encabezados{
+    position: sticky; 
+    top: 0; 
+    background-color: white; 
+    z-index: 1;
+}
+
+.datos{
+    height: 8vh;
+    border: 0.5px solid #268391;
+}
+
+.button {
+    padding: 0.3em 0.8em; /* Reducir aún más el tamaño del botón */
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 3px; /* Reducir el espaciado entre letras */
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #2c9caf;
+    transition: all 1000ms;
+    font-size: 11px; /* Reducir aún más el tamaño de la fuente */
+    position: relative;
+    overflow: hidden;
+    outline: 2px solid #2c9caf;
+}
+
+button:hover {
+    color: #ffffff;
+    transform: scale(1.1);
+    outline: 2px solid #70bdca;
+    box-shadow: 4px 5px 17px -4px #268391;
+}
+
+button::before {
+    content: "";
+    position: absolute;
+    left: -50px;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: #2c9caf;
+    transform: skewX(45deg);
+    z-index: -1;
+    transition: width 1000ms;
+}
+
+button:hover::before {
+    width: 250%;
+}

@@ -120,6 +120,8 @@ def verificar_descarga_correcta(nombre_documento):
         logging.info(f"Error al verificar la descarga del archivo: {e}")
         return False
                         
+
+
 def interactuar_con_pagina(driver):
     try:
         logging.info("**************************")
@@ -262,11 +264,10 @@ def interactuar_con_pagina(driver):
                     # TABLA COINCIDENCIAS
                     
                     #for i, palabra in enumerate(coincidencias):
-                     #   logging.info(f"Datos para coincidencias: cantidad={i}, url_documento={url_pagina_actual}, palabras={palabra}")
-                      #  add_coincidencias(i, url_pagina_actual, palabra)
-                    #monitorear_ruta_descargas(driver)
-                    # Leer el archivo descargado
-                    #leer_archivo_descargado(download_dir)
+                    #   logging.info(f"Datos para coincidencias: cantidad={i}, url_documento={url_pagina_actual}, palabras={palabra}")
+                    #  add_coincidencias(i, url_pagina_actual, palabra)
+
+                    
                     add_coincidencias(coincidencias[1][0], url_pagina_actual, coincidencias[0][1])
 
                     # Volver a la pagina de tabla de resultados
@@ -278,6 +279,19 @@ def interactuar_con_pagina(driver):
                     
                     # ELIMINAR CONTENIDO DE LA CARPET DESCARGAS
                     eliminar_contenido_directorio(download_dir)
+
+                    # Cambiar al contexto de la nueva pestaña si se abre una
+                    driver.switch_to.window(driver.window_handles[-1])
+
+                    # Realizar acciones en la nueva pestaña
+                    # ...
+
+                    # Cerrar la pestaña emergente después de realizar las acciones necesarias
+                    cerrar_pestana_actual(driver)
+
+                    # Volver al contexto de la pestaña original
+                    if len(driver.window_handles) > 0:
+                        driver.switch_to.window(driver.window_handles[0])
 
                 else:
                     logging.info(f"No hay más filas para procesar en el índice {i}")
@@ -325,6 +339,25 @@ def esperar_modal_desaparecer(driver):
     except Exception as e:
         print(f"Error al esperar que el modal desaparezca: {e}")
         logging.info(f"Error al esperar que el modal desaparezca: {e}")
+
+
+def cerrar_pestana_actual(driver):
+    try:
+        # Imprimir las ventanas activas
+        print("Ventanas activas antes de cerrar:", driver.window_handles)
+        logging.info(f"Ventanas activas antes de cerrar: {driver.window_handles}")
+
+        # Cierra la pestaña actual
+        driver.close()
+        print("Pestaña cerrada exitosamente.")
+        logging.info("Pestaña cerrada exitosamente.")
+
+        # Imprimir las ventanas activas después de cerrar
+        print("Ventanas activas después de cerrar:", driver.window_handles)
+        logging.info(f"Ventanas activas después de cerrar: {driver.window_handles}")
+    except Exception as e:
+        print(f"Error al cerrar la pestaña: {e}")
+        logging.info(f"Error al cerrar la pestaña: {e}")
 
 def main():
     try:

@@ -15,6 +15,11 @@ from django.views.decorators.csrf import csrf_exempt
 
 from .models import Cliente,UnidadFiscalizable,Documento, Coincidencias
 
+import signal
+
+# Variable global para almacenar el PID del proceso
+process_pid = None
+
 def custom_404(request, exception):
     return render(request, '404.html',{})
 
@@ -66,16 +71,23 @@ def home(request):
 
 def run_script(request):
     """Ejecuta el script main.py y devuelve la salida."""
+    global process_pid
     try:
         # Ejecuta el script main.py
-        result = subprocess.run(
+        process = subprocess.Popen(
             ['python', 'modulos\main.py'],
-            capture_output=True,
-            text=True,
-            check=True  #excepción si el script falla
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True
         )
+        process_pid = process.pid  # Almacena el PID del proceso
+        stdout, stderr = process.communicate()
+        
+        if process.returncode != 0:
+            raise subprocess.CalledProcessError(process.returncode, process.args, output=stdout, stderr=stderr)
+        
         # Retorna JSON
-        return JsonResponse({'output': result.stdout})
+        return JsonResponse({'output': stdout})
     except subprocess.CalledProcessError as e:
         # Captura errores de ejecución del script
         return JsonResponse({'error': f'Error al ejecutar el script: {e.stderr}'})
@@ -83,6 +95,18 @@ def run_script(request):
         # Captura cualquier otro error
         return JsonResponse({'error': f'Error inesperado: {str(e)}'})
 
+def stop_script(request):
+    """Detiene la ejecución del script main.py."""
+    global process_pid
+    try:
+        if process_pid is not None:
+            os.kill(process_pid, signal.SIGTERM)  # Envía la señal de terminación
+            process_pid = None  # Resetea el PID
+            return JsonResponse({'message': 'Script detenido exitosamente.'})
+        else:
+            return JsonResponse({'error': 'No hay un script en ejecución.'})
+    except Exception as e:
+        return JsonResponse({'error': f'Error al detener el script: {str(e)}'})
 
 @login_required(login_url='/login/')
 def panel(request):

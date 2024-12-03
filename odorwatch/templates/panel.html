@@ -34,7 +34,7 @@
             <div id="progress-bar" class="progress-bar" style="width: 0%"></div>
           </div>
           <div>
-            <button class="btn boton-detener">
+            <button class="btn boton-detener" id="stopScriptBtn">
               <i class="fa-solid fa-stop"></i>
               <small>Detener</small>  
             </button>
@@ -162,5 +162,28 @@
 
   // Llama a checkProgress periódicamente
   setInterval(checkProgress, 1000);
+
+  document.getElementById('stopScriptBtn').addEventListener('click', function () {
+    // Hacer la solicitud AJAX para detener el script
+    fetch("{% url 'stop_script' %}")
+    .then((response) => {
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        return response.json();
+    })
+    .then((data) => {
+        if (data.success) {
+            console.log('Proceso detenido correctamente');
+            updateProgressBar(0); // Reinicia la barra de progreso
+        } else if (data.error) {
+            console.log('ERROR: ', data.error);
+        }
+    })
+    .catch((error) => {
+        console.error('Error al detener el script:', error);
+        // Aquí puedes manejar el error de manera más específica
+    });
+  });
 </script>
 {% endblock %}
