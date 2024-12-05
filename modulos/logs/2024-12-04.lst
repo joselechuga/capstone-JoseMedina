@@ -1,0 +1,32 @@
+2024-12-04 22:33:50,939 - INFO - **************************
+2024-12-04 22:33:50,942 - INFO - Iniciando Scraping . . .
+2024-12-04 22:33:52,000 - INFO - Esperando a que desaparezca el modal
+2024-12-04 22:33:52,159 - INFO - El modal ha desaparecido
+2024-12-04 22:33:52,161 - INFO - Seleccionando categoria
+2024-12-04 22:33:52,286 - INFO - Buscando . . .
+2024-12-04 22:34:26,913 - INFO - Error al interactuar con la página: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6294D6CF5+28821]
+	(No symbol) [0x00007FF629443880]
+	(No symbol) [0x00007FF6292E578A]
+	(No symbol) [0x00007FF6292BF4F5]
+	(No symbol) [0x00007FF629366247]
+	(No symbol) [0x00007FF62937ECE2]
+	(No symbol) [0x00007FF62935F0A3]
+	(No symbol) [0x00007FF62932A778]
+	(No symbol) [0x00007FF62932B8E1]
+	GetHandleVerifier [0x00007FF62980FCED+3408013]
+	GetHandleVerifier [0x00007FF62982745F+3504127]
+	GetHandleVerifier [0x00007FF62981B63D+3455453]
+	GetHandleVerifier [0x00007FF62959BDFB+835995]
+	(No symbol) [0x00007FF62944EB9F]
+	(No symbol) [0x00007FF62944A854]
+	(No symbol) [0x00007FF62944A9ED]
+	(No symbol) [0x00007FF62943A1D9]
+	BaseThreadInitThunk [0x00007FF991B57374+20]
+	RtlUserThreadStart [0x00007FF9932FCC91+33]
+
+2024-12-04 22:34:29,256 - INFO - Navegador cerrado exitosamente.
+2024-12-04 22:34:29,256 - INFO - **************************

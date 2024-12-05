@@ -1,256 +1,185 @@
-/*NAVBAR*/
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
 
-/* importar fuentes de texto*/
-@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Lexend:wght@700&family=Oxygen&display=swap');
-
-.contenedor-base {
-    height: 100vh;
+:root {
+    --header-height: 3rem;
+    --nav-width: 68px;
+    --first-color: #112648;
+    --first-color-light: #AFA5D9;
+    --white-color: #F7F6FB;
+    --body-font: 'Nunito', sans-serif;
+    --normal-font-size: 1rem;
+    --z-fixed: 100;
 }
 
-.contenedor-columnas {
-    height: 100vh;
+*, ::before, ::after {
+    box-sizing: border-box;
 }
 
-.col-navbar, .accordion, .accordion-item, .accordion-header,
-.accordion-button, .ul {
-    background-color: #212D3E;
-    color: #ffffff;
-    border: none;
-}
-
-
-
-.inicio-collapsed::after {
-    display: none;
-}
-
-
-/* Estilo base para la lista */
-.lista {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.lista-item {
-    padding: 10px;
-    cursor: pointer;
-    background-color: #212D3E;
-    color: #ffffff;
-    border: 1px solid #333;
-}
-
-/* Remover el efecto de hover */
-.lista-item:hover,
-.sublista-item a:hover {
-    background-color: #212D3E;
-    /* Mismo color que el fondo */
-    color: #ffffff;
-    /* Mismo color que el texto */
-}
-
-/* Oculta las subopciones por defecto */
-.sublista {
-    list-style: none;
-    padding-left: 20px;
-    margin: 0;
-    display: none;
-}
-
-.sublista-item a {
-    display: block;
-    padding: 8px;
-    color: #ffffff;
-    text-decoration: none;
-    background-color: #212D3E;
-    border: 1px solid #333;
-}
-
-.lista-item, .sublista-item a {
-    padding: 10px;
-    cursor: pointer;
-    background-color: #212D3E;
-    color: #ffffff;
-    text-decoration: none;
-    border: none;           /* Quita el borde */
-    outline: none;          /* Quita el borde de enfoque */
-    box-shadow: none;       /* Quita cualquier sombra de borde */
-}
-
-/* Selecciona los elementos <li> de la lista o los contenedores de las subopciones */
-li, .subopcion-item, .card-body, .card {
-    border: none !important;        /* Quita cualquier borde */
-    outline: none !important;       /* Quita cualquier contorno */
-    box-shadow: none !important;    /* Elimina sombras que puedan parecer bordes */
-}
-
-/* Si están dentro de una estructura de colapsado, aplica a los colapsables también */
-.collapse-opcion {
-    border: none !important;
-    outline: none !important;
-    box-shadow: none !important;
-}
-
-.link-nav {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.container-barra {
-    display: flex;
-    justify-content: space-evenly;
-    width: 20vw;
-}
-
-.logoTSG {
-    height: 50px;
-}
-
-/* Estilos para el div principal con imagen de fondo */
-.main-div {
-    background-image: url('../img/fondo-slidebar.png');
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 30vh;
-    /* Altura completa de la pantalla */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* Estilos para el div interno */
-.inner-div {
-    text-align: center;
-}
-
-/* Imagen dentro del div interno */
-.inner-div img {
-    width: 150px;
-    /* Ajusta el tamaño de la imagen según sea necesario */
-    height: auto;
-}
-
-/* Texto debajo de la imagen */
-.inner-div p {
-    font-size: 16px;
-    margin-top: 20px;
-    color: #e4e4e4;
-    font-family: "Lexend", serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-}
-
-.grupolista {
-    height: 60vh;
-}
-
-/* Estilos para el acordeón */
-.accordion, .accordion-item, .accordion-header, .accordion-button {
-    background-color: #212D3E;
-    color: #ffffff;
-}
-
-/* Flecha en blanco cuando el acordeón está abierto o cerrado */
-.accordion .accordion-button::after {
-    color: #ffffff !important;
-}
-
-/* Eliminar la flecha de animación del primer acordeón */
-.accordion .inicio-collapsed::after {
-    display: none;
-}
-
-/* Estilo para el contenido del acordeón */
-.accordion-body {
-    background-color: #212D3E;
-    color: #ffffff;
-}
-
-/* Estilo para los enlaces dentro del acordeón */
-.accordion-body a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-/* Estilo para los elementos de la lista dentro del acordeón */
-.list-group-item {
-    background-color: #212D3E;
-    color: #ffffff;
-    border: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-
-/* Acordion Faq */
-.tab {
+body {
     position: relative;
-    margin-bottom: 1px;
+    margin: var(--header-height) 0 0 0;
+    padding: 0 1rem;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    transition: .5s;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
     width: 100%;
-    color: #fff;
-    overflow: hidden;
-  }
-  input {
-    position: absolute;
-    opacity: 0;
-    z-index: -1;
-  }
-  label {
-    position: relative;
-    display: block;
-    padding: 0 0 0 1em;
-    background: #000;
-    font-weight: bold;
-    line-height: 3;
-    cursor: pointer;
-    background-color: #212D3E;
-    /*background-color: rgba(1,84,160,1);*/
-  }
-  
-  .tab-content {
-    max-height: 0;
-    overflow: hidden;
-    -webkit-transition: max-height .35s;
-    -o-transition: max-height .35s;
-    transition: max-height .35s;
-    color: #000;
-  }
-  
-  .tab-content p {
-    margin: 1em;
-  }
-  /* :checked */
-  input:checked ~ .tab-content {
-    max-height: 100%;
-  }
-  /* Icon */
-  label::after {
-    position: absolute;
-    right: 0;
+    height: var(--header-height);
+    position: fixed;
     top: 0;
-    display: block;
-    width: 3em;
-    height: 3em;
-    line-height: 3;
-    text-align: center;
-    -webkit-transition: all .35s;
-    -o-transition: all .35s;
-    transition: all .35s;
-  }
-  input[type=checkbox] + label::after {
-    content: "+";
-  }
-  input[type=radio] + label::after {
-    content: "\25BC";
-  }
-  input[type=checkbox]:checked + label::after {
-    transform: rotate(315deg);
-  }
-  input[type=radio]:checked + label::after {
-    transform: rotateX(180deg);
-  }
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    background-color: var(--white-color);
+    z-index: var(--z-fixed);
+    transition: .5s;
+}
+
+.header_toggle {
+    color: var(--first-color);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.contenedor-imgtext{
+    display: flex;
+    width: 100px;
+    justify-content: space-around;
+}
+
+.texto-usuario{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icono{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.l-navbar {
+    position: fixed;
+    top: 0;
+    left: -30%;
+    width: var(--nav-width);
+    height: 100vh;
+    background-color: var(--first-color);
+    padding: .5rem 1rem 0 0;
+    transition: .5s;
+    z-index: var(--z-fixed);
+}
+
+.nav {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.nav_logo, .nav_link {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    align-items: center;
+    column-gap: 1rem;
+    padding: .5rem 0 .5rem 1.5rem;
+}
+
+.nav_logo {
+    margin-bottom: 2rem;
+}
+
+.nav_logo-icon {
+    font-size: 1.25rem;
+    color: var(--white-color);
+}
+
+.nav_logo-name {
+    color: var(--white-color);
+    font-weight: 700;
+}
+
+.nav_link {
+    position: relative;
+    color: var(--first-color-light);
+    margin-bottom: 1.5rem;
+    transition: .3s;
+}
+
+.nav_link:hover {
+    color: var(--white-color);
+}
+
+.nav_icon {
+    font-size: 1.25rem;
+}
+
+.show {
+    left: 0;
+}
+
+.body-pd {
+    padding-left: calc(var(--nav-width) + 1rem);
+}
+
+.active {
+    color: var(--white-color);
+}
+
+.active::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 2px;
+    height: 32px;
+    background-color: var(--white-color);
+}
+
+.height-100 {
+    height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        margin: calc(var(--header-height) + 1rem) 0 0 0;
+        padding-left: calc(var(--nav-width) + 2rem);
+    }
+
+    .header {
+        height: calc(var(--header-height) + 1rem);
+        padding: 0 2rem 0 calc(var(--nav-width) + 2rem);
+    }
+
+    .header_img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .header_img img {
+        width: 45px;
+    }
+
+    .l-navbar {
+        left: 0;
+        padding: 1rem 1rem 0 0;
+    }
+
+    .show {
+        width: calc(var(--nav-width) + 156px);
+    }
+
+    .body-pd {
+        padding-left: calc(var(--nav-width) + 188px);
+    }
+}

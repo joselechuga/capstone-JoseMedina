@@ -1,25 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Lexend:wght@300&family=Oxygen:wght@300&display=swap');
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
 .contenedor-tabla{
-    border: 1px solid #268391;
+    border: 1px solid #7dd3fc;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-height: 50vh; 
+    max-height: 75vh;
+    width: 70vw; 
     overflow-y: auto;
+}
+
+.contenedor-tabla::-webkit-scrollbar {
+    width: 12px;
+}
+
+.contenedor-tabla::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.contenedor-tabla::-webkit-scrollbar-thumb {
+    background-color: #7dd3fc;
+    border-radius: 10px;
+    border: 3px solid transparent;
+    background-clip: content-box;
 }
 
 .table{
     position: relative;
 }
 
+.tr-encabezados{
+    background-color: #2c9caf;
+}
+
 .encabezados{
     position: sticky; 
     top: 0; 
-    background-color: white; 
+    background-color: #7dd3fc;
     z-index: 1;
 }
 
 .datos{
     height: 8vh;
-    border: 0.5px solid #268391;
+    border: 0.5px solid #7dd3fc;
+}
+
+th{
+    font-family: "Oxygen", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 85%;
+}
+
+td{
+    font-family: "Oxygen", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 85%;
 }
 
 .button {
@@ -42,7 +83,7 @@ button:hover {
     color: #ffffff;
     transform: scale(1.1);
     outline: 2px solid #70bdca;
-    box-shadow: 4px 5px 17px -4px #268391;
+    box-shadow: 4px 5px 17px -4px #7dd3fc;
 }
 
 button::before {
