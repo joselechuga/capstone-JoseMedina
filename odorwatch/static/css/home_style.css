@@ -60,7 +60,7 @@ body{
   display: inline-flex;
   flex-wrap: nowrap;
   align-items: baseline;
-  width: 100%;
+  width: 100vw;
 }
 
 .card-title {

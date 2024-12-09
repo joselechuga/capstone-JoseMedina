@@ -1,0 +1,161 @@
+2024-12-07 11:08:09,612 - INFO - **************************
+2024-12-07 11:08:09,613 - INFO - Iniciando Scraping . . .
+2024-12-07 11:08:10,128 - INFO - Esperando a que desaparezca el modal
+2024-12-07 11:08:11,967 - INFO - El modal ha desaparecido
+2024-12-07 11:08:11,970 - INFO - Seleccionando categoria
+2024-12-07 11:08:12,075 - INFO - Buscando . . .
+2024-12-07 11:09:06,892 - INFO - Esperando a que desaparezca el modal
+2024-12-07 11:09:07,100 - INFO - El modal ha desaparecido
+2024-12-07 11:09:08,016 - INFO - Cargando resultados
+2024-12-07 11:09:08,016 - INFO - Esperando a que desaparezca el modal
+2024-12-07 11:09:08,329 - INFO - El modal ha desaparecido
+2024-12-07 11:09:08,558 - INFO - Desplegando todos los resultados
+2024-12-07 11:09:14,309 - INFO - Esperando a que desaparezca el modal
+2024-12-07 11:09:14,328 - INFO - El modal ha desaparecido
+2024-12-07 11:09:15,619 - INFO - --------------------
+2024-12-07 11:09:15,619 - INFO - Fila 1:
+2024-12-07 11:09:15,619 - INFO -   Id_fiscalizable: DFZ-2014-78-XV-RCA-IA
+2024-12-07 11:09:15,619 - INFO -   Clientes: AGROINDUSTRIAL ARICA
+2024-12-07 11:09:15,619 - INFO -   Unidad_fiscalizable: PLANTA FAENADORA DE AVES ARICA
+2024-12-07 11:09:15,619 - INFO -   Ubicacion: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/2593
+2024-12-07 11:09:17,991 - INFO - URL actual de la página del documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+2024-12-07 11:09:17,991 - INFO - Esperando a que desaparezca el modal
+2024-12-07 11:09:18,659 - INFO - El modal ha desaparecido
+2024-12-07 11:09:19,194 - INFO - Tabla de búsqueda desplegada.
+2024-12-07 11:09:19,211 - INFO - Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+2024-12-07 11:09:19,243 - INFO - Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004526
+2024-12-07 11:09:19,941 - INFO - No se encontró el archivo IFA_PLANTA FAENADORA DE AVES ARICA en el directorio de descargas.
+2024-12-07 11:09:19,941 - INFO - La descarga del archivo falló.
+2024-12-07 11:09:19,941 - INFO - Añadiendo Cliente a BD
+2024-12-07 11:09:19,956 - INFO - Añadiendo Unidad Fiscalizable a BD
+2024-12-07 11:09:19,957 - INFO - --------------------------
+2024-12-07 11:09:19,957 - INFO - Añadiendo Documento a BD
+2024-12-07 11:09:19,957 - INFO - https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001005
+2024-12-07 11:09:19,957 - INFO - PLANTA FAENADORA DE AVES ARICA
+2024-12-07 11:09:19,957 - INFO - IFA_PLANTA FAENADORA DE AVES ARICA
+2024-12-07 11:09:19,957 - INFO - --------------------------
+2024-12-07 11:09:19,961 - INFO - Error al procesar la fila 1: list index out of range
+2024-12-07 11:09:51,179 - INFO - Esperando a que desaparezca el modal
+2024-12-07 11:09:51,805 - INFO - El modal ha desaparecido
+2024-12-07 11:09:51,805 - INFO - Esperando a que desaparezca el modal
+2024-12-07 11:09:51,856 - INFO - El modal ha desaparecido
+2024-12-07 11:09:52,459 - INFO - --------------------
+2024-12-07 11:09:52,459 - INFO - Fila 2:
+2024-12-07 11:09:52,459 - INFO -   Id_fiscalizable: DFZ-2014-2297-V-RCA-IA
+2024-12-07 11:09:52,459 - INFO -   Clientes: AGRICOLA ARIZTIA, AVICOLA ANDINA SPA
+2024-12-07 11:09:52,459 - INFO -   Unidad_fiscalizable: PLANTEL DE AVES DE LEYDA
+2024-12-07 11:09:52,459 - INFO -   Ubicacion: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/1840
+2024-12-07 11:09:54,597 - INFO - URL actual de la página del documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001101
+2024-12-07 11:09:54,597 - INFO - Esperando a que desaparezca el modal
+2024-12-07 11:09:55,515 - INFO - El modal ha desaparecido
+2024-12-07 11:09:56,146 - INFO - Tabla de búsqueda desplegada.
+2024-12-07 11:09:56,183 - INFO - Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+2024-12-07 11:09:56,299 - INFO - Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004786
+2024-12-07 11:09:57,545 - INFO - No se encontró el archivo IFA_PLANTEL DE AVES DE LEYDA en el directorio de descargas.
+2024-12-07 11:09:57,546 - INFO - La descarga del archivo falló.
+2024-12-07 11:09:59,085 - INFO - Añadiendo Cliente a BD
+2024-12-07 11:09:59,087 - INFO - Añadiendo Unidad Fiscalizable a BD
+2024-12-07 11:09:59,091 - INFO - --------------------------
+2024-12-07 11:09:59,091 - INFO - Añadiendo Documento a BD
+2024-12-07 11:09:59,091 - INFO - https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001101
+2024-12-07 11:09:59,091 - INFO - PLANTEL DE AVES DE LEYDA
+2024-12-07 11:09:59,092 - INFO - IFA_PLANTEL DE AVES DE LEYDA
+2024-12-07 11:09:59,092 - INFO - --------------------------
+2024-12-07 11:09:59,094 - INFO - Error al procesar la fila 2: list index out of range
+2024-12-07 11:10:18,009 - INFO - Esperando a que desaparezca el modal
+2024-12-07 11:10:19,121 - INFO - El modal ha desaparecido
+2024-12-07 11:10:19,121 - INFO - Esperando a que desaparezca el modal
+2024-12-07 11:10:19,136 - INFO - El modal ha desaparecido
+2024-12-07 11:10:19,222 - INFO - --------------------
+2024-12-07 11:10:19,222 - INFO - Fila 3:
+2024-12-07 11:10:19,223 - INFO -   Id_fiscalizable: DFZ-2014-347-XIII-RCA-IA
+2024-12-07 11:10:19,223 - INFO -   Clientes: AGRICOLA EL MONTE S.A.
+2024-12-07 11:10:19,223 - INFO -   Unidad_fiscalizable: CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A.
+2024-12-07 11:10:19,223 - INFO -   Ubicacion: https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/4495
+2024-12-07 11:10:20,882 - INFO - URL actual de la página del documento: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001114
+2024-12-07 11:10:20,882 - INFO - Esperando a que desaparezca el modal
+2024-12-07 11:10:22,381 - INFO - El modal ha desaparecido
+2024-12-07 11:10:23,035 - INFO - Tabla de búsqueda desplegada.
+2024-12-07 11:10:23,046 - INFO - Elemento encontrado con la palabra exacta: Informe de Fiscalización Ambiental
+2024-12-07 11:10:23,067 - INFO - Elemento encontrado previamente. URL del enlace: https://snifa.sma.gob.cl/General/Descargar/1104004630
+2024-12-07 11:10:24,647 - INFO - No se encontró el archivo IFA_CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A. en el directorio de descargas.
+2024-12-07 11:10:24,647 - INFO - La descarga del archivo falló.
+2024-12-07 11:10:25,409 - INFO - Añadiendo Cliente a BD
+2024-12-07 11:10:25,409 - INFO - Añadiendo Unidad Fiscalizable a BD
+2024-12-07 11:10:25,409 - INFO - --------------------------
+2024-12-07 11:10:25,409 - INFO - Añadiendo Documento a BD
+2024-12-07 11:10:25,409 - INFO - https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001114
+2024-12-07 11:10:25,409 - INFO - CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A.
+2024-12-07 11:10:25,417 - INFO - IFA_CERDOS LAS MERCEDES - AGRICOLA EL MONTE S.A.
+2024-12-07 11:10:25,417 - INFO - --------------------------
+2024-12-07 11:10:25,418 - INFO - --------------------------
+2024-12-07 11:10:25,418 - INFO - Añadiendo Coincidencias a BD
+2024-12-07 11:10:25,418 - INFO - Cantidad: 16, URL: https://snifa.sma.gob.cl/Fiscalizacion/Ficha/1001114, Palabras: olor
+2024-12-07 11:10:25,418 - INFO - --------------------------
+2024-12-07 11:10:50,079 - INFO - Esperando a que desaparezca el modal
+2024-12-07 11:10:50,380 - INFO - El modal ha desaparecido
+2024-12-07 11:10:50,383 - INFO - Archivo Informe de Fiscalizacion Ambiental.docx eliminado.
+2024-12-07 11:10:50,384 - INFO - Archivo Informe de Fiscalizació1.docx eliminado.
+2024-12-07 11:10:50,387 - INFO - Archivo Sin confirmar 865261.crdownload eliminado.
+2024-12-07 11:10:50,444 - INFO - Ventanas activas antes de cerrar: ['1945028692269C4A84EFB20850FB652C']
+2024-12-07 11:10:56,564 - INFO - Pestaña cerrada exitosamente.
+2024-12-07 11:10:56,759 - INFO - Error al cerrar la pestaña: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF621106CF5+28821]
+	(No symbol) [0x00007FF621073880]
+	(No symbol) [0x00007FF620F155B9]
+	(No symbol) [0x00007FF620F5A48E]
+	(No symbol) [0x00007FF620F5B8E1]
+	GetHandleVerifier [0x00007FF62143FCED+3408013]
+	GetHandleVerifier [0x00007FF62145745F+3504127]
+	GetHandleVerifier [0x00007FF62144B63D+3455453]
+	GetHandleVerifier [0x00007FF6211CBDFB+835995]
+	(No symbol) [0x00007FF62107EB9F]
+	(No symbol) [0x00007FF62107A854]
+	(No symbol) [0x00007FF62107A9ED]
+	(No symbol) [0x00007FF62106A1D9]
+	BaseThreadInitThunk [0x00007FF991B57374+20]
+	RtlUserThreadStart [0x00007FF9932FCC91+33]
+
+2024-12-07 11:10:56,762 - INFO - Error al procesar la fila 3: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF621106CF5+28821]
+	(No symbol) [0x00007FF621073880]
+	(No symbol) [0x00007FF620F155B9]
+	(No symbol) [0x00007FF620F598E4]
+	(No symbol) [0x00007FF620F8F1A9]
+	(No symbol) [0x00007FF620F89B55]
+	(No symbol) [0x00007FF620F88C16]
+	(No symbol) [0x00007FF620EE3675]
+	GetHandleVerifier [0x00007FF62143FCED+3408013]
+	GetHandleVerifier [0x00007FF62145745F+3504127]
+	GetHandleVerifier [0x00007FF62144B63D+3455453]
+	GetHandleVerifier [0x00007FF6211CBDFB+835995]
+	(No symbol) [0x00007FF62107EB9F]
+	(No symbol) [0x00007FF620EE201E]
+	GetHandleVerifier [0x00007FF6214C1188+3937576]
+	BaseThreadInitThunk [0x00007FF991B57374+20]
+	RtlUserThreadStart [0x00007FF9932FCC91+33]
+
+2024-12-07 11:10:56,765 - INFO - Error al interactuar con la página: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF621106CF5+28821]
+	(No symbol) [0x00007FF621073880]
+	(No symbol) [0x00007FF620F155B9]
+	(No symbol) [0x00007FF620F598E4]
+	(No symbol) [0x00007FF620F8F1A9]
+	(No symbol) [0x00007FF620F89B55]
+	(No symbol) [0x00007FF620F88C16]
+	(No symbol) [0x00007FF620EE3675]
+	GetHandleVerifier [0x00007FF62143FCED+3408013]
+	GetHandleVerifier [0x00007FF62145745F+3504127]
+	GetHandleVerifier [0x00007FF62144B63D+3455453]
+	GetHandleVerifier [0x00007FF6211CBDFB+835995]
+	(No symbol) [0x00007FF62107EB9F]
+	(No symbol) [0x00007FF620EE201E]
+	GetHandleVerifier [0x00007FF6214C1188+3937576]
+	BaseThreadInitThunk [0x00007FF991B57374+20]
+	RtlUserThreadStart [0x00007FF9932FCC91+33]
+
+2024-12-07 11:10:58,915 - INFO - Navegador cerrado exitosamente.
+2024-12-07 11:10:58,915 - INFO - **************************

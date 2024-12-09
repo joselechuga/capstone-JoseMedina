@@ -1,7 +1,7 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <title>SmartOdorWatch</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
@@ -19,26 +19,26 @@
     {% block style %}
 
     {% endblock %}
-  </head>
+</head>
 
-  <body id="body-pd">
+<body id="body-pd">
     <header class="header" id="header">
-      <div class="header_toggle"> <i class='bx bx-menu' id="header-toggle"></i> </div>
-      <div class="contenedor-imgtext">
-          <div class="texto-usuario">
-            <!-- VALIDAR NOMBRE DE USUARIO LOGEADO -->
-            {% if 'tsgenviro' in user_email %}
-            <p >{{ user_email }}</p>
-            {% else %}
-            <p >{{ user.username }}</p>
-          </div>
+        <div class="header_toggle"> <i class='bx bx-menu' id="header-toggle"></i> </div>
+        <div class="contenedor-imgtext">
+            <div class="texto-usuario">
+                <!-- VALIDAR NOMBRE DE USUARIO LOGEADO -->
+                {% if 'tsgenviro' in user_email %}
+                <p >{{ user_email }}</p>
+                {% else %}
+                <p >{{ user.username }}</p>
+            </div>
 
-          {% endif %}
+            {% endif %}
 
-          <img class="icono" src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <img class="icono" src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D" alt="">
 
 
-      </div>
+        </div>
     </header>
 
     <div class="l-navbar" id="nav-bar">
@@ -56,7 +56,7 @@
 
                     <a href="{% url 'snifa' %}" class="nav_link">
                         <i class='bx bx-folder nav_icon'></i>
-                        <span class="nav_name">Modulos</span>
+                        <span class="nav_name">SNIFA</span>
                     </a>
 
                     <a href="{% url 'panel' %}" class="nav_link">
@@ -92,5 +92,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-  </body>
+</body>
 </html>
