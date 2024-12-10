@@ -5,91 +5,153 @@
 {% load static %}
 {# Hoja de estilos para este template #}
 {% block style %}
-  <link rel="stylesheet" href="{% static 'css/home_style.css' %}" />
   <link rel="stylesheet" href="{% static 'css/usuarios.css' %}" />
 {% endblock %}
 
 <!-- Contenido -->
 {% block content %}
+  <h4>Usuarios</h4>
 
-<h4>Usuarios Registrados</h4>
-<table class="table">
-    <thead>
-        <tr>
-            <th>Nombre de Usuario</th>
-            <th>Correo Electrónico</th>
-            <th>Superuser</th>
-            <th>Staff</th>
-        </tr>
-    </thead>
-    <tbody>
-        {% for usuario in usuarios %}
-        <tr>
-            <td>{{ usuario.username }}</td>
-            <td>{{ usuario.email }}</td>
-            <td>{{ usuario.is_superuser|yesno:"Sí,No" }}</td>
-            <td>{{ usuario.is_staff|yesno:"Sí,No" }}</td>
-        </tr>
-        {% endfor %}
-    </tbody>
-</table>
+  <br>
 
-
+  <div class="container-botones">
     <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-    Agregar Nuevo Usuario
-  </button>
+    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-plus"></i> Agregar Usuario</button>
+    
+    <div class="btn-group" role="group" aria-label="Basic outlined example">
+      <button id="tabla" type="button" class="btn active"><i class="fa fa-table"></i></button>
+      <button id="cards-usuarios" type="button" class="btn"><i class="fa fa-id-card"></i></button>
+    </div>
+  </div>
+  <div class="span-btn">
+    <div class="spans">
+      <span id="span-tabla" style="display: inline;">Tabla</span>
+      <span id="span-cards" style="display: none;">Cuadricula</span>
+    </div>
+  </div>
+  <br>
+
+  <div id="tabla-usuarios" class="container" style="display: block;">
+    <div class="table-container">
+      <table class="table table-hover">
+        <thead class="encabezados">
+          <tr class="tr-encabezados">
+            <th scope="col">Usuario</th>
+            <th scope="col">Correo Electrónico</th>
+            <th scope="col">Permisos</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for usuario in usuarios %}
+            <tr class="datos">
+              <td><i class="fa-solid fa-user"></i>
+                {{ usuario.username }}</td>
+              <td>{{ usuario.email }}</td>
+              <td>
+                {% if usuario.is_superuser %}
+                  <i class="fa-solid fa-a"></i>
+                  <small>Administrador</small>
+                {% else %}
+                  <i class="fa-solid fa-e"></i>
+                  <small>Estandar</small>
+                {% endif %}
+              </td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <br>
+
+  <div id="container-cards-user" class="container-cards-user" style="display: none;">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      {% for usuario in usuarios %}
+      <div class="col">
+        <div class="card ">
+          <div class="icono-card">
+            <i class="fa-solid fa-user"></i>
+          </div>
+          <div class="card-body text-truncate"  style="max-width: 100%;">
+            <small class="card-title"><strong>Usuario: </strong>{{ usuario.username }}</small>
+            <br>
+            <small > <strong>correo: </strong>
+              {{ usuario.email }}
+            </small>
+            <br>
+            <small>
+              <strong>Permisos: </strong> 
+              {% if usuario.is_superuser %}
+              <i class="fa-solid fa-a"></i>
+              <small>Administrador</small>
+              {% else %}
+                <i class="fa-solid fa-e"></i>
+                <small>Estandar</small>
+              {% endif %}
+            </small>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
   
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Agregar usuario</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-            <h4>Agregar Usuario</h4>
-    
-            <div class="container-fluid">
-                <form method="post">
-                    {% csrf_token %}
-                    <div class="form-group">
-                        <label for="username">Nombre de usuario:</label>
-                        <input type="text" id="username" name="username" class="form-control" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Correo electrónico:</label>
-                        <input type="email" id="email" name="email" class="form-control" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="password">Contraseña:</label>
-                        <input type="password" id="password" name="password" class="form-control" required>
-                    </div>
-                    <div class="container-check">
-                        <div class="form-group form-check">
-                            <input type="checkbox" id="is_not_superuser" name="is_not_superuser" class="form-check-input">
-                            <label class="form-check-label" for="is_not_superuser">Permisos Estandar</label>
-                        </div>
-                        <div class="form-group form-check">
-                            <input type="checkbox" id="is_superuser" name="is_superuser" class="form-check-input">
-                            <label class="form-check-label" for="is_superuser">Permisos Extra</label>
-                        </div>
-                    </div>
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-primary">Agregar Usuario</button>
-                </form>
-            </div>
-        
+          <h4>Agregar Usuario</h4>
+
+          <div class="container-fluid">
+            <form method="post">
+              {% csrf_token %}
+              <div class="form-group">
+                <label for="username">Nombre de usuario</label>
+                <input type="text" id="username" name="username" class="form-control" required autocomplete="username" />
+              </div>
+              <div class="form-group">
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" class="form-control" required autocomplete="email" />
+              </div>
+              <div class="form-group">
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" name="password" class="form-control" required autocomplete="new-password" />
+              </div>
+              <br>
+              <label for="">Permisos</label>
+              <div class="container-check">
+                <div class="form-group form-check">
+                  <input type="checkbox" id="is_not_superuser" name="is_not_superuser" class="form-check-input" />
+                  <label class="form-check-label" for="is_not_superuser">Estandar</label>
+                </div>
+                <div class="form-group form-check">
+                  <input type="checkbox" id="is_superuser" name="is_superuser" class="form-check-input" />
+                  <label class="form-check-label" for="is_superuser">Administración</label>
+                </div>
+              </div>
+              <br>
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              <button type="submit" class="btn btn-primary">Agregar Usuario</button>
+            </form>
+          </div>
         </div>
       </div>
     </div>
   </div>
+
+
 {% endblock %}
 
 <!-- SCRIPTS -->
 {% block scripts %}
-  <script src="{% static 'js/home.js' %}"></script>
   <script src="{% static 'js/recarga.js' %}"></script>
+  <script src="{% static 'js/usuarios.js' %}"></script>
   <script src="https://kit.fontawesome.com/97e73bf1af.js" crossorigin="anonymous"></script>
 {% endblock %}

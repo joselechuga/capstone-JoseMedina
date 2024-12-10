@@ -1,9 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Lexend:wght@300&family=Oxygen:wght@300&display=swap');
+
+body{
+    background-color: #f8f9fa;
+}
+
+.container-botones{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-plus, .fa-table, .fa-id-card{
+    color: #0e5b7e;
+}
+
+.btn.active {
+    background-color: transparent; /* Mantener el fondo transparente */
+    color: #0e5b7e; 
+    text-decoration: underline 15px; 
+}
+
+.span-btn{
+    width: 89%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.spans{
+    width: 8%;
+    display: flex;
+    justify-content: center;
+}
+
+.spans span{
+    color: #0e5b7e;
+}
+
 .container-fluid{
     width: 50vw;
 }
 
 .container-check{
     display: flex;
+    gap: 10%; /* Añadir espacio entre los elementos */
+}
+
+.container{
+    width: 70%;
 }
 
 .fade{
@@ -13,3 +56,99 @@
 .form-control{
     width: 55%;
 }
+
+.table-container {
+    border-radius: 10px; /* Bordes curvos */
+    border: 1px solid #7dd3fc; /* Color del borde */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Para que los bordes curvos se apliquen correctamente */
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table thead th{
+    font-family: "Oxygen", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 100%;
+}
+
+.table thead, .table tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+        font-family: "Oxygen", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 85%;
+}
+
+.table tbody {
+    display: block;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.table td {
+    padding: 10px;
+    text-align: left;
+    border: 0.5px solid #7dd3fc;
+}
+
+.table tbody tr td i{
+    margin-right: 10px;
+}
+
+.table-container::-webkit-scrollbar {
+    width: 12px;
+}
+
+.table-container::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+    background-color: #7dd3fc; /* Color sólido */
+    border-radius: 10px;
+    border: 3px solid transparent;
+    background-clip: content-box;
+}
+
+.card{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.icono-card{
+    width: 25%; /* Establecer un ancho fijo para todas las cards */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-user{
+    font-size: 20px; 
+    color: #7dd3fc;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(23, 23, 22);
+}
+
+@media (max-width: 825px) {
+    .fa-user {
+        font-size: 16px; 
+}
+}
+
+@media (max-width: 480px) {
+    .fa-user {
+        font-size: 8px; 
+    }
+}
+
+

@@ -1,5 +1,5 @@
 body{
-  background-color: #F7F6FB;
+  background-color: #f8f9fa;
 }
 
 /**/
@@ -15,7 +15,7 @@ body{
 .card {
   width: 90%;
   height: auto;
-  background: #F7F6FB;
+  background: #f8f9fa;
   border-radius: 10px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.53), 0 2px 3px rgba(0, 0, 0, 0.493);
   margin: 20px;
@@ -40,7 +40,7 @@ body{
 
 .card-icon .icon-cart-box {
   background-color: #2196f3;
-  color: #F7F6FB;
+  color: #f8f9fa;
   width: 3em;
   height: 3em;
   border-radius: 50%;
