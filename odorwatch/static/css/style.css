@@ -57,6 +57,17 @@ body {
     height: 100%;
 }
 
+.label-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-tsg{
+  height: 70%;
+  width: 70%;
+}
+
 .login-box {
     background-color: white;
     padding: 2rem;

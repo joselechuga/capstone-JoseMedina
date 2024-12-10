@@ -32,19 +32,16 @@ def loginPage(request):
         username = request.POST.get('username')
         password = request.POST.get('password')
         
-        # Verificar si el correo es "jmedina@tsgenviro.com"
+        # Autenticar al usuario basado en el correo
+        user = None
         if username == 'jmedina@tsgenviro.com':
-            # Autenticar como superusuario
             user = authenticate(request, username='superuser_username', password='superuser_password')
         elif username == 'captsonejose@tsgenviro.com':
-            # Autenticar como usuario normal
             user = authenticate(request, username='captsonejose', password='normal_user_password')
         else:
-            # Autenticar como usuario normal
             user = authenticate(request, username=username, password=password)
         
         if user is not None:
-            # Almacenar el correo en la sesión
             request.session['user_email'] = user.email
             login(request, user)
             return redirect('home')
@@ -56,15 +53,13 @@ def loginPage(request):
                     'firma': firma, 
                     'certificado': certificado
                     }
-            # Almacenar el correo en la sesión
-            request.session['user_email'] = correo
-            
-            # Aquí deberías implementar la lógica de validación para estas variables
-            user = authenticate(request, username='jose', password='Capstonejose')
-            if user is not None:
+            # Buscar usuario por correo
+            try:
+                user = User.objects.get(email=correo)
+                request.session['user_email'] = correo
                 login(request, user)
                 return redirect('home')
-            else:
+            except User.DoesNotExist:
                 return render(request, 'login.html', {'error_message': 'Credenciales incorrectas'})
         else:
             return render(request, 'login.html', {'error_message': 'Credenciales incorrectas o falta información'})
