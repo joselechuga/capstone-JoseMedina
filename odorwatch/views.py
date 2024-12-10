@@ -32,12 +32,16 @@ def loginPage(request):
         username = request.POST.get('username')
         password = request.POST.get('password')
         
-        # Intentar autenticar usando el correo electrónico
-        try:
-            user = User.objects.get(email=username)
-            user = authenticate(request, username=user.username, password=password)
-        except User.DoesNotExist:
-            user = None
+        # Verificar si el correo es "jmedina@tsgenviro.com"
+        if username == 'jmedina@tsgenviro.com':
+            # Autenticar como superusuario
+            user = authenticate(request, username='superuser_username', password='superuser_password')
+        elif username == 'captsonejose@tsgenviro.com':
+            # Autenticar como usuario normal
+            user = authenticate(request, username='captsonejose', password='normal_user_password')
+        else:
+            # Autenticar como usuario normal
+            user = authenticate(request, username=username, password=password)
         
         if user is not None:
             # Almacenar el correo en la sesión
@@ -55,13 +59,8 @@ def loginPage(request):
             # Almacenar el correo en la sesión
             request.session['user_email'] = correo
             
-            # Autenticar dependiendo del correo
-            try:
-                user = User.objects.get(email=correo)
-                user = authenticate(request, username=user.username, password='normal_user_password')
-            except User.DoesNotExist:
-                user = None
-            
+            # Aquí deberías implementar la lógica de validación para estas variables
+            user = authenticate(request, username='jose', password='Capstonejose')
             if user is not None:
                 login(request, user)
                 return redirect('home')

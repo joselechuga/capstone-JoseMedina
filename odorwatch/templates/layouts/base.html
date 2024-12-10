@@ -30,11 +30,7 @@
             <div class="texto-usuario">
                 <!-- VALIDAR NOMBRE DE USUARIO LOGEADO -->
                 {% if user.is_authenticated %}
-                    {% if 'tsgenviro' in user_email %}
-                    <small>{{ user_email }}</small>
-                    {% else %}
-                    <p>{{ user.username }}</p>
-                    {% endif %}
+                <p>{{ user.username }}</p>
                 {% else %}
                 <p>Usuario no autenticado</p>
                 {% endif %}
