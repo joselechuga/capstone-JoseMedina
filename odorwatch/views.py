@@ -75,7 +75,7 @@ def run_script(request):
     try:
         # Ejecuta el script main.py
         process = subprocess.Popen(
-            ['python', 'modulos\main.py'],
+            ['python', 'modulos/main.py'],
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
             text=True
