@@ -30,7 +30,7 @@
             <div class="texto-usuario">
                 <!-- VALIDAR NOMBRE DE USUARIO LOGEADO -->
                 {% if 'tsgenviro' in user_email %}
-                <p >{{ user_email }}</p>
+                <small>{{ user_email }}</small>
                 {% else %}
                 <p >{{ user.username }}</p>
             </div>
@@ -67,7 +67,7 @@
                         <span class="nav_name">Scraping</span>
                     </a>
                     {% endif %}
-                    
+
                     {% if user.is_superuser %}
                     <a href="{% url 'add_usuario' %}" class="nav_link">
                         <i class="fa-regular fa-user"></i>
