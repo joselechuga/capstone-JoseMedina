@@ -29,13 +29,12 @@
         <div class="contenedor-imgtext">
             <div class="texto-usuario">
                 <!-- VALIDAR NOMBRE DE USUARIO LOGEADO -->
-                {% if 'tsgenviro' in user_email %}
-                <small>{{ user_email }}</small>
-                {% else %}
+
                 <p >{{ user.username }}</p>
+
             </div>
 
-            {% endif %}
+
 
             <img class="icono" src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D" alt="">
 
