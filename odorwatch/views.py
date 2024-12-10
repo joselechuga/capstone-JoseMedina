@@ -200,7 +200,7 @@ def add_usuario(request):
             
             user.is_staff = user.is_superuser  # Opcional: Asigna el rol de staff si es superuser
             user.save()
-            return redirect('home')  # Redirige a la página de inicio o a donde desees
+            return redirect('add_usuario')  # Redirige a la página de inicio o a donde desees
     else:
         form = UserForm()
     

@@ -5,3 +5,11 @@
 .container-check{
     display: flex;
 }
+
+.fade{
+    width: 100vw;
+}
+
+.form-control{
+    width: 55%;
+}
