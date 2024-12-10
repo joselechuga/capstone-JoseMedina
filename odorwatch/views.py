@@ -70,7 +70,6 @@ def loginPage(request):
             return render(request, 'login.html', {'error_message': 'Credenciales incorrectas o falta información'})
     
     return render(request, 'login.html')
-
 # Cerrar sesion
 def logoutUser(request):
     logout(request)
