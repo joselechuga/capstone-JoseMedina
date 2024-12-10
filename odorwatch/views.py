@@ -36,6 +36,9 @@ def loginPage(request):
         if username == 'jmedina@tsgenviro.com':
             # Autenticar como superusuario
             user = authenticate(request, username='superuser_username', password='superuser_password')
+        elif username == 'captsonejose@tsgenviro.com':
+            # Autenticar como usuario normal
+            user = authenticate(request, username='captsonejose', password='normal_user_password')
         else:
             # Autenticar como usuario normal
             user = authenticate(request, username=username, password=password)
