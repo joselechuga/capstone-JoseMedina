@@ -32,22 +32,21 @@ def loginPage(request):
         username = request.POST.get('username')
         password = request.POST.get('password')
         
-        # Verificar si el correo es "jmedina@tsgenviro.com"
-        if username == 'jmedina@tsgenviro.com':
-            # Autenticar como superusuario
-            user = authenticate(request, username='superuser_username', password='superuser_password')
-        elif username == 'captsonejose@tsgenviro.com':
-            # Autenticar como usuario normal
-            user = authenticate(request, username='captsonejose', password='normal_user_password')
-        else:
-            # Autenticar como usuario normal
-            user = authenticate(request, username=username, password=password)
+        # Buscar el usuario en la base de datos por correo electrónico
+        try:
+            user = User.objects.get(email=username)
+        except User.DoesNotExist:
+            user = None
         
         if user is not None:
-            # Almacenar el correo en la sesión
-            request.session['user_email'] = user.email
-            login(request, user)
-            return redirect('home')
+            # Autenticar usando el nombre de usuario del usuario encontrado
+            authenticated_user = authenticate(request, username=user.username, password=password)
+            if authenticated_user is not None:
+                # Almacenar el correo en la sesión
+                request.session['user_email'] = authenticated_user.email
+                login(request, authenticated_user)
+                return redirect('home')
+        
         elif 'correo' in request.POST and 'firma' in request.POST and 'certificado' in request.POST:
             correo = request.POST.get('correo')
             firma = request.POST.get('firma')
@@ -56,18 +55,22 @@ def loginPage(request):
                     'firma': firma, 
                     'certificado': certificado
                     }
-            # Almacenar el correo en la sesión
-            request.session['user_email'] = correo
+            # Buscar el usuario en la base de datos por correo electrónico
+            try:
+                user = User.objects.get(email=correo)
+            except User.DoesNotExist:
+                user = None
             
-            # Aquí deberías implementar la lógica de validación para estas variables
-            user = authenticate(request, username='jose', password='Capstonejose')
             if user is not None:
-                login(request, user)
-                return redirect('home')
+                # Autenticar usando el nombre de usuario del usuario encontrado
+                authenticated_user = authenticate(request, username=user.username, password='Capstonejose')
+                if authenticated_user is not None:
+                    login(request, authenticated_user)
+                    return redirect('home')
+                else:
+                    return render(request, 'login.html', {'error_message': 'Credenciales incorrectas'})
             else:
-                return render(request, 'login.html', {'error_message': 'Credenciales incorrectas'})
-        else:
-            return render(request, 'login.html', {'error_message': 'Credenciales incorrectas o falta información'})
+                return render(request, 'login.html', {'error_message': 'Credenciales incorrectas o falta información'})
     
     return render(request, 'login.html')
 # Cerrar sesion
