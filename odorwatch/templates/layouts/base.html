@@ -29,10 +29,14 @@
         <div class="contenedor-imgtext">
             <div class="texto-usuario">
                 <!-- VALIDAR NOMBRE DE USUARIO LOGEADO -->
-                {% if 'tsgenviro' in user_email %}
-                <small>{{ user_email }}</small>
+                {% if user.is_authenticated %}
+                    {% if 'tsgenviro' in user_email %}
+                    <small>{{ user_email }}</small>
+                    {% else %}
+                    <p>{{ user.username }}</p>
+                    {% endif %}
                 {% else %}
-                <p >{{ user.username }}</p>
+                <p>Usuario no autenticado</p>
                 {% endif %}
             </div>
 
