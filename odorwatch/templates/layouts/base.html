@@ -30,7 +30,15 @@
             <div class="texto-usuario">
             <!-- VALIDAR NOMBRE DE USUARIO LOGEADO -->
             {% if user.is_authenticated %}
-            <small class="correo-usuario">{{ request.session.user_email }}</small> <!-- Cambiado para mostrar el correo de la sesión -->
+            {% if email_coincide %}
+                {% if user.is_superuser %}
+                    <small class="correo-usuario">{{ user_email }} (Superuser)</small>
+                {% else %}
+                    <small class="correo-usuario">{{ user_email }}</small>
+                {% endif %}
+            {% else %}
+                <p>Correo no coincide con el autenticado en M365</p>
+            {% endif %}
             {% else %}
             <p>Usuario no autenticado</p>
             {% endif %}

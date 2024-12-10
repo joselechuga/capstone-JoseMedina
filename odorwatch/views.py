@@ -78,8 +78,17 @@ def logoutUser(request):
 
 def home(request):
     # Obtener el correo de la sesión
-    user_email = request.session.get('user_email', 'Correo no disponible')    
-    return render(request, 'home.html', {'user_email': user_email})
+    user_email = request.session.get('user_email', 'Correo no disponible')
+    m365_user_email = request.session.get('m365_user_email', 'Correo M365 no disponible')  # Asegúrate de almacenar este correo en la sesión
+
+    # Comparar los correos
+    email_coincide = user_email == m365_user_email
+
+    return render(request, 'home.html', {
+        'user_email': user_email,
+        'm365_user_email': m365_user_email,
+        'email_coincide': email_coincide
+    })
 
 
 def run_script(request):
