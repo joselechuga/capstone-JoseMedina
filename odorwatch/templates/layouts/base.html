@@ -28,12 +28,12 @@
         <div class="header_toggle"> <i class='bx bx-menu' id="header-toggle"></i> </div>
         <div class="contenedor-imgtext">
             <div class="texto-usuario">
-                <!-- VALIDAR NOMBRE DE USUARIO LOGEADO -->
-                {% if user.is_authenticated %}
-                <p>{{ user.username }}</p>
-                {% else %}
-                <p>Usuario no autenticado</p>
-                {% endif %}
+            <!-- VALIDAR NOMBRE DE USUARIO LOGEADO -->
+            {% if user.is_authenticated %}
+            <p>{{ request.session.user_email }}</p> <!-- Cambiado para mostrar el correo de la sesión -->
+            {% else %}
+            <p>Usuario no autenticado</p>
+            {% endif %}
             </div>
 
 
