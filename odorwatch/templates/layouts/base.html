@@ -30,8 +30,7 @@
             <div class="texto-usuario">
             <!-- VALIDAR NOMBRE DE USUARIO LOGEADO -->
             {% if user.is_authenticated %}
-                <small class="nombre-usuario">{{ user.username }}</small>
-                {% if email_coincide %}
+            <small class="correo-usuario">{{ user_email }}</small>                {% if email_coincide %}
                     {% if user.is_superuser %}
                         <small>(Superuser)</small>
                     {% endif %}
