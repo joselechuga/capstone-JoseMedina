@@ -188,10 +188,21 @@ def add_usuario(request):
         if form.is_valid():
             user = form.save(commit=False)
             user.set_password(form.cleaned_data['password'])  # Encripta la contraseña
-            user.is_superuser = False  # Asegúrate de que no sea superusuario
-            user.is_staff = False  # Asegúrate de que no sea staff si no es necesario
+            
+            # Verifica las casillas de verificación
+            if 'is_superuser' in request.POST and 'is_not_superuser' not in request.POST:
+                user.is_superuser = True
+            elif 'is_not_superuser' in request.POST and 'is_superuser' not in request.POST:
+                user.is_superuser = False
+            else:
+                # Maneja el caso donde ambas o ninguna casilla están marcadas
+                return render(request, 'add_usuario.html', {'form': form, 'error_message': 'Seleccione solo una opción para el rol de superuser.'})
+            
+            user.is_staff = user.is_superuser  # Opcional: Asigna el rol de staff si es superuser
             user.save()
             return redirect('home')  # Redirige a la página de inicio o a donde desees
     else:
         form = UserForm()
-    return render(request, 'add_usuario.html', {'form': form})
+    
+    usuarios = User.objects.all()  # Obtiene todos los usuarios
+    return render(request, 'add_usuario.html', {'form': form, 'usuarios': usuarios})

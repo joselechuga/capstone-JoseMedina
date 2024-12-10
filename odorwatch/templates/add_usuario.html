@@ -6,16 +6,64 @@
 {# Hoja de estilos para este template #}
 {% block style %}
   <link rel="stylesheet" href="{% static 'css/home_style.css' %}" />
+  <link rel="stylesheet" href="{% static 'css/usuarios.css' %}" />
 {% endblock %}
 
 <!-- Contenido -->
 {% block content %}
+
+<h4>Usuarios Registrados</h4>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre de Usuario</th>
+            <th>Correo Electrónico</th>
+            <th>Superuser</th>
+            <th>Staff</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for usuario in usuarios %}
+        <tr>
+            <td>{{ usuario.username }}</td>
+            <td>{{ usuario.email }}</td>
+            <td>{{ usuario.is_superuser|yesno:"Sí,No" }}</td>
+            <td>{{ usuario.is_staff|yesno:"Sí,No" }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
     <h4>Agregar Usuario</h4>
-    <form method="post">
-        {% csrf_token %}
-        {{ form.as_p }}
-        <button type="submit" class="btn btn-primary">Agregar Usuario</button>
-    </form>
+    
+    <div class="container-fluid">
+        <form method="post">
+            {% csrf_token %}
+            <div class="form-group">
+                <label for="username">Nombre de usuario:</label>
+                <input type="text" id="username" name="username" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" class="form-control" required>
+            </div>
+            <div class="container-check">
+                <div class="form-group form-check">
+                    <input type="checkbox" id="is_not_superuser" name="is_not_superuser" class="form-check-input">
+                    <label class="form-check-label" for="is_not_superuser">Permisos Estandar</label>
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" id="is_superuser" name="is_superuser" class="form-check-input">
+                    <label class="form-check-label" for="is_superuser">Permisos Extra</label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Agregar Usuario</button>
+        </form>
+    </div>
 {% endblock %}
 
 <!-- SCRIPTS -->
