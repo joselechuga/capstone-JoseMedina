@@ -75,6 +75,10 @@
     width: 50vw;
 }
 
+.card{
+    width: 60vw;
+}
+
 .progress-bar {
     transition: width 0.5s ease; /* Añadir transición para la animación */
 }

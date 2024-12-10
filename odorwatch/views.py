@@ -44,6 +44,7 @@ def loginPage(request):
         if user is not None:
             request.session['user_email'] = user.email
             login(request, user)
+            print(f"Usuario autenticado: {user.email}")  # Mensaje de depuración
             return redirect('home')
         elif 'correo' in request.POST and 'firma' in request.POST and 'certificado' in request.POST:
             correo = request.POST.get('correo')
@@ -74,16 +75,19 @@ def logoutUser(request):
 def home(request):
     # Obtener el correo de la sesión
     user_email = request.session.get('user_email', 'Correo no disponible')
-    m365_user_email = request.session.get('m365_user_email', 'Correo M365 no disponible')  # Asegúrate de almacenar este correo en la sesión
+    m365_user_email = request.session.get('m365_user_email', 'Correo M365 no disponible')  # Aseg��rate de almacenar este correo en la sesión
 
     # Comparar los correos
     email_coincide = user_email == m365_user_email
 
-    return render(request, 'home.html', {
+    # Añadir los datos al contexto
+    context = {
         'user_email': user_email,
         'm365_user_email': m365_user_email,
         'email_coincide': email_coincide
-    })
+    }
+
+    return render(request, 'home.html', context)
 
 
 def run_script(request):
@@ -200,9 +204,30 @@ def add_usuario(request):
             
             user.is_staff = user.is_superuser  # Opcional: Asigna el rol de staff si es superuser
             user.save()
-            return redirect('add_usuario')  # Redirige a la página de inicio o a donde desees
+            return redirect('add_usuario') 
     else:
         form = UserForm()
     
     usuarios = User.objects.all()  # Obtiene todos los usuarios
     return render(request, 'add_usuario.html', {'form': form, 'usuarios': usuarios})
+
+def base_view(request):
+    # Obtener el correo de la sesión
+    user_email = request.session.get('user_email', 'Correo no disponible')
+    m365_user_email = request.session.get('m365_user_email', 'Correo M365 no disponible')
+
+    # Mensajes de depuración
+    print(f"Correo del usuario: {user_email}")
+    print(f"Correo M365: {m365_user_email}")
+
+    # Comparar los correos
+    email_coincide = user_email == m365_user_email
+
+    # Añadir los datos al contexto
+    context = {
+        'user_email': user_email,
+        'm365_user_email': m365_user_email,
+        'email_coincide': email_coincide
+    }
+
+    return render(request, 'layouts/base.html', context)
