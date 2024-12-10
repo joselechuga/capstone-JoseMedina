@@ -59,8 +59,12 @@ def loginPage(request):
             # Almacenar el correo en la sesión
             request.session['user_email'] = correo
             
-            # Aquí deberías implementar la lógica de validación para estas variables
-            user = authenticate(request, username='jose', password='Capstonejose')
+            # Autenticar dependiendo del correo
+            if correo == 'jmedina@tsgenviro.com':
+                user = authenticate(request, username='superuser_username', password='superuser_password')
+            else:
+                user = authenticate(request, username='normal_user_username', password='normal_user_password')
+            
             if user is not None:
                 login(request, user)
                 return redirect('home')

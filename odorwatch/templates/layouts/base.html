@@ -28,8 +28,12 @@
         <div class="header_toggle"> <i class='bx bx-menu' id="header-toggle"></i> </div>
         <div class="contenedor-imgtext">
             <div class="texto-usuario">
-                <!-- NOMBRE DE USUARIO LOGEADO -->
+                <!-- VALIDAR NOMBRE DE USUARIO LOGEADO -->
+                {% if 'tsgenviro' in user_email %}
+                <small>{{ user_email }}</small>
+                {% else %}
                 <p >{{ user.username }}</p>
+                {% endif %}
             </div>
 
 
