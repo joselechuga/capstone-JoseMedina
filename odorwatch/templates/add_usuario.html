@@ -1,0 +1,26 @@
+{# Herencia de template base para navbar y footer #}
+{% extends 'layouts/base.html' %}
+
+{# Carga de static para este template #}
+{% load static %}
+{# Hoja de estilos para este template #}
+{% block style %}
+  <link rel="stylesheet" href="{% static 'css/home_style.css' %}" />
+{% endblock %}
+
+<!-- Contenido -->
+{% block content %}
+    <h4>Agregar Usuario</h4>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="btn btn-primary">Agregar Usuario</button>
+    </form>
+{% endblock %}
+
+<!-- SCRIPTS -->
+{% block scripts %}
+  <script src="{% static 'js/home.js' %}"></script>
+  <script src="{% static 'js/recarga.js' %}"></script>
+  <script src="https://kit.fontawesome.com/97e73bf1af.js" crossorigin="anonymous"></script>
+{% endblock %}

@@ -61,10 +61,19 @@
                         <span class="nav_name">SNIFA</span>
                     </a>
 
+                    {% if user.is_superuser %}
                     <a href="{% url 'panel' %}" class="nav_link">
                         <i class='bx bx-bar-chart-alt-2 nav_icon'></i>
                         <span class="nav_name">Scraping</span>
                     </a>
+                    {% endif %}
+                    
+                    {% if user.is_superuser %}
+                    <a href="{% url 'add_usuario' %}" class="nav_link">
+                        <i class="fa-regular fa-user"></i>
+                        <span class="nav_name">Usuarios</span>
+                    </a>
+                    {% endif %}
                     
                 </div>
             </div>

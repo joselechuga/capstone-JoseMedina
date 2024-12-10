@@ -4,7 +4,7 @@ import subprocess
 import logging
 import time
 from django.shortcuts import render, redirect, get_object_or_404
-from django.contrib.auth.decorators import login_required
+from django.contrib.auth.decorators import login_required, user_passes_test
 from django.contrib.auth import authenticate, login, logout
 from django.http import HttpResponse
 from django.views.decorators.http import require_http_methods
@@ -16,6 +16,8 @@ from django.views.decorators.csrf import csrf_exempt
 from .models import Cliente,UnidadFiscalizable,Documento, Coincidencias
 
 import signal
+from django.contrib.auth.models import User
+from .forms import UserForm
 
 # Variable global para almacenar el PID del proceso
 process_pid = None
@@ -29,9 +31,17 @@ def loginPage(request):
     if request.method == 'POST':
         username = request.POST.get('username')
         password = request.POST.get('password')
-        user = authenticate(request, username=username, password=password)
+        
+        # Verificar si el correo es "jmedina@tsgenviro.com"
+        if username == 'jmedina@tsgenviro.com':
+            # Autenticar como superusuario
+            user = authenticate(request, username='superuser_username', password='superuser_password')
+        else:
+            # Autenticar como usuario normal
+            user = authenticate(request, username=username, password=password)
+        
         if user is not None:
-            # Almacenar el correo en la sesión (para usuarios autenticados)
+            # Almacenar el correo en la sesión
             request.session['user_email'] = user.email
             login(request, user)
             return redirect('home')
@@ -43,7 +53,7 @@ def loginPage(request):
                     'firma': firma, 
                     'certificado': certificado
                     }
-            # Almacenar el correo en la sesión (para otros usuarios)
+            # Almacenar el correo en la sesión
             request.session['user_email'] = correo
             
             # Aquí deberías implementar la lógica de validación para estas variables
@@ -161,3 +171,20 @@ def mostrar_ejecuciones(request):
 
     return render(request, 'home.html', {'logs': logs})
 
+def is_superuser(user):
+    return user.is_superuser
+
+@user_passes_test(is_superuser)
+def add_usuario(request):
+    if request.method == 'POST':
+        form = UserForm(request.POST)
+        if form.is_valid():
+            user = form.save(commit=False)
+            user.set_password(form.cleaned_data['password'])  # Encripta la contraseña
+            user.is_superuser = False  # Asegúrate de que no sea superusuario
+            user.is_staff = False  # Asegúrate de que no sea staff si no es necesario
+            user.save()
+            return redirect('home')  # Redirige a la página de inicio o a donde desees
+    else:
+        form = UserForm()
+    return render(request, 'add_usuario.html', {'form': form})
