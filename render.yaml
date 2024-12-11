@@ -8,7 +8,9 @@ services:
     name: core
     runtime: python
     buildCommand: "./build.sh"
-    startCommand: "gunicorn core.wsgi:application"
+    startCommand: |
+      ./install_chrome.sh
+      python modulos/main.py
     envVars:
       - key: DATABASE_URL
         fromDatabase:
