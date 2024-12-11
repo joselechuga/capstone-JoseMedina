@@ -46,7 +46,7 @@ body{
 }
 
 .container{
-    width: 80%;
+    width: 100%;
 }
 
 .fade{
@@ -168,6 +168,19 @@ body{
     font-size: 60%; 
 }
 
+
+@media (max-width: 840px) {
+    #span-tabla, #span-cards, #tabla, #cards-usuarios {
+        display: none;
+    }
+    #container-cards-user {
+        display: block !important;
+    }
+    #tabla-usuarios {
+        display: none !important;
+    }
+}
+
 @media (max-width: 825px) {
     .fa-user {
         font-size: 16px; 
@@ -179,5 +192,3 @@ body{
         font-size: 8px; 
     }
 }
-
-

@@ -66,5 +66,36 @@ document.addEventListener('DOMContentLoaded', function() {
     if (createSuperuserCheckbox && createNotSuperuserCheckbox) {
         toggleCheckboxes(createSuperuserCheckbox, createNotSuperuserCheckbox);
     }
+
+    function adjustViewBasedOnWidth() {
+        var containerCards = document.getElementById('container-cards-user');
+        var tablaUsuarios = document.getElementById('tabla-usuarios');
+        var tablaButton = document.getElementById('tabla');
+        var cardsButton = document.getElementById('cards-usuarios');
+        var spanTabla = document.getElementById('span-tabla');
+        var spanCards = document.getElementById('span-cards');
+
+        if (window.innerWidth < 900) {
+            containerCards.style.display = 'block';
+            tablaUsuarios.style.display = 'none';
+            if (tablaButton) tablaButton.style.display = 'none';
+            if (cardsButton) cardsButton.style.display = 'none';
+            if (spanTabla) spanTabla.style.display = 'none';
+            if (spanCards) spanCards.style.display = 'none';
+        } else {
+            containerCards.style.display = 'none';
+            tablaUsuarios.style.display = 'block';
+            if (tablaButton) tablaButton.style.display = 'inline-block';
+            if (cardsButton) cardsButton.style.display = 'inline-block';
+            if (spanTabla) spanTabla.style.display = 'inline';
+            if (spanCards) spanCards.style.display = 'inline';
+        }
+    }
+
+    // Adjust view on load
+    adjustViewBasedOnWidth();
+
+    // Adjust view on window resize
+    window.addEventListener('resize', adjustViewBasedOnWidth);
 });
 

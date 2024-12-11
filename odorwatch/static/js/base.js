@@ -38,9 +38,26 @@ function colorLink(){
 if(linkColor){
 linkColor.forEach(l=> l.classList.remove('active'))
 this.classList.add('active')
+// Guardar el id del enlace activo en el almacenamiento local
+localStorage.setItem('activeLink', this.getAttribute('href'))
 }
 }
 linkColor.forEach(l=> l.addEventListener('click', colorLink))
+
+// Recuperar el enlace activo del almacenamiento local
+const activeLink = localStorage.getItem('activeLink')
+if (activeLink) {
+const activeElement = document.querySelector(`.nav_link[href="${activeLink}"]`)
+if (activeElement) {
+activeElement.classList.add('active')
+}
+} else {
+    // Si no hay enlace activo guardado, desmarcar el enlace de inicio
+    const homeLink = document.querySelector('.nav_link.active')
+    if (homeLink) {
+        homeLink.classList.remove('active')
+    }
+}
 
     // Tu código para ejecutar una vez que el DOM esté cargado y listo
 });
