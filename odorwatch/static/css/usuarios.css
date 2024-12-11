@@ -46,7 +46,7 @@ body{
 }
 
 .container{
-    width: 70%;
+    width: 80%;
 }
 
 .fade{
@@ -115,6 +115,10 @@ body{
     border-radius: 10px;
     border: 3px solid transparent;
     background-clip: content-box;
+}
+
+.table tbody tr td .fa-pen-to-square{
+    color: #d8d105;
 }
 
 .card{

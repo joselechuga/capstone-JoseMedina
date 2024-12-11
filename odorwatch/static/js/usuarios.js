@@ -30,3 +30,41 @@ document.getElementById('cards-usuarios').addEventListener('click', function() {
     document.getElementById('tabla').classList.remove('active');
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+    // Código existente...
+    
+    // Funcionalidad para desmarcar un checkbox cuando se marca el otro
+    function toggleCheckboxes(superuserCheckbox, notSuperuserCheckbox) {
+        superuserCheckbox.addEventListener('change', function() {
+            if (this.checked) {
+                notSuperuserCheckbox.checked = false;
+            }
+        });
+
+        notSuperuserCheckbox.addEventListener('change', function() {
+            if (this.checked) {
+                superuserCheckbox.checked = false;
+            }
+        });
+    }
+
+    // Aplicar la funcionalidad a los formularios de edición
+    document.querySelectorAll('.modal').forEach(function(modal) {
+        modal.addEventListener('show.bs.modal', function(event) {
+            var modalId = event.target.id.replace('editModal', '');
+            var isSuperuserCheckbox = document.getElementById('is_superuser_' + modalId);
+            var isNotSuperuserCheckbox = document.getElementById('is_not_superuser_' + modalId);
+
+            toggleCheckboxes(isSuperuserCheckbox, isNotSuperuserCheckbox);
+        });
+    });
+
+    // Aplicar la funcionalidad al formulario de creación
+    var createSuperuserCheckbox = document.getElementById('is_superuser');
+    var createNotSuperuserCheckbox = document.getElementById('is_not_superuser');
+
+    if (createSuperuserCheckbox && createNotSuperuserCheckbox) {
+        toggleCheckboxes(createSuperuserCheckbox, createNotSuperuserCheckbox);
+    }
+});
+

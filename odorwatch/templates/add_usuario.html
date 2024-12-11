@@ -39,14 +39,15 @@
             <th scope="col">Usuario</th>
             <th scope="col">Correo Electrónico</th>
             <th scope="col">Permisos</th>
+            <th scope="col">Acciones</th>
           </tr>
         </thead>
         <tbody>
           {% for usuario in usuarios %}
             <tr class="datos">
-              <td><i class="fa-solid fa-user"></i>
+              <td class="text-truncate"  style="max-width: 100%;"><i class="fa-solid fa-user"></i>
                 {{ usuario.username }}</td>
-              <td>{{ usuario.email }}</td>
+              <td class="text-truncate"  style="max-width: 100%;">{{ usuario.email }}</td>
               <td>
                 {% if usuario.is_superuser %}
                   <i class="fa-solid fa-a"></i>
@@ -56,7 +57,57 @@
                   <small>Estandar</small>
                 {% endif %}
               </td>
+              <td>
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#editModal{{ usuario.id }}">
+                  <i class="fa-solid fa-pen-to-square"></i>
+                  <small>Editar</small>
+                </button>
+              </td>
             </tr>
+
+            <!-- Modal de edición -->
+            <div class="modal fade" id="editModal{{ usuario.id }}" tabindex="-1" aria-labelledby="editModalLabel{{ usuario.id }}" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="editModalLabel{{ usuario.id }}">Editar Usuario</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form method="post" action="{% url 'edit_usuario' usuario.id %}">
+                      {% csrf_token %}
+                      <div class="form-group">
+                        <label for="username">Nombre de usuario</label>
+                        <input type="text" id="username" name="username" class="form-control" value="{{ usuario.username }}" required />
+                      </div>
+                      <div class="form-group">
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" id="email" name="email" class="form-control" value="{{ usuario.email }}" required />
+                      </div>
+                      <div class="form-group">
+                        <label for="password">Nueva Contraseña</label>
+                        <input type="password" id="password" name="password" class="form-control" value="********" placeholder="Dejar en blanco para no cambiar" autocomplete="new-password" />
+                      </div>
+                      <br>
+                      <label for="">Permisos</label>
+                      <div class="container-check">
+                        <div class="form-group form-check">
+                          <input type="checkbox" id="is_not_superuser_{{ usuario.id }}" name="is_not_superuser" class="form-check-input" {% if not usuario.is_superuser %}checked{% endif %} />
+                          <label class="form-check-label" for="is_not_superuser_{{ usuario.id }}">Estandar</label>
+                        </div>
+                        <div class="form-group form-check">
+                          <input type="checkbox" id="is_superuser_{{ usuario.id }}" name="is_superuser" class="form-check-input" {% if usuario.is_superuser %}checked{% endif %} />
+                          <label class="form-check-label" for="is_superuser_{{ usuario.id }}">Administración</label>
+                        </div>
+                      </div>
+                      <br>
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                      <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
           {% endfor %}
         </tbody>
       </table>

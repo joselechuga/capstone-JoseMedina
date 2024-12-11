@@ -75,7 +75,7 @@ def logoutUser(request):
 def home(request):
     # Obtener el correo de la sesión
     user_email = request.session.get('user_email', 'Correo no disponible')
-    m365_user_email = request.session.get('m365_user_email', 'Correo M365 no disponible')  # Aseg��rate de almacenar este correo en la sesión
+    m365_user_email = request.session.get('m365_user_email', 'Correo M365 no disponible')  # Asegurate de almacenar este correo en la sesión
 
     # Comparar los correos
     email_coincide = user_email == m365_user_email
@@ -231,3 +231,26 @@ def base_view(request):
     }
 
     return render(request, 'layouts/base.html', context)
+
+@user_passes_test(is_superuser)
+def edit_usuario(request, user_id):
+    user = get_object_or_404(User, id=user_id)
+    if request.method == 'POST':
+        form = UserForm(request.POST, instance=user)
+        if form.is_valid():
+            user = form.save(commit=False)
+            # Solo establece una nueva contraseña si se proporciona
+            if form.cleaned_data.get('password'):
+                user.set_password(form.cleaned_data['password'])  # Encripta la nueva contraseña si se proporciona
+            # Verifica las casillas de verificación
+            if 'is_superuser' in request.POST and 'is_not_superuser' not in request.POST:
+                user.is_superuser = True
+            elif 'is_not_superuser' in request.POST and 'is_superuser' not in request.POST:
+                user.is_superuser = False
+            user.is_staff = user.is_superuser  # Opcional: Asigna el rol de staff si es superuser
+            user.save()
+            return redirect('add_usuario')
+    else:
+        form = UserForm(instance=user)
+    
+    return render(request, 'add_usuario.html', {'form': form, 'usuarios': User.objects.all()})

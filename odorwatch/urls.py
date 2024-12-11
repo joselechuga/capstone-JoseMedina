@@ -18,5 +18,6 @@ urlpatterns = [
     path('get-progress/', views.get_progress, name='get_progress'),
     path('ejecuciones/', views.mostrar_ejecuciones, name='mostrar_ejecuciones'),
     path('add_usuario/', views.add_usuario, name='add_usuario'),
+    path('edit_usuario/<int:user_id>/', views.edit_usuario, name='edit_usuario'),
 
 ]
