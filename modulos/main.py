@@ -175,15 +175,19 @@ def interactuar_con_pagina(driver):
 
         logging.info(f"Desplegando todos los resultados")
         WebDriverWait(driver, 120).until(
-            EC.element_to_be_clickable((By.XPATH, "/html/body/div[6]/div[4]/div/div/div/div/div[2]/div[3]/div[4]/select/option[7]"))
+            EC.element_to_be_clickable((By.XPATH, "/html/body/div[6]/div[4]/div/div/div/div/div[2]/div[3]/div[4]/select/option[3]"))
         ).click()
 
-        num_filas = len(driver.find_elements(By.XPATH, "/html/body/div[6]/div[4]/div/div/div/div/div[2]/div[3]/table/tbody/tr"))
+        # Cambiar el número de filas a procesar a 200
+        num_filas = min(200, len(driver.find_elements(By.XPATH, "/html/body/div[6]/div[4]/div/div/div/div/div[2]/div[3]/table/tbody/tr")))
         for i in range(num_filas):
             try:
                 # Esperar a que el modal de carga desaparezca antes de cada interacción
                 esperar_modal_desaparecer(driver)
 
+                # Eliminar directorio de descargas al volver a las filas de la primera tabla
+                eliminar_contenido_directorio(download_dir)
+                
                 filas = driver.find_elements(By.XPATH, "/html/body/div[6]/div[4]/div/div/div/div/div[2]/div[3]/table/tbody/tr")
                 if i < len(filas):
                     no_more_rows_count = 0  # Reinicia el contador si se procesa una fila
@@ -243,7 +247,7 @@ def interactuar_con_pagina(driver):
                         logging.info("La descarga del archivo fue exitosa.")
                     else:
                         print("La descarga del archivo falló.")
-                        logging.info("La descarga del archivo falló.")
+                        #logging.info("La descarga del archivo falló.")
 
     
                     mostrar_contenido_archivo()
@@ -278,7 +282,7 @@ def interactuar_con_pagina(driver):
                     actualizar_progreso(progreso_actual)
                     
                     # ELIMINAR CONTENIDO DE LA CARPET DESCARGAS
-                    eliminar_contenido_directorio(download_dir)
+                    #eliminar_contenido_directorio(download_dir)
 
                     # Cambiar al contexto de la nueva pestaña si se abre una
                     driver.switch_to.window(driver.window_handles[-1])
@@ -293,6 +297,13 @@ def interactuar_con_pagina(driver):
                     if len(driver.window_handles) > 0:
                         driver.switch_to.window(driver.window_handles[0])
 
+                    # Verificar si se han procesado 100 filas
+                    if i + 1 == 100:
+                        print("Se han procesado 100 filas, cerrando el proceso.")
+                        logging.info("Se han procesado 100 filas, cerrando el proceso.")
+                        cerrar_navegador(driver)
+                        return
+
                 else:
                     logging.info(f"No hay más filas para procesar en el índice {i}")
                     no_more_rows_count += 1  # Incrementa el contador
@@ -303,6 +314,7 @@ def interactuar_con_pagina(driver):
                         logging.info("El proceso se cerrará automáticamente después de 3 intentos fallidos.")
                         cerrar_navegador(driver)
                         return
+                    eliminar_contenido_directorio(download_dir)
 
                     regresar_a_pagina_anterior(driver)  # Intentar volver a la página anterior
 
@@ -314,7 +326,9 @@ def interactuar_con_pagina(driver):
                     break
                 else:
                     print(f"Error al procesar la fila {i + 1}: {e}")
-                    logging.info(f"Error al procesar la fila {i + 1}: {e}")
+                    #logging.info(f"Error al procesar la fila {i + 1}: {e}")
+                    #eliminar_contenido_directorio(download_dir)
+
                     regresar_a_pagina_anterior(driver)
 
     except Exception as e:

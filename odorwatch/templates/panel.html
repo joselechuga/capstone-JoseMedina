@@ -22,13 +22,13 @@
           <small>Iniciar</small>
         </button>
       </div>
-      <div class="col">
+      <div class="col col-progress">
         <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" width="100" height="100">
           <path fill="#7DD3FC" d="M55.3,-41.5C70.2,-25.4,79.8,-2.5,75.6,17.7C71.3,37.9,53.2,55.3,31.6,65.7C10.1,76.1,-14.9,79.4,-33.4,70.2C-52,61,-64.1,39.2,-68,17C-71.9,-5.2,-67.6,-27.9,-54.9,-43.5C-42.2,-59.1,-21.1,-67.7,-0.5,-67.4C20.2,-67,40.4,-57.7,55.3,-41.5Z" transform="translate(100 100)" />
           <text x="50%" y="50%" text-anchor="middle" dy=".3em" fill="#fff" font-size="30" font-family="Arial, sans-serif" id="progress-bar2">0%</text>
         </svg>
       </div>
-      <div class="col">
+      <div class="col info">
         <div class="card">
           <div class="card-body">
             Actualmente se recopilan datos de la categoria Agroinsutrias
@@ -56,7 +56,9 @@
           <h1 class="modal-title fs-5" id="exampleModalLabel">¿Quieres iniciar el scraping?</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-        <div class="modal-body">Una vez iniciado el scraping se bloqueara el boton de ejecucion, debes detener el proceso para comenzar un proceso nuevo.</div>
+        <div class="modal-body">Una vez iniciado el scraping se iniciará una ventana emergente de navegador Google
+          <strong>Por favor esperar a que inicie la ejecución</strong>
+        </div>
         <div class="modal-footer">
           <button id="runScriptBtn" type="button" class="btn btn-primary" data-bs-dismiss="modal">Iniciar</button>
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>

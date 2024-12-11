@@ -17,7 +17,7 @@ urlpatterns = [
     path('snifa/', views.snifa, name='snifa'),
     path('get-progress/', views.get_progress, name='get_progress'),
     path('ejecuciones/', views.mostrar_ejecuciones, name='mostrar_ejecuciones'),
-    path('add_usuario/', views.add_usuario, name='add_usuario'),
+    path('usuarios/', views.usuarios, name='usuarios'),
     path('edit_usuario/<int:user_id>/', views.edit_usuario, name='edit_usuario'),
     path('delete_usuario/<int:user_id>/', views.delete_usuario, name='delete_usuario'),
 

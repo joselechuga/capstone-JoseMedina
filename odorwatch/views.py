@@ -187,7 +187,7 @@ def is_superuser(user):
     return user.is_superuser
 
 @user_passes_test(is_superuser)
-def add_usuario(request):
+def usuarios(request):
     if request.method == 'POST':
         form = UserForm(request.POST)
         if form.is_valid():
@@ -201,16 +201,16 @@ def add_usuario(request):
                 user.is_superuser = False
             else:
                 # Maneja el caso donde ambas o ninguna casilla están marcadas
-                return render(request, 'add_usuario.html', {'form': form, 'error_message': 'Seleccione solo una opción para el rol de superuser.'})
+                return render(request, 'usuarios.html', {'form': form, 'error_message': 'Seleccione solo una opción para el rol de superuser.'})
             
             user.is_staff = user.is_superuser  # Opcional: Asigna el rol de staff si es superuser
             user.save()
-            return redirect('add_usuario') 
+            return redirect('usuarios') 
     else:
         form = UserForm()
     
     usuarios = User.objects.all()  # Obtiene todos los usuarios
-    return render(request, 'add_usuario.html', {'form': form, 'usuarios': usuarios})
+    return render(request, 'usuarios.html', {'form': form, 'usuarios': usuarios})
 
 def base_view(request):
     # Obtener el correo de la sesión
@@ -250,11 +250,11 @@ def edit_usuario(request, user_id):
                 user.is_superuser = False
             user.is_staff = user.is_superuser  # Opcional: Asigna el rol de staff si es superuser
             user.save()
-            return redirect('add_usuario')
+            return redirect('usuarios')
     else:
         form = UserForm(instance=user)
     
-    return render(request, 'add_usuario.html', {'form': form, 'usuarios': User.objects.all()})
+    return render(request, 'usuarios.html', {'form': form, 'usuarios': User.objects.all()})
 
 @user_passes_test(is_superuser)
 def delete_usuario(request, user_id):
@@ -262,5 +262,5 @@ def delete_usuario(request, user_id):
     if request.method == 'POST':
         user.delete()
         messages.success(request, f'Usuario {user.username} eliminado exitosamente.')
-        return redirect('add_usuario')
-    return render(request, 'add_usuario.html', {'usuarios': User.objects.all()})
+        return redirect('usuarios')
+    return render(request, 'usuarios.html', {'usuarios': User.objects.all()})
