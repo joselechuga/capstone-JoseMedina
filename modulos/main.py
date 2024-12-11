@@ -66,6 +66,7 @@ def cerrar_navegador(driver):
 
 def iniciar_driver():
     options = webdriver.ChromeOptions()
+    options.binary_location = '/usr/bin/google-chrome'  # Asegúrate de que esta ruta sea correcta
     prefs = {
         "download.default_directory": download_dir,
         "download.prompt_for_download": False,
