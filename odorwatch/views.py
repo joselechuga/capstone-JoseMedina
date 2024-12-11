@@ -18,6 +18,7 @@ from .models import Cliente,UnidadFiscalizable,Documento, Coincidencias
 import signal
 from django.contrib.auth.models import User
 from .forms import UserForm
+from django.contrib import messages
 
 # Variable global para almacenar el PID del proceso
 process_pid = None
@@ -254,3 +255,12 @@ def edit_usuario(request, user_id):
         form = UserForm(instance=user)
     
     return render(request, 'add_usuario.html', {'form': form, 'usuarios': User.objects.all()})
+
+@user_passes_test(is_superuser)
+def delete_usuario(request, user_id):
+    user = get_object_or_404(User, id=user_id)
+    if request.method == 'POST':
+        user.delete()
+        messages.success(request, f'Usuario {user.username} eliminado exitosamente.')
+        return redirect('add_usuario')
+    return render(request, 'add_usuario.html', {'usuarios': User.objects.all()})

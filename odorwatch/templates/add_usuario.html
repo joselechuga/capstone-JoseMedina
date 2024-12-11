@@ -13,7 +13,7 @@
   <h4>Usuarios</h4>
 
   <br>
-
+<!--BOTONES DE VISTA DE DATOS-->
   <div class="container-botones">
     <!-- Button trigger modal -->
     <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-plus"></i> Agregar Usuario</button>
@@ -31,6 +31,7 @@
   </div>
   <br>
 
+  <!--TABLA DE USUARIOS-->
   <div id="tabla-usuarios" class="container" style="display: block;">
     <div class="table-container">
       <table class="table table-hover">
@@ -50,17 +51,22 @@
               <td class="text-truncate"  style="max-width: 100%;">{{ usuario.email }}</td>
               <td>
                 {% if usuario.is_superuser %}
-                  <i class="fa-solid fa-a"></i>
+                <!--<i class="fa-solid fa-a"></i>-->
                   <small>Administrador</small>
                 {% else %}
-                  <i class="fa-solid fa-e"></i>
+                  <!--<i class="fa-solid fa-e"></i>-->
                   <small>Estandar</small>
                 {% endif %}
               </td>
               <td>
                 <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#editModal{{ usuario.id }}">
                   <i class="fa-solid fa-pen-to-square"></i>
-                  <small>Editar</small>
+                  <small class="text-truncate" style="max-width: 100%;">Editar</small>
+                </button>
+                <!-- Botón para eliminar usuario -->
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#deleteModal{{ usuario.id }}">
+                  <i class="fa-solid fa-trash"></i>
+                  <small class="text-truncate" style="max-width: 100%;">Eliminar</small>
                 </button>
               </td>
             </tr>
@@ -108,6 +114,28 @@
                 </div>
               </div>
             </div>
+
+            <!-- Modal de eliminación -->
+            <div class="modal fade" id="deleteModal{{ usuario.id }}" tabindex="-1" aria-labelledby="deleteModalLabel{{ usuario.id }}" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="deleteModalLabel{{ usuario.id }}">Eliminar Usuario</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>¿Estás seguro de que deseas eliminar al usuario <strong>{{ usuario.username }}</strong>?</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <form method="post" action="{% url 'delete_usuario' usuario.id %}">
+                      {% csrf_token %}
+                      <button type="submit" class="btn btn-danger">Eliminar</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
           {% endfor %}
         </tbody>
       </table>
@@ -116,6 +144,7 @@
 
   <br>
 
+<!--CONTENEDOR DE TARJETAS-->
   <div id="container-cards-user" class="container-cards-user" style="display: none;">
     <div class="row row-cols-1 row-cols-md-3 g-4">
       {% for usuario in usuarios %}
@@ -134,13 +163,26 @@
             <small>
               <strong>Permisos: </strong> 
               {% if usuario.is_superuser %}
-              <i class="fa-solid fa-a"></i>
+              <!--<i class="fa-solid fa-a"></i>-->
               <small>Administrador</small>
               {% else %}
-                <i class="fa-solid fa-e"></i>
+                <!--<i class="fa-solid fa-e"></i>-->
                 <small>Estandar</small>
               {% endif %}
             </small>
+          </div>
+          <div class="botones-card">
+            <span>
+              <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#editModal{{ usuario.id }}">
+                <i class="fa-solid fa-pen-to-square"></i>
+                <small>Editar</small>
+              </button>
+              <!-- Botón para eliminar usuario -->
+              <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#deleteModal{{ usuario.id }}">
+                <i class="fa-solid fa-trash"></i>
+                <small>Eliminar</small>
+              </button>
+            </span>
           </div>
         </div>
       </div>

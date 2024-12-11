@@ -19,5 +19,6 @@ urlpatterns = [
     path('ejecuciones/', views.mostrar_ejecuciones, name='mostrar_ejecuciones'),
     path('add_usuario/', views.add_usuario, name='add_usuario'),
     path('edit_usuario/<int:user_id>/', views.edit_usuario, name='edit_usuario'),
+    path('delete_usuario/<int:user_id>/', views.delete_usuario, name='delete_usuario'),
 
 ]
