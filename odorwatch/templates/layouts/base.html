@@ -30,13 +30,16 @@
             <div class="texto-usuario">
             <!-- VALIDAR NOMBRE DE USUARIO LOGEADO -->
             {% if user.is_authenticated %}
-            <small class="correo-usuario">{{ user_email }}</small>
+            <small class="correo-usuario text-truncate" style="max-width: 100%;">{{ user_email }}</small>
             {% else %}
                 <p>Usuario no autenticado</p>
             {% endif %}
             </div>
 
+            <!--
             <img class="icono" src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D" alt="">
+
+            -->
 
         </div>
     </header>
